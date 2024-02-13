@@ -46,7 +46,7 @@
                   </Node>
                 </Patch>
               </Node>
-              <Node Bounds="156,448,416,19" Id="K3dLw2KXl14QDf6pjOWDlt">
+              <Node Bounds="156,478,416,19" Id="K3dLw2KXl14QDf6pjOWDlt">
                 <p:NodeReference LastCategoryFullName="Interpolator" LastDependency="VL.Interpolator.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Lerp (Keyframe)" />
@@ -64,17 +64,17 @@
                 <Pin Id="CYf2NnHTSPrNkBt8ZA6Dh4" Name="Position" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="D8s5Ek7kRB3OdsRZxUE3um" Bounds="158,111" />
-              <ControlPoint Id="EfVBPYAP6z6OB6yIor8dRV" Bounds="158,542" />
+              <ControlPoint Id="EfVBPYAP6z6OB6yIor8dRV" Bounds="158,572" />
               <ControlPoint Id="UJDD11dhlcHN5Ehy2eUnkr" Bounds="294,111" />
-              <ControlPoint Id="MAZBbAG0x8DLSWgH21jmZ2" Bounds="660,370" />
-              <ControlPoint Id="TvixLGZVgqsLGpTTnjo6Vt" Bounds="169,371" />
-              <ControlPoint Id="T1rubwBqU3gQKOAMmdFiFU" Bounds="253,371" />
-              <ControlPoint Id="QfYzZpmIEesLniNyMWLtir" Bounds="337,371" />
-              <ControlPoint Id="HRsqOVPoTJ8PAazwim8dxE" Bounds="410,371" />
-              <ControlPoint Id="SbIHSPNVM06MQjLRP7u8eC" Bounds="487,371" />
-              <ControlPoint Id="PHRs31JLT8gOrte0gvb5oy" Bounds="572,371" />
-              <ControlPoint Id="PFUqDupcReNPjCqh5vLMqx" Bounds="363,542" />
-              <ControlPoint Id="LQK2dKo1O2rLufUCvTFnVz" Bounds="569,542" />
+              <ControlPoint Id="MAZBbAG0x8DLSWgH21jmZ2" Bounds="660,400" />
+              <ControlPoint Id="TvixLGZVgqsLGpTTnjo6Vt" Bounds="169,401" />
+              <ControlPoint Id="T1rubwBqU3gQKOAMmdFiFU" Bounds="253,401" />
+              <ControlPoint Id="QfYzZpmIEesLniNyMWLtir" Bounds="337,401" />
+              <ControlPoint Id="HRsqOVPoTJ8PAazwim8dxE" Bounds="410,401" />
+              <ControlPoint Id="SbIHSPNVM06MQjLRP7u8eC" Bounds="487,401" />
+              <ControlPoint Id="PHRs31JLT8gOrte0gvb5oy" Bounds="572,401" />
+              <ControlPoint Id="PFUqDupcReNPjCqh5vLMqx" Bounds="363,572" />
+              <ControlPoint Id="LQK2dKo1O2rLufUCvTFnVz" Bounds="569,572" />
               <ControlPoint Id="Nk68Ia94OmRPfR8zgmjF2o" Bounds="504,111" />
               <Pad Id="N80JLRK1urOMTusxgz0QQE" Bounds="607,111,249,39" ShowValueBox="true" isIOBox="true" Value="Select which Properties do Interpolation, the rest will be ignored">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -85,7 +85,7 @@
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                 </p:ValueBoxSettings>
               </Pad>
-              <Node Bounds="820,447,173,62" Id="De33jHkfZmFPWixDjLeUAA">
+              <Node Bounds="820,462,173,62" Id="De33jHkfZmFPWixDjLeUAA">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -94,14 +94,14 @@
                 <Pin Id="DIIONFemQXsPq97xe41E7H" Name="Force" Kind="InputPin" />
                 <Pin Id="RWATxAXORmJOr7HonNZoaD" Name="Dispose Cached Outputs" Kind="InputPin" />
                 <Pin Id="LpnMzhj4mGmPxrsvyE1TvD" Name="Has Changed" Kind="OutputPin" />
-                <ControlPoint Id="OuFKzu7M0l2MCcsK4PL9HN" Bounds="834,453" Alignment="Top" />
-                <ControlPoint Id="RZwAZFV53FKOetwqRWtI60" Bounds="870,453" Alignment="Top" />
-                <ControlPoint Id="Cq0Wnlvral2M5d4mtP6UU8" Bounds="978,453" Alignment="Top" />
-                <ControlPoint Id="Cgktip9kO3uM2LD9pmyXqp" Bounds="834,503" Alignment="Bottom" />
+                <ControlPoint Id="OuFKzu7M0l2MCcsK4PL9HN" Bounds="834,468" Alignment="Top" />
+                <ControlPoint Id="RZwAZFV53FKOetwqRWtI60" Bounds="870,468" Alignment="Top" />
+                <ControlPoint Id="Cq0Wnlvral2M5d4mtP6UU8" Bounds="978,468" Alignment="Top" />
+                <ControlPoint Id="Cgktip9kO3uM2LD9pmyXqp" Bounds="834,518" Alignment="Bottom" />
                 <Patch Id="IkenORzol1HQDmLoVoH2w1" ManuallySortedPins="true">
                   <Patch Id="C4pZy6tHQsNMKVve6q6W8g" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="UnZa70QHbw4QZ03ZmYs8p7" Name="Then" ManuallySortedPins="true" />
-                  <Node Bounds="832,470,149,19" Id="FjjLKp0SnpsMGWvhtmw4hQ">
+                  <Node Bounds="832,485,149,19" Id="FjjLKp0SnpsMGWvhtmw4hQ">
                     <p:NodeReference LastCategoryFullName="Interpolator" LastDependency="VL.Interpolator.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="KeyframeInfo" />
@@ -114,20 +114,20 @@
                     <Pin Id="LwRrBpDjglULzyemI4DKzQ" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
-                <ControlPoint Id="NBvy98QX1m7MhAQQHBokan" Bounds="906,453" Alignment="Top" />
-                <ControlPoint Id="LArE8bgGheINofQ7LrlFL8" Bounds="942,453" Alignment="Top" />
+                <ControlPoint Id="NBvy98QX1m7MhAQQHBokan" Bounds="906,468" Alignment="Top" />
+                <ControlPoint Id="LArE8bgGheINofQ7LrlFL8" Bounds="942,468" Alignment="Top" />
               </Node>
-              <ControlPoint Id="DEUNQ18R5NhPeMoaGJaUkL" Bounds="834,542" />
-              <Pad Id="E0csTgjJRqpLBLWfa7ILUH" SlotId="LPVhpgqAUvzQdOZS8PEUzy" Bounds="614,500" />
-              <Pad Id="Scf5OmXYFFKNZMDA9GtQtw" SlotId="LPVhpgqAUvzQdOZS8PEUzy" Bounds="978,334" />
+              <ControlPoint Id="DEUNQ18R5NhPeMoaGJaUkL" Bounds="834,557" />
+              <Pad Id="E0csTgjJRqpLBLWfa7ILUH" SlotId="LPVhpgqAUvzQdOZS8PEUzy" Bounds="614,530" />
+              <Pad Id="Scf5OmXYFFKNZMDA9GtQtw" SlotId="LPVhpgqAUvzQdOZS8PEUzy" Bounds="978,349" />
               <Pad Id="I0M9b9Ufd9pLJVXMVPbbzZ" SlotId="NS8arBgxoKnL5QXhmL3piG" Bounds="148,330" />
               <Pad Id="G8kXtRRIcJ9L9wNiBiubUO" SlotId="KzcmZxP68U9NoSNXhyTeJA" Bounds="205,349" />
-              <Pad Id="T8ibSAluyKxO4lb98YU1PN" SlotId="NS8arBgxoKnL5QXhmL3piG" Bounds="834,366" />
-              <Pad Id="PlYWsxCyEgMOePyfuin4Wb" SlotId="KzcmZxP68U9NoSNXhyTeJA" Bounds="870,386" />
+              <Pad Id="T8ibSAluyKxO4lb98YU1PN" SlotId="NS8arBgxoKnL5QXhmL3piG" Bounds="834,381" />
+              <Pad Id="PlYWsxCyEgMOePyfuin4Wb" SlotId="KzcmZxP68U9NoSNXhyTeJA" Bounds="870,401" />
               <Pad Id="QvGFhUfdKgRLuwNblUqKsn" SlotId="HDLBKfYBE0CNC0Xhd9Ofmk" Bounds="416,330" />
               <Pad Id="UNAVkWnA5VkOqS46uEr517" SlotId="G41inh8pOYqOCpL1xIWhWQ" Bounds="467,349" />
-              <Pad Id="NUdEDPN0LpWQRH1jz6vkcc" SlotId="HDLBKfYBE0CNC0Xhd9Ofmk" Bounds="906,334" />
-              <Pad Id="DT6Pd2JdFrkND12qaPxDFv" SlotId="G41inh8pOYqOCpL1xIWhWQ" Bounds="941,364" />
+              <Pad Id="NUdEDPN0LpWQRH1jz6vkcc" SlotId="HDLBKfYBE0CNC0Xhd9Ofmk" Bounds="906,349" />
+              <Pad Id="DT6Pd2JdFrkND12qaPxDFv" SlotId="G41inh8pOYqOCpL1xIWhWQ" Bounds="941,379" />
             </Canvas>
             <ProcessDefinition Id="BoESXuI27OmMGGYgrFQBHZ">
               <Fragment Id="FvBVjTWMd1iLyi4EuMRIyB" Patch="GwBqX74InIUPtNV1rQbwg8" Enabled="true" />
@@ -542,7 +542,7 @@
 -->
           <Node Name="Lerp (Keyframe)" Bounds="293,294" Id="FPy8sOsWg7yLNfHtRbDOUT">
             <p:NodeReference>
-              <Choice Kind="ClassDefinition" Name="Class" />
+              <Choice Kind="ContainerDefinition" Name="Process" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Patch Id="GLLOFMWEEZwMd6zncLHbXE">
@@ -590,7 +590,7 @@
                     <Node Bounds="303,1057,585,19" Id="DTLqwndzBDqO2l8VCevZW2">
                       <p:NodeReference LastCategoryFullName="Interpolator" LastDependency="VL.Interpolator.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <Choice Kind="ProcessAppFlag" Name="Lerp" />
+                        <Choice Kind="ProcessAppFlag" Name="MultiLerp" />
                       </p:NodeReference>
                       <Pin Id="HWGDEnqT9jrNX6g5mTHyUL" Name="Node Context" Kind="InputPin" IsHidden="true" />
                       <Pin Id="NXreQ5kXS0GOSxrpQ8nIVe" Name="Input" Kind="InputPin" />
@@ -707,7 +707,7 @@
                   </Patch>
                 </Node>
                 <ControlPoint Id="DXxrn2G4A6UMNnrOW2b2z9" Bounds="503,288" />
-                <Node Bounds="357,371,60,19" Id="LiRwzEYCyHlLsSsOPAGssf">
+                <Node Bounds="357,371,148,19" Id="LiRwzEYCyHlLsSsOPAGssf">
                   <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="AND" />
@@ -7260,7 +7260,7 @@
                           <Node Bounds="316,574,889,19" Id="LY340896WzWMx5anYVS51q">
                             <p:NodeReference LastCategoryFullName="Interpolator" LastDependency="VL.Interpolator.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                              <Choice Kind="ProcessAppFlag" Name="Lerp" />
+                              <Choice Kind="ProcessAppFlag" Name="MultiLerp" />
                             </p:NodeReference>
                             <Pin Id="Bux0jjl7PNJNHg7Zbc5531" Name="Node Context" Kind="InputPin" IsHidden="true" />
                             <Pin Id="J8A19ZC7PlsPipQs6mGOVZ" Name="Input" Kind="InputPin" />
@@ -7295,7 +7295,7 @@
                             <Pin Id="VpXzshdM9fGMywwhd8ccbA" Name="Force" Kind="InputPin" />
                             <Pin Id="I21c8SGduJsOxRgXTIuEhQ" Name="Output" Kind="OutputPin" />
                           </Node>
-                          <Node Bounds="317,531,71,26" Id="ECTdJ3RUK9LPSKMK4IIiLJ">
+                          <Node Bounds="316,531,71,26" Id="ECTdJ3RUK9LPSKMK4IIiLJ">
                             <p:NodeReference LastCategoryFullName="System.Reflection.IVLPropertyInfo" LastDependency="VL.CoreLib.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="GetValue" />
@@ -8190,7 +8190,7 @@
 -->
           <Node Name="Lerp (CommonTypes)" Bounds="293,446" Id="Jy08jh0Ags4P5wwpJNjGJC">
             <p:NodeReference>
-              <Choice Kind="ClassDefinition" Name="Class" />
+              <Choice Kind="ContainerDefinition" Name="Process" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Patch Id="MZYWGwQGlzONimEiHKg7PJ" IsGeneric="true">
@@ -9304,11 +9304,6 @@
                 <ControlPoint Id="NPYLZAhTmzXOczpghdOjDc" Bounds="307,507" />
                 <ControlPoint Id="AsQ9gzOStZaP1XhLWEV64D" Bounds="332,539" />
               </Canvas>
-              <!--
-
-    ************************  ************************
-
--->
               <ProcessDefinition Id="RfnirsuOHnIMjWcFIZHExs">
                 <Fragment Id="UhEYJS3Hl3mPvxBr2ADOi8" Patch="VYDI2IEA8O6NGc8Rd0Y4w2" Enabled="true" />
                 <Fragment Id="B4Zlklb3bMiOaJfqI3IWc7" Patch="AbG6fERB3pyLWn9czQtO7T" Enabled="true" />
@@ -9465,13 +9460,13 @@
         </Canvas>
         <!--
 
-    ************************ Lerp ************************
+    ************************ MultiLerp ************************
 
 -->
-        <Node Name="Lerp" Bounds="199,273" Id="HKFj43p58xYLplO1UFTX3T">
+        <Node Name="MultiLerp" Bounds="199,273" Id="HKFj43p58xYLplO1UFTX3T">
           <p:NodeReference>
-            <Choice Kind="ClassDefinition" Name="Class" />
-            <FullNameCategoryReference ID="Primitive" />
+            <Choice Kind="ContainerDefinition" Name="Process" />
+            <CategoryReference Kind="Category" Name="Primitive" />
           </p:NodeReference>
           <Patch Id="Mroc35c6muDMA8oljLM2Vp" IsGeneric="true" ExplicitTypeParameters="T">
             <Canvas Id="H9ud8DrLh3APg7md5Unnh5" CanvasType="Group">

@@ -1,3 +1,3 @@
 # VL.Interpolator
 
-Powerfull binary search set of nodes for VL Gamma, to interpolate any kind of type.
+Powerfull binary search set of nodes for vl, to interpolate any kind of type.

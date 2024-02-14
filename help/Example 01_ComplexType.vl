@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="AcrispEMvX7M9Gt7qqFpZa" LanguageVersion="2024.6.0-0125-g7221143207" Version="0.128">
-  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.0-0125-g7221143207" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="AcrispEMvX7M9Gt7qqFpZa" LanguageVersion="2024.6.0-0139-g74911af44e" Version="0.128">
+  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.0-0139-g74911af44e" />
   <Patch Id="EKfc0XEuHFEMk9lMTQ1rPH">
     <Canvas Id="F1lhPcVCSxaPSFkF3oFOYT" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -80,7 +80,7 @@
             <Pin Id="FAGwF9oW2INO4surPUK9i0" Name="Success" Kind="OutputPin" />
             <Pin Id="HuKseuc1XAVLBhQ0co7Ttb" Name="Info" Kind="OutputPin" />
           </Node>
-          <Pad Id="LQ8z4rOzneHOp5iAWjNRLX" Comment="Duration" Bounds="352,791,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="LQ8z4rOzneHOp5iAWjNRLX" Comment="Duration" Bounds="352,791,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
@@ -286,12 +286,12 @@
             <Pin Id="CTPJdSc1ZiKOVmuGfodyTm" Name="TweenMode" Kind="InputPin" />
             <Pin Id="PEHJOinjnXDLFRER7FhK91" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="J5Hxqpxx2xnOH6Hx4NdfLl" Comment="Position" Bounds="923,770,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="J5Hxqpxx2xnOH6Hx4NdfLl" Comment="Position" Bounds="923,770,35,15" ShowValueBox="true" isIOBox="true" Value="4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="OuPrtAVShZ4N6Ur19JFrDy" Comment="Duration" Bounds="942,791,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="OuPrtAVShZ4N6Ur19JFrDy" Comment="Duration" Bounds="942,791,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
@@ -423,12 +423,12 @@
             <Pin Id="S3v8wxNuVbiMk3epS27O52" Name="TweenMode" Kind="InputPin" IsHidden="true" />
             <Pin Id="VwDcwuggHD0OOhpdAfCHL6" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="GplYRGjwgfdN6N7V9pNgyK" Comment="Position" Bounds="1514,770,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+          <Pad Id="GplYRGjwgfdN6N7V9pNgyK" Comment="Position" Bounds="1514,770,35,15" ShowValueBox="true" isIOBox="true" Value="8">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Dm3BcjRrg9iMSlrR46IgK1" Comment="Duration" Bounds="1533,791,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="Dm3BcjRrg9iMSlrR46IgK1" Comment="Duration" Bounds="1533,791,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
@@ -574,26 +574,6 @@
             <Pin Id="JMwfcczhwmpMdUS58F7h5w" Name="Scalar" Kind="InputPin" />
             <Pin Id="Fu81y1dLINiPkaK9THgqCS" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="850,1228,62,19" Id="Uic8NHMz6cKQZkhJYc2rxh">
-            <p:NodeReference LastCategoryFullName="Animation.FrameBased" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Integrator" />
-            </p:NodeReference>
-            <Pin Id="D3JyOhsmLI8MH43RYKFRpu" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="HHeXkEN4JAaNtLR8tdL5IT" Name="Initial Value" Kind="InputPin" />
-            <Pin Id="EIC4wbij4oWMhi5hxJqOHs" Name="Offset" Kind="InputPin" />
-            <Pin Id="Jy4cepZNuYxPRTnX8E3THH" Name="Reset Value" Kind="InputPin" />
-            <Pin Id="J1kjmzPdRq1LheDbjJnWqP" Name="Value" Kind="OutputPin" />
-          </Node>
-          <Pad Id="MOkwSvsP4rPPyPRrKVSSm5" Comment="Offset" Bounds="881,1188,90,15" ShowValueBox="true" isIOBox="true" Value="0.005">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float64" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:precision p:Type="Int32">6</p:precision>
-              <p:stepsize p:Type="Single">0.01</p:stepsize>
-            </p:ValueBoxSettings>
-          </Pad>
           <Node Bounds="850,1264,76,19" Id="P7v1SeTORpcNxhzVzUsJN4">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -894,7 +874,7 @@
             <Pin Id="RefAIaRWcf6MPXLcDJzQxF" Name="MySubType" Kind="InputPin" />
             <Pin Id="MgpvqVKFrLXOr8h8cKeypC" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="TGch4LJ9V6nPSCJkLrjR8t" Comment="" Bounds="1631,1257,155,80" ShowValueBox="true" isIOBox="true">
+          <Pad Id="TGch4LJ9V6nPSCJkLrjR8t" Comment="" Bounds="1631,1287,155,80" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -913,7 +893,7 @@
               <Item>MySubType.SpreadVector2</Item>
             </p:Value>
           </Pad>
-          <Pad Id="PjPY9p0IHU4OKfv8Si04VN" Comment="" Bounds="1631,1219,89,34" ShowValueBox="true" isIOBox="true">
+          <Pad Id="PjPY9p0IHU4OKfv8Si04VN" Comment="" Bounds="1631,1249,89,34" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -981,7 +961,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="S6qUKG2vqYnLfZes2KvTrv" Bounds="1631,1180,338,36" ShowValueBox="true" isIOBox="true" Value="Define here which properties (via Path) are interpolated (Empty list = Interpolate All)">
+          <Pad Id="S6qUKG2vqYnLfZes2KvTrv" Bounds="1631,1210,338,36" ShowValueBox="true" isIOBox="true" Value="Define here which properties (via Path) are interpolated (Empty list = Interpolate All)">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1000,6 +980,22 @@
               <Choice Kind="TypeFlag" Name="TweenerTransition2" />
             </p:TypeAnnotation>
           </Pad>
+          <Node Bounds="850,1182,74,19" Id="A5xC2shfbf9OCiJoJECRyM">
+            <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="DefaultClock" />
+            </p:NodeReference>
+            <Pin Id="FEdFjeoH00ZMe3zOfI2oCc" Name="Default Clock" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="850,1225,54,26" Id="PNBtDX2TK1lLFtfUjQPuWG">
+            <p:NodeReference LastCategoryFullName="Animation.IClock" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="MutableInterfaceType" Name="IClock" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Seconds" />
+            </p:NodeReference>
+            <Pin Id="OVt25JCB3VfOEjV6OjZnm3" Name="Input" Kind="StateInputPin" />
+            <Pin Id="MmpZLdjcy4BLj5uBwPyoAH" Name="Result" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="UXUAiKaHZd2PmLqflexIT5" Name="Create" ParticipatingElements="UZH0XvKVO2oMl2gO1nWddA,N1CvX0JsgcRL99RAdapk8P,RC9BVrT62TPOpxV0f0CLAa" />
         <Patch Id="NHoP0UbBJOeLeM8AOeQFJY" Name="Update" ParticipatingElements="JB2PUKNVB5HQGqTd3Q67fF" />
@@ -1078,8 +1074,6 @@
         <Link Id="T58lilbiWH5QaN8thXYcKP" Ids="QqLV3k4tLuZL53EO9iwNF8,JMwfcczhwmpMdUS58F7h5w" />
         <Link Id="QDuJ4CS3KnAMnhMTdJ0Cpk" Ids="GxNE7yXKUSBOhZmlu8OSDM,NfLnhWcfqwyNsJxnm44iQa,LE4rXSePzMkOwLiVTGpKWF" />
         <Link Id="VFcJUPIDzrKMDFjmkNDAEq" Ids="VNokYDz5UYmLU56aup3gaH,TSdTsnk4SggPipuXUs66DR" />
-        <Link Id="ITp4GxWMvVRMlapDPWLMl3" Ids="J1kjmzPdRq1LheDbjJnWqP,U30ZnmpOACyNlofdZeTQBy" />
-        <Link Id="Bg7x79vl3MaL2x6KH7ExbE" Ids="MOkwSvsP4rPPyPRrKVSSm5,EIC4wbij4oWMhi5hxJqOHs" />
         <Link Id="NQjBqdmP2AmQVtDyFGYMpu" Ids="MeYrFIJB7pqNTUTvmfRNvc,VwoSTUazLw7NR1oFkpLpjv" />
         <Link Id="FefHZ3DKzsTN6RCc9KHD4P" Ids="R3QkMBjUsuBPQBwURPBvzp,KNGFkS995A3QAAaPOOOb6H" />
         <Link Id="SlxtS5cg0HsOxF0bqWk6uD" Ids="LAOekqOyeTkLiMV5wy08f0,NlBRBelETTtQZlYpw6E6cs" />
@@ -1162,8 +1156,10 @@
         <Link Id="Ecmn8do7SjCNfMuU9PjmrJ" Ids="PEHJOinjnXDLFRER7FhK91,ORZcX2LRzmYMIzItlgCG33" />
         <Link Id="UdHw3GM6DqZLfYsdsj6Vcs" Ids="Pee1rpd49AgNsQ3l6tymfV,JqfkumsHRPgNfgahUCyic2" />
         <Link Id="HD6HyxkQRF1Ng6Y6jrA4Dk" Ids="GnSVeHLg0fnN6Qo8HKmMHv,KluBDzj5EkzOoahTKtRL5U" />
+        <Link Id="OJpJzjglbdZOBIhNCfcLe6" Ids="FEdFjeoH00ZMe3zOfI2oCc,OVt25JCB3VfOEjV6OjZnm3" />
+        <Link Id="GE0KRoQtAOSO1AW5mUxofZ" Ids="MmpZLdjcy4BLj5uBwPyoAH,U30ZnmpOACyNlofdZeTQBy" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="RMOR6ZKxcP3OH56wGZbPSn" Location="VL.Interpolator" Version="1.0.0" />
+  <NugetDependency Id="RMOR6ZKxcP3OH56wGZbPSn" Location="VL.Interpolator" Version="1.0.2" />
 </Document>

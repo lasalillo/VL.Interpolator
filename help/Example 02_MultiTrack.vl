@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="U6gJFwKWUVrLnrpIpL1DSC" LanguageVersion="2024.6.0-0125-g7221143207" Version="0.128">
-  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.0-0125-g7221143207" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="U6gJFwKWUVrLnrpIpL1DSC" LanguageVersion="2024.6.0-0139-g74911af44e" Version="0.128">
+  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.0-0139-g74911af44e" />
   <Patch Id="EKfc0XEuHFEMk9lMTQ1rPH">
     <Canvas Id="F1lhPcVCSxaPSFkF3oFOYT" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -97,51 +97,31 @@
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="OyQrxIgleiBNnY2WbnktOQ" Comment="Position" Bounds="509,322,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="OyQrxIgleiBNnY2WbnktOQ" Comment="Position" Bounds="509,322,35,15" ShowValueBox="true" isIOBox="true" Value="4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="VU2y6NrFILcMcI5Yg1NHAG" Comment="Position" Bounds="724,322,35,15" ShowValueBox="true" isIOBox="true" Value="3">
+          <Pad Id="VU2y6NrFILcMcI5Yg1NHAG" Comment="Position" Bounds="724,322,35,15" ShowValueBox="true" isIOBox="true" Value="8">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="TYeWaAEHZN5P0pj6Hw9J2D" SlotId="OvBpBFsjLJhL8XA4jwfnHG" Bounds="274,613" />
-          <Pad Id="MqtJGjLbSCIOZGk9TyLA0o" Comment="Duration" Bounds="314,338,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="MqtJGjLbSCIOZGk9TyLA0o" Comment="Duration" Bounds="314,338,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="AizZDtTr69lNrhIbVAkRVk" Comment="Duration" Bounds="529,338,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="AizZDtTr69lNrhIbVAkRVk" Comment="Duration" Bounds="529,338,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Jyos4ICDOdFPNLgQVC99ul" Comment="Duration" Bounds="744,338,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="Jyos4ICDOdFPNLgQVC99ul" Comment="Duration" Bounds="744,338,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
-          </Pad>
-          <Node Bounds="950,755,62,19" Id="FH8BWwYyvfUOYWM34e1d3s">
-            <p:NodeReference LastCategoryFullName="Animation.FrameBased" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Integrator" />
-            </p:NodeReference>
-            <Pin Id="PVZVUt3NtTUQCRUwBUZkHQ" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="N8lCKjJ1iC7PGCasmqwqMD" Name="Initial Value" Kind="InputPin" />
-            <Pin Id="B1jZPi1ahVmQWArEAXXQKB" Name="Offset" Kind="InputPin" />
-            <Pin Id="Vkp8wAxpTRbO1WNLI3Swtz" Name="Reset Value" Kind="InputPin" />
-            <Pin Id="AwdkfkMnfc6P0qymlj0kcd" Name="Value" Kind="OutputPin" />
-          </Node>
-          <Pad Id="RARvmErrd9vNJBGFsTgLZw" Comment="Offset" Bounds="981,715,90,15" ShowValueBox="true" isIOBox="true" Value="0.005">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float64" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:precision p:Type="Int32">6</p:precision>
-              <p:stepsize p:Type="Single">0.01</p:stepsize>
-            </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="950,791,39,19" Id="KJVrZdBS6sWQNYBKgiLPKG">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
@@ -222,27 +202,27 @@
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="SXtfQfyTt7hPyZTiyGTu8N" Comment="Position" Bounds="1184,316,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
+          <Pad Id="SXtfQfyTt7hPyZTiyGTu8N" Comment="Position" Bounds="1184,316,35,15" ShowValueBox="true" isIOBox="true" Value="5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="S38I3kUMiK3MPCX2Kny27L" Comment="Position" Bounds="1399,316,35,15" ShowValueBox="true" isIOBox="true" Value="3.5">
+          <Pad Id="S38I3kUMiK3MPCX2Kny27L" Comment="Position" Bounds="1399,316,35,15" ShowValueBox="true" isIOBox="true" Value="9">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="HSKTFiZYH5POVVyfTZN6TP" Comment="Duration" Bounds="989,334,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="HSKTFiZYH5POVVyfTZN6TP" Comment="Duration" Bounds="989,334,35,15" ShowValueBox="true" isIOBox="true" Value="3">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Ic9GHBsqxrDOOHao32kmdx" Comment="Duration" Bounds="1204,334,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="Ic9GHBsqxrDOOHao32kmdx" Comment="Duration" Bounds="1204,334,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="SFcgej4OF1mPmrw41nDI5z" Comment="Duration" Bounds="1419,334,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="SFcgej4OF1mPmrw41nDI5z" Comment="Duration" Bounds="1419,334,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
@@ -329,27 +309,27 @@
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="K7cJxhZ2LTFNCL7Sg27NGG" Comment="Position" Bounds="1858,319,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="K7cJxhZ2LTFNCL7Sg27NGG" Comment="Position" Bounds="1858,319,35,15" ShowValueBox="true" isIOBox="true" Value="6">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="RFPuL8GlbBoNBaJD0mWLrk" Comment="Position" Bounds="2073,319,35,15" ShowValueBox="true" isIOBox="true" Value="2.5">
+          <Pad Id="RFPuL8GlbBoNBaJD0mWLrk" Comment="Position" Bounds="2073,319,35,15" ShowValueBox="true" isIOBox="true" Value="10">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="SG4Tb5YEmVWPVsGobLjADw" Comment="Duration" Bounds="1663,337,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="SG4Tb5YEmVWPVsGobLjADw" Comment="Duration" Bounds="1663,337,35,15" ShowValueBox="true" isIOBox="true" Value="4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="VYdWQ1mdxHAQDg04LLAM57" Comment="Duration" Bounds="1878,338,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="VYdWQ1mdxHAQDg04LLAM57" Comment="Duration" Bounds="1878,338,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="RtuNqRU0M0GPrUVMO0jH8a" Comment="Duration" Bounds="2093,339,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="RtuNqRU0M0GPrUVMO0jH8a" Comment="Duration" Bounds="2093,339,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
@@ -526,12 +506,12 @@
               <p:stepsize p:Type="Single">0.01</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VVeR9w1mKmQMmw66zBMUaP" Comment="GroupID" Bounds="1009,375,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="VVeR9w1mKmQMmw66zBMUaP" Comment="GroupID" Bounds="1009,371,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="OYIGMlpWZv8LhbVcvhf0Wd" Comment="GroupID" Bounds="1683,375,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+          <Pad Id="OYIGMlpWZv8LhbVcvhf0Wd" Comment="GroupID" Bounds="1683,371,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -571,6 +551,22 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="950,692,74,19" Id="VLC2rZaUy5ZOF0X5Wcu9q6">
+            <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="DefaultClock" />
+            </p:NodeReference>
+            <Pin Id="SsZNLbpaRaXMmveHF0QocX" Name="Default Clock" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="950,735,54,26" Id="H5m4z7U7zPUORWvwDCejfB">
+            <p:NodeReference LastCategoryFullName="Animation.IClock" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="MutableInterfaceType" Name="IClock" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Seconds" />
+            </p:NodeReference>
+            <Pin Id="Eeo5717y0oCPnS2Ee54Jkk" Name="Input" Kind="StateInputPin" />
+            <Pin Id="A6eCU1mqYB6MpetjoR4AdC" Name="Result" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="UXUAiKaHZd2PmLqflexIT5" Name="Create" ParticipatingElements="KvFFN3CXiatM9ezcM1FffD" />
         <Patch Id="NHoP0UbBJOeLeM8AOeQFJY" Name="Update" />
@@ -587,8 +583,6 @@
         <Link Id="Pvc3JjWVAuRLMaHgcEGZho" Ids="MqtJGjLbSCIOZGk9TyLA0o,Hq6FbSK5RNDL9iZfPzepKg" />
         <Link Id="H3xiyc1zfVCMMxm2n7dPwv" Ids="AizZDtTr69lNrhIbVAkRVk,N1v1snDC3wFMrO34KTH0xc" />
         <Link Id="MI8lZL5LlyANtLrYl7C9Kw" Ids="Jyos4ICDOdFPNLgQVC99ul,DRfERq3vJuEMAhUfLgpl8t" />
-        <Link Id="KZVKWIAbCniL6VVzVk8VHB" Ids="AwdkfkMnfc6P0qymlj0kcd,QDP0JGpPPewLCSW9qBAQ2G" />
-        <Link Id="LH1EeHBiolKLVencsjxo5P" Ids="RARvmErrd9vNJBGFsTgLZw,B1jZPi1ahVmQWArEAXXQKB" />
         <Link Id="EofJWzjDoQTLathgjYHLcP" Ids="BRqKfG8taKWMoiVEDBY4VJ,V20Uescq4EEL64EOHyPfxS" />
         <Link Id="U2oPxbtVy1lLS751j2YDZS" Ids="BRqKfG8taKWMoiVEDBY4VJ,O8QarUuTZaVMfDyHzoNz0Q" />
         <Slot Id="OvBpBFsjLJhL8XA4jwfnHG" Name="TrackList" />
@@ -663,8 +657,10 @@
         <Link Id="Q2AkY3DnJlPOeSJZHjKda1" Ids="OYIGMlpWZv8LhbVcvhf0Wd,DsbwEbQxT1ILaBrYb9qoGI" />
         <Link Id="GTJK3FGDN4gP0IulcwcAfN" Ids="OYIGMlpWZv8LhbVcvhf0Wd,PzU6UqCqqtjMj46MnOfuxZ" />
         <Link Id="QCi7K7KV6wrNiM2PbrnqO8" Ids="UI78ingEZaTPDicvcdK0pn,FQYAC6zRYEENjBwBTAbmol" />
+        <Link Id="NdKjDvvTJemMxu7NXqgn2U" Ids="SsZNLbpaRaXMmveHF0QocX,Eeo5717y0oCPnS2Ee54Jkk" />
+        <Link Id="FM6znvSMHpeNYKS1xjikrr" Ids="A6eCU1mqYB6MpetjoR4AdC,QDP0JGpPPewLCSW9qBAQ2G" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="RMOR6ZKxcP3OH56wGZbPSn" Location="VL.Interpolator" Version="1.0.0" />
+  <NugetDependency Id="RMOR6ZKxcP3OH56wGZbPSn" Location="VL.Interpolator" Version="1.0.2" />
 </Document>

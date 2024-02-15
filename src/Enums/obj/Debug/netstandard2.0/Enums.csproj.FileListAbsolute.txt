@@ -18,3 +18,13 @@ D:\Projects\_SequencersAndClockBasedTools\nugets\VL.Interpolator\src\Enums\obj\D
 D:\Projects\_SequencersAndClockBasedTools\nugets\VL.Interpolator\src\Enums\bin\Debug\netstandard2.0\Enums.deps.json
 D:\Projects\_SequencersAndClockBasedTools\nugets\VL.Interpolator\src\Enums\bin\Debug\netstandard2.0\Enums.dll
 D:\Projects\_SequencersAndClockBasedTools\nugets\VL.Interpolator\src\Enums\bin\Debug\netstandard2.0\Enums.pdb
+D:\Projects\VL.Interpolator\src\Enums\bin\Debug\netstandard2.0\Enums.deps.json
+D:\Projects\VL.Interpolator\src\Enums\bin\Debug\netstandard2.0\Enums.dll
+D:\Projects\VL.Interpolator\src\Enums\bin\Debug\netstandard2.0\Enums.pdb
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\Enums.csproj.AssemblyReference.cache
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\Enums.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\Enums.AssemblyInfoInputs.cache
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\Enums.AssemblyInfo.cs
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\Enums.csproj.CoreCompileInputs.cache
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\Enums.dll
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\Enums.pdb

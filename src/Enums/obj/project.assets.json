@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\_SequencersAndClockBasedTools\\nugets\\VL.Interpolator\\src\\Enums\\Enums.csproj",
+      "projectUniqueName": "D:\\Projects\\VL.Interpolator\\src\\Enums\\Enums.csproj",
       "projectName": "Enums",
-      "projectPath": "D:\\Projects\\_SequencersAndClockBasedTools\\nugets\\VL.Interpolator\\src\\Enums\\Enums.csproj",
+      "projectPath": "D:\\Projects\\VL.Interpolator\\src\\Enums\\Enums.csproj",
       "packagesPath": "C:\\Users\\arist\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\_SequencersAndClockBasedTools\\nugets\\VL.Interpolator\\src\\Enums\\obj\\",
+      "outputPath": "D:\\Projects\\VL.Interpolator\\src\\Enums\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

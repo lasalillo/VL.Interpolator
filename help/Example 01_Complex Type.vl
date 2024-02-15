@@ -29,6 +29,7 @@
             <Pin Id="LebEHn9XSpWNCEoANQ7T56" Name="GroupID" Kind="InputPin" IsHidden="true" />
             <Pin Id="JqfkumsHRPgNfgahUCyic2" Name="TweenTransition" Kind="InputPin" />
             <Pin Id="MlEPwIXLsUhNMYocqIQAoQ" Name="TweenMode" Kind="InputPin" />
+            <Pin Id="FrIKpd4gQUSMXmoingySsS" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="GxjmuXaZSKUMq4ixk9U1WG" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="309,950,1187,19" Id="KoQwxfdzldZOHXUEmkd8qu">
@@ -284,6 +285,7 @@
             <Pin Id="GizWAWmg0gWNWo2PwnbMkE" Name="GroupID" Kind="InputPin" IsHidden="true" />
             <Pin Id="KluBDzj5EkzOoahTKtRL5U" Name="TweenTransition" Kind="InputPin" />
             <Pin Id="CTPJdSc1ZiKOVmuGfodyTm" Name="TweenMode" Kind="InputPin" />
+            <Pin Id="ScUddU2AVNmM1GygZVHQb9" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="PEHJOinjnXDLFRER7FhK91" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Pad Id="J5Hxqpxx2xnOH6Hx4NdfLl" Comment="Position" Bounds="923,770,35,15" ShowValueBox="true" isIOBox="true" Value="4">
@@ -421,6 +423,7 @@
             <Pin Id="NALATve8g9hMoLJeFi1gmI" Name="GroupID" Kind="InputPin" IsHidden="true" />
             <Pin Id="QDja2Qc2AXkK9va7cOhVMV" Name="TweenTransition" Kind="InputPin" IsHidden="true" />
             <Pin Id="S3v8wxNuVbiMk3epS27O52" Name="TweenMode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="NCXdBE63kW5MHqfAqz18EI" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="VwDcwuggHD0OOhpdAfCHL6" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Pad Id="GplYRGjwgfdN6N7V9pNgyK" Comment="Position" Bounds="1514,770,35,15" ShowValueBox="true" isIOBox="true" Value="8">
@@ -1161,5 +1164,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="RMOR6ZKxcP3OH56wGZbPSn" Location="VL.Interpolator" Version="1.0.2" />
+  <NugetDependency Id="RMOR6ZKxcP3OH56wGZbPSn" Location="VL.Interpolator" Version="1.0.4" />
 </Document>

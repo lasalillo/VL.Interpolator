@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="B2P2KgVcg5GLhD3gKoZRxw" LanguageVersion="2024.6.0-0139-g74911af44e" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="RSnGtWoBCupMaZ6VSlDsCM" LanguageVersion="2024.6.0-0139-g74911af44e" Version="0.128">
   <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.0-0139-g74911af44e" />
   <Patch Id="EKfc0XEuHFEMk9lMTQ1rPH">
     <Canvas Id="F1lhPcVCSxaPSFkF3oFOYT" DefaultCategory="Main" CanvasType="FullCategory" />
@@ -29,6 +29,7 @@
             <Pin Id="KutGQ065EknMQQAt8Kf5zb" Name="GroupID" Kind="InputPin" IsHidden="true" />
             <Pin Id="DwhGFq8dWdQPMkmvPLVlwx" Name="TweenTransition" Kind="InputPin" IsHidden="true" />
             <Pin Id="FmHViVitWkZLMfT8uFCBy5" Name="TweenMode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="HMxUGVZRASDLhAstaaRWFX" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="VDzAofmVYZBLZtMYr20YXo" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Pad Id="KylG66ai8CQPX9vjML71UQ" Comment="" Bounds="273,290,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0.2099998, 0.2099998, 1">
@@ -51,6 +52,7 @@
             <Pin Id="EQWQVxTlYoILAIsri9vTep" Name="GroupID" Kind="InputPin" IsHidden="true" />
             <Pin Id="BFNRQ2Lw2nKMFbJNLCxTsd" Name="TweenTransition" Kind="InputPin" IsHidden="true" />
             <Pin Id="VU7vu3sudvDQLS1i7DvYrC" Name="TweenMode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="JJvxkH3tkZDOhFYrYHF6DY" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="MPlHzc0sWJgPFO7we0Do2q" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Pad Id="OuYOgf6hMFuMD3TFubRxHv" Comment="" Bounds="488,290,136,15" ShowValueBox="true" isIOBox="true" Value="0, 1, 0.99999976, 1">
@@ -73,6 +75,7 @@
             <Pin Id="MCB2TYw73nTOeG0XnokYdI" Name="GroupID" Kind="InputPin" IsHidden="true" />
             <Pin Id="Mghb2G4C0LaL5DcbKtd5f9" Name="TweenTransition" Kind="InputPin" IsHidden="true" />
             <Pin Id="KERFgLIGIPaLE5VEPYk7uv" Name="TweenMode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="U1fF7bCEhL0MaLF4uy2rst" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="F9S4ZDE4Y32OPvasiGUF3T" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Pad Id="DOdwfDLrACYNKqjwruycqi" Comment="" Bounds="703,287,136,15" ShowValueBox="true" isIOBox="true" Value="0.07999897, 0, 1, 1">
@@ -102,7 +105,11 @@
             <Pin Id="GJDu6ilbyb7MMf5QbfTmtM" Name="Result" Kind="OutputPin" />
             <Pin Id="Rt6TQxeLUx4LZSbzwQ4p1R" Name="Success" Kind="OutputPin" />
           </Node>
-          <Pad Id="PxkVaVsWKfoOMya0cjH8Jx" Comment="" Bounds="271,1081,136,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="PxkVaVsWKfoOMya0cjH8Jx" Comment="" Bounds="271,1081,187,91" ShowValueBox="true" isIOBox="true">
+            <p:ValueBoxSettings>
+              <p:showvalue p:Type="Boolean">false</p:showvalue>
+            </p:ValueBoxSettings>
+          </Pad>
           <Pad Id="C8UBBx1jyPKNoaAJu38n7r" Comment="Success" Bounds="314,1023,35,35" ShowValueBox="true" isIOBox="true" />
           <Pad Id="G5VUPQEPVivPhrOY0K81r5" Comment="Position" Bounds="313,319,35,15" ShowValueBox="true" isIOBox="true" Value="0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -280,5 +287,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="RMOR6ZKxcP3OH56wGZbPSn" Location="VL.Interpolator" Version="1.0.2" />
+  <NugetDependency Id="RMOR6ZKxcP3OH56wGZbPSn" Location="VL.Interpolator" Version="1.0.4" />
 </Document>

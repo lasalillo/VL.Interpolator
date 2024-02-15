@@ -29,6 +29,7 @@
             <Pin Id="OIT64FxBaOUMImigIOy1Wm" Name="GroupID" Kind="InputPin" />
             <Pin Id="MLEmakhlZYkNfJGPho7EV0" Name="TweenTransition" Kind="InputPin" IsHidden="true" />
             <Pin Id="H9kkwbyE3gTPX9awhG7gAB" Name="TweenMode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="GDUK2RRpQw6PxQJSDvLPAo" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="M7TMX9wOehgPZoG7rDnNhw" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Pad Id="E9orLeoUTCnNPlWTZY7kVh" Comment="" Bounds="274,293,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0.2099998, 0.2099998, 1">
@@ -51,6 +52,7 @@
             <Pin Id="G8vj7rNTEAkMP5T1jNzN2E" Name="GroupID" Kind="InputPin" />
             <Pin Id="AkHGPBMVqUKP0srMR8phUq" Name="TweenTransition" Kind="InputPin" IsHidden="true" />
             <Pin Id="ExOqDrzuRktM7XBplz2Jgg" Name="TweenMode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="VOBvUayCnN5Mzwc9WjZi6U" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="NMXTdMDbVFiMFlDoXQ54gK" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Pad Id="NfMCms5pyVhPmay2udNhmv" Comment="" Bounds="489,293,136,15" ShowValueBox="true" isIOBox="true" Value="0, 1, 0.99999976, 1">
@@ -73,6 +75,7 @@
             <Pin Id="JojlHxLI6obP1H7ZSBJGWv" Name="GroupID" Kind="InputPin" />
             <Pin Id="NlqolTGd2IvNyqFSMqcfwo" Name="TweenTransition" Kind="InputPin" IsHidden="true" />
             <Pin Id="BeZRjaC1TCHOIWnsZRygAl" Name="TweenMode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="LlldqOJzKQAOqe9VHGcgFb" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="Ba1f3CetjyvQYGN4lZtg18" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Pad Id="JCA5JioBcsxPbpskavFRrh" Comment="" Bounds="704,290,136,15" ShowValueBox="true" isIOBox="true" Value="0.07999897, 0, 1, 1">
@@ -152,6 +155,7 @@
             <Pin Id="FSabo69QtESLzDGm1yNfnk" Name="GroupID" Kind="InputPin" />
             <Pin Id="MkJ2npoCuOdQB9a65SKYq2" Name="TweenTransition" Kind="InputPin" IsHidden="true" />
             <Pin Id="MlSPZZ69Gw0MQlm1N3Wkzh" Name="TweenMode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Cxry1pEtXg7PADDXvMml01" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="Nthe8hguSz7OsgrH9hHoGt" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="1162,388,65,26" Id="ULOQtboPyjdN5vsn626Qz2">
@@ -168,6 +172,7 @@
             <Pin Id="FL4WeJL5ebDNDaRuv7gpGB" Name="GroupID" Kind="InputPin" />
             <Pin Id="NsAI8fZmDkGN3RLy4baEiO" Name="TweenTransition" Kind="InputPin" IsHidden="true" />
             <Pin Id="IFOfZhcpO1pNOfUqQvuxXM" Name="TweenMode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="D8dKXyEkTWFLWDkgJYWHjs" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="UOzKPo5iLcTPmRut6xJ0Au" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="1377,388,65,26" Id="LCD7iczDZyoLk1HoPnQrfW">
@@ -184,6 +189,7 @@
             <Pin Id="ERSnYMxVGsZN4zXwnNYMhf" Name="GroupID" Kind="InputPin" />
             <Pin Id="OEggBJitZlUO7byeZWwyZc" Name="TweenTransition" Kind="InputPin" IsHidden="true" />
             <Pin Id="SidRuZhQNCkN6h2Emn4L1T" Name="TweenMode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="KOIYNnquwIKMKVMzm0jiUY" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="QEvbYSzvsK1QC882XHsvPL" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="947,453,435,19" Id="AnM6RNCwMwxLcuHchvRU8i">
@@ -259,6 +265,7 @@
             <Pin Id="O6NiZgum9moO7BTDAbqdtb" Name="GroupID" Kind="InputPin" />
             <Pin Id="NwsBUXEkpccPQznetdRGd0" Name="TweenTransition" Kind="InputPin" IsHidden="true" />
             <Pin Id="Izpmy1ASsiKMedGDenZzaQ" Name="TweenMode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="OanN7DpLBuLO8i3OCpiH1P" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="Gq9EiWBlUNoMbrFkHMG3rW" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="1836,388,65,26" Id="CEKOSAhoQfvMVSTJveOwMG">
@@ -275,6 +282,7 @@
             <Pin Id="DsbwEbQxT1ILaBrYb9qoGI" Name="GroupID" Kind="InputPin" />
             <Pin Id="V2HDutZroZJOeaWBfTIs5p" Name="TweenTransition" Kind="InputPin" IsHidden="true" />
             <Pin Id="MI3QKaKKv1nOaX2wcN2Omf" Name="TweenMode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="TryQj1Sl82nQQvbbnrfY4C" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="MFzNXDisNKLQDd8RVl0nVF" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="2051,388,65,26" Id="ET6P7bFPIOJNkCBQ8MTWl7">
@@ -291,6 +299,7 @@
             <Pin Id="PzU6UqCqqtjMj46MnOfuxZ" Name="GroupID" Kind="InputPin" />
             <Pin Id="LxP0NS0KOZTMAzVwbse5g8" Name="TweenTransition" Kind="InputPin" IsHidden="true" />
             <Pin Id="DCYTQ5oWkfHMsGwteq84Xv" Name="TweenMode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Ltv5mgBIUROQRaFkU4NKBf" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="KBb67dt3NDkPvFsAmUkE0N" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="1621,453,435,19" Id="NdZsCFKjZi8L5LUiBPwC9W">
@@ -585,7 +594,7 @@
         <Link Id="MI8lZL5LlyANtLrYl7C9Kw" Ids="Jyos4ICDOdFPNLgQVC99ul,DRfERq3vJuEMAhUfLgpl8t" />
         <Link Id="EofJWzjDoQTLathgjYHLcP" Ids="BRqKfG8taKWMoiVEDBY4VJ,V20Uescq4EEL64EOHyPfxS" />
         <Link Id="U2oPxbtVy1lLS751j2YDZS" Ids="BRqKfG8taKWMoiVEDBY4VJ,O8QarUuTZaVMfDyHzoNz0Q" />
-        <Slot Id="OvBpBFsjLJhL8XA4jwfnHG" Name="TrackList" />
+        <Slot Id="OvBpBFsjLJhL8XA4jwfnHG" Name="List" />
         <Link Id="HnO9W7SKXjDOxKVuH75CJf" Ids="OwgHfS4jqRgN1q8xaNhpG5,Kj3Sk7wGZi5Mo7sm3wbA2a" />
         <Link Id="Ga4GpCR56t1O1yJUEBSIzM" Ids="SXtfQfyTt7hPyZTiyGTu8N,GGbPbVQSl0GPKWaF5ohpeA" />
         <Link Id="HjUKblVCUOvMGOWjwgJz7f" Ids="S38I3kUMiK3MPCX2Kny27L,B0aMz31tKzFORg3ik66c78" />
@@ -636,7 +645,7 @@
         <Link Id="ByYT4us6YhyLwFnM33EOuX" Ids="H77toUksGNqLUZ9wTsBcAV,TjrXvVra7w1MO3HEZkip51" />
         <Link Id="FCaJ46XTPYeLIdpLjAmpJ8" Ids="TjrXvVra7w1MO3HEZkip51,COuu85yCJZrP4SFJlU2IiL" />
         <Link Id="LOSUYsdGfTROHZ4yKccvB1" Ids="JwprjwCWKKBNrWr0aY0X2H,TYeWaAEHZN5P0pj6Hw9J2D" />
-        <Slot Id="UWUUrRmNB0UQQTpnuryeO0" Name="Tracks End of List" />
+        <Slot Id="UWUUrRmNB0UQQTpnuryeO0" Name="End of List" />
         <Link Id="PtiLCx2qdH5LTpdinBD3rf" Ids="FQYAC6zRYEENjBwBTAbmol,UorXjVznygiPMP0DjOZQUU" />
         <Link Id="Cii0g4t2V9GMmQypaHqdOj" Ids="TYeWaAEHZN5P0pj6Hw9J2D,IHVr0KYBZqHMQ48vqwWnwJ" />
         <Link Id="OAEghqe6BybMVd9O7CFdWK" Ids="Ryd9Fpr0jANNV4QoOjbDOn,F3D41vS3aAWOFH7aup8NQi" />
@@ -662,5 +671,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="RMOR6ZKxcP3OH56wGZbPSn" Location="VL.Interpolator" Version="1.0.2" />
+  <NugetDependency Id="PH5rLUuLWr5NRJJEmQbs9v" Location="VL.Interpolator" Version="1.0.4" />
 </Document>

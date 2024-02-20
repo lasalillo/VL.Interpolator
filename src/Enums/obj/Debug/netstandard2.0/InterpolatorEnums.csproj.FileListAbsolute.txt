@@ -1,0 +1,10 @@
+D:\Projects\VL.Interpolator\src\Enums\bin\Debug\netstandard2.0\InterpolatorEnums.deps.json
+D:\Projects\VL.Interpolator\src\Enums\bin\Debug\netstandard2.0\InterpolatorEnums.dll
+D:\Projects\VL.Interpolator\src\Enums\bin\Debug\netstandard2.0\InterpolatorEnums.pdb
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\InterpolatorEnums.csproj.AssemblyReference.cache
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\InterpolatorEnums.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\InterpolatorEnums.AssemblyInfoInputs.cache
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\InterpolatorEnums.AssemblyInfo.cs
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\InterpolatorEnums.csproj.CoreCompileInputs.cache
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\InterpolatorEnums.dll
+D:\Projects\VL.Interpolator\src\Enums\obj\Debug\netstandard2.0\InterpolatorEnums.pdb

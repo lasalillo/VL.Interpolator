@@ -186,9 +186,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\VL.Interpolator\\src\\Enums\\Enums.csproj",
-      "projectName": "Enums",
-      "projectPath": "D:\\Projects\\VL.Interpolator\\src\\Enums\\Enums.csproj",
+      "projectUniqueName": "D:\\Projects\\VL.Interpolator\\src\\Enums\\InterpolatorEnums.csproj",
+      "projectName": "InterpolatorEnums",
+      "projectPath": "D:\\Projects\\VL.Interpolator\\src\\Enums\\InterpolatorEnums.csproj",
       "packagesPath": "C:\\Users\\arist\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\VL.Interpolator\\src\\Enums\\obj\\",
       "projectStyle": "PackageReference",

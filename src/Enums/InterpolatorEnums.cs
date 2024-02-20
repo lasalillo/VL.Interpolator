@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Enums
+﻿namespace InterpolatorEnums
 {
     public enum InterpolationModes { Interpolate, Switch, Minimum, Maximum };
     public enum InterpolationModes2 { Interpolate, Switch };

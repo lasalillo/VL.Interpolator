@@ -7,12 +7,12 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Enums/1.0.0": {
+      "InterpolatorEnums/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
-          "Enums.dll": {}
+          "InterpolatorEnums.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -24,7 +24,7 @@
     }
   },
   "libraries": {
-    "Enums/1.0.0": {
+    "InterpolatorEnums/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hFP8xHZgThj1e1zbuznZAqxHPCH7cyrwo2HNuoiNE4WOemnTbrRyOIc3q/meEbWeZpGQadgbgaTtFtnFH0MmGg==",
+  "dgSpecHash": "Ep5Dig9xCEtaMNgVuiM8bizxBuSXa+m8mtv7/uhoklXFo5U9M6/5KlGr1c8ZcXxpKOtTnrNvv3mRHqDsKl/osA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\VL.Interpolator\\src\\Enums\\Enums.csproj",
+  "projectFilePath": "D:\\Projects\\VL.Interpolator\\src\\Enums\\InterpolatorEnums.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arist\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\arist\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

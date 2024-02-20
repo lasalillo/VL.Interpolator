@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="RDI1dULnMaPNIrTncA0b8S" LanguageVersion="2024.6.0-0139-g74911af44e" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="RDI1dULnMaPNIrTncA0b8S" LanguageVersion="2024.6.0-0156-g47917ea4e3" Version="0.128">
   <Patch Id="EAIIpcVCowFQTcz0KLQtUE">
     <Canvas Id="HsgcAMUqtVTNXLSvHJWTpN" DefaultCategory="Interpolator" CanvasType="FullCategory">
       <Canvas Id="QIfd52ShnGdL2SQeqFCih1" Name="Lerp" Position="199,279" CanvasType="Group">
@@ -1068,7 +1068,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="1191,768,25,19" Id="JZpkuC7ww2FP2LqWfXikx9">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -1078,7 +1078,7 @@
                   <Pin Id="BYeeVVRAyogODVBzpyno3S" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1191,854,25,19" Id="RtpyPzgLnPIOV8Chq7JOAc">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -1088,7 +1088,7 @@
                   <Pin Id="Fh0Fi8dd1lRMg0pF5jZvat" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1191,959,25,19" Id="AxGP0fvoeCEMc5rJX0bdmR">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -1098,7 +1098,7 @@
                   <Pin Id="KRy0cALfMzDLthmJIIK9ZY" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1192,1028,25,19" Id="SahyJwJqkRgOoL5GoS6GOo">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -1709,7 +1709,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="1558,766,25,19" Id="Ih0YfqvwVhDN06SByPpEMp">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -1719,7 +1719,7 @@
                   <Pin Id="IHUWtraLsJ9NUqgoEWRx32" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1558,852,25,19" Id="DazuIAi8evyMYOvG4hgo3p">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -1729,7 +1729,7 @@
                   <Pin Id="IOpWQ7wfgyFOx2QwfDRnAg" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1558,957,25,19" Id="CnLhkGEIC3rOVV0YGRV5dn">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -1739,7 +1739,7 @@
                   <Pin Id="FPYqH1yr2a6P9m7BoRRO6P" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1561,1028,25,19" Id="TAUlWFwXIvlNFMECrmKFvY">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -1904,7 +1904,7 @@
                 </Node>
                 <Link Id="Dd2VSdzUTQrOTi3PumfoAk" Ids="KgIkn5R8VM7LW2Nxd26Tz6,UW0gYJUHJ62OAvXuWPQiMz" />
                 <Node Bounds="2141,258,25,19" Id="BZknxwLuT5rNQRF1vqxxiv">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes2" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes2" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes2" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -1916,7 +1916,7 @@
                 <Link Id="ODOr731TwvMLCqDKo1N4mN" Ids="GSUNuxPs9s1LrfokXB4Yof,L820Rv5zgF2MduJlOMS3Sf" />
                 <Link Id="NLGTbbrAEwHOX5LfvrBjBg" Ids="UNKTX8OS2BcPQWDSVQutdr,JaZfRYDhBaPM9gq57ySmUO" />
                 <Node Bounds="2142,374,25,19" Id="EICljUi1PsvPOT4RO1ceG2">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes2" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes2" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes2" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -3398,7 +3398,7 @@
                 <Link Id="Q6cOnMOwgRIPrPU78FndOk" Ids="ATn31iphzrILbYNhH1mnag,LxaUErfxGhlNinTcoMT7ES" />
                 <Link Id="J0Pk4cfaWuoO9nqT96uKEA" Ids="LxaUErfxGhlNinTcoMT7ES,GHL4GTBCL97ODNjJNwyeD3" />
                 <Node Bounds="1189,269,25,19" Id="PTjTCbmZiWzPP0S3ba9arD">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -3410,7 +3410,7 @@
                 <Link Id="GN9g1YII3cdQLmgEPSWwSf" Ids="Q1fRTosdu3iNws5SUfFDcf,GBqwJyrOLHjPCYISsq26KF" />
                 <Link Id="ObKk2uOrueEQK3euB3reCd" Ids="KjXbuOcAioNMN42510LKar,T7SkCwQUIFUPi6Cy7wWUSF" />
                 <Node Bounds="1189,355,25,19" Id="Rieo9uMdj3XLaTffM55X2X">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -3422,7 +3422,7 @@
                 <Link Id="BEPrMlz68trM9lrrq2AeK0" Ids="Q1fRTosdu3iNws5SUfFDcf,CiGoEaaAPTLQaeDiGAeLZl" />
                 <Link Id="D8WWEj3glPDPRjnrMMT8WE" Ids="HRXLKN11OQpOBrZR4Tx1yG,FHwd0KSsqnyOjZQb3NUoon" />
                 <Node Bounds="1189,460,25,19" Id="VBy46I6PO7eLL05Okj3SHN">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -3434,7 +3434,7 @@
                 <Link Id="AHAgxoRZRWsNAyZCrNaC9s" Ids="Q1fRTosdu3iNws5SUfFDcf,BdBYsbGyRXBLfAibUwa2ar" />
                 <Link Id="C41dVHYTxb3PYJcN0fB7ja" Ids="M8WZRPkfiXMNbz75DmT3c2,FOYaU0OfZ3pMKSwZeyQ6xK" />
                 <Node Bounds="1189,528,25,19" Id="CJu7VDN9Js2M35GFqHLGKZ">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -3589,7 +3589,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="1550,267,25,19" Id="IEq4WCAOVlyQXxMwBTZrai">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -3599,7 +3599,7 @@
                   <Pin Id="Ftok6OqqYwwLPPaRri0zHv" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1550,353,25,19" Id="EXL204QXhnMNjh0oLDLsO5">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -3609,7 +3609,7 @@
                   <Pin Id="Fw5kop3tvTRMlgxYz26ejf" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1550,458,25,19" Id="Pkrz611IKG1P5S9yko5ejR">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -3619,7 +3619,7 @@
                   <Pin Id="AKGOjFDpwvZNojaDXzBHlw" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1551,531,25,19" Id="Spu3MDqskBVOp8DFP2ugfQ">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -3812,7 +3812,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="1196,1261,25,19" Id="EJnTGfB5mmNM8hBaqhTvtl">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -3822,7 +3822,7 @@
                   <Pin Id="DgL9zmyMMLtMpqAV4le0xH" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1196,1347,25,19" Id="BwVRPD2rFqlPSX7xTSD2Qp">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -3832,7 +3832,7 @@
                   <Pin Id="HJwp99LMyMnPmGGBw0WQbj" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1196,1452,25,19" Id="CqeZUvA59ewOdskHRQtl9g">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -3842,7 +3842,7 @@
                   <Pin Id="KERpaiAvqaKOvOw5Far5Kz" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1196,1525,25,19" Id="Q0Y8MwGoNxULgxqCt3j5q5">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4035,7 +4035,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="1196,1755,25,19" Id="ANuODzgFxeCLxH8dBR5GRH">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4045,7 +4045,7 @@
                   <Pin Id="Kvv5G3KU9qIMg2um1GtpIC" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1196,1841,25,19" Id="SJQ8us6D9PwL8TEQtiotg7">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4055,7 +4055,7 @@
                   <Pin Id="Hj1zDR0kC1mP4KTaBtWwMa" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1196,1946,25,19" Id="CJFFlwgzW0uObIUXJNSapv">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4065,7 +4065,7 @@
                   <Pin Id="KLAjophvfofPKL5x2dnVwS" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1196,2019,25,19" Id="Ly0fjJNRRvzOsMtnYBvK5n">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4258,7 +4258,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="1197,2240,25,19" Id="TUjMauPgRu2MG9UEowBaow">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4268,7 +4268,7 @@
                   <Pin Id="HWC7WJJgy6IMjEhK2p9VYj" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1197,2326,25,19" Id="ALfv3rwGNJuLe2RNajtr9d">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4278,7 +4278,7 @@
                   <Pin Id="OWbPhxV4lOZNBywEKsmIOE" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1197,2431,25,19" Id="GiZyhZjos8HLxfjpDkvByT">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4288,7 +4288,7 @@
                   <Pin Id="CgvptTj7P28L69kjQnggM5" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1197,2504,25,19" Id="GRHdNaONkkEM6CV4yNgySc">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4453,7 +4453,7 @@
                 <ControlPoint Id="NH3VLZf8bbbLa5bOJT06fU" Bounds="2151,616" />
                 <Pin Id="CBWcyfwKIssPBPpRMlpKuh" Name="Interpol" Kind="InputPin" Bounds="603,326" />
                 <Node Bounds="2149,633,25,19" Id="UlwKRxyxwDYQXuCFj0R9ft">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes2" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes2" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes2" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4463,7 +4463,7 @@
                   <Pin Id="Ix3CmHlidMOPdWj8FJSCD7" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="2150,749,25,19" Id="DU8SCXSUnjMMgoe2RUMri8">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes2" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes2" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes2" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4592,7 +4592,7 @@
                 <ControlPoint Id="Kwa7eKORGQ6Pdygl8gLE7R" Bounds="2150,969" />
                 <Pin Id="Qgwq2dWFfsIOfcqSb7Y5EV" Name="Interpol" Kind="InputPin" Bounds="603,326" />
                 <Node Bounds="2148,986,25,19" Id="OLQhuapwPmFMkRBLdlDHoW">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes2" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes2" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes2" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4602,7 +4602,7 @@
                   <Pin Id="BBu1d6E7rC3NchOmhoXIdA" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="2149,1072,25,19" Id="JelnYzdxleNO8DmbD9NQFy">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes2" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes2" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes2" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4731,7 +4731,7 @@
                 <ControlPoint Id="J6Ukp8cgRjOLZa8PWVKUFO" Bounds="2156,1306" />
                 <Pin Id="U5y8v9agBOcP28T0Zocs10" Name="Interpol" Kind="InputPin" Bounds="603,326" />
                 <Node Bounds="2154,1326,25,19" Id="Rf11oksCVRkLjViIdRtnEA">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes2" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes2" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes2" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4741,7 +4741,7 @@
                   <Pin Id="S7YZ86W1PU9Mw1QSUe85wk" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="2155,1390,25,19" Id="PbKl6xRTM9ALzzcEYpy0ip">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes2" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes2" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes2" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4780,19 +4780,6 @@
                 <Link Id="MAfPLYMOW7dO91PsM01lyE" Ids="TDzhTGs12HeMGgo7EjPhBh,M4iDhBS3JliMdAVggNXo6v" />
                 <Link Id="RMn7hbhZwktLfLgrIsaCXg" Ids="PNprfTSedbzPjIqjvCIcSo,GPMcHb9DDI0MwmgJDP8rB9" />
                 <Link Id="CHLH87xPDWqNY9LYEknf6j" Ids="LS6b1rSsMIHPmadY79b1xH,Kkqgn2TwotUPGwMYIWpF4B" />
-                <Pin Id="N7Yi5iaWYxdPdapw0yxNjP" Name="Input" Kind="InputPin" Bounds="942,877" DefaultValue="" />
-                <Pin Id="F6aHy6ykEvXPA4TRhkaSHd" Name="Input 2" Kind="InputPin" Bounds="452,432" />
-                <Pin Id="RySRNpkjd11L6f5VXj2ftx" Name="Scalar" Kind="InputPin" Bounds="729,369">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="PymjnW4QwhRQWizKuGH5Ex" Name="BreakPoint" Kind="InputPin" Bounds="2055,1058" />
-                <Pin Id="G48QohDwhA0PSoCO78eLpA" Name="Interpol" Kind="InputPin" Bounds="603,326">
-                  <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
-                    <Choice Kind="TypeFlag" Name="SwitchModes" />
-                  </p:TypeAnnotation>
-                </Pin>
                 <Node Bounds="1894,1819,69,95" Id="QJYXLxA6BD7MMi1rURffR7">
                   <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -4832,7 +4819,7 @@
                 <Link Id="N4yI0y39RTdLgrfsFXUYg4" Ids="AsYBCbeL1upOrjzuodtJCR,Qdeuf0VaWyPPhV7MPaxWFi" />
                 <Link Id="EAwm2CZppM7LHerzGyeXdy" Ids="FLpJipAe7KEMArQFe1CCg8,GcywSVuWzF0LtrzP5r0ajr" />
                 <Node Bounds="2074,1788,25,19" Id="Ey6aRHJELuqPb6snZmHd8B">
-                  <p:NodeReference LastCategoryFullName="Enums.SwitchModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.SwitchModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="SwitchModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4869,7 +4856,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="2075,1915,25,19" Id="HTG7Kl3uDYSMUevlSeDSsV">
-                  <p:NodeReference LastCategoryFullName="Enums.SwitchModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.SwitchModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="SwitchModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4907,7 +4894,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="2076,1999,25,19" Id="SyTPsQ3JmETNDNmLFAP6VQ">
-                  <p:NodeReference LastCategoryFullName="Enums.SwitchModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.SwitchModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="SwitchModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -4927,22 +4914,21 @@
                 <Link Id="B1T0AaGYjWAOyyWFHixSuE" Ids="LCPA8ImmNL0PeAr7NJmc8n,VLkmbiDDCTMLDMHnn7dA1f" />
                 <Link Id="CnmulgJXXDWNtBAJTdCirE" Ids="MlBITJndDEaQLWaaa4YmT0,ODtcDYiSJ06PmpUM85hweH" />
                 <ControlPoint Id="ODtcDYiSJ06PmpUM85hweH" Bounds="1910,2115" />
-                <Pin Id="C5mIWREM2yVLy93lELOyXk" Name="Output" Kind="OutputPin" Bounds="1363,1390" />
                 <Link Id="DqlmK91xQNyLY7oBQSSoDR" Ids="ODtcDYiSJ06PmpUM85hweH,C5mIWREM2yVLy93lELOyXk" IsHidden="true" />
                 <Pad Id="TedMycJS5ecNsIEVD5KjDN" Comment="" Bounds="2097,1901,73,15" ShowValueBox="true" isIOBox="true" Value="Minimum">
-                  <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                  <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="TypeFlag" Name="SwitchModes" />
                   </p:TypeAnnotation>
                 </Pad>
                 <Link Id="Gr3pxfNuBY0M0R81L4Ob6D" Ids="TedMycJS5ecNsIEVD5KjDN,TFcjDMiPthuP8EVBLdDz0b" />
                 <Pad Id="IoyBnJIVu0CLBFJAssPd68" Comment="" Bounds="2098,1777,73,15" ShowValueBox="true" isIOBox="true" Value="Switch">
-                  <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                  <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="TypeFlag" Name="SwitchModes" />
                   </p:TypeAnnotation>
                 </Pad>
                 <Link Id="NjvxJYi0pemOpCdN90UTDE" Ids="IoyBnJIVu0CLBFJAssPd68,JJSpMqlspSROaPRbGyLpCp" />
                 <Pad Id="GygTHKqBErvLVk8FV2q84p" Comment="" Bounds="2099,1986,73,15" ShowValueBox="true" isIOBox="true" Value="Maximum">
-                  <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                  <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="TypeFlag" Name="SwitchModes" />
                   </p:TypeAnnotation>
                 </Pad>
@@ -4969,6 +4955,20 @@
                 <Link Id="R5HQQLOE2InOmBSOK3FcsU" Ids="POkYOXllQiELo9J0JnVd39,Gg7A3OkWAfxNen6CuLwfKL" />
                 <Link Id="OML0cbkWmnKPAWd3RhVewr" Ids="AsYBCbeL1upOrjzuodtJCR,KBtTVKhBD8tMP5u6RHB86r" />
                 <Link Id="PyvjppuKmGKP2vmdjHt9h1" Ids="AsYBCbeL1upOrjzuodtJCR,V7zHROOpiNCOjcUNwTXuur" />
+                <Pin Id="N7Yi5iaWYxdPdapw0yxNjP" Name="Input" Kind="InputPin" Bounds="942,877" DefaultValue="" />
+                <Pin Id="F6aHy6ykEvXPA4TRhkaSHd" Name="Input 2" Kind="InputPin" Bounds="452,432" />
+                <Pin Id="RySRNpkjd11L6f5VXj2ftx" Name="Scalar" Kind="InputPin" Bounds="729,369">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="PymjnW4QwhRQWizKuGH5Ex" Name="BreakPoint" Kind="InputPin" Bounds="2055,1058" />
+                <Pin Id="G48QohDwhA0PSoCO78eLpA" Name="Interpol" Kind="InputPin" Bounds="603,326">
+                  <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
+                    <Choice Kind="TypeFlag" Name="SwitchModes" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="C5mIWREM2yVLy93lELOyXk" Name="Output" Kind="OutputPin" Bounds="1363,1390" />
               </Patch>
             </Node>
             <!--
@@ -5796,7 +5796,7 @@
                     <Pin Id="JWmY8ESxaoTOVCjlt8Omr4" Name="TweenTransition" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="427,508,27,19" Id="O2TNttaUVgaLYmhGi2F8Av">
-                    <p:NodeReference LastCategoryFullName="Enums.TweenerTransition2" LastDependency="Enums.dll">
+                    <p:NodeReference LastCategoryFullName="InterpolatorEnums.TweenerTransition2" LastDependency="InterpolatorEnums.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="TweenerTransition2" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="!=" />
@@ -5818,7 +5818,7 @@
                   <ControlPoint Id="QVE821WLrwSOczTJ6cjBiw" Bounds="308,750" />
                   <ControlPoint Id="NI4d7ZaF6LbLh3FPmULiaw" Bounds="428,750" />
                   <Pad Id="HgJdjhkij7mPHcHdZVaKbm" Comment="" Bounds="451,494,64,15" ShowValueBox="true" isIOBox="true" Value="Switch">
-                    <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                    <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                       <Choice Kind="TypeFlag" Name="TweenerTransition2" />
                     </p:TypeAnnotation>
                   </Pad>
@@ -6059,7 +6059,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="3546,253,25,19" Id="EFXcrvNHvZEMCSR1BPgXCk">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -6069,7 +6069,7 @@
                   <Pin Id="GZWaduwQQEMLwK50qU2Mrw" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="3546,344,25,19" Id="DTrWJHm42etOUH7jb29bLb">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -6079,7 +6079,7 @@
                   <Pin Id="TCSaWoZfIEdNfZr7gN5JR2" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="3546,445,25,19" Id="RtnfWDvZgMUO2UuNLlcQG5">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -6089,7 +6089,7 @@
                   <Pin Id="P9KXcFrNSspNX85GlBrxhk" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="3547,527,25,19" Id="PE4ezD1UMYzNnxUu7Spb5d">
-                  <p:NodeReference LastCategoryFullName="Enums.InterpolationModes" LastDependency="Enums.dll">
+                  <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="InterpolationModes" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -10328,6 +10328,7 @@
             <Link Id="GjnoXPAgkojMlF1VlKMgpV" Ids="ScK264VC6GqMEeHOzcKb6Q,QmdpH94xOKHLqe847DZuEF" />
             <Link Id="Gg6aAqF666SLE4kn2vJ3Xw" Ids="I4iwuB6qCXDLvoeg8kfN4b,R07P5esR5hzM0PgEyoBSU1" />
             <Link Id="BqODCRajYGNL4Q33JOtxAS" Ids="R07P5esR5hzM0PgEyoBSU1,BsrpT3wboIoOAUI1VuuvOS" />
+            <Link Id="NX2KDYquWhBPmf8xREWeV9" Ids="EI51JARY23TOncz8YCxM7T,SZUh6YrM3x2MwF9717rPPR" />
             <Patch Id="CuyxEjli410NlSjZl5TCUT" Name="Create" />
             <Patch Id="IxFPBdZ2VxTMsZIAZjNAEl" Name="Update" ParticipatingElements="NbM33dklBzqM2ORlFj5ZhW,BObXHVXaaTFNNWqDr3JaKU,QRAoTfAlptCNq8vvXtNlie">
               <Pin Id="Ect3Jke5Y8MOMA0fCoTB1q" Name="Input" Kind="InputPin" Bounds="406,53">
@@ -10353,7 +10354,7 @@
               <Pin Id="EhFOJghLjkNLUmJbfHYMri" Name="MatrixInterpol" Kind="InputPin" Bounds="1694,331" DefaultValue="True" />
               <Pin Id="Fybfyj1VG5aNBFcRWe1a3A" Name="QuaternionInterpol" Kind="InputPin" Bounds="1708,360" DefaultValue="True" />
               <Pin Id="K8QzHgKaJpeNVdsWyD9fww" Name="BooleanInterpol" Kind="InputPin" DefaultValue="Switch">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                   <Choice Kind="TypeFlag" Name="SwitchModes" />
                 </p:TypeAnnotation>
               </Pin>
@@ -10382,7 +10383,6 @@
                 </p:TypeAnnotation>
               </Pin>
             </Patch>
-            <Link Id="NX2KDYquWhBPmf8xREWeV9" Ids="EI51JARY23TOncz8YCxM7T,SZUh6YrM3x2MwF9717rPPR" />
           </Patch>
         </Node>
       </Canvas>
@@ -14371,7 +14371,7 @@
               <ControlPoint Id="Bo92flAGPhgLqWXxHcwQaU" Bounds="400,549" />
               <Pad Id="Sf9hBpQvuilLCExPxw1te8" SlotId="CiB96xe2VovPeYvDhbO5ye" Bounds="932,507" />
               <Pad Id="LeToNNzRBINPo656n9VZvr" Comment="" Bounds="770,463,78,15" ShowValueBox="true" isIOBox="true" Value="Interpole">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                   <Choice Kind="TypeFlag" Name="InterpolationModes2" />
                 </p:TypeAnnotation>
               </Pad>
@@ -14387,7 +14387,7 @@
               <ControlPoint Id="PkIeXeFXC4bNi4soR3AeMZ" Bounds="2151,415" />
               <ControlPoint Id="BgwrSQe0aTJOkSW8RPS6oJ" Bounds="2151,549" />
               <Pad Id="AISkXhMH0aKM0bzAKEPE2x" Comment="" Bounds="2166,463,73,15" ShowValueBox="true" isIOBox="true" Value="Switch">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                   <Choice Kind="TypeFlag" Name="SwitchModes" />
                 </p:TypeAnnotation>
               </Pad>
@@ -14427,7 +14427,7 @@
               <ControlPoint Id="NtCcVPWukaYOjabt6YH002" Bounds="1705,333" />
               <ControlPoint Id="BIWXIRaS81NLVoKd85VnU0" Bounds="1705,603" />
               <Pad Id="EQmfx7yPAqNLwfKh7cY6YR" Comment="" Bounds="1735,463,78,15" ShowValueBox="true" isIOBox="true" Value="Interpole">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                   <Choice Kind="TypeFlag" Name="InterpolationModes2" />
                 </p:TypeAnnotation>
               </Pad>
@@ -14437,7 +14437,7 @@
               <ControlPoint Id="VyipNlDve5uLSf55DphrKi" Bounds="1906,333" />
               <ControlPoint Id="HQygPEGCJW8P93vNa5y6sy" Bounds="1906,603" />
               <Pad Id="E7UUnur714NN9538peew33" Comment="" Bounds="1936,463,78,15" ShowValueBox="true" isIOBox="true" Value="Interpole">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                   <Choice Kind="TypeFlag" Name="InterpolationModes2" />
                 </p:TypeAnnotation>
               </Pad>
@@ -14457,7 +14457,7 @@
               <ControlPoint Id="TM1hJNhs9GROHEX7GIUNaF" Bounds="1489,333" />
               <ControlPoint Id="BNudurK6ph9Po3f7GLIHeZ" Bounds="1489,603" />
               <Pad Id="PPrGKycq3C6O9Py3nf6Bvu" Comment="" Bounds="1516,463,78,15" ShowValueBox="true" isIOBox="true" Value="Interpole">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                   <Choice Kind="TypeFlag" Name="InterpolationModes2" />
                 </p:TypeAnnotation>
               </Pad>
@@ -14483,32 +14483,32 @@
                 <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
               </Overlay>
               <Pad Id="JN7EPSHrFXIPeIJnohwfxw" Comment="" Bounds="420,463,78,15" ShowValueBox="true" isIOBox="true" Value="Interpole">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                   <Choice Kind="TypeFlag" Name="InterpolationModes" />
                 </p:TypeAnnotation>
               </Pad>
               <Pad Id="BOmW7YH6MXhM5jhNYU88u9" Comment="" Bounds="600,463,78,15" ShowValueBox="true" isIOBox="true" Value="Interpole">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                   <Choice Kind="TypeFlag" Name="InterpolationModes" />
                 </p:TypeAnnotation>
               </Pad>
               <Pad Id="BkOo0bl19Y7ME3ZvfZbzuZ" Comment="" Bounds="2368,463,78,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                   <Choice Kind="TypeFlag" Name="InterpolationModes" />
                 </p:TypeAnnotation>
               </Pad>
               <Pad Id="CBJ86hJyVzzPM589DamHwT" Comment="" Bounds="1319,463,78,15" ShowValueBox="true" isIOBox="true" Value="Interpole">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                   <Choice Kind="TypeFlag" Name="InterpolationModes" />
                 </p:TypeAnnotation>
               </Pad>
               <Pad Id="T535DomojJvMhWP4QkjW8K" Comment="" Bounds="1133,463,78,15" ShowValueBox="true" isIOBox="true" Value="Interpole">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                   <Choice Kind="TypeFlag" Name="InterpolationModes" />
                 </p:TypeAnnotation>
               </Pad>
               <Pad Id="MrlS6m3mwjMMyP0vG62ZNi" Comment="" Bounds="950,463,78,15" ShowValueBox="true" isIOBox="true" Value="Interpole">
-                <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="Enums.dll">
+                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                   <Choice Kind="TypeFlag" Name="InterpolationModes" />
                 </p:TypeAnnotation>
               </Pad>
@@ -15129,6 +15129,6 @@
       </Patch>
     </Node>
   </Patch>
-  <PlatformDependency Id="V3NeGyLm8XAPaHRQvYSsgt" Location="./src/Enums/obj/Debug/netstandard2.0/Enums.dll" />
-  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.0-0139-g74911af44e" />
+  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.0-0156-g47917ea4e3" />
+  <PlatformDependency Id="BX6cNIwBF5mLVD4keADbNy" Location="./src/Enums/obj/Debug/netstandard2.0/InterpolatorEnums.dll" />
 </Document>

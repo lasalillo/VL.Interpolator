@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="B2P2KgVcg5GLhD3gKoZRxw" LanguageVersion="2024.6.0-0139-g74911af44e" Version="0.128">
-  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.0-0139-g74911af44e" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="B2P2KgVcg5GLhD3gKoZRxw" LanguageVersion="2024.6.0-0156-g47917ea4e3" Version="0.128">
+  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.0-0156-g47917ea4e3" />
   <Patch Id="EKfc0XEuHFEMk9lMTQ1rPH">
     <Canvas Id="F1lhPcVCSxaPSFkF3oFOYT" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="RKbrxvOJnZlMy2drbzIvFh">
         <Canvas Id="CIxe6Hz6w74QCPdqTq0xrY" CanvasType="Group">
-          <Node Bounds="271,389,50,26" Id="I68mxBLQMgDOzRrohW1Cr9">
+          <Node Bounds="271,464,50,26" Id="I68mxBLQMgDOzRrohW1Cr9">
             <p:NodeReference LastCategoryFullName="Interpolator.Clip (Generic)" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="RecordType" Name="Keyframe" />
@@ -32,7 +32,7 @@
             <Pin Id="EzcUUiYiEZBMJI3p4VtANQ" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="VDzAofmVYZBLZtMYr20YXo" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="271,438,628,19" Id="Go9rxudTQ9RP9wNDhbeg7M">
+          <Node Bounds="271,513,628,19" Id="Go9rxudTQ9RP9wNDhbeg7M">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -43,7 +43,7 @@
             <Pin Id="BZokKIUUS5QOrFWi1wVPPB" Name="Result" Kind="OutputPin" />
             <Pin Id="DgAYZDg3h0IMii5h52FL1h" Name="Input 3" Kind="InputPin" />
           </Node>
-          <Node Bounds="270,964,48,19" Id="HuPF7VFu8sxO10DEwJSDzj">
+          <Node Bounds="270,1039,48,19" Id="HuPF7VFu8sxO10DEwJSDzj">
             <p:NodeReference LastCategoryFullName="Primitive.Object" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="CastAs" />
@@ -53,19 +53,19 @@
             <Pin Id="GJDu6ilbyb7MMf5QbfTmtM" Name="Result" Kind="OutputPin" />
             <Pin Id="Rt6TQxeLUx4LZSbzwQ4p1R" Name="Success" Kind="OutputPin" />
           </Node>
-          <Pad Id="C8UBBx1jyPKNoaAJu38n7r" Comment="Success" Bounds="315,1003,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="G5VUPQEPVivPhrOY0K81r5" Comment="Position" Bounds="343,349,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+          <Pad Id="C8UBBx1jyPKNoaAJu38n7r" Comment="Success" Bounds="315,1078,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="G5VUPQEPVivPhrOY0K81r5" Comment="Position" Bounds="343,424,35,15" ShowValueBox="true" isIOBox="true" Value="0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Pwqgd0YsGJjLnrhzmIHqMG" SlotId="KjDWFOc08LQLWqKAHwgkLD" Bounds="273,520" />
-          <Pad Id="RlgPWfoZD3TNBHlf8dhRZY" Comment="Duration" Bounds="366,368,35,15" ShowValueBox="true" isIOBox="true" Value="15">
+          <Pad Id="Pwqgd0YsGJjLnrhzmIHqMG" SlotId="KjDWFOc08LQLWqKAHwgkLD" Bounds="273,595" />
+          <Pad Id="RlgPWfoZD3TNBHlf8dhRZY" Comment="Duration" Bounds="366,443,35,15" ShowValueBox="true" isIOBox="true" Value="15">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="271,476,128,19" Id="KyHERRgPYqZMFYrQXowQvb">
+          <Node Bounds="271,551,160,19" Id="KyHERRgPYqZMFYrQXowQvb">
             <p:NodeReference LastCategoryFullName="Interpolator" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="SortKeyframesByPosition" />
@@ -74,10 +74,10 @@
             <Pin Id="I0fhN3THKmVPzt5DBTNL6J" Name="Output" Kind="OutputPin" />
             <Pin Id="OsIkdKi8WLBO940IwG47Op" Name="End of List" Kind="OutputPin" />
           </Node>
-          <Overlay Id="LXX3nJbNsdjQJJ0jUxLRkd" Name="Simple Model" Bounds="200,200,1227,361">
+          <Overlay Id="LXX3nJbNsdjQJJ0jUxLRkd" Name="Simple Model" Bounds="200,200,1321,436">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
-          <Node Bounds="270,770,125,19" Id="LZwSA5Eu9bgNb6Rvrx9y8S">
+          <Node Bounds="270,845,125,19" Id="LZwSA5Eu9bgNb6Rvrx9y8S">
             <p:NodeReference LastCategoryFullName="Interpolator" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Interpolator" />
@@ -98,7 +98,7 @@
             <Pin Id="K67UGihFzaILvwpDAw2gVn" Name="Success" Kind="OutputPin" />
             <Pin Id="TSLgReNI1zPLgIGeGA83Gv" Name="Info" Kind="OutputPin" />
           </Node>
-          <Node Bounds="390,709,39,19" Id="EVJKT4kQk2qPXI8NZXhAxd">
+          <Node Bounds="390,784,39,19" Id="EVJKT4kQk2qPXI8NZXhAxd">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="MOD" />
@@ -107,17 +107,17 @@
             <Pin Id="JqBN2iIp53WLu3KuSs0U9z" Name="Input 2" Kind="InputPin" DefaultValue="3" />
             <Pin Id="GcRswQpOT5PPCeZQ3faquc" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="FUPqFMSZaoVPCGaz036gYZ" Comment="" Bounds="417,755,87,15" ShowValueBox="true" isIOBox="true">
+          <Pad Id="FUPqFMSZaoVPCGaz036gYZ" Comment="" Bounds="417,830,87,15" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:precision p:Type="Int32">6</p:precision>
               <p:stepsize p:Type="Single">0.01</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="USoubwGdmB4LbyJoC6DfqQ" Comment="Success" Bounds="371,903,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="UYKTD2iyvKOPP1eXrX02kv" Comment="Upper Index" Bounds="312,831,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="HrWS9JSqGNgLVY7HCGYQZu" Comment="Lower Index" Bounds="292,807,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="PoKAMgjrrLfPx10Exo7vgT" Comment="Active" Bounds="353,879,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="EqlgFC1CeKlNM0N643O2g0" Comment="Scalar" Bounds="332,855,204,15" ShowValueBox="true" isIOBox="true">
+          <Pad Id="USoubwGdmB4LbyJoC6DfqQ" Comment="Success" Bounds="371,978,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="UYKTD2iyvKOPP1eXrX02kv" Comment="Upper Index" Bounds="312,906,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="HrWS9JSqGNgLVY7HCGYQZu" Comment="Lower Index" Bounds="292,882,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="PoKAMgjrrLfPx10Exo7vgT" Comment="Active" Bounds="353,954,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="EqlgFC1CeKlNM0N643O2g0" Comment="Scalar" Bounds="332,930,204,15" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:maximum p:Type="Single">1</p:maximum>
               <p:minimum p:Type="Single">0</p:minimum>
@@ -128,8 +128,8 @@
               <p:stepsize p:Type="Single">0.01</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="FXlNtjMq2nsO55nWYJvIeF" SlotId="STGe1RE1VA2NviuE8i9g6j" Bounds="396,520" />
-          <Pad Id="OZZvi1A7KGpOtqMlZXSIPY" Bounds="414,482,241,19" ShowValueBox="true" isIOBox="true" Value="Keep the Type constant along the list">
+          <Pad Id="FXlNtjMq2nsO55nWYJvIeF" SlotId="STGe1RE1VA2NviuE8i9g6j" Bounds="428,595" />
+          <Pad Id="OZZvi1A7KGpOtqMlZXSIPY" Bounds="476,557,269,19" ShowValueBox="true" isIOBox="true" Value="Keep the Value Type constant along the list">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -138,22 +138,20 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="271,292,265,26" Id="Pdqf2q5BxNPNhDRMz7WoCP">
+          <Node Bounds="271,367,265,26" Id="Pdqf2q5BxNPNhDRMz7WoCP">
             <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="4026531840" Name="Clip" />
               <Choice Kind="OperationCallFlag" Name="Create" />
             </p:NodeReference>
             <Pin Id="HMaMYgGXBO4LCU89LUK333" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="PC5sQBB0AtZOCRx5HVZ68J" Name="Tag" Kind="InputPin" IsHidden="true" />
+            <Pin Id="PC5sQBB0AtZOCRx5HVZ68J" Name="Tag" Kind="InputPin" />
             <Pin Id="Smagr2f2oSSL0wkh8zVi2A" Name="FileName" Kind="InputPin" />
             <Pin Id="LqLmGaukj87PPacChfUs0E" Name="FadeIn" Kind="InputPin" DefaultValue="1" />
             <Pin Id="PJ7YaWs5mpFNE4WiwNBmTF" Name="FadeOut" Kind="InputPin" DefaultValue="1" />
             <Pin Id="MDBrZirsFWJQdKITChY5E5" Name="ClipStart" Kind="InputPin" />
             <Pin Id="TpBxl2Jjb7bMMg69btEX2H" Name="Level" Kind="InputPin" />
             <Pin Id="Vs1Id6svEYaN2OPlpEOX3q" Name="PositionOnClip" Kind="InputPin" />
-            <Pin Id="RjkTdH9npuBNcsdgMG6Y20" Name="Start" Kind="InputPin" />
-            <Pin Id="DAEIIXftOJ2L3QRrWpMay3" Name="End" Kind="InputPin" />
             <Pin Id="NjCfXmWrbJiOLn5EgL04HT" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="KfNCclqqft6NDj92BxiO2z" Name="Loop" Kind="InputPin" />
             <Pin Id="MuInzX85iagOoBWuvNQc1v" Name="FadeInTweenTransition" Kind="InputPin" />
@@ -162,7 +160,7 @@
             <Pin Id="ONQuQse9sVOP3o9LeNHTle" Name="FadeOutTweenMode" Kind="InputPin" />
             <Pin Id="VNdQ9FvKM5PMuJg75lwMf3" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="583,389,50,26" Id="RUGkKaE3uDSL2sdaheoM8t">
+          <Node Bounds="583,464,50,26" Id="RUGkKaE3uDSL2sdaheoM8t">
             <p:NodeReference LastCategoryFullName="Interpolator.Clip (Generic)" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="RecordType" Name="Keyframe" />
@@ -179,32 +177,30 @@
             <Pin Id="KrjQqV5tcT3NvYPqjek5D0" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="RDfD4cEXRrRLWGPFGaGI5G" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="LQWwXsSnS9VLFVAhrpW4mD" Comment="Position" Bounds="684,346,35,15" ShowValueBox="true" isIOBox="true" Value="16">
+          <Pad Id="LQWwXsSnS9VLFVAhrpW4mD" Comment="Position" Bounds="684,421,35,15" ShowValueBox="true" isIOBox="true" Value="16">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="SmkKKxMLFesLUYJ4qh0pxG" Comment="Duration" Bounds="707,365,35,15" ShowValueBox="true" isIOBox="true" Value="15">
+          <Pad Id="SmkKKxMLFesLUYJ4qh0pxG" Comment="Duration" Bounds="707,440,35,15" ShowValueBox="true" isIOBox="true" Value="15">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="583,292,265,26" Id="NzatPm00bsZNLtKz5wF9HI">
+          <Node Bounds="583,367,265,26" Id="NzatPm00bsZNLtKz5wF9HI">
             <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="4026531840" Name="Clip" />
               <Choice Kind="OperationCallFlag" Name="Create" />
             </p:NodeReference>
             <Pin Id="SJJveYEwhQdLWynyW0oa2F" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="AabrpS9k9ZXLtHBpViAI0T" Name="Tag" Kind="InputPin" IsHidden="true" />
+            <Pin Id="AabrpS9k9ZXLtHBpViAI0T" Name="Tag" Kind="InputPin" />
             <Pin Id="C1oFHm1qHsGPmKYC8Al29C" Name="FileName" Kind="InputPin" />
             <Pin Id="SdDVgQGf7aqNB7OMTVkRY3" Name="FadeIn" Kind="InputPin" DefaultValue="1" />
             <Pin Id="FhCQHWA0juxOX9QSw9pgCz" Name="FadeOut" Kind="InputPin" DefaultValue="1" />
             <Pin Id="FOukVvX0pKOPF1FxJpbdNF" Name="ClipStart" Kind="InputPin" />
             <Pin Id="L8xq2rbEaVUMenRwmzWWag" Name="Level" Kind="InputPin" />
             <Pin Id="EafGpSFiZChPLgSoc3p7i7" Name="PositionOnClip" Kind="InputPin" />
-            <Pin Id="QWS8WCJoceLNBLgrgbtBXY" Name="Start" Kind="InputPin" />
-            <Pin Id="DyfuxMHfSX8P8DKAmRUppd" Name="End" Kind="InputPin" />
             <Pin Id="FdYuVaGKujDLJvMhKE2wKC" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="KAuYspcND95OYycgi5DrBj" Name="Loop" Kind="InputPin" />
             <Pin Id="No73ie8OWR9QGCpPONV277" Name="FadeInTweenTransition" Kind="InputPin" />
@@ -213,7 +209,7 @@
             <Pin Id="SCiRX2NavdCQAPtCSrcLUH" Name="FadeOutTweenMode" Kind="InputPin" />
             <Pin Id="CNaT5MlWJZuQa5wcDF1j9v" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="894,389,50,26" Id="F6q0RDJvpCwLQqffgkJvMY">
+          <Node Bounds="894,464,50,26" Id="F6q0RDJvpCwLQqffgkJvMY">
             <p:NodeReference LastCategoryFullName="Interpolator.Clip (Generic)" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="RecordType" Name="Keyframe" />
@@ -230,32 +226,30 @@
             <Pin Id="TcVWnsAFYYEOGu7K7Pc6SM" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="M7TRkXU9ZkyMuLQXbYkXhn" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="Icd5q9Blqu2PvEoOaCnrGH" Comment="Position" Bounds="970,346,35,15" ShowValueBox="true" isIOBox="true" Value="32">
+          <Pad Id="Icd5q9Blqu2PvEoOaCnrGH" Comment="Position" Bounds="970,421,35,15" ShowValueBox="true" isIOBox="true" Value="32">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Eg7kncgYAobMe7GZqAijbt" Comment="Duration" Bounds="993,365,35,15" ShowValueBox="true" isIOBox="true" Value="15">
+          <Pad Id="Eg7kncgYAobMe7GZqAijbt" Comment="Duration" Bounds="993,440,35,15" ShowValueBox="true" isIOBox="true" Value="15">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="894,292,265,26" Id="UiJzdcr382SObG0HMEyaKh">
+          <Node Bounds="894,367,265,26" Id="UiJzdcr382SObG0HMEyaKh">
             <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="4026531840" Name="Clip" />
               <Choice Kind="OperationCallFlag" Name="Create" />
             </p:NodeReference>
             <Pin Id="UziCeYggILBLsB5RZtplex" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="B4bXJr39BiaPqJIWxAS8rQ" Name="Tag" Kind="InputPin" IsHidden="true" />
+            <Pin Id="B4bXJr39BiaPqJIWxAS8rQ" Name="Tag" Kind="InputPin" />
             <Pin Id="RGpAMl6jhUKM9cKpeQJJ0V" Name="FileName" Kind="InputPin" />
             <Pin Id="VNYN5UrAhHnLKayb4Qk5xK" Name="FadeIn" Kind="InputPin" DefaultValue="1" />
             <Pin Id="EPKXZrcKbANNRRJAr8BZNL" Name="FadeOut" Kind="InputPin" DefaultValue="1" />
             <Pin Id="RQ2hv60SiIiLJa9mBlH7Br" Name="ClipStart" Kind="InputPin" />
             <Pin Id="IsvFnQj4TV0PR5EIq31s08" Name="Level" Kind="InputPin" />
             <Pin Id="BQbX6of75aELfvF27hOvZ0" Name="PositionOnClip" Kind="InputPin" />
-            <Pin Id="E1YQVWO4OanL56IOgZPElS" Name="Start" Kind="InputPin" />
-            <Pin Id="Lz4hiSPSVDcPVQS4z1G9AD" Name="End" Kind="InputPin" />
             <Pin Id="K8JfiMRz8u7OoLi86QuUWk" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="DjUXAs1y1sFQaVP6dYuFlf" Name="Loop" Kind="InputPin" />
             <Pin Id="EZNuoKJrxStPJZPtMcUh0Q" Name="FadeInTweenTransition" Kind="InputPin" />
@@ -264,8 +258,8 @@
             <Pin Id="TYRwP2aa9CNOS8z8r1cx6H" Name="FadeOutTweenMode" Kind="InputPin" />
             <Pin Id="CLAGPw8aQeRMScp28oUjQy" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="270,1080,276,19" Id="KeChAgaaEYYOdVYSwOrPTp">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="Example 05_UrlVideoClip.vl">
+          <Node Bounds="270,1155,276,19" Id="KeChAgaaEYYOdVYSwOrPTp">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="Example 06_Url Video Clip.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="UrlVideoClipPlayer" />
             </p:NodeReference>
@@ -279,14 +273,14 @@
             <Pin Id="CQuM7PtTmr1LuKmyGJEVl4" Name="Error Message" Kind="OutputPin" />
             <Pin Id="ThTvoCng1PjLs2MPevhgYD" Name="Level" Kind="OutputPin" />
           </Node>
-          <Pad Id="EMuEc9lto7UP6mOYRtCEzx" Comment="Info" Bounds="392,927,550,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="CFv8cpibhOwQZ9UITEH0Z6" Comment="File Duration" Bounds="326,1141,79,15" ShowValueBox="true" isIOBox="true">
+          <Pad Id="EMuEc9lto7UP6mOYRtCEzx" Comment="Info" Bounds="392,1002,550,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="CFv8cpibhOwQZ9UITEH0Z6" Comment="File Duration" Bounds="326,1216,79,15" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:precision p:Type="Int32">4</p:precision>
               <p:stepsize p:Type="Single">0.01</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Pste8hlRdlwNzYPUhsKLua" Comment="Level" Bounds="543,1243,34,131" ShowValueBox="true" isIOBox="true">
+          <Pad Id="Pste8hlRdlwNzYPUhsKLua" Comment="Level" Bounds="543,1318,34,131" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:maximum p:Type="Single">1</p:maximum>
               <p:minimum p:Type="Single">0</p:minimum>
@@ -294,15 +288,15 @@
               <p:sliderdirection p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.SliderDirectionEnum">Vertical</p:sliderdirection>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="D1RcIUUERWOQOzzXfuNfKo" Comment="PositionOnClip" Bounds="326,1118,79,15" ShowValueBox="true" isIOBox="true">
+          <Pad Id="D1RcIUUERWOQOzzXfuNfKo" Comment="PositionOnClip" Bounds="326,1193,79,15" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:precision p:Type="Int32">4</p:precision>
               <p:stepsize p:Type="Single">0.01</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="FudJEAuNP2DMtKInw2Rfnn" Comment="Error Message" Bounds="326,1187,231,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="DhbBms9b01jK9jYesnZHvW" Comment="FileName" Bounds="326,1164,569,15" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="390,670,54,26" Id="G5c1TD4zjYnLAjTcHRN4FL">
+          <Pad Id="FudJEAuNP2DMtKInw2Rfnn" Comment="Error Message" Bounds="326,1262,231,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="DhbBms9b01jK9jYesnZHvW" Comment="FileName" Bounds="326,1239,569,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="390,745,54,26" Id="G5c1TD4zjYnLAjTcHRN4FL">
             <p:NodeReference LastCategoryFullName="Animation.IClock" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="MutableInterfaceType" Name="IClock" NeedsToBeDirectParent="true" />
@@ -311,7 +305,7 @@
             <Pin Id="BpVmgEBzZgmOrJSvtD89t3" Name="Input" Kind="StateInputPin" />
             <Pin Id="Q8Ojae0ceE1MUkQQRluVe6" Name="Result" Kind="OutputPin" />
           </Node>
-          <Node Bounds="390,638,74,19" Id="PP6sQX9p54pOHDdUWR6uwU">
+          <Node Bounds="390,713,74,19" Id="PP6sQX9p54pOHDdUWR6uwU">
             <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="DefaultClock" />
@@ -323,7 +317,7 @@
     ************************ UrlVideoClipPlayer ************************
 
 -->
-          <Node Name="UrlVideoClipPlayer" Bounds="640,1109" Id="Ss1wEpX1UNiK9njNpxTsNh">
+          <Node Name="UrlVideoClipPlayer" Bounds="640,1184" Id="Ss1wEpX1UNiK9njNpxTsNh">
             <p:NodeReference>
               <Choice Kind="ContainerDefinition" />
             </p:NodeReference>
@@ -619,12 +613,12 @@
               <Link Id="JJiydZR4o2qNSM5Nb7mJ27" Ids="OeyV6maVuqrO8ppupphzZa,MOZNRUFHhSMP17EBMS81t4" />
             </Patch>
           </Node>
-          <Pad Id="TQZqVX081XhLRefsNGIyDZ" Comment="Default" Bounds="315,943">
+          <Pad Id="TQZqVX081XhLRefsNGIyDZ" Comment="Default" Bounds="315,1018">
             <p:TypeAnnotation LastCategoryFullName="Interpolator" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="Clip" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="CyZ97CVOXMjNdT0n3ENxoA" Bounds="795,1088,415,19" ShowValueBox="true" isIOBox="true" Value="Define your own Clip Player with the help of the provided parameters">
+          <Pad Id="CyZ97CVOXMjNdT0n3ENxoA" Bounds="795,1163,415,19" ShowValueBox="true" isIOBox="true" Value="Define your own Clip Player with the help of the provided parameters">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -633,7 +627,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="269,1238,185,19" Id="H8MN7lDqOvqOuQihv3ivqn">
+          <Node Bounds="269,1313,185,19" Id="H8MN7lDqOvqOuQihv3ivqn">
             <p:NodeReference LastCategoryFullName="Stride.Textures" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TextureWindow" />
@@ -659,71 +653,7 @@
             <Pin Id="MOA07TJIbEyO8zEgZyJG4P" Name="Input Source" Kind="OutputPin" />
             <Pin Id="J4i0I3EFPT4PpBEJvT56kM" Name="Back Buffer" Kind="OutputPin" IsHidden="true" />
           </Node>
-          <Node Bounds="271,335,47,26" Id="VimphETOq0ENNr0NbaBafi">
-            <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Clip" NeedsToBeDirectParent="true" />
-              <Choice Kind="OperationCallFlag" Name="SetTag" />
-            </p:NodeReference>
-            <Pin Id="TXYzPgRlcLBPrA5GBZ8ECg" Name="Input" Kind="StateInputPin" />
-            <Pin Id="KNYZ5UBr2KPLu2MUh0nOUr" Name="Tag" Kind="InputPin" />
-            <Pin Id="QgAU7OyAqCLMsih3Lp1Eld" Name="Output" Kind="StateOutputPin" />
-          </Node>
-          <Pad Id="Vr78gJCfkXiPp2EJ8F3GKq" Comment="Tag" Bounds="314,248,428,15" ShowValueBox="true" isIOBox="true" Value="http://ftp.nluug.nl/pub/graphics/blender/demo/movies/ToS/tears_of_steel_1080p.mov">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Node Bounds="583,339,47,26" Id="VA0pz5cbcw0MdmO9CtAoVT">
-            <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Clip" NeedsToBeDirectParent="true" />
-              <Choice Kind="OperationCallFlag" Name="SetTag" />
-            </p:NodeReference>
-            <Pin Id="Tzjb9EQVlt9N6IUjWJczp6" Name="Input" Kind="StateInputPin" />
-            <Pin Id="EoorqP8XPHrONq964QljX4" Name="Tag" Kind="InputPin" />
-            <Pin Id="BVnj4AJzuVAQPk8kSh9GYX" Name="Output" Kind="StateOutputPin" />
-          </Node>
-          <Pad Id="Hp4r20tOAm6PMCf2KSNxUG" Comment="Tag" Bounds="627,266,695,16" ShowValueBox="true" isIOBox="true" Value="http://ftp.nluug.nl/pub/graphics/blender/demo/movies/bc09/aPolishWinter_720X576PAL.mpg">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Node Bounds="894,337,47,26" Id="Isu1CpZDtA5Pn564GITWKT">
-            <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Clip" NeedsToBeDirectParent="true" />
-              <Choice Kind="OperationCallFlag" Name="SetTag" />
-            </p:NodeReference>
-            <Pin Id="TrHNzjAbsz9M2GaPwZCV0L" Name="Input" Kind="StateInputPin" />
-            <Pin Id="KgR4YiW37tUMvVQwzVGDW0" Name="Tag" Kind="InputPin" />
-            <Pin Id="JKc51AaWJ3fOrGwgGjc83i" Name="Output" Kind="StateOutputPin" />
-          </Node>
-          <Pad Id="JQITLtTcJdvOTxYoKCA2yq" Comment="Tag" Bounds="937,250,428,15" ShowValueBox="true" isIOBox="true" Value="http://ftp.nluug.nl/pub/graphics/blender/demo/movies/bc08/Best_short_film/Nathan-Matsuda_Hangar-No-5.mov">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Node Bounds="729,640,47,26" Id="V3FuuAKHyKxL21D0MEPR45">
-            <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Clip" NeedsToBeDirectParent="true" />
-              <Choice Kind="OperationCallFlag" Name="SetTag" />
-            </p:NodeReference>
-            <Pin Id="KNZZ0OKett3OKkWjYVa36q" Name="Input" Kind="StateInputPin" />
-            <Pin Id="Hn5BeLeCdWOLSugrlwnknc" Name="Tag" Kind="InputPin" />
-            <Pin Id="NdwGCpsNgZBPxG3kfvercX" Name="Output" Kind="StateOutputPin" />
-          </Node>
-          <Pad Id="MLizsg4LLaqNhj1cy50IKA" Bounds="774,649,285,38" ShowValueBox="true" isIOBox="true" Value="Note that we use Tag to define the URL String, instead of using Filename input Pin">
+          <Pad Id="MLizsg4LLaqNhj1cy50IKA" Bounds="651,712,388,41" ShowValueBox="true" isIOBox="true" Value="Note that we use the Generic Type &quot;Tag&quot; (Optional Pin) to define the URL String, instead of using Filename input Pin">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -732,9 +662,47 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="CxKJTsM2zTLNKeHlzT2mFI" Comment="Tag" Bounds="273,305,417,15" ShowValueBox="true" isIOBox="true" Value="http://ftp.nluug.nl/pub/graphics/blender/demo/movies/ToS/tears_of_steel_1080p.mov">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="OSMQVNWsl17NwAGmd2bQhZ" Comment="Tag" Bounds="585,323,450,15" ShowValueBox="true" isIOBox="true" Value="http://ftp.nluug.nl/pub/graphics/blender/demo/movies/bc09/aPolishWinter_720X576PAL.mpg">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="G4VcRyfqlMuOqPojS8Kbp2" Comment="Tag" Bounds="896,341,541,15" ShowValueBox="true" isIOBox="true" Value="http://ftp.nluug.nl/pub/graphics/blender/demo/movies/bc08/Best_short_film/Nathan-Matsuda_Hangar-No-5.mov">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="643,765,265,26" Id="NYoHZoDF0jzPlfrjGMWdJT">
+            <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="4026531840" Name="Clip" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="RhmJfOXLE8eMlrnK4umJsc" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="RNdr2IXjlu1MUf8qVdIZht" Name="Tag" Kind="InputPin" />
+            <Pin Id="Bj9Nqddavp5OducBal4OB7" Name="FileName" Kind="InputPin" />
+            <Pin Id="T0ZfnUpmdXbQOdwyR0tUlB" Name="FadeIn" Kind="InputPin" />
+            <Pin Id="EeJtsURohYdOK8P8Tzy8BV" Name="FadeOut" Kind="InputPin" />
+            <Pin Id="DeLjud5aZTnLf21Cr0hA8t" Name="ClipStart" Kind="InputPin" />
+            <Pin Id="HKGwQBW8h3WOdFK5o2UYTA" Name="Level" Kind="InputPin" />
+            <Pin Id="ABZcwpiyOfbPfojDlnWcjk" Name="PositionOnClip" Kind="InputPin" />
+            <Pin Id="TlOxmxstn7mPrJLHNwJRsP" Name="Multi_Mono" Kind="InputPin" />
+            <Pin Id="IC5uwOvCprVLBwnC0jlT2A" Name="Loop" Kind="InputPin" />
+            <Pin Id="LaMy3miuOidLUsOrqm6iua" Name="FadeInTweenTransition" Kind="InputPin" />
+            <Pin Id="S91wnWlUhZELZn6tMfF60w" Name="FadeInTweenMode" Kind="InputPin" />
+            <Pin Id="Cp35szT7lyfOggRSeL2rCu" Name="FadeOutTweenTransition" Kind="InputPin" />
+            <Pin Id="RPlUa31bU5WPo1yfpYvhV5" Name="FadeOutTweenMode" Kind="InputPin" />
+            <Pin Id="Op9OWdraLNuQWob3shyEsr" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="CqPdaoZI8hNLOSwnBTiR07" Comment="Tag" SlotId="TXhxumii95vOxiSpLsmRsY" Bounds="645,716" />
         </Canvas>
-        <Patch Id="UXUAiKaHZd2PmLqflexIT5" Name="Create" ParticipatingElements="Dbedm7MNq0MOxjBFk0I7qm" />
-        <Patch Id="NHoP0UbBJOeLeM8AOeQFJY" Name="Update" />
+        <Patch Id="UXUAiKaHZd2PmLqflexIT5" Name="Create" ParticipatingElements="Go9rxudTQ9RP9wNDhbeg7M" />
+        <Patch Id="NHoP0UbBJOeLeM8AOeQFJY" Name="Update" ParticipatingElements="Dbedm7MNq0MOxjBFk0I7qm" />
         <ProcessDefinition Id="CFuWeF0RS3dPU5DoVkjAQZ">
           <Fragment Id="IBNLMKyYWuoPkdxPlJwT6g" Patch="UXUAiKaHZd2PmLqflexIT5" Enabled="true" />
           <Fragment Id="A4zfcRjZC7pLmC1VaELBT3" Patch="NHoP0UbBJOeLeM8AOeQFJY" Enabled="true" />
@@ -757,7 +725,6 @@
         <Link Id="TjrJ3xtM3opMz9IuaJQk2S" Ids="OsIkdKi8WLBO940IwG47Op,FXlNtjMq2nsO55nWYJvIeF" />
         <Slot Id="STGe1RE1VA2NviuE8i9g6j" Name="End Of List" />
         <Link Id="BoeQlFR6qTfN0Wqh5DNCZR" Ids="FXlNtjMq2nsO55nWYJvIeF,JqBN2iIp53WLu3KuSs0U9z" />
-        <Link Id="DM3r6k1CGahL0cRxfFZJ5a" Ids="VNdQ9FvKM5PMuJg75lwMf3,TXYzPgRlcLBPrA5GBZ8ECg" />
         <Link Id="PWHx9RoggClLCjiT5Wzfor" Ids="LQWwXsSnS9VLFVAhrpW4mD,Si5kgCjnilNM0MjjwAV36U" />
         <Link Id="GDIwehW6FVtLl1xvdk4ehy" Ids="SmkKKxMLFesLUYJ4qh0pxG,QHjVVAOGAohOnvGaavLMJr" />
         <Link Id="TPDJ9jod075NAvyVPk5kfq" Ids="RDfD4cEXRrRLWGPFGaGI5G,S6ZHIO59RKqL7vp0gTDzBS" />
@@ -776,20 +743,20 @@
         <Link Id="IenMACN3bY7MofPFkxmOdk" Ids="DuJ56R0sjQfNb9rzOwsEyw,BpVmgEBzZgmOrJSvtD89t3" />
         <Link Id="DKv8YdUbGBrQWqg53QLcz0" Ids="TQZqVX081XhLRefsNGIyDZ,BgykOeyOJC1LiXNn7AC3nL" />
         <Link Id="LhyXxT9cFDiNENNEl96rJO" Ids="K63kpizstXyMgu7rsWxtwy,ESuBzgt3enMQJgan4GZv2Z" />
-        <Link Id="EZUOkhIHMYcP6Wqx6zHTJj" Ids="QgAU7OyAqCLMsih3Lp1Eld,ReRj8czFJQ2NdPhMVozoIZ" />
-        <Link Id="AARtQatHKeFMW6MR4plU8o" Ids="Vr78gJCfkXiPp2EJ8F3GKq,KNYZ5UBr2KPLu2MUh0nOUr" />
-        <Link Id="PzB8cOEOHZTP3OOZ9YKOvu" Ids="Hp4r20tOAm6PMCf2KSNxUG,EoorqP8XPHrONq964QljX4" />
-        <Link Id="NIi66HkAhxJLQAoYzWYFq6" Ids="CNaT5MlWJZuQa5wcDF1j9v,Tzjb9EQVlt9N6IUjWJczp6" />
-        <Link Id="EMVQo7UE0PUMVsE4EIVXW1" Ids="BVnj4AJzuVAQPk8kSh9GYX,JDseixeL6e3Lu2qm3uwIDP" />
-        <Link Id="NqRTG5xR6xaOA0rvnM6ztT" Ids="JQITLtTcJdvOTxYoKCA2yq,KgR4YiW37tUMvVQwzVGDW0" />
-        <Link Id="QghA9shQQwRMQiv4tWneoC" Ids="CLAGPw8aQeRMScp28oUjQy,TrHNzjAbsz9M2GaPwZCV0L" />
-        <Link Id="KqHOBAZLUShNljNIv9aqV6" Ids="JKc51AaWJ3fOrGwgGjc83i,JEYyGzIJaGWNoCjRp0aTwT" />
+        <Link Id="H5KaajUL5q1O3TfEKhvd6o" Ids="CxKJTsM2zTLNKeHlzT2mFI,PC5sQBB0AtZOCRx5HVZ68J" />
+        <Link Id="L5lwnIxdF7CN33meLdju4T" Ids="VNdQ9FvKM5PMuJg75lwMf3,ReRj8czFJQ2NdPhMVozoIZ" />
+        <Link Id="LRXtTLAPvt3LlVMA6GrTvN" Ids="CNaT5MlWJZuQa5wcDF1j9v,JDseixeL6e3Lu2qm3uwIDP" />
+        <Link Id="DN9K7eJAInkNzyxwUIPe6I" Ids="OSMQVNWsl17NwAGmd2bQhZ,AabrpS9k9ZXLtHBpViAI0T" />
+        <Link Id="RaX360LCGQ0P85MZCckc2H" Ids="G4VcRyfqlMuOqPojS8Kbp2,B4bXJr39BiaPqJIWxAS8rQ" />
+        <Link Id="RoBRMj23BGMOoMBcTjsnTn" Ids="CLAGPw8aQeRMScp28oUjQy,JEYyGzIJaGWNoCjRp0aTwT" />
+        <Link Id="QlCHLrTesWrMywCt5thBAL" Ids="CqPdaoZI8hNLOSwnBTiR07,RNdr2IXjlu1MUf8qVdIZht" />
+        <Slot Id="TXhxumii95vOxiSpLsmRsY" Name="Tag" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="FCk7DSMGPWvMttrrQdTxXI" Location="VL.Audio" Version="1.4.2-preview" />
-  <NugetDependency Id="MGWjEkDCs7sNDQFmWu5p1g" Location="VL.Interpolator" Version="1.0.4" />
-  <NugetDependency Id="QL0rHyteLFMPzKjtEgRuLF" Location="VL.Video" Version="2024.6.0-0139-g74911af44e" />
-  <NugetDependency Id="HbulQguXnEGNHNCnEHvdKj" Location="VL.Stride" Version="2024.6.0-0139-g74911af44e" />
-  <NugetDependency Id="CfupJmkYCoMNzeudyTEOR3" Location="VL.Stride.TextureFX" Version="2024.6.0-0139-g74911af44e" />
+  <NugetDependency Id="MGWjEkDCs7sNDQFmWu5p1g" Location="VL.Interpolator" Version="1.0.7" />
+  <NugetDependency Id="QL0rHyteLFMPzKjtEgRuLF" Location="VL.Video" Version="2024.6.0-0156-g47917ea4e3" />
+  <NugetDependency Id="HbulQguXnEGNHNCnEHvdKj" Location="VL.Stride" Version="2024.6.0-0156-g47917ea4e3" />
+  <NugetDependency Id="CfupJmkYCoMNzeudyTEOR3" Location="VL.Stride.TextureFX" Version="2024.6.0-0156-g47917ea4e3" />
 </Document>

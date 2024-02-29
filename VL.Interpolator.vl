@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="GTNSk1e0MesOMfmvlMYF3S" LanguageVersion="2024.6.0-0156-g47917ea4e3" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="GTNSk1e0MesOMfmvlMYF3S" LanguageVersion="2024.6.0-0203-gf9bb287561" Version="0.128">
   <Patch Id="EAIIpcVCowFQTcz0KLQtUE">
     <Canvas Id="HsgcAMUqtVTNXLSvHJWTpN" DefaultCategory="Interpolator" CanvasType="FullCategory">
       <Canvas Id="QIfd52ShnGdL2SQeqFCih1" Name="Lerp" Position="199,279" CanvasType="Group">
@@ -496,6 +496,7 @@
               <Link Id="LSooTwQAs5CMFzLXBatu2P" Ids="OqHS1slWJPcOU0NiDlgIyC,M1lIKAfsjXeLY8tg4sEqwA" />
               <Link Id="OiVuQMN2HCLNpMeed5t5N8" Ids="PBrlX4kPHM0PhiXgg2IW3i,OqHS1slWJPcOU0NiDlgIyC" IsHidden="true" />
               <Link Id="FoY0LYG2CsjMIGEj4x1aMU" Ids="M2wlH2X19QkNxw0Deyrf6o,NWNg7HXQEiuLiMCX0DF7Dx" IsHidden="true" />
+              <Link Id="BDayPepmwdbMSyrFYBAT6E" Ids="NWNg7HXQEiuLiMCX0DF7Dx,OmhcY61uOONLOP6WAjCMJe" />
               <Patch Id="JuFbFTflvabNL4oUaqBdJu" Name="Create" />
               <Patch Id="RaychjR5vOGMrHxvVz8nPI" Name="Update">
                 <Pin Id="SdDUaV2C8p7MiaLn9PrnpA" Name="Source" Kind="InputPin" Bounds="757,379" />
@@ -504,35 +505,34 @@
                 <Pin Id="DT1y4aHkNAKOjNxIDmGaNW" Name="Input 2" Kind="InputPin" Bounds="1153,505" />
                 <Pin Id="ILfk5OVcXUgM69H710ACou" Name="Scalar" Kind="InputPin" Bounds="1317,389" />
                 <Pin Id="M2wlH2X19QkNxw0Deyrf6o" Name="InterpolEnable" Kind="InputPin" Bounds="1159,465" />
-                <Pin Id="O85moohImxIMIWKssJoRIq" Name="FloatInterpol" Kind="InputPin" Bounds="609,183" DefaultValue="True" Visibility="Optional" />
-                <Pin Id="LgDUXxFB6nDMqgnJ7fabdc" Name="IntegerInterpol" Kind="InputPin" Bounds="517,271" DefaultValue="True" Visibility="Optional" />
-                <Pin Id="NgdY0YIvpKsL4kLLsLuvHR" Name="StringInterpol" Kind="InputPin" Bounds="547,285" DefaultValue="True" Visibility="Optional" />
-                <Pin Id="UMilAzgVUfANR8oAq365h8" Name="Vector2Interpol" Kind="InputPin" Bounds="646,249" DefaultValue="True" Visibility="Optional" />
-                <Pin Id="K6Ze5GhIyNGMWie2z618ZJ" Name="Vector3Interpol" Kind="InputPin" Bounds="656,274" DefaultValue="True" Visibility="Optional" />
-                <Pin Id="A8eCJYp172hLkFC1gTjZA0" Name="Vector4Interpol" Kind="InputPin" Bounds="663,299" DefaultValue="True" Visibility="Optional" />
-                <Pin Id="V8j0gA4CEoVNOZdBpVB7hU" Name="RGBAInterpol" Kind="InputPin" Bounds="673,321" DefaultValue="True" Visibility="Optional" />
-                <Pin Id="N0cwO1brmavMRIYpm1Naql" Name="MatrixInterpol" Kind="InputPin" Bounds="1367,617" DefaultValue="Interpole" Visibility="Optional" />
-                <Pin Id="LVIB1yR8zPsQKH9YsxYmPp" Name="QuaternionInterpol" Kind="InputPin" Bounds="1382,639" DefaultValue="Interpole" Visibility="Optional" />
-                <Pin Id="OovVvwOMdAVOkxgfOYHKFq" Name="BooleanInterpol" Kind="InputPin" Bounds="1394,662" DefaultValue="Switch" Visibility="Optional" />
+                <Pin Id="O85moohImxIMIWKssJoRIq" Name="FloatInterpol" Kind="InputPin" Bounds="609,183" DefaultValue="True" />
+                <Pin Id="LgDUXxFB6nDMqgnJ7fabdc" Name="IntegerInterpol" Kind="InputPin" Bounds="517,271" DefaultValue="True" />
+                <Pin Id="NgdY0YIvpKsL4kLLsLuvHR" Name="StringInterpol" Kind="InputPin" Bounds="547,285" DefaultValue="True" />
+                <Pin Id="UMilAzgVUfANR8oAq365h8" Name="Vector2Interpol" Kind="InputPin" Bounds="646,249" DefaultValue="True" />
+                <Pin Id="K6Ze5GhIyNGMWie2z618ZJ" Name="Vector3Interpol" Kind="InputPin" Bounds="656,274" DefaultValue="True" />
+                <Pin Id="A8eCJYp172hLkFC1gTjZA0" Name="Vector4Interpol" Kind="InputPin" Bounds="663,299" DefaultValue="True" />
+                <Pin Id="V8j0gA4CEoVNOZdBpVB7hU" Name="RGBAInterpol" Kind="InputPin" Bounds="673,321" DefaultValue="True" />
+                <Pin Id="N0cwO1brmavMRIYpm1Naql" Name="MatrixInterpol" Kind="InputPin" Bounds="1367,617" DefaultValue="Interpole" />
+                <Pin Id="LVIB1yR8zPsQKH9YsxYmPp" Name="QuaternionInterpol" Kind="InputPin" Bounds="1382,639" DefaultValue="Interpole" />
+                <Pin Id="OovVvwOMdAVOkxgfOYHKFq" Name="BooleanInterpol" Kind="InputPin" Bounds="1394,662" />
                 <Pin Id="OtjeeDNicpOL473vriAg2w" Name="SpreadCountInterpol" Kind="InputPin" Bounds="1409,680" DefaultValue="Interpole" />
-                <Pin Id="R5PkCSek0vPLoXAnHYMQ2k" Name="BreakPointFloat" Kind="InputPin" Bounds="850,179" Visibility="Optional" />
-                <Pin Id="NQkmq7bgkgnN6W9BqbgSR7" Name="BreakPointInteger" Kind="InputPin" Bounds="1132,237" Visibility="Optional" />
-                <Pin Id="DJvmMR1kvvSOx4ar45dbw2" Name="BreakPointString" Kind="InputPin" Bounds="1259,233" Visibility="Optional" />
-                <Pin Id="IhZR0EmEdbIQdDHgGO1cij" Name="BreakPointVector2" Kind="InputPin" Bounds="879,246" Visibility="Optional" />
-                <Pin Id="JApD59ZqH5DOXx3f1Uu5ts" Name="BreakPointVector3" Kind="InputPin" Bounds="883,266" Visibility="Optional" />
+                <Pin Id="R5PkCSek0vPLoXAnHYMQ2k" Name="BreakPointFloat" Kind="InputPin" Bounds="850,179" />
+                <Pin Id="NQkmq7bgkgnN6W9BqbgSR7" Name="BreakPointInteger" Kind="InputPin" Bounds="1132,237" />
+                <Pin Id="DJvmMR1kvvSOx4ar45dbw2" Name="BreakPointString" Kind="InputPin" Bounds="1259,233" />
+                <Pin Id="IhZR0EmEdbIQdDHgGO1cij" Name="BreakPointVector2" Kind="InputPin" Bounds="879,246" />
+                <Pin Id="JApD59ZqH5DOXx3f1Uu5ts" Name="BreakPointVector3" Kind="InputPin" Bounds="883,266" />
                 <Pin Id="T8CP0Ww0zzIMqbTg4pfhNc" Name="BreakPointVector4" Kind="InputPin" Bounds="885,287" />
-                <Pin Id="SuCWTWDLbEFM7nvFKJ3QmZ" Name="BreakPointRGBA" Kind="InputPin" Bounds="898,306" Visibility="Optional" />
+                <Pin Id="SuCWTWDLbEFM7nvFKJ3QmZ" Name="BreakPointRGBA" Kind="InputPin" Bounds="898,306" />
                 <Pin Id="Rw9Jx70lM8WPbDTaLbSzW2" Name="BreakPointMatrix" Kind="InputPin" Bounds="1765,624" />
                 <Pin Id="ENwxtu7aNVbPa1RwJv6F2z" Name="BreakPointQuaternion" Kind="InputPin" Bounds="1780,640" />
-                <Pin Id="OaZZaWLuLGmNeRXGi3kicI" Name="BreakPointBoolean" Kind="InputPin" Bounds="1015,238" Visibility="Optional" />
-                <Pin Id="Nnwa0v4NMYVOg5HUnuQsDS" Name="BreakPointPath" Kind="InputPin" Bounds="576,312" Visibility="Optional" />
+                <Pin Id="OaZZaWLuLGmNeRXGi3kicI" Name="BreakPointBoolean" Kind="InputPin" Bounds="1015,238" />
+                <Pin Id="Nnwa0v4NMYVOg5HUnuQsDS" Name="BreakPointPath" Kind="InputPin" Bounds="576,312" />
                 <Pin Id="PBrlX4kPHM0PhiXgg2IW3i" Name="BreakPointSpreadCount" Kind="InputPin" Bounds="1752,813" />
-                <Pin Id="CUcpiiyVIQWMds8cfpn0ae" Name="BreakPointGeneric" Kind="InputPin" Bounds="498,258" Visibility="Optional" />
+                <Pin Id="CUcpiiyVIQWMds8cfpn0ae" Name="BreakPointGeneric" Kind="InputPin" Bounds="498,258" />
                 <Pin Id="SZS5kqW9ZEsMv7zbLTSfPQ" Name="Is Record" Kind="OutputPin" Bounds="637,1009" />
                 <Pin Id="Opi6gm5Ft5dMBEfQ7cPR6t" Name="Output" Kind="OutputPin" Bounds="794,1018" />
                 <Pin Id="MJA2KGUZymVQYcS3YtOr0k" Name="Success" Kind="OutputPin" Bounds="959,720" />
               </Patch>
-              <Link Id="BDayPepmwdbMSyrFYBAT6E" Ids="NWNg7HXQEiuLiMCX0DF7Dx,OmhcY61uOONLOP6WAjCMJe" />
             </Patch>
           </Node>
           <!--
@@ -7177,7 +7177,6 @@
                   <ControlPoint Id="CaYIP7ssD7yLy0Pgekmoxx" Bounds="797,237" />
                   <ControlPoint Id="MLoGIl9zppgO6oLBLDL6Lh" Bounds="812,256" />
                   <ControlPoint Id="VCkmmIAwsKlQAXYdAd6E11" Bounds="827,275" />
-                  <ControlPoint Id="TZKo94CCnN6Ogo5pUzYkrH" Bounds="842,294" />
                   <ControlPoint Id="OEV5GzfDvx6OD0Iye5L7qV" Bounds="1030,110" />
                   <ControlPoint Id="POp325QNJfxQOHKIpAX9it" Bounds="1045,129" />
                   <ControlPoint Id="NZQduDyZJAoQQDO2dTnlTN" Bounds="1060,148" />
@@ -7203,6 +7202,7 @@
                   <ControlPoint Id="T2p42iRP8OaQRQQolBc6kL" Bounds="857,313" />
                   <ControlPoint Id="BofxZyhrAMrM4jrEBRgxc8" Bounds="1195,319" />
                   <ControlPoint Id="D1MbVXEKaphPIiKlCHY5FX" Bounds="463,307" />
+                  <ControlPoint Id="JtHtlv4BQboLxr1VTBTIn1" Bounds="839,293" />
                 </Canvas>
                 <ProcessDefinition Id="JDjpTohpR5zNoX0Gwf9Y9G">
                   <Fragment Id="K8qWwzYtYmCQN8PhoIGdCP" Patch="AtBKy5y0RVVLwcWiSNQT21" Enabled="true" />
@@ -7270,9 +7270,6 @@
                 <Link Id="GHWzdXk1m2lL8gDdNZQ855" Ids="VCkmmIAwsKlQAXYdAd6E11,KM0wcWstD8iNLMw9spOSzt" />
                 <Link Id="QWDlZOJhxYuLTCqv7NMKVj" Ids="LVdjDDIQXIjOXL1N95eXVX,VCkmmIAwsKlQAXYdAd6E11" IsHidden="true" />
                 <Link Id="COwPoED4geWP6mLJc02cJj" Ids="VCkmmIAwsKlQAXYdAd6E11,JC5ex3IDm9bQAYZzfL9fyj" />
-                <Link Id="UF0zAxQ8duxPv713uBfyU6" Ids="TZKo94CCnN6Ogo5pUzYkrH,S5cmJPAChnCLiviCO9kHNt" />
-                <Link Id="BCb9Ovk0ntEMvP8a3UjR9f" Ids="PXV1r2bt7bRLqb2DsPbbkz,TZKo94CCnN6Ogo5pUzYkrH" IsHidden="true" />
-                <Link Id="BHdjNgsVYAXPuVVCbeZoKN" Ids="TZKo94CCnN6Ogo5pUzYkrH,QmXXU6VCe7KMvsxzchOzhf" />
                 <Link Id="PgKFeun8QhzQOaIAZMwKml" Ids="OEV5GzfDvx6OD0Iye5L7qV,CUThF0qw41uP7eSfaD8N2t" />
                 <Link Id="PRab7J9BkwqLPieI2Mh6Iy" Ids="F2WkpirNWjpNP65spuPrwa,OEV5GzfDvx6OD0Iye5L7qV" IsHidden="true" />
                 <Link Id="Cush2vTGGhPN5T9iNt5ll5" Ids="OEV5GzfDvx6OD0Iye5L7qV,HdeqATIdUkPOT6jH01hG2t" />
@@ -7322,6 +7319,8 @@
                 <Link Id="JLPIM06Cnv7NlDfNrvQZqd" Ids="D1MbVXEKaphPIiKlCHY5FX,QLbDuPftz5HPi3OHOdk5JC" />
                 <Link Id="P2HwZmTHFC4MTOd4HqWFm3" Ids="TFoXzZNWjzeMimUiDIkYix,D1MbVXEKaphPIiKlCHY5FX" IsHidden="true" />
                 <Link Id="DFwrtFmYRFRP9qj9kVMoUr" Ids="D1MbVXEKaphPIiKlCHY5FX,CUS1UrADiHDLnNNt6EIrh5" />
+                <Link Id="NNKi1IPj4ywP0QrLtxB32s" Ids="JtHtlv4BQboLxr1VTBTIn1,S5cmJPAChnCLiviCO9kHNt" />
+                <Link Id="AZyr21eLVAFNydlCHIZr9q" Ids="Fj4t16DPknLPGnqSueekn7,JtHtlv4BQboLxr1VTBTIn1" IsHidden="true" />
                 <Patch Id="AtBKy5y0RVVLwcWiSNQT21" Name="Create" />
                 <Patch Id="S5wnmit7ugYNDW7h7k6NzG" Name="Update">
                   <Pin Id="OOhCa06OwFfPIWO4UXRFUw" Name="Enable" Kind="InputPin" Bounds="-119,1193" />
@@ -7342,7 +7341,7 @@
                   <Pin Id="AlPjp09rF7xND3C6tZi8sx" Name="RGBAInterpol" Kind="InputPin" Bounds="3765,514" />
                   <Pin Id="CvJTTHOoMplMD6cngyFwcy" Name="MatrixInterpol" Kind="InputPin" Bounds="3797,545" />
                   <Pin Id="LVdjDDIQXIjOXL1N95eXVX" Name="QuaternionInterpol" Kind="InputPin" Bounds="3847,512" />
-                  <Pin Id="PXV1r2bt7bRLqb2DsPbbkz" Name="BooleanInterpol" Kind="InputPin" Bounds="3884,542" />
+                  <Pin Id="Fj4t16DPknLPGnqSueekn7" Name="BooleanInterpol" Kind="InputPin" />
                   <Pin Id="BmucVMeAViZL173kMz7Bke" Name="SpreadCountInterpol" Kind="InputPin" Bounds="1059,245" />
                   <Pin Id="F2WkpirNWjpNP65spuPrwa" Name="BreakPointFloat" Kind="InputPin" Bounds="3958,513" />
                   <Pin Id="B61U1XsqzTOMONJ9xJSqus" Name="BreakPointInteger" Kind="InputPin" Bounds="3976,540" />
@@ -8790,6 +8789,7 @@
               <Link Id="QFxoYVaxux7QNvywzJMkgq" Ids="UAN6fbIAm5GOUTYKQpNCvc,DzOxegjrk9aOY2qksktCxA" />
               <Link Id="RoBAZIwtNA0NeMjaO3WW3i" Ids="UAN6fbIAm5GOUTYKQpNCvc,TBM1QsFkFY4Pq6vVhKkuB0" />
               <Link Id="OcIoof302a2MnMzfywUB4Y" Ids="UAN6fbIAm5GOUTYKQpNCvc,Qij16uW0TpHOS8rFZtbY43" />
+              <Link Id="RRu2nJMmefbQIabJp4JSJW" Ids="Bk2QkcXOiJOOxH0z481maF,BfM9m1Mxe2oMTK38bQdwhM" />
             </Patch>
           </Node>
           <!--
@@ -8923,7 +8923,7 @@
                     <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                   </p:ValueBoxSettings>
                 </Pad>
-                <Node Bounds="249,628,585,19" AutoConnect="true" Id="H66P0elpVdrMsUCxy9HrxE">
+                <Node Bounds="249,628,585,19" Id="H66P0elpVdrMsUCxy9HrxE">
                   <p:NodeReference LastCategoryFullName="Interpolator" LastDependency="VL.Interpolator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="Lerp (Spread)" />
@@ -8961,7 +8961,7 @@
                   <Pin Id="PvU12E5XFknOLo1JB7qizt" Name="BreakPointGeneric" Kind="InputPin" />
                   <Pin Id="BPl3jt35UbgLonEBbZofsl" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="289,527,525,19" AutoConnect="true" Id="T9XWMgdPN4qP2ZHjaaoNIG">
+                <Node Bounds="289,527,525,19" Id="T9XWMgdPN4qP2ZHjaaoNIG">
                   <p:NodeReference LastCategoryFullName="Interpolator" LastDependency="VL.Interpolator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="Lerp (CommonTypes)" />
@@ -9002,6 +9002,30 @@
                 <ControlPoint Id="DVaaOIBnba2PQ2jpG7hxUl" Bounds="415,205" />
                 <ControlPoint Id="DjYuaVVifoCQdlDwxEHaCZ" Bounds="415,477" />
                 <ControlPoint Id="Owyr4XE09tvOAjKnfbbHmj" Bounds="415,579" />
+                <ControlPoint Id="N6RF5AMQ2WbPnNvSxC4iVG" Bounds="504,203" />
+                <ControlPoint Id="BbWXiOosbvWMvRwruygt4N" Bounds="519,228" />
+                <ControlPoint Id="EIotYVLGrZzLdxA9Oujoky" Bounds="534,253" />
+                <ControlPoint Id="NU4xmVeI7JnPn1AWw2MP6N" Bounds="549,278" />
+                <ControlPoint Id="Fhc98NLhjuOQGFd0BDdghP" Bounds="564,303" />
+                <ControlPoint Id="THZriL3aV0iMw6kuoT0qlP" Bounds="579,328" />
+                <ControlPoint Id="MUXUNEMVN2iQM86pmGuTxj" Bounds="594,353" />
+                <ControlPoint Id="LtFDfcDpQqvNIMr1TDc1Y5" Bounds="609,378" />
+                <ControlPoint Id="DVeMAI2FHUfMtNxJdYM5vY" Bounds="624,403" />
+                <ControlPoint Id="G758x1dvbP7OUmnc5eMcRY" Bounds="639,428" />
+                <ControlPoint Id="KbFo3KgqdsCOr97bdR0Tgk" Bounds="654,453" />
+                <ControlPoint Id="NESca3F4grvM7sYAIiQkwE" Bounds="798,218" />
+                <ControlPoint Id="DM7sb8rJ0kaNfXwuL55Ecm" Bounds="813,242" />
+                <ControlPoint Id="LRoUOhbk6adNBWtC9mvgKL" Bounds="828,266" />
+                <ControlPoint Id="FgPCi2MPLMwPaJ0h8prKWb" Bounds="843,290" />
+                <ControlPoint Id="IAy8UtAptewLHd3RZO4kip" Bounds="858,314" />
+                <ControlPoint Id="FmmM1w0JGIBLp9udzilAwD" Bounds="873,338" />
+                <ControlPoint Id="PHXmTCV00eDOPjQaAcjw5H" Bounds="888,362" />
+                <ControlPoint Id="RW8MWnHaJDkMDvdPXsyDUk" Bounds="783,194" />
+                <ControlPoint Id="QafK8ejsCRXLEtgdeDl1Ks" Bounds="903,386" />
+                <ControlPoint Id="FfKxkEVxpw1MSONoiTG4WT" Bounds="918,410" />
+                <ControlPoint Id="BSjn7fBFm3WNZWVQE16H6o" Bounds="933,434" />
+                <ControlPoint Id="DtFUssm59qUQMfww4CP13Z" Bounds="948,458" />
+                <ControlPoint Id="PR9jMx029elOMd8PCYWHmn" Bounds="963,482" />
               </Canvas>
               <ProcessDefinition Id="FxOPhpallv0LlgsxGVYdmG">
                 <Fragment Id="JXyV596QjvgLuy4y1aC7ov" Patch="PPeSGQHGJzJQRBgkUxnRdO" Enabled="true" />
@@ -9040,36 +9064,106 @@
               <Link Id="NSBNv3HLK0RLEgFAy3rAcM" Ids="DVaaOIBnba2PQ2jpG7hxUl,DjYuaVVifoCQdlDwxEHaCZ,NWUx9FZxm3zP4l5yUikEF1" />
               <Link Id="DHXVBzl8BasPvn6Do2Bh2y" Ids="S2466kwCuXNN1rANziI8UN,DVaaOIBnba2PQ2jpG7hxUl" IsHidden="true" />
               <Link Id="V3x2TsrCWMoLjTbi0bRjuT" Ids="DVaaOIBnba2PQ2jpG7hxUl,Owyr4XE09tvOAjKnfbbHmj,A7F3W6WlX91Lb5UQRIVH7H" />
+              <Link Id="HYAvt23ZKjCL4bdBMbG0Bv" Ids="N6RF5AMQ2WbPnNvSxC4iVG,IDiN9HmDSgXPgRcnkuXDq8" />
+              <Link Id="NqUU7PCTvlyLlcoSFwtnzu" Ids="BliGU0kiWuaLhpKj2D4xti,N6RF5AMQ2WbPnNvSxC4iVG" IsHidden="true" />
+              <Link Id="I1neEm4MBH5PjN93lh9B3k" Ids="N6RF5AMQ2WbPnNvSxC4iVG,QWu5Cv5H1lFQUNipXUbQFW" />
+              <Link Id="NlKhnau6VHvO74119oA3tb" Ids="BbWXiOosbvWMvRwruygt4N,LJKQKVBYwWFLZO6mZ0R20B" />
+              <Link Id="PJO10vZmi8zPPqGoIPfAgf" Ids="QqODwPtCnV0OJ3tcTWpkdX,BbWXiOosbvWMvRwruygt4N" IsHidden="true" />
+              <Link Id="PtV3WYldMftL21Ovqz7lcC" Ids="BbWXiOosbvWMvRwruygt4N,KFqoRX0mmiFQXXuhmAFWkd" />
+              <Link Id="TbFWqXvYicjP4n5EXMkPZ1" Ids="EIotYVLGrZzLdxA9Oujoky,VIAv6WBFDIrQIn0FiVTV1K" />
+              <Link Id="HuVr49HzdRCO6AV5xuuKgL" Ids="Car23q19eQGOnjyL9A9WAU,EIotYVLGrZzLdxA9Oujoky" IsHidden="true" />
+              <Link Id="R08A5I7DCWVL52VMT5ojPM" Ids="EIotYVLGrZzLdxA9Oujoky,SmMXNWXtY5UM46sx82EB52" />
+              <Link Id="Afxy4aZ040kPdiCOaJ0HWq" Ids="NU4xmVeI7JnPn1AWw2MP6N,GZQ3IItB8MtPAjOs3BbbhC" />
+              <Link Id="UpfEExxeNMpNxlQmN9i4h6" Ids="BW1GoELTygkObnd9jCU8ma,NU4xmVeI7JnPn1AWw2MP6N" IsHidden="true" />
+              <Link Id="IYvaM0JgWHsM9o2V8gORCx" Ids="NU4xmVeI7JnPn1AWw2MP6N,FhyMfXiW7AJOql62J8ty62" />
+              <Link Id="K4fovBfNCAfQZQS325gpny" Ids="Fhc98NLhjuOQGFd0BDdghP,CBLy7EvAT5BMMwHhyqhZhb" />
+              <Link Id="PcLWe6cN1gcOFrnQ4bxBvb" Ids="NCTj6kwX9W8LtsxkwAslvx,Fhc98NLhjuOQGFd0BDdghP" IsHidden="true" />
+              <Link Id="SEGmG19U5JgMORiNdjdIZW" Ids="Fhc98NLhjuOQGFd0BDdghP,MxfchUswk0YNwwan227QYS" />
+              <Link Id="SYc8QaAih16LtRw0lwntHI" Ids="THZriL3aV0iMw6kuoT0qlP,NI7BkcIKLpCOF85tysWqXD" />
+              <Link Id="QlgcknyNVVLNTQj2K8kswg" Ids="KMQ3kgBMUcGMPoGmAbORRk,THZriL3aV0iMw6kuoT0qlP" IsHidden="true" />
+              <Link Id="GWcF8o2GghcLCXUSc3AuM4" Ids="THZriL3aV0iMw6kuoT0qlP,HkLbuuPhveZN4t85hSVZ8f" />
+              <Link Id="PNhYC7v1m66OFY5JFRmdBb" Ids="MUXUNEMVN2iQM86pmGuTxj,L2ZLMoSxrKVLDJ0RKm8yLg" />
+              <Link Id="VxmIiKMg8WDLdCuCuH2vyt" Ids="McaTDztTj0EQFs6ttEloJA,MUXUNEMVN2iQM86pmGuTxj" IsHidden="true" />
+              <Link Id="EHtjlCi8wsaLZ68kA6H7Vl" Ids="MUXUNEMVN2iQM86pmGuTxj,NUM6ESMWmP8MUVqQjkA1GR" />
+              <Link Id="KaWDtWx7162O6rzHGbrMuN" Ids="LtFDfcDpQqvNIMr1TDc1Y5,SH4aJSGt2SVPHhiFRe5bXF" />
+              <Link Id="Tf2pxGBBwSlO6nQObJiMPY" Ids="QZAcR2sEUcSLyNA5xW1KpT,LtFDfcDpQqvNIMr1TDc1Y5" IsHidden="true" />
+              <Link Id="SMbbSwvL303LAwJTTKCzEL" Ids="LtFDfcDpQqvNIMr1TDc1Y5,IO69qHaUakHNJJQYgJ6l5a" />
+              <Link Id="LBw9ioqdpYUMTWvKY6zp2N" Ids="DVeMAI2FHUfMtNxJdYM5vY,MIhRCCzriEuM1MQIKWpWjD" />
+              <Link Id="GHSZfZBVPfDOjlk8CxCT0K" Ids="F3uwwL5l7aMNfnRiSS4Y4q,DVeMAI2FHUfMtNxJdYM5vY" IsHidden="true" />
+              <Link Id="OEI41ddMszzQYn9LOkGU3I" Ids="DVeMAI2FHUfMtNxJdYM5vY,RKJpcpuRM7QLOwAwMEy4cu" />
+              <Link Id="KjSe3jjDqhjM7japxBB0Rp" Ids="G758x1dvbP7OUmnc5eMcRY,HZN3oJgyFBqOKdLAncsNi3" />
+              <Link Id="TKJ7DfD0NlyL6iiLIaR8ym" Ids="G24uZzo0fhRNmF2uDRaOF6,G758x1dvbP7OUmnc5eMcRY" IsHidden="true" />
+              <Link Id="To4QNOmlh19LgWvUY22h11" Ids="G758x1dvbP7OUmnc5eMcRY,RoEDrYVzgHcMLIkXtKzT4h" />
+              <Link Id="U0c0N3MNLBpPrPFQHqXeNn" Ids="KbFo3KgqdsCOr97bdR0Tgk,ImMyL8xFcbiMmLeefnpRPW" />
+              <Link Id="ULbKRW4a5E0L9JXx9qUn5L" Ids="T1VP5WQ45VPMtbaOR1VhoL,KbFo3KgqdsCOr97bdR0Tgk" IsHidden="true" />
+              <Link Id="Hmn8hIZ5GlqOuEzoOIVu25" Ids="NESca3F4grvM7sYAIiQkwE,D8oDtNuXUoEM6a237OdAw4" />
+              <Link Id="IlwKRHXRjByL047DC8a1g5" Ids="EeWn0EYzu8iOBJUZo3LJb2,NESca3F4grvM7sYAIiQkwE" IsHidden="true" />
+              <Link Id="QF8dpIui3DfPmvaj7d9szt" Ids="DM7sb8rJ0kaNfXwuL55Ecm,DrNowEiahUjQaoMiyq6n7T" />
+              <Link Id="M5UCxSYs1WELp3gOcqam9f" Ids="GlThKIxQ29dLTVa9NAo1hu,DM7sb8rJ0kaNfXwuL55Ecm" IsHidden="true" />
+              <Link Id="MuMFRpFXCIePrq3MrY5K5n" Ids="LRoUOhbk6adNBWtC9mvgKL,MwOpYkOqvpOLqNzEeYth0D" />
+              <Link Id="QQReLLddrBdP5lmUodDlcN" Ids="CtMGtygfIhkLIw63wGgq4r,LRoUOhbk6adNBWtC9mvgKL" IsHidden="true" />
+              <Link Id="RDQ7IUWwMRcPgieguwPv4k" Ids="FgPCi2MPLMwPaJ0h8prKWb,UDVZqPOufd4Ne3Zx4j3pbo" />
+              <Link Id="SMnysp00zpLOHrfWFyPn5u" Ids="NM9S38qVKDpNDMhqO09TyZ,FgPCi2MPLMwPaJ0h8prKWb" IsHidden="true" />
+              <Link Id="C1bVirlqr5rQWQT4tN7ulM" Ids="IAy8UtAptewLHd3RZO4kip,RKDuU6F00tlNNuX9CJtTAw" />
+              <Link Id="IimFUHVS4lSPp1Snn1ghBl" Ids="VVHGwyxz4AqLbWAKPEtETR,IAy8UtAptewLHd3RZO4kip" IsHidden="true" />
+              <Link Id="Vmj63oPAQJqLC5KK0cNmd0" Ids="FmmM1w0JGIBLp9udzilAwD,TE7UoSxba9pPZGTfx3oX7n" />
+              <Link Id="HEBfs16t6BENmGOtfTyx9A" Ids="OjGyCrDCNwwO9Jg9KeX2wD,FmmM1w0JGIBLp9udzilAwD" IsHidden="true" />
+              <Link Id="SQK2Eqpg9hMNiu79mzEm2p" Ids="FmmM1w0JGIBLp9udzilAwD,IsGX0VlHzOZMIcQGLWdX29" />
+              <Link Id="OazDDAPsj1YQdI14sLabMW" Ids="PHXmTCV00eDOPjQaAcjw5H,FbcqSpxFIQEN8LcE2ZSlyh" />
+              <Link Id="V662IrbvPAzMGnzKmDmXZI" Ids="OH61kWlXqJVLC9R7CdI0TH,PHXmTCV00eDOPjQaAcjw5H" IsHidden="true" />
+              <Link Id="FbkRz36zHLeOJM49O5kxuu" Ids="PHXmTCV00eDOPjQaAcjw5H,RLX6GCf5LXiOgnOQK5yZvq" />
+              <Link Id="RWkGAdQDVbbL3tOUDYfyFq" Ids="IAy8UtAptewLHd3RZO4kip,EySuWbp4lPlNy1BIzDhDDV" />
+              <Link Id="TvmHyi4SvxEQH2F8ATAfwq" Ids="FgPCi2MPLMwPaJ0h8prKWb,TZXofy2V3dyPqqFkNrUs3W" />
+              <Link Id="LmBibUggpvIP6ir8n6ilac" Ids="LRoUOhbk6adNBWtC9mvgKL,H59sJJ69wCuQWUt87GI10i" />
+              <Link Id="KwstxqyZSRFMBaQdQYI21x" Ids="DM7sb8rJ0kaNfXwuL55Ecm,QasmqAzh5XqNuGCksL6En5" />
+              <Link Id="BlV9LuIDn4zQNOiPHlqFgy" Ids="NESca3F4grvM7sYAIiQkwE,M71YSrIXw0HOMFEpAogV5W" />
+              <Link Id="MHnZKOm9OibM0j8ghdUe6B" Ids="RW8MWnHaJDkMDvdPXsyDUk,DdKOd1YsdInMSVXrhv7PTD" />
+              <Link Id="NJqaju9bGd0O8JXfXnBzRo" Ids="DbhzZYFNucbOZjk8y92mKC,RW8MWnHaJDkMDvdPXsyDUk" IsHidden="true" />
+              <Link Id="DlJTEFUhVkkMdqg6iPCnIo" Ids="RW8MWnHaJDkMDvdPXsyDUk,KxaS5JkkrqoM56yYMtvWnC" />
+              <Link Id="TJwNKiqO8N8LKtvKpgzOZh" Ids="QafK8ejsCRXLEtgdeDl1Ks,UGY7tbrj7itNVlJnukEON8" />
+              <Link Id="V4lHz7OuxVZLNUf5o324rc" Ids="H7mkPDU6wXqP1TJdyLQDzd,QafK8ejsCRXLEtgdeDl1Ks" IsHidden="true" />
+              <Link Id="TdODvp2zFiRLzKXFT8OYGd" Ids="QafK8ejsCRXLEtgdeDl1Ks,MFXFWV3BtLaP2ad56nhgtA" />
+              <Link Id="NzoZ5CdSvHdM3MAo4Y2ctG" Ids="FfKxkEVxpw1MSONoiTG4WT,JYSvIl3j5l2OqSeI8nAygk" />
+              <Link Id="IcWvQiW1oPKOtnpAzDFCKR" Ids="MZhfOm9sc2aMV7H9AlctTQ,FfKxkEVxpw1MSONoiTG4WT" IsHidden="true" />
+              <Link Id="DIThovzMrAoOHC3sXTMZDn" Ids="FfKxkEVxpw1MSONoiTG4WT,OMdagzjnE0MN4A21uWdd8X" />
+              <Link Id="Ujl9IRtiCRCLQSrpGs3hrz" Ids="BSjn7fBFm3WNZWVQE16H6o,Py4TCc6QHGYPER3Du9TPrX" />
+              <Link Id="OZQVt0brpY0Nwsu3QUbnL8" Ids="Fg0ShJ7qa7OLt7874vNdO8,BSjn7fBFm3WNZWVQE16H6o" IsHidden="true" />
+              <Link Id="BdpM2WCUtaCNONxyKAzrtU" Ids="BSjn7fBFm3WNZWVQE16H6o,IELchduwYggOt6xMEUmXwt" />
+              <Link Id="LCNEJPLOKKWL972aul3DjT" Ids="DtFUssm59qUQMfww4CP13Z,CGyIuHxCRJ7PaCB3BXRIs2" />
+              <Link Id="Bl5ik3xICupPY1TyLzmurw" Ids="G44QXpbykpGNIkco6V8tof,DtFUssm59qUQMfww4CP13Z" IsHidden="true" />
+              <Link Id="Q5hjNfFGTpINW778yzmBKv" Ids="PR9jMx029elOMd8PCYWHmn,PvU12E5XFknOLo1JB7qizt" />
+              <Link Id="SoELYajwUpgMPyp1GsdVju" Ids="KYL4lTsjD0ZMVSDRf1bQpt,PR9jMx029elOMd8PCYWHmn" IsHidden="true" />
+              <Link Id="Eh33O7HvH8KO4QqzGVSurd" Ids="PR9jMx029elOMd8PCYWHmn,PKFlDeW5R1SOBHsgnBax9g" />
               <Patch Id="PPeSGQHGJzJQRBgkUxnRdO" Name="Create" />
-              <Patch Id="P8trOHdXJs8OdNK7nFvuAk" Name="Update" ManuallySortedPins="true">
+              <Patch Id="P8trOHdXJs8OdNK7nFvuAk" Name="Update">
                 <Pin Id="Tc2e00CVCRoNKbCJWx7cLg" Name="Input" Kind="InputPin" />
                 <Pin Id="NgSviKTaCltMPrO64We38j" Name="Input 2" Kind="InputPin" />
                 <Pin Id="DuQyP3V05T3LO2LGQmPBPl" Name="Scalar" Kind="InputPin" Bounds="437,255" />
                 <Pin Id="S2466kwCuXNN1rANziI8UN" Name="InterpolEnable" Kind="InputPin" Bounds="393,202" />
-                <Pin Id="V2mwgHr7XtHMYqttiamnZn" Name="FloatInterpol" Kind="InputPin" />
-                <Pin Id="GcJJydAss4HNE2z47JzRcB" Name="IntegerInterpol" Kind="InputPin" />
-                <Pin Id="RrePTGPGdbPPQhZsH7RicE" Name="StringInterpol" Kind="InputPin" />
-                <Pin Id="Vls1FDDUYpPPvmpqugLczf" Name="Vector2Interpol" Kind="InputPin" />
-                <Pin Id="Tsn3YI9BqigOtK6jIeVf1P" Name="Vector3Interpol" Kind="InputPin" />
-                <Pin Id="DLGFw45ptwsLJIxUVCZpwI" Name="Vector4Interpol" Kind="InputPin" />
-                <Pin Id="CwlstbrVAJvPs1ntCHhP9d" Name="RGBAInterpol" Kind="InputPin" />
-                <Pin Id="IhooGO9xWYUQM1aBEB3sHk" Name="MatrixInterpol" Kind="InputPin" />
-                <Pin Id="FXbGyBp98RyOK7AQzNgZOc" Name="QuaternionInterpol" Kind="InputPin" />
-                <Pin Id="CQzm4rUR02NORtjOGIMQFx" Name="BooleanInterpol" Kind="InputPin" />
-                <Pin Id="HQAeaRatKGZLE4vlAYQHtJ" Name="SpreadCountInterpol" Kind="InputPin" />
-                <Pin Id="JDaXeQ1O6asO6L1Vj3xGoj" Name="BreakPointFloat" Kind="InputPin" />
-                <Pin Id="JeUok8iICDoPlY7RXaki1U" Name="BreakPointInteger" Kind="InputPin" />
-                <Pin Id="BiwQVUeyvnMLgWymFzYQcM" Name="BreakPointString" Kind="InputPin" />
-                <Pin Id="AoZb1hK8rFBMdLP3ICYN7s" Name="BreakPointVector2" Kind="InputPin" />
-                <Pin Id="IM2E4uVYTyWPAoKe7UkfWb" Name="BreakPointVector3" Kind="InputPin" />
-                <Pin Id="PwsS5s4MtoAN76LsXG72mY" Name="BreakPointVector4" Kind="InputPin" />
-                <Pin Id="LBzrIUqatb1M9DSykypprZ" Name="BreakPointRGBA" Kind="InputPin" />
-                <Pin Id="UxATMXwcVA1L3cUVt9zr81" Name="BreakPointMatrix" Kind="InputPin" />
-                <Pin Id="SoWZFbOAcKsMJOKfZpAs9q" Name="BreakPointQuaternion" Kind="InputPin" />
-                <Pin Id="U0whUglUDY2P35bQlNW43C" Name="BreakPointBoolean" Kind="InputPin" />
-                <Pin Id="LfbzVmZzwfHPvRudTsgcMm" Name="BreakPointPath" Kind="InputPin" />
-                <Pin Id="VUVaMagVjbXP0lceXOpHCh" Name="BreakPointSpreadCount" Kind="InputPin" />
-                <Pin Id="MCMKfN2I2ZhOBuupaq3Nxl" Name="BreakPointGeneric" Kind="InputPin" />
+                <Pin Id="BliGU0kiWuaLhpKj2D4xti" Name="FloatInterpol" Kind="InputPin" />
+                <Pin Id="QqODwPtCnV0OJ3tcTWpkdX" Name="IntegerInterpol" Kind="InputPin" />
+                <Pin Id="Car23q19eQGOnjyL9A9WAU" Name="StringInterpol" Kind="InputPin" />
+                <Pin Id="BW1GoELTygkObnd9jCU8ma" Name="Vector2Interpol" Kind="InputPin" />
+                <Pin Id="NCTj6kwX9W8LtsxkwAslvx" Name="Vector3Interpol" Kind="InputPin" />
+                <Pin Id="KMQ3kgBMUcGMPoGmAbORRk" Name="Vector4Interpol" Kind="InputPin" />
+                <Pin Id="McaTDztTj0EQFs6ttEloJA" Name="RGBAInterpol" Kind="InputPin" />
+                <Pin Id="QZAcR2sEUcSLyNA5xW1KpT" Name="MatrixInterpol" Kind="InputPin" />
+                <Pin Id="F3uwwL5l7aMNfnRiSS4Y4q" Name="QuaternionInterpol" Kind="InputPin" />
+                <Pin Id="G24uZzo0fhRNmF2uDRaOF6" Name="BooleanInterpol" Kind="InputPin" />
+                <Pin Id="T1VP5WQ45VPMtbaOR1VhoL" Name="SpreadCountInterpol" Kind="InputPin" />
+                <Pin Id="DbhzZYFNucbOZjk8y92mKC" Name="BreakPointFloat" Kind="InputPin" />
+                <Pin Id="EeWn0EYzu8iOBJUZo3LJb2" Name="BreakPointInteger" Kind="InputPin" />
+                <Pin Id="GlThKIxQ29dLTVa9NAo1hu" Name="BreakPointString" Kind="InputPin" />
+                <Pin Id="CtMGtygfIhkLIw63wGgq4r" Name="BreakPointVector2" Kind="InputPin" />
+                <Pin Id="NM9S38qVKDpNDMhqO09TyZ" Name="BreakPointVector3" Kind="InputPin" />
+                <Pin Id="VVHGwyxz4AqLbWAKPEtETR" Name="BreakPointVector4" Kind="InputPin" />
+                <Pin Id="OjGyCrDCNwwO9Jg9KeX2wD" Name="BreakPointRGBA" Kind="InputPin" />
+                <Pin Id="OH61kWlXqJVLC9R7CdI0TH" Name="BreakPointMatrix" Kind="InputPin" />
+                <Pin Id="H7mkPDU6wXqP1TJdyLQDzd" Name="BreakPointQuaternion" Kind="InputPin" />
+                <Pin Id="MZhfOm9sc2aMV7H9AlctTQ" Name="BreakPointBoolean" Kind="InputPin" />
+                <Pin Id="Fg0ShJ7qa7OLt7874vNdO8" Name="BreakPointPath" Kind="InputPin" />
+                <Pin Id="G44QXpbykpGNIkco6V8tof" Name="BreakPointSpreadCount" Kind="InputPin" />
+                <Pin Id="KYL4lTsjD0ZMVSDRf1bQpt" Name="BreakPointGeneric" Kind="InputPin" />
                 <Pin Id="Me29Suh5pQ4PgXTLxYQSCe" Name="Output" Kind="OutputPin" Bounds="356,431" />
               </Patch>
             </Patch>
@@ -9705,6 +9799,7 @@
                     <ControlPoint Id="Vz2Hq43uNlhNkIL2sQWWYO" Bounds="441,860" Alignment="Top" />
                     <ControlPoint Id="QmdpH94xOKHLqe847DZuEF" Bounds="1211,860" Alignment="Top" />
                     <ControlPoint Id="R07P5esR5hzM0PgEyoBSU1" Bounds="1571,860" Alignment="Top" />
+                    <ControlPoint Id="SDehBrPraciLzvvNufsqqd" Bounds="878,860" Alignment="Top" />
                     <Patch Id="VigUaCOu5LQMTdZSdKvU2e" ManuallySortedPins="true">
                       <Patch Id="UHHfBhRjRSMPXadOz9EBqG" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="GrmkzwE6fr2Ormi8LYIOw9" Name="Then" ManuallySortedPins="true" />
@@ -10044,7 +10139,6 @@
                         </p:ValueBoxSettings>
                       </Pad>
                     </Patch>
-                    <ControlPoint Id="SDehBrPraciLzvvNufsqqd" Bounds="878,860" Alignment="Top" />
                   </Node>
                   <Node Bounds="712,811,50,26" Id="CYqRwwfCQ0OLSuxjw3mXRq">
                     <p:NodeReference LastCategoryFullName="System.Reflection.IVLObject" LastDependency="VL.CoreLib.vl">
@@ -10101,31 +10195,31 @@
                 <Pin Id="Ea8uz79qy4JOUyFa1eSkEv" Name="Input" Kind="StateInputPin" />
                 <Pin Id="LVwWaQbPal3P8snAGolqCc" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <ControlPoint Id="S09LXFsbaqqLNrHsnVmvTZ" Bounds="1726,433" />
+              <ControlPoint Id="S09LXFsbaqqLNrHsnVmvTZ" Bounds="1666,433" />
               <ControlPoint Id="MxBY8FVKYnZPRNAmrqU4pa" Bounds="1098,163" />
               <ControlPoint Id="AqRFm0boZYhPzt9JOUHwh1" Bounds="1113,185" />
-              <ControlPoint Id="FfstL5Q0qM7LXoJu2tLZYq" Bounds="1696,390" />
-              <ControlPoint Id="R7T2WpXZeHVNK3Sb9Vlige" Bounds="1681,369" />
-              <ControlPoint Id="OP1NXU0ZqFqPaOjKYYGKCi" Bounds="1561,201" />
-              <ControlPoint Id="Efw2hswQLP4LBXSiPKmp2F" Bounds="1576,222" />
+              <ControlPoint Id="FfstL5Q0qM7LXoJu2tLZYq" Bounds="1636,390" />
+              <ControlPoint Id="R7T2WpXZeHVNK3Sb9Vlige" Bounds="1621,369" />
+              <ControlPoint Id="OP1NXU0ZqFqPaOjKYYGKCi" Bounds="1501,201" />
+              <ControlPoint Id="Efw2hswQLP4LBXSiPKmp2F" Bounds="1516,222" />
               <ControlPoint Id="QGCUkjXVRfaMU59znI5QKx" Bounds="1083,141" />
               <ControlPoint Id="RQbv2YfXnOPLBdawBOn1cM" Bounds="1128,207" />
               <ControlPoint Id="EWrsuBYXPcjMWHpqr6Xk9S" Bounds="1143,229" />
               <ControlPoint Id="BcMKl9sm0ypLSH9t4pG9d0" Bounds="1158,251" />
               <ControlPoint Id="QTSQ9dw5dcyPEMhwfa7tq7" Bounds="1173,273" />
-              <ControlPoint Id="RV1MGIYk5rhPFmfa2JaaWo" Bounds="1546,180" />
-              <ControlPoint Id="MXGlGWQ9XjYNaitKA5bqTz" Bounds="1591,243" />
-              <ControlPoint Id="RoYvK1XIfZvMHsl3BvJszk" Bounds="1606,264" />
-              <ControlPoint Id="C409E6JoLbIPaAbUzZPtmf" Bounds="1621,285" />
-              <ControlPoint Id="SHlswdpp344M0gM2Gq2bKK" Bounds="1636,306" />
-              <ControlPoint Id="ENpAwbcUithOY5zOygdi7j" Bounds="1651,327" />
-              <ControlPoint Id="TYphQWqh4ZAP0uFBaSfCs9" Bounds="1666,348" />
+              <ControlPoint Id="RV1MGIYk5rhPFmfa2JaaWo" Bounds="1486,180" />
+              <ControlPoint Id="MXGlGWQ9XjYNaitKA5bqTz" Bounds="1531,243" />
+              <ControlPoint Id="RoYvK1XIfZvMHsl3BvJszk" Bounds="1546,264" />
+              <ControlPoint Id="C409E6JoLbIPaAbUzZPtmf" Bounds="1561,285" />
+              <ControlPoint Id="SHlswdpp344M0gM2Gq2bKK" Bounds="1576,306" />
+              <ControlPoint Id="ENpAwbcUithOY5zOygdi7j" Bounds="1591,327" />
+              <ControlPoint Id="TYphQWqh4ZAP0uFBaSfCs9" Bounds="1606,348" />
               <ControlPoint Id="MO94elGwx4wN1hiRed66sw" Bounds="1188,295" />
               <ControlPoint Id="Lngk6R5ghPyN49WotdiTC0" Bounds="1203,317" />
               <ControlPoint Id="NnAYLHxOSB9MixHs6wgbgm" Bounds="1218,339" />
               <ControlPoint Id="N2wtMJpT614LOfjpiCP7m4" Bounds="441,725" />
               <ControlPoint Id="ORHPhac7uVLObphJbrDLbA" Bounds="1642,844" />
-              <ControlPoint Id="I4iwuB6qCXDLvoeg8kfN4b" Bounds="1712,411" />
+              <ControlPoint Id="I4iwuB6qCXDLvoeg8kfN4b" Bounds="1652,411" />
               <ControlPoint Id="ScK264VC6GqMEeHOzcKb6Q" Bounds="1233,360" />
             </Canvas>
             <ProcessDefinition Id="Oa6iBV56ExAO2J3F3KIUzu">
@@ -10300,7 +10394,6 @@
             <Link Id="OXLnHJwenB3MaCfJkZjdjY" Ids="NKMeU3wWZeqQAnatRpvZ1I,Axby9Vbsq8jObfABAYBZca" />
             <Link Id="Jnfm3n0Y4QkNUSdZfAdMc5" Ids="UDefPHrGynsPAT24nnRdEJ,NtHjddNeVUaMdoVIIRveBw" />
             <Link Id="Qgmrv6xOgqCMYTr3ZV2YWN" Ids="Ll32aneCoJLOilackFZqTY,MyFVUHp89MbQcJhGkubjlL" />
-            <Link Id="PEnbDPa2oJxL5RNZ3rnEVB" Ids="LfP83LEv5qVOmQpiCazwnD,E3LUxK7stJUNIa49LRLYPG" />
             <Link Id="MejSjKONa9aLe9sfyExm7L" Ids="QYMiC2ieUUuL4i8awqrH14,L8Jm1wbcFIzO7Dv00i8QcS" />
             <Link Id="BVI2otgRBKEOSTAquC1Q2j" Ids="COA6M9EMAAEQQiy4FDysp8,Rb0pt36YnQSOV7SaQUUixi" />
             <Link Id="AJNXZAguBgwLirScLXPJ07" Ids="HUurIsjLSAhNG74BMqsR5q,BqMbxZKCs3POJebkrzujOZ" />
@@ -10379,35 +10472,31 @@
               <Pin Id="Qv6orKASPpzNJHdQKIsAI4" Name="Property Paths" Kind="InputPin" Bounds="776,221" />
               <Pin Id="DMoeFZeMtYqNsRY4VmFhKc" Name="Scalar" Kind="InputPin" Bounds="1219,227" />
               <Pin Id="Bi9OWRdHJZfLE1QBtTySz0" Name="InterpolEnable" Kind="InputPin" Bounds="950,239" DefaultValue="True" />
-              <Pin Id="P7L0hCirxf6OfTkqaCyspr" Name="FloatInterpol" Kind="InputPin" Bounds="609,183" DefaultValue="True" />
-              <Pin Id="LwSoc5r97XlOvelArbtDxp" Name="IntegerInterpol" Kind="InputPin" Bounds="1232,304" DefaultValue="True" />
-              <Pin Id="VdPN3jDqMmeLAMKlvy1BnJ" Name="StringInterpol" Kind="InputPin" Bounds="1325,221" DefaultValue="True" />
-              <Pin Id="BeVC5Q9e66vLSG7uyjt9k1" Name="Vector2Interpol" Kind="InputPin" Bounds="646,249" DefaultValue="True" />
-              <Pin Id="IMCkFrfbnXkPmVvH0Am0UA" Name="Vector3Interpol" Kind="InputPin" Bounds="656,274" DefaultValue="True" />
-              <Pin Id="QrrkFhaMNThPAFi85OETv9" Name="Vector4Interpol" Kind="InputPin" Bounds="663,299" DefaultValue="True" />
-              <Pin Id="QWSnnd8lML3L5MvpgqGQAR" Name="RGBAInterpol" Kind="InputPin" Bounds="673,321" DefaultValue="True" />
-              <Pin Id="EhFOJghLjkNLUmJbfHYMri" Name="MatrixInterpol" Kind="InputPin" Bounds="1694,331" DefaultValue="True" />
-              <Pin Id="Fybfyj1VG5aNBFcRWe1a3A" Name="QuaternionInterpol" Kind="InputPin" Bounds="1708,360" DefaultValue="True" />
-              <Pin Id="K8QzHgKaJpeNVdsWyD9fww" Name="BooleanInterpol" Kind="InputPin" DefaultValue="Switch">
-                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
-                  <Choice Kind="TypeFlag" Name="SwitchModes" />
-                </p:TypeAnnotation>
-              </Pin>
-              <Pin Id="GsbSEoPdzSSQBjvVgkA0Al" Name="SpreadCountInterpol" Kind="InputPin" Bounds="750,382" DefaultValue="Switch" />
-              <Pin Id="Oay1yTmA2agNLGC2FRpiwJ" Name="BreakPointFloat" Kind="InputPin" Bounds="850,179" DefaultValue="1" />
-              <Pin Id="TTUpUuQ15BINiecJt86nkt" Name="BreakPointInteger" Kind="InputPin" Bounds="1485,362" DefaultValue="1" />
-              <Pin Id="DSER4gaXYzlLRFH4wJ0rYU" Name="BreakPointString" Kind="InputPin" Bounds="1496,388" DefaultValue="1" />
-              <Pin Id="MiZsqpj3Q6jPWBv68sEnIY" Name="BreakPointVector2" Kind="InputPin" Bounds="879,246" DefaultValue="1" />
-              <Pin Id="GUD7WFc6SsONgvAPwkBHjA" Name="BreakPointVector3" Kind="InputPin" Bounds="883,266" DefaultValue="1" />
-              <Pin Id="TY1GL6E9TyCNwJoBU4OD9z" Name="BreakPointVector4" Kind="InputPin" Bounds="885,287" DefaultValue="1" />
-              <Pin Id="DcGY8OapEKyNEM43pnZMPh" Name="BreakPointRGBA" Kind="InputPin" Bounds="898,306" DefaultValue="1" />
-              <Pin Id="MZH40D3hZw8LLob8iYtP6V" Name="BreakPointMatrix" Kind="InputPin" Bounds="1861,328" DefaultValue="1" />
-              <Pin Id="OREZfeYB6J5QTiaLURboBF" Name="BreakPointQuaternion" Kind="InputPin" Bounds="1879,344" DefaultValue="1" />
-              <Pin Id="VfveeHqnQpNOlj3GZeJ9eF" Name="BreakPointBoolean" Kind="InputPin" Bounds="1465,325" DefaultValue="1" />
-              <Pin Id="Ipp1RWvPuM0QbqBYW0srEp" Name="BreakPointPath" Kind="InputPin" Bounds="1456,283" DefaultValue="1" />
-              <Pin Id="UKl30PCwvV9P5y8vqB7OUu" Name="BreakPointSpreadCount" Kind="InputPin" Bounds="1042,403" DefaultValue="1" />
-              <Pin Id="RUpNcbnYXVDLo6xMCJXZcd" Name="BreakPointGeneric" Kind="InputPin" Bounds="1049,299" DefaultValue="1" />
-              <Pin Id="B1evGU9xu4yLPjPwyPp1NI" Name="Force" Kind="InputPin" Bounds="1033,228" DefaultValue="False">
+              <Pin Id="P7L0hCirxf6OfTkqaCyspr" Name="FloatInterpol" Kind="InputPin" Bounds="609,183" DefaultValue="True" Visibility="Optional" />
+              <Pin Id="LwSoc5r97XlOvelArbtDxp" Name="IntegerInterpol" Kind="InputPin" Bounds="1232,304" DefaultValue="True" Visibility="Optional" />
+              <Pin Id="VdPN3jDqMmeLAMKlvy1BnJ" Name="StringInterpol" Kind="InputPin" Bounds="1325,221" DefaultValue="True" Visibility="Optional" />
+              <Pin Id="BeVC5Q9e66vLSG7uyjt9k1" Name="Vector2Interpol" Kind="InputPin" Bounds="646,249" DefaultValue="True" Visibility="Optional" />
+              <Pin Id="IMCkFrfbnXkPmVvH0Am0UA" Name="Vector3Interpol" Kind="InputPin" Bounds="656,274" DefaultValue="True" Visibility="Optional" />
+              <Pin Id="QrrkFhaMNThPAFi85OETv9" Name="Vector4Interpol" Kind="InputPin" Bounds="663,299" DefaultValue="True" Visibility="Optional" />
+              <Pin Id="QWSnnd8lML3L5MvpgqGQAR" Name="RGBAInterpol" Kind="InputPin" Bounds="673,321" DefaultValue="True" Visibility="Optional" />
+              <Pin Id="EhFOJghLjkNLUmJbfHYMri" Name="MatrixInterpol" Kind="InputPin" Bounds="1694,331" DefaultValue="True" Visibility="Optional" />
+              <Pin Id="Fybfyj1VG5aNBFcRWe1a3A" Name="QuaternionInterpol" Kind="InputPin" Bounds="1708,360" DefaultValue="True" Visibility="Optional" />
+              <Pin Id="K8QzHgKaJpeNVdsWyD9fww" Name="BooleanInterpol" Kind="InputPin" Visibility="Optional" />
+              <Pin Id="GsbSEoPdzSSQBjvVgkA0Al" Name="SpreadCountInterpol" Kind="InputPin" Bounds="750,382" DefaultValue="Switch" Visibility="Optional" />
+              <Pin Id="Oay1yTmA2agNLGC2FRpiwJ" Name="BreakPointFloat" Kind="InputPin" Bounds="850,179" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="TTUpUuQ15BINiecJt86nkt" Name="BreakPointInteger" Kind="InputPin" Bounds="1485,362" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="DSER4gaXYzlLRFH4wJ0rYU" Name="BreakPointString" Kind="InputPin" Bounds="1496,388" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="MiZsqpj3Q6jPWBv68sEnIY" Name="BreakPointVector2" Kind="InputPin" Bounds="879,246" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="GUD7WFc6SsONgvAPwkBHjA" Name="BreakPointVector3" Kind="InputPin" Bounds="883,266" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="TY1GL6E9TyCNwJoBU4OD9z" Name="BreakPointVector4" Kind="InputPin" Bounds="885,287" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="DcGY8OapEKyNEM43pnZMPh" Name="BreakPointRGBA" Kind="InputPin" Bounds="898,306" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="MZH40D3hZw8LLob8iYtP6V" Name="BreakPointMatrix" Kind="InputPin" Bounds="1861,328" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="OREZfeYB6J5QTiaLURboBF" Name="BreakPointQuaternion" Kind="InputPin" Bounds="1879,344" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="VfveeHqnQpNOlj3GZeJ9eF" Name="BreakPointBoolean" Kind="InputPin" Bounds="1465,325" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="Ipp1RWvPuM0QbqBYW0srEp" Name="BreakPointPath" Kind="InputPin" Bounds="1456,283" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="UKl30PCwvV9P5y8vqB7OUu" Name="BreakPointSpreadCount" Kind="InputPin" Bounds="1042,403" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="RUpNcbnYXVDLo6xMCJXZcd" Name="BreakPointGeneric" Kind="InputPin" Bounds="1049,299" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="B1evGU9xu4yLPjPwyPp1NI" Name="Force" Kind="InputPin" Bounds="1033,228" DefaultValue="False" Visibility="Optional">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
@@ -10422,6 +10511,7 @@
             <Link Id="Ow2Ao27KtguOu0QlwsqpXs" Ids="SDehBrPraciLzvvNufsqqd,RXWzNAGZJLeLOscPDOI1Vb" />
             <Link Id="KhStowGN01pOzw0ABiolTy" Ids="QjgkE3FlUj2LrtXh7Lor6G,SDehBrPraciLzvvNufsqqd" />
             <Link Id="M1NkVIEPxrYODDE0AxLiAJ" Ids="MsI64V1maWINMCTWIIq9zE,VCBIxfvJH2VQarifY4sRza" />
+            <Link Id="K7s0AS44EbyNp6JsL9pLVW" Ids="LfP83LEv5qVOmQpiCazwnD,E3LUxK7stJUNIa49LRLYPG" />
           </Patch>
         </Node>
       </Canvas>
@@ -15168,6 +15258,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.0-0156-g47917ea4e3" />
+  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.0-0203-gf9bb287561" />
   <PlatformDependency Id="BX6cNIwBF5mLVD4keADbNy" Location="./src/Enums/obj/Debug/netstandard2.0/InterpolatorEnums.dll" />
 </Document>

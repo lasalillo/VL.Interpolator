@@ -882,6 +882,20 @@
                   <ControlPoint Id="A6X3mKrXzgHOEZ0oaYC7Qu" Bounds="566,529" Alignment="Bottom" />
                   <ControlPoint Id="A3X36f33f1WLQOJRgsgkju" Bounds="566,461" Alignment="Top" />
                 </Node>
+                <Node Bounds="357,411,65,19" Id="ANpXWtmqvIxMFZ5epYf4s5">
+                  <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <FullNameCategoryReference ID="Control" />
+                    <Choice Kind="ProcessAppFlag" Name="MonoFlop (FrameBased)" />
+                  </p:NodeReference>
+                  <Pin Id="QXldF2luMZnOp8bzOeBKN5" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                  <Pin Id="Hh4m4Rmeea6LFUgViUytNN" Name="Set" Kind="InputPin" />
+                  <Pin Id="IW5ylqpxpTINfXvspofEVo" Name="Frames" Kind="InputPin" />
+                  <Pin Id="PbPVpE1IsJVL3EbNgX4swJ" Name="Retriggerable" Kind="InputPin" />
+                  <Pin Id="Qqq27BtnAx0QBVg5nTzItD" Name="Reset" Kind="InputPin" />
+                  <Pin Id="UGe7Omyv7vQNx900mwVO7q" Name="Value" Kind="OutputPin" />
+                  <Pin Id="NjBddMHvT0zPjB80iWC1Rz" Name="Inverse Output" Kind="OutputPin" />
+                </Node>
               </Canvas>
               <ProcessDefinition Id="Tu1Asrue9LaN6SKafWtCb2">
                 <Fragment Id="HoYyaNOfErEPTslIVicb5m" Patch="HIoBTFrd1pWPSj2vvXugDc" Enabled="true" />
@@ -1000,8 +1014,9 @@
               <Link Id="DSQR9qauSeOQPwgUOgku8Q" Ids="A6X3mKrXzgHOEZ0oaYC7Qu,BmdFrY97SPlN5za4OF3ow6" />
               <Link Id="PvHV14p35kZPM0xP6Stlh5" Ids="HsyMGQQHzl2MsapMfVTzT6,TmuQnHEQfVYQDI56B3jsi3" />
               <Link Id="D9dI8NwPhkjOYBv85tI6Mn" Ids="MLk0IjIRmU4QThiOijOOmP,Pk000SDkp9RLW3xP7lKihg" />
-              <Link Id="QZxPR3MvefpNc4TzXorZZQ" Ids="STR37iwhAaDMMDZQtsyFcn,Un3QUydUOdhQZSm8tWxFuF" />
-              <Link Id="TY4Bb6rALq6MG61Gaev7zo" Ids="STR37iwhAaDMMDZQtsyFcn,I2GIQmRr47kL2ibogLf0hG" />
+              <Link Id="QZxPR3MvefpNc4TzXorZZQ" Ids="STR37iwhAaDMMDZQtsyFcn,Hh4m4Rmeea6LFUgViUytNN" />
+              <Link Id="TANM8OmweTXLvUm1sJz69s" Ids="UGe7Omyv7vQNx900mwVO7q,Un3QUydUOdhQZSm8tWxFuF" />
+              <Link Id="JGkbZx4sUuSO2cCMLnwoAh" Ids="UGe7Omyv7vQNx900mwVO7q,I2GIQmRr47kL2ibogLf0hG" />
             </Patch>
           </Node>
           <!--
@@ -29329,6 +29344,20 @@
                   <ControlPoint Id="MXzOCTkQs4iPCcnZEQC9rH" Bounds="564,534" Alignment="Bottom" />
                   <ControlPoint Id="CzJfWUJU91SK95ukWCNu0V" Bounds="564,466" Alignment="Top" />
                 </Node>
+                <Node Bounds="357,402,65,19" Id="K2IsfjbYjm9Okw0EB9eVOh">
+                  <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <FullNameCategoryReference ID="Control" />
+                    <Choice Kind="ProcessAppFlag" Name="MonoFlop (FrameBased)" />
+                  </p:NodeReference>
+                  <Pin Id="JNfvlAq5ZiKLyhD3ByRKFn" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                  <Pin Id="R25Oc3o2h9JNmSJQa1bnkd" Name="Set" Kind="InputPin" />
+                  <Pin Id="PW19nNGgWcqQS7eYpcqVke" Name="Frames" Kind="InputPin" />
+                  <Pin Id="IPyMPeUtb52N5vTJkL7AJ5" Name="Retriggerable" Kind="InputPin" />
+                  <Pin Id="QKdv1hrELxMPtB66N0H9ux" Name="Reset" Kind="InputPin" />
+                  <Pin Id="N668RA4IYvAO6vCuq0fLYJ" Name="Value" Kind="OutputPin" />
+                  <Pin Id="MjjQJT1BVLkMMFHgQEh1tT" Name="Inverse Output" Kind="OutputPin" />
+                </Node>
               </Canvas>
               <ProcessDefinition Id="PwVEmnnfo4AOwVFRR6PFaO">
                 <Fragment Id="U0ZLo5nepLdMOeko7SlVCG" Patch="G8RvUQckRYVMWMqzU0XrT8" Enabled="true" />
@@ -29457,8 +29486,9 @@
               <Link Id="ISUL3RLypzDMJgcDV73gSM" Ids="IrsR5A9CT3wOtMYVCrvi1P,NkDehVmRmRhLzRmyBKvsxY" />
               <Link Id="QAGoduZQstnPgdfwfpqX1c" Ids="MXzOCTkQs4iPCcnZEQC9rH,V4I20XrLjynOquWwnJI10l" />
               <Link Id="EA934K3XDBILCzxmKDCcie" Ids="GHBZFeqdECCPu1aWWvQC0Z,Td2yxwQ6Z3cNGcVhuFRfMe" />
-              <Link Id="Rwtq5O2umiEM8S0FxB5e3u" Ids="LwhTGqrrYLnPckHk500CNs,KSye7ShrT0sPNdIakvnjVu" />
-              <Link Id="QrQdnMjQaSTLTLjuNsSvtJ" Ids="LwhTGqrrYLnPckHk500CNs,UfC7QlJ6o97Lqj6SkzwBTb" />
+              <Link Id="Rwtq5O2umiEM8S0FxB5e3u" Ids="LwhTGqrrYLnPckHk500CNs,R25Oc3o2h9JNmSJQa1bnkd" />
+              <Link Id="RJF6ToHCnrnPDM1y756apn" Ids="N668RA4IYvAO6vCuq0fLYJ,KSye7ShrT0sPNdIakvnjVu" />
+              <Link Id="KdF7midLHILLBAEONFrUCV" Ids="N668RA4IYvAO6vCuq0fLYJ,UfC7QlJ6o97Lqj6SkzwBTb" />
             </Patch>
           </Node>
         </Canvas>

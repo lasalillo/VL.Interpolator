@@ -22513,7 +22513,7 @@
               <Fragment Id="JIQKOgCW3vhOiKMIAcUaSr" Patch="ENtGmgYv7cQMzaQMJQYPB6" />
               <Fragment Id="Q9UnmfuahfLQTSKrJ3qzE6" Patch="NgCiErYMLq1Mhs2VU9HRek" />
             </ProcessDefinition>
-            <Slot Id="HNs5Az3CA5ALRhlTCUNbD0" Name="IntegerInterpol">
+            <Slot Id="HNs5Az3CA5ALRhlTCUNbD0" Name="IntegerBlend">
               <p:TypeAnnotation p:Type="TypeReference">
                 <Choice Kind="TypeFlag" Name="BlendModes" />
               </p:TypeAnnotation>
@@ -22523,54 +22523,54 @@
                 <Choice Kind="TypeFlag" Name="BlendModes" />
               </p:TypeAnnotation>
             </Slot>
-            <Slot Id="JEOdhXV7IPwPssJ6b1bAsM" Name="Vector2Interpol">
+            <Slot Id="JEOdhXV7IPwPssJ6b1bAsM" Name="Vector2Blend">
               <p:TypeAnnotation p:Type="TypeReference">
                 <Choice Kind="TypeFlag" Name="BlendModes" />
               </p:TypeAnnotation>
             </Slot>
-            <Slot Id="EvPJjs15D1WPRVYVjoifRf" Name="Vector3Interpol">
+            <Slot Id="EvPJjs15D1WPRVYVjoifRf" Name="Vector3Blend">
               <p:TypeAnnotation p:Type="TypeReference">
                 <Choice Kind="TypeFlag" Name="BlendModes" />
               </p:TypeAnnotation>
             </Slot>
-            <Slot Id="TsUGHvllK6NLbPRFxg6QYy" Name="Vector4Interpol">
+            <Slot Id="TsUGHvllK6NLbPRFxg6QYy" Name="Vector4Blend">
               <p:TypeAnnotation p:Type="TypeReference">
                 <Choice Kind="TypeFlag" Name="BlendModes" />
               </p:TypeAnnotation>
             </Slot>
-            <Slot Id="FSF5uB8LvJcM3UA2frAfoA" Name="BooleanInterpol">
+            <Slot Id="FSF5uB8LvJcM3UA2frAfoA" Name="BooleanBlend">
               <p:TypeAnnotation p:Type="TypeReference">
                 <Choice Kind="TypeFlag" Name="BooleanModes" />
               </p:TypeAnnotation>
             </Slot>
-            <Slot Id="LVnmrcviBAgMQjIInI8PCr" Name="RGBAInterpol">
+            <Slot Id="LVnmrcviBAgMQjIInI8PCr" Name="RGBABlend">
               <p:TypeAnnotation p:Type="TypeReference">
                 <Choice Kind="TypeFlag" Name="BlendModes" />
               </p:TypeAnnotation>
             </Slot>
             <Patch Id="FXm0gElhbMtL6cXeoPjFqK" Name="Split">
               <Pin Id="LDN7I05T8R9PHIPfxrbdNT" MergeId="6926" Name="FloatBlend" Kind="OutputPin" />
-              <Pin Id="I96UcqbNK6HM1FkGPe84wd" MergeId="6833" Name="IntegerInterpol" Kind="OutputPin" />
-              <Pin Id="L82dDh7WU9MLLhPrt5gvGF" MergeId="6934" Name="Vector2Interpol" Kind="OutputPin" />
-              <Pin Id="EL8OLH71xTHOiDANHeMcE1" MergeId="6942" Name="Vector3Interpol" Kind="OutputPin" />
-              <Pin Id="BaNw5hbRuypMB5z1e5q45g" MergeId="6951" Name="Vector4Interpol" Kind="OutputPin" />
-              <Pin Id="Egm6WRBJ5FILlwoXaAAvQP" MergeId="7132" Name="RGBAInterpol" Kind="OutputPin" />
-              <Pin Id="MQnT19jVjlcODtmzcZV5Pe" MergeId="6957" Name="BooleanInterpol" Kind="OutputPin" />
+              <Pin Id="I96UcqbNK6HM1FkGPe84wd" MergeId="6833" Name="IntegerBlend" Kind="OutputPin" />
+              <Pin Id="L82dDh7WU9MLLhPrt5gvGF" MergeId="6934" Name="Vector2Blend" Kind="OutputPin" />
+              <Pin Id="EL8OLH71xTHOiDANHeMcE1" MergeId="6942" Name="Vector3Blend" Kind="OutputPin" />
+              <Pin Id="BaNw5hbRuypMB5z1e5q45g" MergeId="6951" Name="Vector4Blend" Kind="OutputPin" />
+              <Pin Id="Egm6WRBJ5FILlwoXaAAvQP" MergeId="7132" Name="RGBABlend" Kind="OutputPin" />
+              <Pin Id="MQnT19jVjlcODtmzcZV5Pe" MergeId="6957" Name="BooleanBlend" Kind="OutputPin" />
             </Patch>
             <Patch Id="Pp5aIpxGSBEPYWRosrzqUl" Name="Join">
               <Pin Id="E9BmEAfwB5MPQjYFftCs3r" MergeId="6923" Name="FloatBlend" Kind="InputPin" />
-              <Pin Id="MPLPmZr25CNOqPFLxNAFH4" MergeId="6830" Name="IntegerInterpol" Kind="InputPin" />
-              <Pin Id="Vihg9jcCnt2NL4VkmIO4qe" MergeId="6931" Name="Vector2Interpol" Kind="InputPin" />
-              <Pin Id="KfBEo73C5m2OTDbQbeYJGG" MergeId="6944" Name="Vector3Interpol" Kind="InputPin" />
-              <Pin Id="AZekFPmSGthLYsw2jc7Je9" MergeId="6949" Name="Vector4Interpol" Kind="InputPin" />
-              <Pin Id="Ak1609ZUJsnLild2BmulW0" MergeId="7129" Name="RGBAInterpol" Kind="InputPin" />
-              <Pin Id="NtrSfRFWueFLyHXqyE4hgh" MergeId="6955" Name="BooleanInterpol" Kind="InputPin" />
+              <Pin Id="MPLPmZr25CNOqPFLxNAFH4" MergeId="6830" Name="IntegerBlend" Kind="InputPin" />
+              <Pin Id="Vihg9jcCnt2NL4VkmIO4qe" MergeId="6931" Name="Vector2Blend" Kind="InputPin" />
+              <Pin Id="KfBEo73C5m2OTDbQbeYJGG" MergeId="6944" Name="Vector3Blend" Kind="InputPin" />
+              <Pin Id="AZekFPmSGthLYsw2jc7Je9" MergeId="6949" Name="Vector4Blend" Kind="InputPin" />
+              <Pin Id="Ak1609ZUJsnLild2BmulW0" MergeId="7129" Name="RGBABlend" Kind="InputPin" />
+              <Pin Id="NtrSfRFWueFLyHXqyE4hgh" MergeId="6955" Name="BooleanBlend" Kind="InputPin" />
             </Patch>
             <Patch Id="EX8CrTSFQjuQFTtl7SbFCP" Name="SetIntegerBlend">
-              <Pin Id="PQRFIQOnrjAL89JK6NGiPh" MergeId="6837" Name="IntegerInterpol" Kind="InputPin" />
+              <Pin Id="PQRFIQOnrjAL89JK6NGiPh" MergeId="6837" Name="IntegerBlend" Kind="InputPin" />
             </Patch>
             <Patch Id="Pe6xttxIDFdOw0pgK1TP59" Name="GetIntegerBlend">
-              <Pin Id="CmbWTxKHsCMPymUD9wipLh" MergeId="6843" Name="IntegerInterpol" Kind="OutputPin" />
+              <Pin Id="CmbWTxKHsCMPymUD9wipLh" MergeId="6843" Name="IntegerBlend" Kind="OutputPin" />
             </Patch>
             <Patch Id="JoFW87XVi3GPzVfc0mdaWn" Name="SetFloatBlend">
               <Pin Id="K8lxeyBXA2dMTBTL4Uel7X" MergeId="6961" Name="FloatBlend" Kind="InputPin" />
@@ -22579,34 +22579,34 @@
               <Pin Id="G8hOgYJrzRfLfXTfLdHMMA" MergeId="6964" Name="FloatBlend" Kind="OutputPin" />
             </Patch>
             <Patch Id="FgJtxTWehUaMTw2zSHUUE9" Name="SetVector2Blend">
-              <Pin Id="AoXBaukABPiMewglU6gxr7" MergeId="6967" Name="Vector2Interpol" Kind="InputPin" />
+              <Pin Id="AoXBaukABPiMewglU6gxr7" MergeId="6967" Name="Vector2Blend" Kind="InputPin" />
             </Patch>
             <Patch Id="TAd0tf9oV5xLCf2WMYsMbE" Name="GetVector2Blend">
-              <Pin Id="RfgOQ7s5fqLLkuA2TCZTsi" MergeId="6970" Name="Vector2Interpol" Kind="OutputPin" />
+              <Pin Id="RfgOQ7s5fqLLkuA2TCZTsi" MergeId="6970" Name="Vector2Blend" Kind="OutputPin" />
             </Patch>
             <Patch Id="RdMhkPfVZIHLH5wRp8Q3aC" Name="SetVector3Blend">
-              <Pin Id="CJrPXTnmFleOI05O8ZjIDY" MergeId="6973" Name="Vector3Interpol" Kind="InputPin" />
+              <Pin Id="CJrPXTnmFleOI05O8ZjIDY" MergeId="6973" Name="Vector3Blend" Kind="InputPin" />
             </Patch>
             <Patch Id="R3XNGlEoomUOLRtO54761q" Name="GetVector3Blend">
-              <Pin Id="T0pe1SDs7WxMbw969F5diq" MergeId="6976" Name="Vector3Interpol" Kind="OutputPin" />
+              <Pin Id="T0pe1SDs7WxMbw969F5diq" MergeId="6976" Name="Vector3Blend" Kind="OutputPin" />
             </Patch>
             <Patch Id="ALVoVhyRKadPourSjmE0xI" Name="SetVector4Blend">
-              <Pin Id="OFuB9DVCFvrLOld3J77gls" MergeId="6979" Name="Vector4Interpol" Kind="InputPin" />
+              <Pin Id="OFuB9DVCFvrLOld3J77gls" MergeId="6979" Name="Vector4Blend" Kind="InputPin" />
             </Patch>
             <Patch Id="ROHAsulM8lyOBNft1F3iSY" Name="GetVector4Blend">
-              <Pin Id="OuuK4eQF0FsNRwLbQLXN01" MergeId="6982" Name="Vector4Interpol" Kind="OutputPin" />
+              <Pin Id="OuuK4eQF0FsNRwLbQLXN01" MergeId="6982" Name="Vector4Blend" Kind="OutputPin" />
             </Patch>
             <Patch Id="FrIB938HsuQMh3udLIr9Fh" Name="SetBooleanBlend">
-              <Pin Id="VSawz6rgMYZPlkt02urmO1" MergeId="6985" Name="BooleanInterpol" Kind="InputPin" />
+              <Pin Id="VSawz6rgMYZPlkt02urmO1" MergeId="6985" Name="BooleanBlend" Kind="InputPin" />
             </Patch>
             <Patch Id="QQhnWdkFMGtLqLYNr4PHWB" Name="GetBooleanBlend">
-              <Pin Id="KdIqlt90YQ4MrhrnFTZXW7" MergeId="6988" Name="BooleanInterpol" Kind="OutputPin" />
+              <Pin Id="KdIqlt90YQ4MrhrnFTZXW7" MergeId="6988" Name="BooleanBlend" Kind="OutputPin" />
             </Patch>
             <Patch Id="ENtGmgYv7cQMzaQMJQYPB6" Name="SetRGBABlend">
-              <Pin Id="REAKuhJOXOFQdv6WEmQu6b" MergeId="7136" Name="RGBAInterpol" Kind="InputPin" />
+              <Pin Id="REAKuhJOXOFQdv6WEmQu6b" MergeId="7136" Name="RGBABlend" Kind="InputPin" />
             </Patch>
             <Patch Id="NgCiErYMLq1Mhs2VU9HRek" Name="GetRGBABlend">
-              <Pin Id="DcK7qGejKAdNEEOeTTvQUy" MergeId="7139" Name="RGBAInterpol" Kind="OutputPin" />
+              <Pin Id="DcK7qGejKAdNEEOeTTvQUy" MergeId="7139" Name="RGBABlend" Kind="OutputPin" />
             </Patch>
             <Link Id="OyiFysstCSHMeVDUXdcXMn" Ids="MPLPmZr25CNOqPFLxNAFH4,CzfvGrLdGoYL64ANqSKSB4" IsHidden="true" />
             <Link Id="HbG3q3uL2kWNDW588elBVX" Ids="CzfvGrLdGoYL64ANqSKSB4,D9fzdsciXYrP4M8nKr8r0B" />
@@ -29173,12 +29173,12 @@
                       <Pin Id="TsaM7pyuvd7PvJG8gWvIuj" Name="Input" Kind="StateInputPin" />
                       <Pin Id="UnqNvRJNnmrOpCrzhciohu" Name="Output" Kind="OutputPin" IsHidden="true" />
                       <Pin Id="H1YTJSnshNOOEl5UhmxVUS" Name="FloatBlend" Kind="OutputPin" />
-                      <Pin Id="C9JWYyT7Uw4QNDI4gyt1CV" Name="IntegerInterpol" Kind="OutputPin" />
-                      <Pin Id="RVXw89jXFN9MaY15JFZjpQ" Name="Vector2Interpol" Kind="OutputPin" />
-                      <Pin Id="CbsCwVy2j1PPVGyL1BblB1" Name="Vector3Interpol" Kind="OutputPin" />
-                      <Pin Id="Byuz7BWzGV3LAlhNY1WP0R" Name="Vector4Interpol" Kind="OutputPin" />
-                      <Pin Id="D73Ml2964QAPTKmlpommro" Name="RGBAInterpol" Kind="OutputPin" />
-                      <Pin Id="UAMFtVOPeNmO30lqk4iyza" Name="BooleanInterpol" Kind="OutputPin" />
+                      <Pin Id="C9JWYyT7Uw4QNDI4gyt1CV" Name="IntegerBlend" Kind="OutputPin" />
+                      <Pin Id="RVXw89jXFN9MaY15JFZjpQ" Name="Vector2Blend" Kind="OutputPin" />
+                      <Pin Id="CbsCwVy2j1PPVGyL1BblB1" Name="Vector3Blend" Kind="OutputPin" />
+                      <Pin Id="Byuz7BWzGV3LAlhNY1WP0R" Name="Vector4Blend" Kind="OutputPin" />
+                      <Pin Id="D73Ml2964QAPTKmlpommro" Name="RGBABlend" Kind="OutputPin" />
+                      <Pin Id="UAMFtVOPeNmO30lqk4iyza" Name="BooleanBlend" Kind="OutputPin" />
                     </Node>
                     <ControlPoint Id="VjUE7wAwfW7PLxp0lKSTDs" Bounds="366,905" />
                   </Patch>

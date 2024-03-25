@@ -19686,6 +19686,15 @@
               </Pad>
               <ControlPoint Id="VLfpLx1ON2GNcvW1V6A3QF" Bounds="1979,285" />
               <ControlPoint Id="Jn8wNHVRwN7NuTDDI7qRN9" Bounds="1980,488" />
+              <Pad Id="LrxtTeKFjPnLcWfsNFjyX7" Comment="Volume" SlotId="UonvtOjPsHpMus9fbAovu3" Bounds="2239,415" Value="1" />
+              <ControlPoint Id="OMoXTaAJX6vLJyX0c4MsqA" Bounds="2279,315" />
+              <Pad Id="JRWFiZIRzjtL2mFScTQRpN" Comment="Volume" Bounds="2134,336,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </p:TypeAnnotation>
+              </Pad>
+              <ControlPoint Id="RZAt6lE83bdLe6dXbQ96Qm" Bounds="2239,283" />
+              <ControlPoint Id="GWVxBbBa4HYLHufmvjM4PU" Bounds="2240,486" />
             </Canvas>
             <ProcessDefinition Id="R41pn4lyqjqNbJtqKLUGF0" IsHidden="true">
               <Fragment Id="Lwu9iLsHeTTOul5pQFd78j" Patch="UrLzPGVs6chQFiQZroqgko" Enabled="true" />
@@ -19710,6 +19719,8 @@
               <Fragment Id="NMnuD3Cjvv6P39qptYwlYa" Patch="GlYQSTj5QjAL1gS94k7C2A" />
               <Fragment Id="PpejtcMcaLPNrZtzIFdVkn" Patch="PBqRQOFEb5YMjoRxOalDf7" />
               <Fragment Id="LITFATEppGfPUZuvxAPpS3" Patch="SvrZOkYeuawMYKWR69H8v1" />
+              <Fragment Id="PkVaMDCXxjCMJ1KGCBmGR8" Patch="LPf3g6mH5EJLke2uDnEfqW" />
+              <Fragment Id="ECJ8Kt20IOoNJU1IJhxyss" Patch="AlWxw4qrOmbLFVMDy5Oumi" />
             </ProcessDefinition>
             <Slot Id="BGcjZr3eINaLU6tyPU47lB" Name="LoopEnable">
               <p:TypeAnnotation p:Type="TypeReference">
@@ -19800,7 +19811,7 @@
             <Link Id="D0fGaLAhO1jP04SaJIJnLb" Ids="EZaB3eFuOPKOHFCdzdOqrq,JBAwurTow3pPxtDXDRCu0X" />
             <Link Id="NdlxTTDc7AzOiecygIhA0W" Ids="Q5z7b0Fy3DvLMGYT2Xabgj,BYnUcNYPu6bNHcdLMrJ7fh" IsHidden="true" />
             <Link Id="DJjqC0T3oh2OXeF4xElYeo" Ids="JBAwurTow3pPxtDXDRCu0X,Q5z7b0Fy3DvLMGYT2Xabgj" />
-            <Patch Id="UrLzPGVs6chQFiQZroqgko" Name="Create" ParticipatingElements="CgPu81ibwcWO93DsnlKzGl,Fz5AutOQuFcPSEUIOfM3eV,OFa5Q2kotHoL4GXi1rQYih,OEkQl4Gv3yuMQBNu0L3yEs,BHfHpXRjXZKNZ7zY4tk8NN,TJohgJbI8WuO6KJSaj0Pzg,Gsh94hvszGcLhklsvIG6GM,MK6dorNeqfZLGGT4Nk6RVk" />
+            <Patch Id="UrLzPGVs6chQFiQZroqgko" Name="Create" ParticipatingElements="CgPu81ibwcWO93DsnlKzGl,Fz5AutOQuFcPSEUIOfM3eV,OFa5Q2kotHoL4GXi1rQYih,OEkQl4Gv3yuMQBNu0L3yEs,BHfHpXRjXZKNZ7zY4tk8NN,TJohgJbI8WuO6KJSaj0Pzg,Gsh94hvszGcLhklsvIG6GM,MK6dorNeqfZLGGT4Nk6RVk,QdNGwbNJcsBNEoyoZVQ8bp" />
             <Patch Id="NAxwDcCU1HGQWo8YZfcGLH" Name="Split">
               <Pin Id="UkJy7kCFaK4QPaaYopemdo" Name="BaseFPS" Kind="OutputPin" />
               <Pin Id="ROjJIYk277GN7CyZbe1hRR" Name="FPS" Kind="OutputPin" />
@@ -19879,10 +19890,11 @@
               </p:TypeAnnotation>
             </Slot>
             <Patch Id="GlYQSTj5QjAL1gS94k7C2A" Name="Join">
-              <Pin Id="IO1jczzQ733NjFkvRF4sI8" MergeId="5721" Name="Volume" Kind="InputPin" />
+              <Pin Id="IO1jczzQ733NjFkvRF4sI8" MergeId="5721" Name="Volume" Kind="InputPin" DefaultValue="1" />
+              <Pin Id="NgiceCwZDPpM525zDGp0Sq" Name="InputVolume" Kind="InputPin" DefaultValue="1" />
             </Patch>
             <Patch Id="PBqRQOFEb5YMjoRxOalDf7" Name="SetVolume">
-              <Pin Id="BzV6XaidlUmOHU3YvwZfIA" MergeId="5749" Name="Volume" Kind="InputPin" />
+              <Pin Id="BzV6XaidlUmOHU3YvwZfIA" MergeId="5749" Name="Volume" Kind="InputPin" DefaultValue="1" />
             </Patch>
             <Patch Id="SvrZOkYeuawMYKWR69H8v1" Name="GetVolume">
               <Pin Id="T34SOMCqbxrLHEMI3Ac5cU" MergeId="5808" Name="Volume" Kind="OutputPin" />
@@ -19894,6 +19906,24 @@
             <Link Id="T4TNEr5P1A9PxR1NMw4FnE" Ids="BzV6XaidlUmOHU3YvwZfIA,VLfpLx1ON2GNcvW1V6A3QF" IsHidden="true" />
             <Link Id="I0nYCZqRAw1OVXPV516EB3" Ids="T1CgBLqwdonLd4Uju3Vn0u,Jn8wNHVRwN7NuTDDI7qRN9" />
             <Link Id="HMb1QGxNHwpL1Y36bbn11Y" Ids="Jn8wNHVRwN7NuTDDI7qRN9,T34SOMCqbxrLHEMI3Ac5cU" IsHidden="true" />
+            <Link Id="E5XkxWBRs4CMAVIxIIfsTJ" Ids="OMoXTaAJX6vLJyX0c4MsqA,LrxtTeKFjPnLcWfsNFjyX7" />
+            <Link Id="QdNGwbNJcsBNEoyoZVQ8bp" Ids="JRWFiZIRzjtL2mFScTQRpN,LrxtTeKFjPnLcWfsNFjyX7" />
+            <Link Id="Chwmyu4s6GGP5FhKhWfdcP" Ids="RZAt6lE83bdLe6dXbQ96Qm,LrxtTeKFjPnLcWfsNFjyX7" />
+            <Link Id="A159YCR6XamMfQBpElpvyj" Ids="LrxtTeKFjPnLcWfsNFjyX7,GWVxBbBa4HYLHufmvjM4PU" />
+            <Slot Id="UonvtOjPsHpMus9fbAovu3" Name="InputVolume">
+              <p:TypeAnnotation p:Type="TypeReference">
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Slot>
+            <Link Id="KXI1SOQQFaoOjVFpLOwvD5" Ids="GWVxBbBa4HYLHufmvjM4PU,HOQ9RKoJ2wcPCIhELzL9SQ" IsHidden="true" />
+            <Link Id="LjHQUeBnmjXMj9vfWNn97y" Ids="NgiceCwZDPpM525zDGp0Sq,OMoXTaAJX6vLJyX0c4MsqA" IsHidden="true" />
+            <Link Id="LAfrAyBbjZ9P84WfZou9Gu" Ids="VMSorINGgepNDpIf4AluJq,RZAt6lE83bdLe6dXbQ96Qm" IsHidden="true" />
+            <Patch Id="LPf3g6mH5EJLke2uDnEfqW" Name="GetInputVolume">
+              <Pin Id="HOQ9RKoJ2wcPCIhELzL9SQ" Name="InputVolume" Kind="OutputPin" />
+            </Patch>
+            <Patch Id="AlWxw4qrOmbLFVMDy5Oumi" Name="SetInputVolume">
+              <Pin Id="VMSorINGgepNDpIf4AluJq" Name="InputVolume" Kind="InputPin" DefaultValue="1" />
+            </Patch>
           </Patch>
         </Node>
         <Canvas Id="IRotUAfux72OLL2tK42od1" Name="TimeConversion" Position="253,827" CanvasType="Group">

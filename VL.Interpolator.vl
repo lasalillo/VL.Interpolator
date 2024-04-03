@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Pcu4QJlz7LXNKkjHUOLMQj" LanguageVersion="2024.6.0-0314-g35facf5fa7" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="Pcu4QJlz7LXNKkjHUOLMQj" LanguageVersion="2024.6.0-0328-gf90df5d456" Version="0.128">
   <Patch Id="EAIIpcVCowFQTcz0KLQtUE">
     <Canvas Id="HsgcAMUqtVTNXLSvHJWTpN" DefaultCategory="Interpolator" CanvasType="FullCategory">
       <Canvas Id="QIfd52ShnGdL2SQeqFCih1" Name="Lerp" Position="198,279" CanvasType="Group">
@@ -10710,7 +10710,7 @@
     ************************ Keyframe ************************
 
 -->
-        <Node Name="Keyframe" Bounds="254,544" Id="BBLpboAWAHNMAvAzCPSM0B">
+        <Node Name="Keyframe" Bounds="254,619" Id="BBLpboAWAHNMAvAzCPSM0B">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
             <Choice Kind="RecordDefinition" Name="Record" />
           </p:NodeReference>
@@ -11226,7 +11226,7 @@
     ************************ Clip ************************
 
 -->
-        <Node Name="Clip" Bounds="254,639" Id="CGaO1xP896cOGqgcE4Ks6i">
+        <Node Name="Clip" Bounds="254,714" Id="CGaO1xP896cOGqgcE4Ks6i">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
             <Choice Kind="RecordDefinition" Name="Record" />
           </p:NodeReference>
@@ -11840,7 +11840,7 @@
             <Link Id="NBVBmCffgZIMkOMFapbtaQ" Ids="KLWJQ3x1LU3OsxN57L3Kia,OJ2AdZWlNLZN8PKCyEgVnY" IsHidden="true" />
           </Patch>
         </Node>
-        <Pad Id="BBmKBllD7GMMPWYjTyrnWL" Bounds="324,625,208,19" ShowValueBox="true" isIOBox="true" Value="Convenient Audio and Video Type">
+        <Pad Id="BBmKBllD7GMMPWYjTyrnWL" Bounds="324,700,208,19" ShowValueBox="true" isIOBox="true" Value="Convenient Audio and Video Type">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -11854,7 +11854,7 @@
     ************************ MyType ************************
 
 -->
-        <Node Name="MyType" Bounds="594,366" Id="UwoniOA3txpNJXax2C7mJU">
+        <Node Name="MyType" Bounds="509,446" Id="UwoniOA3txpNJXax2C7mJU">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
             <Choice Kind="RecordDefinition" Name="Record" />
           </p:NodeReference>
@@ -12231,7 +12231,7 @@
             </Patch>
           </Patch>
         </Node>
-        <Overlay Id="ISNrXsgdcIWPc8Gk6pCZqc" Name="Example Type" Bounds="557,294,209,134">
+        <Overlay Id="ISNrXsgdcIWPc8Gk6pCZqc" Name="Example Type" Bounds="472,374,209,134">
           <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
         </Overlay>
         <!--
@@ -12239,7 +12239,7 @@
     ************************ MySubType ************************
 
 -->
-        <Node Name="MySubType" Bounds="611,406" Id="UjDfAUQSfebOMTIel9eRQW">
+        <Node Name="MySubType" Bounds="526,486" Id="UjDfAUQSfebOMTIel9eRQW">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
             <Choice Kind="RecordDefinition" Name="Record" />
           </p:NodeReference>
@@ -12387,7 +12387,7 @@
             <Link Id="FFiea6R5qQ6NEzau3La6RQ" Ids="ETxcJ6h5czxQJfWv3iETKG,NF1m2J8onkYP6qyJIMTFVY" />
           </Patch>
         </Node>
-        <Canvas Id="PHVAopWkmriLECf5a5O3Xe" Name="Utils" Position="253,737" CanvasType="Group">
+        <Canvas Id="PHVAopWkmriLECf5a5O3Xe" Name="Utils" Position="253,812" CanvasType="Group">
           <!--
 
     ************************ SortKeyframesByPosition ************************
@@ -15870,7 +15870,7 @@
     ************************ InterpolModes ************************
 
 -->
-        <Node Name="InterpolModes" Bounds="254,584" Id="QQGvpld7MUsPJVdvGPOPib">
+        <Node Name="InterpolModes" Bounds="254,659" Id="QQGvpld7MUsPJVdvGPOPib">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
             <Choice Kind="RecordDefinition" Name="Record" />
           </p:NodeReference>
@@ -16683,7 +16683,7 @@
     ************************ Marker ************************
 
 -->
-        <Node Name="Marker" Bounds="254,679" Id="LptR2ubqNrFPKxqOLoATjO">
+        <Node Name="Marker" Bounds="254,754" Id="LptR2ubqNrFPKxqOLoATjO">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
             <Choice Kind="RecordDefinition" Name="Record" />
           </p:NodeReference>
@@ -16768,7 +16768,7 @@
             </Patch>
           </Patch>
         </Node>
-        <Pad Id="P8oQdpQ0KjsO4fysCVc6X2" Bounds="343,662,154,19" ShowValueBox="true" isIOBox="true" Value="Value for State Machine">
+        <Pad Id="P8oQdpQ0KjsO4fysCVc6X2" Bounds="343,737,154,19" ShowValueBox="true" isIOBox="true" Value="Value for State Machine">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -16782,7 +16782,7 @@
     ************************ Track ************************
 
 -->
-        <Node Name="Track" Bounds="254,369" Id="RZOfAQ0htP7LvGbHXbCpdS">
+        <Node Name="Track" Bounds="254,444" Id="RZOfAQ0htP7LvGbHXbCpdS">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
             <Choice Kind="RecordDefinition" Name="Record" />
           </p:NodeReference>
@@ -17289,7 +17289,7 @@
     ************************ TrackTransfer ************************
 
 -->
-        <Node Name="TrackTransfer" Bounds="254,409" Id="Nmq4KkyhTQKMVkHF1NWpWe">
+        <Node Name="TrackTransfer" Bounds="254,484" Id="Nmq4KkyhTQKMVkHF1NWpWe">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
             <Choice Kind="RecordDefinition" Name="Record" />
           </p:NodeReference>
@@ -17491,7 +17491,7 @@
             </Patch>
           </Patch>
         </Node>
-        <Canvas Id="QvIWGBKDrwaLJhKtQHn6JF" Name="MediaUtils" Position="253,782" CanvasType="Group">
+        <Canvas Id="QvIWGBKDrwaLJhKtQHn6JF" Name="MediaUtils" Position="253,857" CanvasType="Group">
           <!--
 
     ************************ SupportedAudioFormats ************************
@@ -20176,7 +20176,7 @@
             </Patch>
           </Patch>
         </Node>
-        <Canvas Id="IRotUAfux72OLL2tK42od1" Name="TimeConversion" Position="253,827" CanvasType="Group">
+        <Canvas Id="IRotUAfux72OLL2tK42od1" Name="TimeConversion" Position="253,902" CanvasType="Group">
           <!--
 
     ************************ PositionToTime ************************
@@ -21108,7 +21108,7 @@
             </Patch>
           </Node>
         </Canvas>
-        <Overlay Id="BYCu61ZgqE1PgdUJqvvDy3" Name="Track Containers" Bounds="217,299,231,169">
+        <Overlay Id="BYCu61ZgqE1PgdUJqvvDy3" Name="Track Containers" Bounds="217,374,231,169">
           <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
         </Overlay>
         <!--
@@ -21116,7 +21116,7 @@
     ************************ KeyframeManager ************************
 
 -->
-        <Node Name="KeyframeManager" Bounds="254,447" Id="CJmh07oDDoJMBaFRLipHEc">
+        <Node Name="KeyframeManager" Bounds="254,522" Id="CJmh07oDDoJMBaFRLipHEc">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
             <Choice Kind="RecordDefinition" Name="Record" />
           </p:NodeReference>
@@ -22709,7 +22709,7 @@
     ************************ BlendingModes ************************
 
 -->
-        <Node Name="BlendingModes" Bounds="415,584" Id="AewmUZZzDvILsyuiibQCsE">
+        <Node Name="BlendingModes" Bounds="415,659" Id="AewmUZZzDvILsyuiibQCsE">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
             <Choice Kind="RecordDefinition" Name="Record" />
           </p:NodeReference>
@@ -22958,7 +22958,7 @@
     ************************ RealtimeControls ************************
 
 -->
-        <Node Name="RealtimeControls" Bounds="432,274" Id="OQNL9SyLBQZMXjvI8SD6kQ">
+        <Node Name="RealtimeControls" Bounds="253,313" Id="OQNL9SyLBQZMXjvI8SD6kQ">
           <p:NodeReference>
             <Choice Kind="RecordDefinition" />
           </p:NodeReference>
@@ -22966,7 +22966,7 @@
             <Canvas Id="Kom84JQqcqWQAWiXD3rxwc" CanvasType="Group">
               <Pad Id="I8KA51lgkb3MNYPYIldfeM" SlotId="L6NTN4CXDQ6OQFUXjeBxPQ" Bounds="337,374" />
               <ControlPoint Id="I9ZdcJdPLaUP6CckOcW1lG" Bounds="337,257" />
-              <ControlPoint Id="Nj8JImPbi5bMtdfcotfFqi" Bounds="337,446" />
+              <ControlPoint Id="Nj8JImPbi5bMtdfcotfFqi" Bounds="337,432" />
               <Pad Id="TqcKTA0stxXPZHIlK0jstS" SlotId="L6NTN4CXDQ6OQFUXjeBxPQ" Bounds="490,374" />
               <Pad Id="KBoHsCcwiFCLNC90hYdsdX" SlotId="L6NTN4CXDQ6OQFUXjeBxPQ" Bounds="625,374" />
               <Pad Id="MPvoeRARKRjOeJsojSIB3t" Comment="PlayState" Bounds="541,313,35,35" ShowValueBox="true" isIOBox="true" Value="True">
@@ -22986,7 +22986,7 @@
                 </p:ValueBoxSettings>
               </Pad>
               <Pad Id="KlBxLfMK04fNrXZpddlnpH" SlotId="JLAiFW6xdh8OAFfyz0xRjM" Bounds="774,365" />
-              <ControlPoint Id="NE9hg7L67ilQAFWQKU50Or" Bounds="774,437" />
+              <ControlPoint Id="NE9hg7L67ilQAFWQKU50Or" Bounds="774,432" />
               <Pad Id="VGLExnxWGeyOkPlVOQXpID" SlotId="JLAiFW6xdh8OAFfyz0xRjM" Bounds="774,248" />
               <Node Bounds="772,293,30,19" Id="HLkAgHk8SB8LtLGIWaFNlX">
                 <p:NodeReference LastCategoryFullName="Primitive.Integer32" LastDependency="VL.CoreLib.vl">
@@ -22999,10 +22999,10 @@
               </Node>
               <Pad Id="Tsk7QupoIx8NBe1oRgAdZE" SlotId="N70ipwM6oSYMd5iO5OQ6Zh" Bounds="938,365" />
               <ControlPoint Id="CVF5YaDMCEzMOdB9kNC7SX" Bounds="938,248" />
-              <ControlPoint Id="FV5Iv9Kg98NPZoq7ewcnEG" Bounds="938,437" />
-              <ControlPoint Id="IrIaxZjQGzLPWgWwLqSVcv" Bounds="417,446" />
-              <ControlPoint Id="QwdL4ZJcl4bLzU4E74hcVC" Bounds="831,437" />
-              <ControlPoint Id="O1yfbgczMTdL9dwsWV7kVl" Bounds="1019,437" />
+              <ControlPoint Id="FV5Iv9Kg98NPZoq7ewcnEG" Bounds="938,432" />
+              <ControlPoint Id="IrIaxZjQGzLPWgWwLqSVcv" Bounds="417,432" />
+              <ControlPoint Id="QwdL4ZJcl4bLzU4E74hcVC" Bounds="831,432" />
+              <ControlPoint Id="O1yfbgczMTdL9dwsWV7kVl" Bounds="1019,432" />
               <Pad Id="DWfELXtnKsGPT5woMmfRBX" SlotId="JLAiFW6xdh8OAFfyz0xRjM" Bounds="783,547" />
               <Pad Id="Oc0I7R3vQF6ODJ7GxP0TrG" SlotId="N70ipwM6oSYMd5iO5OQ6Zh" Bounds="947,547" />
               <ControlPoint Id="PZeCJwrauOQOdz3HN6nzhf" Bounds="783,577" />
@@ -23015,8 +23015,22 @@
                   <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
                 </p:ValueBoxSettings>
               </Pad>
+              <Pad Id="KOcGGDGeLW6OXKRZ8n0BjC" SlotId="E0sfjFJ7lqoMNOyhXqQmXc" Bounds="1252,365" />
+              <ControlPoint Id="MK466WOGhy7OQreb87JrFQ" Bounds="1252,247" />
+              <ControlPoint Id="IwcAQYKQWkTQcSY2ETro8X" Bounds="1252,432" />
+              <Pad Id="F7wpzh6SV43M6kEOzJ1vo3" SlotId="FSNZqkCNIk1N7aWkR68oHz" Bounds="1438,365" />
+              <ControlPoint Id="C3q2LgYuGmxLKWAPVJgNGm" Bounds="1438,247" />
+              <ControlPoint Id="R2rb6XmSY1nPVcB02X4uqS" Bounds="1438,432" />
+              <Pad Id="E4qiyghgjhmO78lFuWkmMg" SlotId="SZA7TwNAKxyM0Sd7AX5zGZ" Bounds="1600,365" />
+              <ControlPoint Id="RheWVHRyoHUP7Vxmt36UHA" Bounds="1600,247" />
+              <ControlPoint Id="RTas1aqaRhzLScyqyqkpkd" Bounds="1600,432" />
+              <Pad Id="UZ5nuqKbRGMLtFUcxHqxE0" Comment="VolumeMult" Bounds="1502,295,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </p:TypeAnnotation>
+              </Pad>
             </Canvas>
-            <Patch Id="Dr3vfdr0V2yNUwlnzMlqwL" Name="Create" ParticipatingElements="DNypFBWA5WWM27CDX1BTpU" />
+            <Patch Id="Dr3vfdr0V2yNUwlnzMlqwL" Name="Create" ParticipatingElements="DNypFBWA5WWM27CDX1BTpU,KGJ0cLtOgLXLTK7grB2hqY" />
             <ProcessDefinition Id="VRymI47L4ZBPfkVHrOf9de" IsHidden="true">
               <Fragment Id="UOSZNO41QA2OGVk0tMHcTn" Patch="Dr3vfdr0V2yNUwlnzMlqwL" Enabled="true" />
               <Fragment Id="QHR27Ih4Hx8P2dNREcwyck" Patch="VjntdAXuiMWQPyDDVfXmZK" />
@@ -23029,6 +23043,12 @@
               <Fragment Id="Jqu5zqtVL1YOndoZDPMbwW" Patch="LGvWTkVeJKWLE3uLMf8ZrY" />
               <Fragment Id="Vuyy1IXcHzELlZhMSFhj4F" Patch="LJECnIwzszRNtB7rLJiuli" />
               <Fragment Id="DHnC3Vb3A6iNrAeUOzW0CI" Patch="GZqHHZBBxBWNrZkETox0oZ" />
+              <Fragment Id="HJh58Dm3fENN3owRxir2IU" Patch="V7uE4HeC3jJLpYUAcmdixg" />
+              <Fragment Id="RtW2fRbFjjYMtFF5i9BEOS" Patch="DYMj8kWTdMmPoMMxWrYYbw" />
+              <Fragment Id="F85wF1ES2AlQW5ocpOeRB4" Patch="BvhuS4q8D1oO1DJcBjHWdF" />
+              <Fragment Id="Q1gpb3OoHNCN4zf6HvALD3" Patch="QrxyRZhJD7CNvFFVBfNh6n" />
+              <Fragment Id="SwgazRUli1qNmIURMts8uJ" Patch="K18CI9UeRuoOpSF1uCwgMD" />
+              <Fragment Id="EdnRsmtTSQgLGloGPdgdVA" Patch="S5Vm6MewD1HNwrbUmhkFDv" />
             </ProcessDefinition>
             <Slot Id="L6NTN4CXDQ6OQFUXjeBxPQ" Name="PlayState">
               <p:TypeAnnotation p:Type="TypeReference">
@@ -23097,6 +23117,52 @@
             <Link Id="JhMV0p4QZe9NXqKQfV5rkm" Ids="N9PvvjDGSVKQRSWIG4xS5a,EPKRHXXcU1xMAt7MMuCowJ" IsHidden="true" />
             <Link Id="MqpRiu8zMj3PsGEScHxGZ0" Ids="JsOlXV7ixuZP19HOxj0gQa,TqcKTA0stxXPZHIlK0jstS" />
             <Patch Id="GZqHHZBBxBWNrZkETox0oZ" Name="Stop" ParticipatingElements="MqpRiu8zMj3PsGEScHxGZ0" />
+            <Slot Id="E0sfjFJ7lqoMNOyhXqQmXc" Name="Page">
+              <p:TypeAnnotation p:Type="TypeReference">
+                <Choice Kind="TypeFlag" Name="Integer32" />
+              </p:TypeAnnotation>
+            </Slot>
+            <Link Id="C0AO3NKe20OPMEPwo4vKtr" Ids="DvSLnPXS6hoLIZWkb4sAPs,MK466WOGhy7OQreb87JrFQ" IsHidden="true" />
+            <Link Id="GDcdB6xuvzMNgzyXTkvZ4o" Ids="MK466WOGhy7OQreb87JrFQ,KOcGGDGeLW6OXKRZ8n0BjC" />
+            <Link Id="GU6nDBhwb2VQT2CqmdjjS0" Ids="IwcAQYKQWkTQcSY2ETro8X,CVzbw5AEM1DMr2sAPqezsn" IsHidden="true" />
+            <Link Id="AcWcvt5sCo4QEfQnyRXFup" Ids="KOcGGDGeLW6OXKRZ8n0BjC,IwcAQYKQWkTQcSY2ETro8X" />
+            <Patch Id="V7uE4HeC3jJLpYUAcmdixg" Name="SetPage">
+              <Pin Id="DvSLnPXS6hoLIZWkb4sAPs" Name="Page" Kind="InputPin" />
+            </Patch>
+            <Patch Id="DYMj8kWTdMmPoMMxWrYYbw" Name="GetPage">
+              <Pin Id="CVzbw5AEM1DMr2sAPqezsn" Name="Page" Kind="OutputPin" />
+            </Patch>
+            <Slot Id="FSNZqkCNIk1N7aWkR68oHz" Name="Morphing">
+              <p:TypeAnnotation p:Type="TypeReference">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Slot>
+            <Link Id="DcHXYPnF0vtPCMjTW26WA6" Ids="J1n2pZgzlNBNSMTl8GTVCD,C3q2LgYuGmxLKWAPVJgNGm" IsHidden="true" />
+            <Link Id="VHYBubfrI1TP3hjCMcW0x8" Ids="C3q2LgYuGmxLKWAPVJgNGm,F7wpzh6SV43M6kEOzJ1vo3" />
+            <Link Id="G9tWBJ2VSp6NtfUzs5CL84" Ids="R2rb6XmSY1nPVcB02X4uqS,In0WYlxYdVRLlQNwY7xps1" IsHidden="true" />
+            <Link Id="EyKbQxAcu6IOHXB5rhMmzW" Ids="F7wpzh6SV43M6kEOzJ1vo3,R2rb6XmSY1nPVcB02X4uqS" />
+            <Patch Id="BvhuS4q8D1oO1DJcBjHWdF" Name="SetMorphing">
+              <Pin Id="J1n2pZgzlNBNSMTl8GTVCD" Name="Morphing" Kind="InputPin" />
+            </Patch>
+            <Patch Id="QrxyRZhJD7CNvFFVBfNh6n" Name="GetMorphing">
+              <Pin Id="In0WYlxYdVRLlQNwY7xps1" Name="Morphing" Kind="OutputPin" />
+            </Patch>
+            <Slot Id="SZA7TwNAKxyM0Sd7AX5zGZ" Name="VolumeMult">
+              <p:TypeAnnotation p:Type="TypeReference">
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Slot>
+            <Link Id="SlvqWLLe3KYNdO1VuCHdxc" Ids="Gar5S3UXttKMaX5dpyAiUu,RheWVHRyoHUP7Vxmt36UHA" IsHidden="true" />
+            <Link Id="NMD2mm26Yv1NwxlfjE53LB" Ids="RheWVHRyoHUP7Vxmt36UHA,E4qiyghgjhmO78lFuWkmMg" />
+            <Link Id="T9okpxUc9cQNIzlTkIvvc8" Ids="RTas1aqaRhzLScyqyqkpkd,TKtfyFILbBYOYhCwnmy7hR" IsHidden="true" />
+            <Link Id="FW4JmGg8K4sO1KmkCSUmID" Ids="E4qiyghgjhmO78lFuWkmMg,RTas1aqaRhzLScyqyqkpkd" />
+            <Patch Id="K18CI9UeRuoOpSF1uCwgMD" Name="SetVolumeMult">
+              <Pin Id="Gar5S3UXttKMaX5dpyAiUu" Name="VolumeMult" Kind="InputPin" />
+            </Patch>
+            <Patch Id="S5Vm6MewD1HNwrbUmhkFDv" Name="GetVolumeMult">
+              <Pin Id="TKtfyFILbBYOYhCwnmy7hR" Name="VolumeMult" Kind="OutputPin" />
+            </Patch>
+            <Link Id="KGJ0cLtOgLXLTK7grB2hqY" Ids="UZ5nuqKbRGMLtFUcxHqxE0,E4qiyghgjhmO78lFuWkmMg" />
           </Patch>
         </Node>
       </Canvas>
@@ -31083,6 +31149,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.0-0314-g35facf5fa7" />
+  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.0-0328-gf90df5d456" />
   <PlatformDependency Id="Kqi5mxDaVTgNoC90GE4IId" Location="./src/Enums/obj/Debug/netstandard2.0/InterpolatorEnums.dll" />
 </Document>

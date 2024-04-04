@@ -11684,7 +11684,7 @@
               <Pin Id="AUYh7AN1IoIL1XGJfujfH3" Name="Level" Kind="InputPin" DefaultValue="1" />
               <Pin Id="QRcni0Xd0agLQcBrEvjVeZ" Name="PositionOnClip" Kind="InputPin" />
               <Pin Id="E5o7NCtEFlTOGrIYmwGdX5" Name="Multi_Mono" Kind="InputPin" />
-              <Pin Id="IRmxgoHsNfGPj4Al0nmtpn" Name="Loop" Kind="InputPin" DefaultValue="True" />
+              <Pin Id="IRmxgoHsNfGPj4Al0nmtpn" Name="Loop" Kind="InputPin" DefaultValue="False" />
               <Pin Id="MAnFy005hgFMIKelzfTdjw" Name="FadeInTweenTransition" Kind="InputPin" DefaultValue="Circular" />
               <Pin Id="IfgIR8mTDTgO0fuwdOXFsK" Name="FadeInTweenMode" Kind="InputPin" DefaultValue="In" />
               <Pin Id="AGbuxNa6JfuLJl4rHtc1FO" Name="FadeOutTweenTransition" Kind="InputPin" DefaultValue="Circular" />
@@ -11777,7 +11777,7 @@
               <Pin Id="FTwqGdPJxMNNaSvFrbZvKp" Name="FadeOut" Kind="OutputPin" />
             </Patch>
             <Patch Id="HECu2UCgWgUMrUknZcv2rr" Name="SetLoop">
-              <Pin Id="Ume6sOX1YYXPmP7jGNHdmf" MergeId="5491" Name="Loop" Kind="InputPin" DefaultValue="True" />
+              <Pin Id="Ume6sOX1YYXPmP7jGNHdmf" MergeId="5491" Name="Loop" Kind="InputPin" DefaultValue="False" />
             </Patch>
             <Patch Id="U9lvpVSGFp2PtRDevcljET" Name="GetLoop">
               <Pin Id="Lq5ou5mwPsfOqDDu3lLBl0" MergeId="5494" Name="Loop" Kind="OutputPin" />

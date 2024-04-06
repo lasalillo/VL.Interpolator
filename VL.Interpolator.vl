@@ -221,7 +221,7 @@
             <Link Id="VkjbmTbT8XLN8PzWUh190A" Ids="JcZybM1vOgwLc3DKhqWOLk,ONz0NIRYzk5LPOYXTTucPD" IsHidden="true" />
           </Patch>
         </Node>
-        <Canvas Id="RFiXYJ9qKygOUkAdfFYpem" Name="Internal" Position="199,316">
+        <Canvas Id="RFiXYJ9qKygOUkAdfFYpem" Name="Experimental" Position="199,316">
           <!--
 
     ************************ Lerp (Property) ************************
@@ -3517,7 +3517,7 @@
                     <ControlPoint Id="He79UzG2ORaMpW5J3D104i" Bounds="394,982" Alignment="Bottom" />
                     <ControlPoint Id="PhI1tqRN8h4L3cFMVUH74m" Bounds="459,982" Alignment="Bottom" />
                     <ControlPoint Id="ArjTagorMtPLbHUbUgbrRh" Bounds="493,982" Alignment="Bottom" />
-                    <ControlPoint Id="Goaz26k7xFePWrb7FY5i0g" Bounds="674,982" Alignment="Bottom" />
+                    <ControlPoint Id="Goaz26k7xFePWrb7FY5i0g" Bounds="675,982" Alignment="Bottom" />
                     <ControlPoint Id="PgIhl3KphjYLbhi9DRJfuj" Bounds="750,982" Alignment="Bottom" />
                     <ControlPoint Id="ANXXLbGfH1KMDLvWljP8Mw" Bounds="298,982" Alignment="Bottom" />
                     <ControlPoint Id="T8WiEkz9SE9PrfMEblLjQR" Bounds="601,423" Alignment="Top" />
@@ -3755,7 +3755,7 @@
                       </Pad>
                       <ControlPoint Id="Iz5X2mVvJU0LEI5nGSFdEB" Bounds="559,759" />
                       <ControlPoint Id="UToQkgF9FLbLK2pLk0xZT7" Bounds="558,759" />
-                      <Pad Id="PVVnNR8V0wlMvyFFHoORpV" Comment="" Bounds="631,683,68,15" ShowValueBox="true" isIOBox="true" />
+                      <Pad Id="PVVnNR8V0wlMvyFFHoORpV" Comment="" Bounds="631,683,92,15" ShowValueBox="true" isIOBox="true" />
                       <Node Bounds="492,906,110,19" Id="HS6UTFiwRykNV33VVynXDU">
                         <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -3787,7 +3787,7 @@
                         <Pin Id="JhktDDJCMf9OEoRV1Rmpkv" Name="Condition" Kind="InputPin" />
                         <ControlPoint Id="PkwtEk4qR5KO0NT4Mc01Sz" Bounds="600,865" Alignment="Bottom" />
                         <ControlPoint Id="IA2tArPcdfgO2U2VAHHfcw" Bounds="635,804" Alignment="Top" />
-                        <ControlPoint Id="T80QFok5ykMN2QcDOA3sC4" Bounds="676,865" Alignment="Bottom" />
+                        <ControlPoint Id="T80QFok5ykMN2QcDOA3sC4" Bounds="675,865" Alignment="Bottom" />
                         <ControlPoint Id="RrfzEVYgUjhMEA5Q4Xb8jB" Bounds="676,804" Alignment="Top" />
                         <ControlPoint Id="JQkrD90BhtFL49BVG1XDlz" Bounds="751,865" Alignment="Bottom" />
                         <ControlPoint Id="LDVmD4AoaJxMxh5XaLVxWQ" Bounds="751,804" Alignment="Top" />
@@ -3831,7 +3831,7 @@
                   <ControlPoint Id="TBMZNQAgq9aLsPYdMRFr0A" Bounds="394,1143" />
                   <ControlPoint Id="FZrsDNlFZbSPP1JWBsP5Ji" Bounds="459,1187" />
                   <ControlPoint Id="InVuYk3496VQYISCfJYn79" Bounds="493,1232" />
-                  <ControlPoint Id="UGtOBpLK9LjQQP8tYszrsX" Bounds="674,1054" />
+                  <ControlPoint Id="UGtOBpLK9LjQQP8tYszrsX" Bounds="675,1054" />
                   <ControlPoint Id="Jsok3sxA7EaPfN18eMseq8" Bounds="750,1078" />
                   <ControlPoint Id="PKno7Lq27MdPGgUDPPy4WM" Bounds="298,1097" />
                   <ControlPoint Id="DbfekefRRJpPVyFfPccvwm" Bounds="602,312" />
@@ -6445,7 +6445,7 @@
     ************************ ValidTypes ************************
 
 -->
-            <Node Name="ValidTypes" Bounds="216,547,833,347" Id="OrzMiJTe4wuM3Zd7dUMrDC">
+            <Node Name="ValidTypes" Bounds="216,547,833,353" Id="OrzMiJTe4wuM3Zd7dUMrDC">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="OperationDefinition" Name="Operation" />
               </p:NodeReference>
@@ -17050,6 +17050,34 @@
                 <Pin Id="VIZ3n0bHy69PtolMrP7rS2" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="DX9XCqEDFRpMWFJseHZpj5" Name="Keyframes" Kind="OutputPin" />
               </Node>
+              <Pad Id="Cr6CKy9GbMOMQTE2Xs9GWy" SlotId="VYcmlbupy10NWbtufAUtBE" Bounds="3074,184" />
+              <ControlPoint Id="UrhJzzbbtLyMEHe8U5prIJ" Bounds="3074,105" />
+              <ControlPoint Id="OVUq7KmqaBTPAbLUNoCO7x" Bounds="3074,271" />
+              <Pad Id="TmHv4eTVCQVQLYYSAf75GS" SlotId="HE57Jg2ScyqL1AIzreyH4y" Bounds="3256,184" />
+              <ControlPoint Id="Gh2J2X04wguNwCwbILuvEp" Bounds="3256,105" />
+              <ControlPoint Id="Q5HSnIL6xYXN696tiPELoM" Bounds="3256,271" />
+              <Pad Id="LHZL28PDAH9ML2nEM9f9gP" SlotId="DJVsFGpN8biMdksWAZygbR" Bounds="3418,184" />
+              <ControlPoint Id="L6uFNJmDM2XOMHYxrwcXEB" Bounds="3418,105" />
+              <ControlPoint Id="KiSkJgZ9QyFL5kdo94F9nn" Bounds="3418,271" />
+              <Overlay Id="TE4WEh5nty8PDVCnxGmOKt" Name="Target Property Arguments" Bounds="2938,49,734,275">
+                <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
+              </Overlay>
+              <Pad Id="RMDQhSUGYwxOyAeXtDnREB" SlotId="VT74jjMZomXMkxqlIZjCCJ" Bounds="3560,184" />
+              <ControlPoint Id="TQAm41nJG4QLH1iVnokNjZ" Bounds="3560,105" />
+              <ControlPoint Id="I3in9nwbMY9L2sy9bAw0Qm" Bounds="3560,271" />
+              <Pad Id="TpZo7zraUbsK9vEVOao2Jl" Comment="Interpolate" Bounds="3517,127,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+                </p:TypeAnnotation>
+                <p:ValueBoxSettings>
+                  <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+                </p:ValueBoxSettings>
+              </Pad>
+              <Pad Id="OCw5IVCaKg3OKBha2rpJ0D" Comment="InterpolationArgument" Bounds="3015,140,81,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+                <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
+                  <Choice Kind="TypeFlag" Name="TargetMode" />
+                </p:TypeAnnotation>
+              </Pad>
             </Canvas>
             <ProcessDefinition Id="TZZSCO0IilMMDU7VY0FTr4" IsHidden="true">
               <Fragment Id="J6x6H0A5xxpNakybSqqYi2" Patch="VFWnZClYOcxLx0tviqRl46" Enabled="true" />
@@ -17076,6 +17104,14 @@
               <Fragment Id="VXv9MhdhRw5OyAcuTUBP2M" Patch="DrmC9fqDTQ1MVHhPRn3iaa" />
               <Fragment Id="BypJjus0SJxLau3AEjjvpA" Patch="Br6wpPuY5klPy8xew6IYoM" />
               <Fragment Id="LTiur8iBmebOBpm6AONIFg" Patch="H7bYkqCLKr1O36TtigaAeZ" />
+              <Fragment Id="IIY3cyfXGLOORTzMByP0of" Patch="OmeWJqF1HzkOFRqTQDuvv3" />
+              <Fragment Id="Ts69SdwmGhIL5DXKDg5oLt" Patch="UcO8mfQw8NZNfut3UYhomS" />
+              <Fragment Id="DZb7hGzNv89LBSGTgo24Yx" Patch="QPu1MtpmqzEPYKb68libN6" />
+              <Fragment Id="U2fAH3Y3D8IMmAcxT4RFqK" Patch="Rfs1Sh8VUlRLpN2a1uabpn" />
+              <Fragment Id="Rl66rRC3J6KOFWOzp1s6VM" Patch="PeQ0aMJg5HhPOH3R55qWca" />
+              <Fragment Id="Httccy3a8IIMhbbEiwztEZ" Patch="Mu6k4kQYGvSMVKdxmV1n8j" />
+              <Fragment Id="S5bcNClBlamOYLNep8tMAW" Patch="MAeQlMGtpYYL12U4V1foJT" />
+              <Fragment Id="CdCNAxR1Ly2LkFkO7twfFO" Patch="FMihCFaMycVNNHeT3v9tPX" />
             </ProcessDefinition>
             <Slot Id="DA5LN28miyTMiutOdv8OYj" Name="Key">
               <p:Attributes>
@@ -17194,7 +17230,7 @@
             <Link Id="FOSX8gyx5eFL9znnfUhYh3" Ids="HvT9gI4FU2NQGKMnMF0ruP,N4rH4X1M2YLL3OWXr2Kv4E" />
             <Link Id="TJXrL321iG4LlTMAe0Ai4L" Ids="N4rH4X1M2YLL3OWXr2Kv4E,KftO3VmjzdGMqBUyXMoHO3" IsHidden="true" />
             <Link Id="FrWDQjaZEqOLh5fuE93VWb" Ids="NOVB57NAEZAPCefh4Ikguc,U83Bgnewt8RLuoiG926J74" IsHidden="true" />
-            <Patch Id="VFWnZClYOcxLx0tviqRl46" Name="Create" ParticipatingElements="Mk7rMOvZ7GELeUythjKXDu,HamHxxutPo8LgxdodlRIDd,RtBTTCxiNIcNngGgbCjHKS,S8gKYWqpjZWNfGubw4xRee,AxeI308XxyhPTuaWjwFv7y">
+            <Patch Id="VFWnZClYOcxLx0tviqRl46" Name="Create" ParticipatingElements="Mk7rMOvZ7GELeUythjKXDu,HamHxxutPo8LgxdodlRIDd,RtBTTCxiNIcNngGgbCjHKS,S8gKYWqpjZWNfGubw4xRee,AxeI308XxyhPTuaWjwFv7y,SFijv1JPWuVPaTyyoewyqj,A8QfQLeTVfDLru4rdwJ4K1">
               <Pin Id="Da1Ik2AlLlLPynhLRN009d" Name="Value" Kind="InputPin" />
               <Pin Id="GLnLUEvLXBZPevGMhvMMPT" Name="GroupID" Kind="InputPin" />
             </Patch>
@@ -17340,6 +17376,68 @@
             <Link Id="TzRGjrX7sO9Lk6tt4rAwGk" Ids="TXFwxmESI1eP3XSEcU5xXv,AKPis9RuWcgN4BZqIMtfBM" />
             <Link Id="D1G0f5DwouwN5xJUzJA1j6" Ids="DX9XCqEDFRpMWFJseHZpj5,HQln9hLvzClMdosOaARbyT" />
             <Link Id="CAvtebeY8nrMYpx2qo1lR5" Ids="Ng11cnESRG6OP11TkoNBHE,NOVB57NAEZAPCefh4Ikguc" />
+            <Slot Id="VYcmlbupy10NWbtufAUtBE" Name="InterpolationArgument">
+              <p:TypeAnnotation p:Type="TypeReference">
+                <Choice Kind="TypeFlag" Name="TargetMode" />
+              </p:TypeAnnotation>
+            </Slot>
+            <Link Id="JOWH8M8KcJyOBWbqyht9qH" Ids="TQdovpzQXv2QLF14I4WTyR,UrhJzzbbtLyMEHe8U5prIJ" IsHidden="true" />
+            <Link Id="CSadl6ioYW2QKdngNLYDEU" Ids="UrhJzzbbtLyMEHe8U5prIJ,Cr6CKy9GbMOMQTE2Xs9GWy" />
+            <Patch Id="OmeWJqF1HzkOFRqTQDuvv3" Name="SetInterpolationArgument">
+              <Pin Id="TQdovpzQXv2QLF14I4WTyR" Name="InterpolationArgument" Kind="InputPin" DefaultValue="Interpolate" />
+            </Patch>
+            <Link Id="DUFFtrk61O8QHW7K6bbPqU" Ids="Cr6CKy9GbMOMQTE2Xs9GWy,OVUq7KmqaBTPAbLUNoCO7x" />
+            <Link Id="J8oPUgQUAerOJIiZdHViqj" Ids="OVUq7KmqaBTPAbLUNoCO7x,MydwcMsSjxtK9vTq0iRhtz" IsHidden="true" />
+            <Patch Id="UcO8mfQw8NZNfut3UYhomS" Name="GetInterpolationArgument">
+              <Pin Id="MydwcMsSjxtK9vTq0iRhtz" Name="InterpolationArgument" Kind="OutputPin" />
+            </Patch>
+            <Slot Id="HE57Jg2ScyqL1AIzreyH4y" Name="NextIndexName">
+              <p:TypeAnnotation p:Type="TypeReference">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Slot>
+            <Link Id="M3q6SpJz7pPL0XjUynhNQf" Ids="DrQH0CcSGDJOPPDHUtFjAO,Gh2J2X04wguNwCwbILuvEp" IsHidden="true" />
+            <Link Id="IbENAuzLCwKLsuHWJOMaI9" Ids="Gh2J2X04wguNwCwbILuvEp,TmHv4eTVCQVQLYYSAf75GS" />
+            <Link Id="KAlCJPZRMj0PPeIk5PlrMn" Ids="Q5HSnIL6xYXN696tiPELoM,NUH5E8TSrQaPblLiVKmdA2" IsHidden="true" />
+            <Link Id="N5BDyO4NTwFLPeZ9KfIkF1" Ids="TmHv4eTVCQVQLYYSAf75GS,Q5HSnIL6xYXN696tiPELoM" />
+            <Patch Id="QPu1MtpmqzEPYKb68libN6" Name="SetNextIndexName">
+              <Pin Id="DrQH0CcSGDJOPPDHUtFjAO" Name="NextIndexName" Kind="InputPin" />
+            </Patch>
+            <Patch Id="Rfs1Sh8VUlRLpN2a1uabpn" Name="GetNextIndexName">
+              <Pin Id="NUH5E8TSrQaPblLiVKmdA2" Name="NextIndexName" Kind="OutputPin" />
+            </Patch>
+            <Slot Id="DJVsFGpN8biMdksWAZygbR" Name="LerpPositionName">
+              <p:TypeAnnotation p:Type="TypeReference">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Slot>
+            <Link Id="AGqnchktHg6LXCdEo4sbQv" Ids="A1RMWZcNgtqMKg1zSDiJw8,L6uFNJmDM2XOMHYxrwcXEB" IsHidden="true" />
+            <Link Id="MjvFF9evmE0PN0ckhUkSoB" Ids="L6uFNJmDM2XOMHYxrwcXEB,LHZL28PDAH9ML2nEM9f9gP" />
+            <Link Id="MQ6ib3R7gC0MGdlZ6stDwd" Ids="KiSkJgZ9QyFL5kdo94F9nn,PhJ3r5iLRVNPvLI057EVVH" IsHidden="true" />
+            <Link Id="GXU8MFB7Pi5PrtCWG4iPCD" Ids="LHZL28PDAH9ML2nEM9f9gP,KiSkJgZ9QyFL5kdo94F9nn" />
+            <Patch Id="PeQ0aMJg5HhPOH3R55qWca" Name="SetLerpPositionName">
+              <Pin Id="A1RMWZcNgtqMKg1zSDiJw8" Name="LerpPositionName" Kind="InputPin" />
+            </Patch>
+            <Patch Id="Mu6k4kQYGvSMVKdxmV1n8j" Name="GetLerpPositionName">
+              <Pin Id="PhJ3r5iLRVNPvLI057EVVH" Name="LerpPositionName" Kind="OutputPin" />
+            </Patch>
+            <Slot Id="VT74jjMZomXMkxqlIZjCCJ" Name="Interpolate">
+              <p:TypeAnnotation p:Type="TypeReference">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Slot>
+            <Link Id="OKo5cCQKegeP1Oqd4Aekyg" Ids="VNtBuBTDk4wNkxBjEOOeF2,TQAm41nJG4QLH1iVnokNjZ" IsHidden="true" />
+            <Link Id="BbQTZdVr5ePPyA2ArN1cUU" Ids="TQAm41nJG4QLH1iVnokNjZ,RMDQhSUGYwxOyAeXtDnREB" />
+            <Link Id="RI62EbG8xvIQFx4AWzLcHu" Ids="I3in9nwbMY9L2sy9bAw0Qm,SEQbwM7WojsQDvylFhcp6Q" IsHidden="true" />
+            <Link Id="DgpZr9Hme5lLcmP4epQ0Ey" Ids="RMDQhSUGYwxOyAeXtDnREB,I3in9nwbMY9L2sy9bAw0Qm" />
+            <Patch Id="MAeQlMGtpYYL12U4V1foJT" Name="SetInterpolate">
+              <Pin Id="VNtBuBTDk4wNkxBjEOOeF2" Name="Interpolate" Kind="InputPin" DefaultValue="True" />
+            </Patch>
+            <Patch Id="FMihCFaMycVNNHeT3v9tPX" Name="GetInterpolate">
+              <Pin Id="SEQbwM7WojsQDvylFhcp6Q" Name="Interpolate" Kind="OutputPin" />
+            </Patch>
+            <Link Id="SFijv1JPWuVPaTyyoewyqj" Ids="TpZo7zraUbsK9vEVOao2Jl,RMDQhSUGYwxOyAeXtDnREB" />
+            <Link Id="A8QfQLeTVfDLru4rdwJ4K1" Ids="OCw5IVCaKg3OKBha2rpJ0D,Cr6CKy9GbMOMQTE2Xs9GWy" />
           </Patch>
         </Node>
         <!--
@@ -30164,6 +30262,16 @@
                     <ControlPoint Id="PyVv93LrFUoLfUQHdyJwKH" Bounds="1278,860" Alignment="Top" />
                     <ControlPoint Id="HdVRg9oriHANHWzQboe3A6" Bounds="1577,860" Alignment="Top" />
                     <ControlPoint Id="P1t2R5vyXvMPcJNBREkBgS" Bounds="999,860" Alignment="Top" />
+                    <ControlPoint Id="AdoQkWJX17ZMLaRvv9O2Tg" Bounds="939,860" Alignment="Top" />
+                    <ControlPoint Id="ChCNTPHT6ZTOc3Ri5sFAVK" Bounds="913,860" Alignment="Top" />
+                    <ControlPoint Id="D8kuNisqN8gPvWeqnrw2LL" Bounds="887,860" Alignment="Top" />
+                    <ControlPoint Id="A8w7lXRFrHmPE5bdu60GWw" Bounds="861,860" Alignment="Top" />
+                    <ControlPoint Id="LX8IgniZL0SNICtnjdyiJr" Bounds="835,860" Alignment="Top" />
+                    <ControlPoint Id="AGHS6uhsuhfNqZDg6GKDXK" Bounds="809,860" Alignment="Top" />
+                    <ControlPoint Id="K2FT8J1DnpiLFrPofilA68" Bounds="783,860" Alignment="Top" />
+                    <ControlPoint Id="OE8Pg5ILW3ROWrRxQXQrZx" Bounds="757,860" Alignment="Top" />
+                    <ControlPoint Id="S87MOMdntIKMWzgJ3n8HDv" Bounds="507,860" Alignment="Top" />
+                    <ControlPoint Id="NzcRr121aWxN3gbd58mi7v" Bounds="591,860" Alignment="Top" />
                     <Patch Id="I49aUPmDgNzQOARr79lXUF" ManuallySortedPins="true">
                       <Patch Id="HUPwYz7Pv4eOrpDr5E0uNU" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="HIOQs1JmVVlMmSirouwm4Z" Name="Then" ManuallySortedPins="true" />
@@ -30511,16 +30619,6 @@
                         </p:ValueBoxSettings>
                       </Pad>
                     </Patch>
-                    <ControlPoint Id="AdoQkWJX17ZMLaRvv9O2Tg" Bounds="939,860" Alignment="Top" />
-                    <ControlPoint Id="ChCNTPHT6ZTOc3Ri5sFAVK" Bounds="913,860" Alignment="Top" />
-                    <ControlPoint Id="D8kuNisqN8gPvWeqnrw2LL" Bounds="887,860" Alignment="Top" />
-                    <ControlPoint Id="A8w7lXRFrHmPE5bdu60GWw" Bounds="861,860" Alignment="Top" />
-                    <ControlPoint Id="LX8IgniZL0SNICtnjdyiJr" Bounds="835,860" Alignment="Top" />
-                    <ControlPoint Id="AGHS6uhsuhfNqZDg6GKDXK" Bounds="809,860" Alignment="Top" />
-                    <ControlPoint Id="K2FT8J1DnpiLFrPofilA68" Bounds="783,860" Alignment="Top" />
-                    <ControlPoint Id="OE8Pg5ILW3ROWrRxQXQrZx" Bounds="757,860" Alignment="Top" />
-                    <ControlPoint Id="S87MOMdntIKMWzgJ3n8HDv" Bounds="507,860" Alignment="Top" />
-                    <ControlPoint Id="NzcRr121aWxN3gbd58mi7v" Bounds="591,860" Alignment="Top" />
                   </Node>
                   <Node Bounds="712,811,50,26" Id="MOfK3rJIedeN6SKIozzXzx">
                     <p:NodeReference LastCategoryFullName="System.Reflection.IVLObject" LastDependency="VL.CoreLib.vl">

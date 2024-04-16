@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Pcu4QJlz7LXNKkjHUOLMQj" LanguageVersion="2024.6.1-0003-gf771bc5e18" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="Pcu4QJlz7LXNKkjHUOLMQj" LanguageVersion="2024.6.3-0005-g72dc3a29e4" Version="0.128">
   <Patch Id="EAIIpcVCowFQTcz0KLQtUE">
     <Canvas Id="HsgcAMUqtVTNXLSvHJWTpN" DefaultCategory="Interpolator" CanvasType="FullCategory">
-      <Canvas Id="QIfd52ShnGdL2SQeqFCih1" Name="Lerp" Position="198,279" CanvasType="Group">
+      <Canvas Id="QIfd52ShnGdL2SQeqFCih1" Name="Lerp" Position="198,278" CanvasType="Group">
         <!--
 
     ************************ Interpolator ************************
@@ -23860,7 +23860,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="R6WjhvqjpmCQN64fRI7VIc" Name="Blend" Position="198,329" CanvasType="Group">
+      <Canvas Id="R6WjhvqjpmCQN64fRI7VIc" Name="Blend" Position="198,327" CanvasType="Group">
         <Canvas Id="LtpsePv9Qu4LrbGsvV8U4f" Name="Internal" Position="197,276">
           <Canvas Id="TGMkr0ipPILNSlV7AEGsoi" Name="BlendModes" Position="399,228">
             <!--
@@ -28517,7 +28517,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="ONOzBRUTviGP0DOjTU1Ad4" Name="Compose" Position="198,379" CanvasType="Group">
+      <Canvas Id="ONOzBRUTviGP0DOjTU1Ad4" Name="Compose" Position="198,376" CanvasType="Group">
         <Canvas Id="DJ9xwAOfwtzOOzsmKlK1K4" Name="Internal" Position="216,320">
           <!--
 
@@ -31821,6 +31821,152 @@
           </Patch>
         </Node>
       </Canvas>
+      <Canvas Id="KFR0iCSPa1pPFHoVXlvHmu" Name="Enums" Position="198,425">
+        <!--
+
+    ************************ BlendModes ************************
+
+-->
+        <Node Name="BlendModes" Bounds="216,229" Id="TlmKWpTH4xqPxTldIll7xm">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
+            <Choice Kind="TypeFlag" Name="BlendModes" />
+          </p:TypeAnnotation>
+          <Patch Id="FPWcnYns8GNLeNqgKkweLR">
+            <Canvas Id="ULYyXy87JXxNOiMTUY164m" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="CELYFZN6ueqMIr7uQgP7PQ" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ BooleanModes ************************
+
+-->
+        <Node Name="BooleanModes" Bounds="216,262" Id="Cdn39B4V99OLBYMABQXuNU">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
+            <Choice Kind="TypeFlag" Name="BooleanModes" />
+          </p:TypeAnnotation>
+          <Patch Id="L9h1Ki5LsjrOrfvAYufInh">
+            <Canvas Id="IZFPU8rtQwkNA1Z4END3Q3" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="ShyLGLfX4vtMx8nG7qWpt0" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ InterpolationModes ************************
+
+-->
+        <Node Name="InterpolationModes" Bounds="216,295" Id="GiXgoFqe923LjiW3P03jtm">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
+            <Choice Kind="TypeFlag" Name="InterpolationModes" />
+          </p:TypeAnnotation>
+          <Patch Id="GKIQjzADDtTNFOKw1bYl3i">
+            <Canvas Id="VGCOXHI7CoOL3L2nwgVVum" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="NJJB03wYeUTOaHkycPCU2W" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ InterpolationModes2 ************************
+
+-->
+        <Node Name="InterpolationModes2" Bounds="216,328" Id="Bt2m6vGlGJuPRSmDQMhL8g">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
+            <Choice Kind="TypeFlag" Name="InterpolationModes2" />
+          </p:TypeAnnotation>
+          <Patch Id="U0Cccycw9WALNOrQSKHeiB">
+            <Canvas Id="BZNEV9lJdZWPs8i3JVEE1g" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="H2Nifya8WLCQJ3wNDC4yzS" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ SwitchModes ************************
+
+-->
+        <Node Name="SwitchModes" Bounds="216,361" Id="LtoDInayUNlNh5HcYkZClA">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
+            <Choice Kind="TypeFlag" Name="SwitchModes" />
+          </p:TypeAnnotation>
+          <Patch Id="Lyo4jJdIzmYOrrJgHNY1dq">
+            <Canvas Id="Cw4jOclEdZVPoRx24Nnbky" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="LAyI87QIXjKMbcAPF93z3f" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ TargetMode ************************
+
+-->
+        <Node Name="TargetMode" Bounds="216,394" Id="UjbZYjTAJodNtV3iVJ0Ljx">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
+            <Choice Kind="TypeFlag" Name="TargetMode" />
+          </p:TypeAnnotation>
+          <Patch Id="RlfzR49mjJoPHPrQ6t4xyF">
+            <Canvas Id="RtznApTL1RXNegtHQQWlFT" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="Lo6JiEr6hihLMUlAz5tXst" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ TweenerTransition2 ************************
+
+-->
+        <Node Name="TweenerTransition2" Bounds="216,427" Id="EvHvpXXCniqPhvmO3Xr3Hh">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
+            <Choice Kind="TypeFlag" Name="TweenerTransition2" />
+          </p:TypeAnnotation>
+          <Patch Id="SVfhwYpY6UwLlhmysH8fJs">
+            <Canvas Id="Em2zNFHmzptPbEK4soxfzT" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="CCNSkEhxCyXNiPARS9eYw0" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ TweenerTransitionFade ************************
+
+-->
+        <Node Name="TweenerTransitionFade" Bounds="216,460" Id="JibQGJqbXwpN7kW7DvLtU5">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
+            <Choice Kind="TypeFlag" Name="TweenerTransitionFade" />
+          </p:TypeAnnotation>
+          <Patch Id="DBAanYNPjXYPj9uDIJGFcC">
+            <Canvas Id="G39W71NEXImMNVPgOLQP80" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="Hy7amnVSo7ANBwUGxIk1y6" IsHidden="true" />
+          </Patch>
+        </Node>
+      </Canvas>
     </Canvas>
     <!--
 
@@ -31843,6 +31989,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.1-0003-gf771bc5e18" />
-  <PlatformDependency Id="Kqi5mxDaVTgNoC90GE4IId" Location="./src/Enums/obj/Debug/netstandard2.0/InterpolatorEnums.dll" IsForward="true" />
+  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.3-0005-g72dc3a29e4" />
+  <PlatformDependency Id="UAzsalWIwraQGyRDrUduvA" Location="./lib/netstandard2.0/InterpolatorEnums.dll" />
 </Document>

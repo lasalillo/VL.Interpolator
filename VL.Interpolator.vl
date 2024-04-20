@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Pcu4QJlz7LXNKkjHUOLMQj" LanguageVersion="2024.6.3-0005-g72dc3a29e4" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="Pcu4QJlz7LXNKkjHUOLMQj" LanguageVersion="2024.6.3-0012-g26a73f6763" Version="0.128">
   <Patch Id="EAIIpcVCowFQTcz0KLQtUE">
     <Canvas Id="HsgcAMUqtVTNXLSvHJWTpN" DefaultCategory="Interpolator" CanvasType="FullCategory">
       <Canvas Id="QIfd52ShnGdL2SQeqFCih1" Name="Lerp" Position="198,278" CanvasType="Group">
@@ -20629,6 +20629,22 @@
               </Pad>
               <ControlPoint Id="RZAt6lE83bdLe6dXbQ96Qm" Bounds="2239,283" />
               <ControlPoint Id="GWVxBbBa4HYLHufmvjM4PU" Bounds="2240,486" />
+              <Pad Id="KRVuekkNBJ7L5BkBNJkiCT" SlotId="FT2EPV35ZdUOfgij8CBaEI" Bounds="2482,412" />
+              <Pad Id="QY9AsQ4vnwDOAx0a2R4F98" SlotId="UQF4CgRTiPgLIUeSUHLVwa" Bounds="2629,413" />
+              <ControlPoint Id="TH9NsjtxKTgO1Ueury3OTn" Bounds="2482,292" />
+              <ControlPoint Id="Np77D6Qf9eHNveBFgp0PbG" Bounds="2482,487" />
+              <ControlPoint Id="VZ5g8dnlMB2PqNDhx81MeA" Bounds="2629,293" />
+              <ControlPoint Id="NQORlMZx2M5NJb9Kx6SEN1" Bounds="2629,488" />
+              <Pad Id="UoEZumnQteZPTyyvvbsRfr" Comment="SignatureNumerator" Bounds="2418,327,35,15" ShowValueBox="true" isIOBox="true" Value="4">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="EdIkOTjD9VIPl3OE30Nhdt" Comment="SignatureDenominator" Bounds="2570,328,35,15" ShowValueBox="true" isIOBox="true" Value="4">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32" />
+                </p:TypeAnnotation>
+              </Pad>
             </Canvas>
             <ProcessDefinition Id="R41pn4lyqjqNbJtqKLUGF0" IsHidden="true">
               <Fragment Id="Lwu9iLsHeTTOul5pQFd78j" Patch="UrLzPGVs6chQFiQZroqgko" Enabled="true" />
@@ -20655,6 +20671,10 @@
               <Fragment Id="LITFATEppGfPUZuvxAPpS3" Patch="SvrZOkYeuawMYKWR69H8v1" />
               <Fragment Id="PkVaMDCXxjCMJ1KGCBmGR8" Patch="LPf3g6mH5EJLke2uDnEfqW" />
               <Fragment Id="ECJ8Kt20IOoNJU1IJhxyss" Patch="AlWxw4qrOmbLFVMDy5Oumi" />
+              <Fragment Id="HxEui1gWiSwQAkhLeSehnN" Patch="EmCKNRis2rsMUHxTqCUCVJ" />
+              <Fragment Id="RN1WtH0Kj7mQIg1CEXxLTa" Patch="EVjhwOAkMvXMmlNm0EZjhV" />
+              <Fragment Id="S1j2UZRw2pVPatHHfuI2Hq" Patch="C35ySmDRYe4Mc8H8uK5Zt0" />
+              <Fragment Id="Nr1duetKPiROV8pA1CJcDM" Patch="MDjfUcIOcscOvBhJoAdslo" />
             </ProcessDefinition>
             <Slot Id="BGcjZr3eINaLU6tyPU47lB" Name="LoopEnable">
               <p:TypeAnnotation p:Type="TypeReference">
@@ -20745,7 +20765,7 @@
             <Link Id="D0fGaLAhO1jP04SaJIJnLb" Ids="EZaB3eFuOPKOHFCdzdOqrq,JBAwurTow3pPxtDXDRCu0X" />
             <Link Id="NdlxTTDc7AzOiecygIhA0W" Ids="Q5z7b0Fy3DvLMGYT2Xabgj,BYnUcNYPu6bNHcdLMrJ7fh" IsHidden="true" />
             <Link Id="DJjqC0T3oh2OXeF4xElYeo" Ids="JBAwurTow3pPxtDXDRCu0X,Q5z7b0Fy3DvLMGYT2Xabgj" />
-            <Patch Id="UrLzPGVs6chQFiQZroqgko" Name="Create" ParticipatingElements="CgPu81ibwcWO93DsnlKzGl,Fz5AutOQuFcPSEUIOfM3eV,OFa5Q2kotHoL4GXi1rQYih,OEkQl4Gv3yuMQBNu0L3yEs,BHfHpXRjXZKNZ7zY4tk8NN,TJohgJbI8WuO6KJSaj0Pzg,Gsh94hvszGcLhklsvIG6GM,MK6dorNeqfZLGGT4Nk6RVk,QdNGwbNJcsBNEoyoZVQ8bp" />
+            <Patch Id="UrLzPGVs6chQFiQZroqgko" Name="Create" ParticipatingElements="CgPu81ibwcWO93DsnlKzGl,Fz5AutOQuFcPSEUIOfM3eV,OFa5Q2kotHoL4GXi1rQYih,OEkQl4Gv3yuMQBNu0L3yEs,BHfHpXRjXZKNZ7zY4tk8NN,TJohgJbI8WuO6KJSaj0Pzg,Gsh94hvszGcLhklsvIG6GM,MK6dorNeqfZLGGT4Nk6RVk,QdNGwbNJcsBNEoyoZVQ8bp,Kq6xVtf0bWcLaZG82tacQe,RIeHNJ7Flz3PYbq17GXrOO" />
             <Patch Id="NAxwDcCU1HGQWo8YZfcGLH" Name="Split">
               <Pin Id="UkJy7kCFaK4QPaaYopemdo" Name="BaseFPS" Kind="OutputPin" />
               <Pin Id="ROjJIYk277GN7CyZbe1hRR" Name="FPS" Kind="OutputPin" />
@@ -20858,6 +20878,38 @@
             <Patch Id="AlWxw4qrOmbLFVMDy5Oumi" Name="SetInputVolume">
               <Pin Id="VMSorINGgepNDpIf4AluJq" Name="InputVolume" Kind="InputPin" DefaultValue="1" />
             </Patch>
+            <Slot Id="FT2EPV35ZdUOfgij8CBaEI" Name="SignatureNumerator">
+              <p:TypeAnnotation p:Type="TypeReference">
+                <Choice Kind="TypeFlag" Name="Integer32" />
+              </p:TypeAnnotation>
+            </Slot>
+            <Slot Id="UQF4CgRTiPgLIUeSUHLVwa" Name="SignatureDenominator">
+              <p:TypeAnnotation p:Type="TypeReference">
+                <Choice Kind="TypeFlag" Name="Integer32" />
+              </p:TypeAnnotation>
+            </Slot>
+            <Link Id="QCs1Jzgi56EOEaeuNUFnKH" Ids="Ua8qiXVWF1iQJ3lxE3QEBf,TH9NsjtxKTgO1Ueury3OTn" IsHidden="true" />
+            <Link Id="LqsG7NzSaliNmVdbypEr01" Ids="TH9NsjtxKTgO1Ueury3OTn,KRVuekkNBJ7L5BkBNJkiCT" />
+            <Link Id="VtTSy9TecHJLyw3VC8PgFY" Ids="Np77D6Qf9eHNveBFgp0PbG,PVXqaX5y5scLzFoKpsBVyX" IsHidden="true" />
+            <Link Id="R3ky0XpVva3MraAv9wqsil" Ids="KRVuekkNBJ7L5BkBNJkiCT,Np77D6Qf9eHNveBFgp0PbG" />
+            <Link Id="OSjMXHK39z2MtYJkDbMP7o" Ids="FIw31IJGRcYLUm1dooBXnA,VZ5g8dnlMB2PqNDhx81MeA" IsHidden="true" />
+            <Link Id="BAJMXUlK9toQAEORmsy9Lu" Ids="VZ5g8dnlMB2PqNDhx81MeA,QY9AsQ4vnwDOAx0a2R4F98" />
+            <Link Id="GmwORxoKu6xPYPfzVkZEfW" Ids="NQORlMZx2M5NJb9Kx6SEN1,TBNVwG4XwIVNnnNV3lYc5f" IsHidden="true" />
+            <Link Id="ViE0jPqorWHPgE09Wfl2FX" Ids="QY9AsQ4vnwDOAx0a2R4F98,NQORlMZx2M5NJb9Kx6SEN1" />
+            <Patch Id="EmCKNRis2rsMUHxTqCUCVJ" Name="SetSignatureNumerator">
+              <Pin Id="Ua8qiXVWF1iQJ3lxE3QEBf" Name="SignatureNumerator" Kind="InputPin" DefaultValue="4" />
+            </Patch>
+            <Patch Id="EVjhwOAkMvXMmlNm0EZjhV" Name="SetSignatureDenominator">
+              <Pin Id="FIw31IJGRcYLUm1dooBXnA" Name="SignatureDenominator" Kind="InputPin" DefaultValue="4" />
+            </Patch>
+            <Patch Id="C35ySmDRYe4Mc8H8uK5Zt0" Name="GetSignatureDenominator">
+              <Pin Id="TBNVwG4XwIVNnnNV3lYc5f" Name="SignatureDenominator" Kind="OutputPin" />
+            </Patch>
+            <Patch Id="MDjfUcIOcscOvBhJoAdslo" Name="GetSignatureNumerator">
+              <Pin Id="PVXqaX5y5scLzFoKpsBVyX" Name="SignatureNumerator" Kind="OutputPin" />
+            </Patch>
+            <Link Id="Kq6xVtf0bWcLaZG82tacQe" Ids="UoEZumnQteZPTyyvvbsRfr,KRVuekkNBJ7L5BkBNJkiCT" />
+            <Link Id="RIeHNJ7Flz3PYbq17GXrOO" Ids="EdIkOTjD9VIPl3OE30Nhdt,QY9AsQ4vnwDOAx0a2R4F98" />
           </Patch>
         </Node>
         <Canvas Id="IRotUAfux72OLL2tK42od1" Name="TimeConversion" Position="253,902" CanvasType="Group">
@@ -23718,13 +23770,21 @@
               <Pad Id="E4qiyghgjhmO78lFuWkmMg" SlotId="SZA7TwNAKxyM0Sd7AX5zGZ" Bounds="1600,365" />
               <ControlPoint Id="RheWVHRyoHUP7Vxmt36UHA" Bounds="1600,247" />
               <ControlPoint Id="RTas1aqaRhzLScyqyqkpkd" Bounds="1600,432" />
-              <Pad Id="UZ5nuqKbRGMLtFUcxHqxE0" Comment="VolumeMult" Bounds="1502,295,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+              <Pad Id="UZ5nuqKbRGMLtFUcxHqxE0" Comment="Volume" Bounds="1502,295,35,15" ShowValueBox="true" isIOBox="true" Value="1">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Float32" />
                 </p:TypeAnnotation>
               </Pad>
+              <Pad Id="ANjY7EdI7z1PDhJ4cRk9vn" SlotId="B5vcvEmWf9ZLOZBVwSqUHS" Bounds="1812,363" />
+              <ControlPoint Id="Ea6sFcRPbjEPPY1usZPzNc" Bounds="1812,244" />
+              <ControlPoint Id="LWyOhdALsmWNy2EbrCanVO" Bounds="1812,433" />
+              <Pad Id="TV5nvzl3yAGPm8HjuRAAmR" Comment="BPM" Bounds="1736,293,35,15" ShowValueBox="true" isIOBox="true" Value="60">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float64" />
+                </p:TypeAnnotation>
+              </Pad>
             </Canvas>
-            <Patch Id="Dr3vfdr0V2yNUwlnzMlqwL" Name="Create" ParticipatingElements="DNypFBWA5WWM27CDX1BTpU,KGJ0cLtOgLXLTK7grB2hqY" />
+            <Patch Id="Dr3vfdr0V2yNUwlnzMlqwL" Name="Create" ParticipatingElements="DNypFBWA5WWM27CDX1BTpU,KGJ0cLtOgLXLTK7grB2hqY,EQIkjXMGZKBOEYCHKY1wSZ" />
             <ProcessDefinition Id="VRymI47L4ZBPfkVHrOf9de" IsHidden="true">
               <Fragment Id="UOSZNO41QA2OGVk0tMHcTn" Patch="Dr3vfdr0V2yNUwlnzMlqwL" Enabled="true" />
               <Fragment Id="QHR27Ih4Hx8P2dNREcwyck" Patch="VjntdAXuiMWQPyDDVfXmZK" />
@@ -23743,6 +23803,8 @@
               <Fragment Id="Q1gpb3OoHNCN4zf6HvALD3" Patch="QrxyRZhJD7CNvFFVBfNh6n" />
               <Fragment Id="SwgazRUli1qNmIURMts8uJ" Patch="K18CI9UeRuoOpSF1uCwgMD" />
               <Fragment Id="EdnRsmtTSQgLGloGPdgdVA" Patch="S5Vm6MewD1HNwrbUmhkFDv" />
+              <Fragment Id="OYxL3tEEZAoQPIAeULTQ7C" Patch="OblEhp3eycZPsELOmQO5Tt" />
+              <Fragment Id="EoDfsdXpTYhMIkTsTA84mL" Patch="AQj2UVHV7VZPNHsbK4jdrH" />
             </ProcessDefinition>
             <Slot Id="L6NTN4CXDQ6OQFUXjeBxPQ" Name="PlayState">
               <p:TypeAnnotation p:Type="TypeReference">
@@ -23841,7 +23903,7 @@
             <Patch Id="QrxyRZhJD7CNvFFVBfNh6n" Name="GetMorphing">
               <Pin Id="In0WYlxYdVRLlQNwY7xps1" Name="Morphing" Kind="OutputPin" />
             </Patch>
-            <Slot Id="SZA7TwNAKxyM0Sd7AX5zGZ" Name="VolumeMult">
+            <Slot Id="SZA7TwNAKxyM0Sd7AX5zGZ" Name="Volume">
               <p:TypeAnnotation p:Type="TypeReference">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
@@ -23851,12 +23913,28 @@
             <Link Id="T9okpxUc9cQNIzlTkIvvc8" Ids="RTas1aqaRhzLScyqyqkpkd,TKtfyFILbBYOYhCwnmy7hR" IsHidden="true" />
             <Link Id="FW4JmGg8K4sO1KmkCSUmID" Ids="E4qiyghgjhmO78lFuWkmMg,RTas1aqaRhzLScyqyqkpkd" />
             <Patch Id="K18CI9UeRuoOpSF1uCwgMD" Name="SetVolumeMult">
-              <Pin Id="Gar5S3UXttKMaX5dpyAiUu" Name="VolumeMult" Kind="InputPin" />
+              <Pin Id="Gar5S3UXttKMaX5dpyAiUu" Name="Volume" Kind="InputPin" />
             </Patch>
             <Patch Id="S5Vm6MewD1HNwrbUmhkFDv" Name="GetVolumeMult">
-              <Pin Id="TKtfyFILbBYOYhCwnmy7hR" Name="VolumeMult" Kind="OutputPin" />
+              <Pin Id="TKtfyFILbBYOYhCwnmy7hR" Name="Volume" Kind="OutputPin" />
             </Patch>
             <Link Id="KGJ0cLtOgLXLTK7grB2hqY" Ids="UZ5nuqKbRGMLtFUcxHqxE0,E4qiyghgjhmO78lFuWkmMg" />
+            <Slot Id="B5vcvEmWf9ZLOZBVwSqUHS" Name="BPM">
+              <p:TypeAnnotation p:Type="TypeReference">
+                <Choice Kind="TypeFlag" Name="Float64" />
+              </p:TypeAnnotation>
+            </Slot>
+            <Link Id="TwHCVDg5rSoMfOnsY0YA2J" Ids="GI7ocO5VIIOMbiz8EsBXpB,Ea6sFcRPbjEPPY1usZPzNc" IsHidden="true" />
+            <Link Id="S07LSGmDUKLMnxPgxOmb3I" Ids="Ea6sFcRPbjEPPY1usZPzNc,ANjY7EdI7z1PDhJ4cRk9vn" />
+            <Link Id="KtUrarBTCZTL99bAbsxFyB" Ids="LWyOhdALsmWNy2EbrCanVO,FO4hZNVL2aQPDcnh6XeDt9" IsHidden="true" />
+            <Link Id="OBuMgKGCGI2PQc7D5Mk0OH" Ids="ANjY7EdI7z1PDhJ4cRk9vn,LWyOhdALsmWNy2EbrCanVO" />
+            <Link Id="EQIkjXMGZKBOEYCHKY1wSZ" Ids="TV5nvzl3yAGPm8HjuRAAmR,ANjY7EdI7z1PDhJ4cRk9vn" />
+            <Patch Id="OblEhp3eycZPsELOmQO5Tt" Name="GetBPM">
+              <Pin Id="FO4hZNVL2aQPDcnh6XeDt9" Name="BPM" Kind="OutputPin" />
+            </Patch>
+            <Patch Id="AQj2UVHV7VZPNHsbK4jdrH" Name="SetBPM">
+              <Pin Id="GI7ocO5VIIOMbiz8EsBXpB" Name="BPM" Kind="InputPin" />
+            </Patch>
           </Patch>
         </Node>
       </Canvas>
@@ -31989,6 +32067,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.3-0005-g72dc3a29e4" />
+  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.3-0012-g26a73f6763" />
   <PlatformDependency Id="UAzsalWIwraQGyRDrUduvA" Location="./lib/netstandard2.0/InterpolatorEnums.dll" />
 </Document>

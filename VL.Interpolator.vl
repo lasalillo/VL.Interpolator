@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Pcu4QJlz7LXNKkjHUOLMQj" LanguageVersion="2024.6.3-0012-g26a73f6763" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="Pcu4QJlz7LXNKkjHUOLMQj" LanguageVersion="2024.6.3-0014-g2d6129bc7d" Version="0.128">
   <Patch Id="EAIIpcVCowFQTcz0KLQtUE">
     <Canvas Id="HsgcAMUqtVTNXLSvHJWTpN" DefaultCategory="Interpolator" CanvasType="FullCategory">
       <Canvas Id="QIfd52ShnGdL2SQeqFCih1" Name="Lerp" Position="198,278" CanvasType="Group">
@@ -5418,6 +5418,8 @@
                 </Node>
                 <Link Id="TS9yaYVSRHNPm98KkCfsMr" Ids="Aje39uElHQ4P3pM0Rzg4Hh,T8PJgMkHO14LgxxwUK0x3y" />
                 <ControlPoint Id="T3S29YtTcWKNzPf2ZWhRuf" Bounds="2238,628" />
+                <Pin Id="CN4YFMTbz3MNNNuMYt18Vn" Name="Colour Space" Kind="InputPin" DefaultValue="Xyz" />
+                <Link Id="VV2ZWkd6a7YMrMJGQ3VUx8" Ids="CN4YFMTbz3MNNNuMYt18Vn,F7mSxn25TIUPqd6JS8fyV5" IsHidden="true" />
                 <Pin Id="DroWv979psQNr5JvttLTej" Name="Interpol" Kind="InputPin" Bounds="603,326" />
                 <Node Bounds="2236,645,25,19" Id="FjlLpVZmoZfOKOURxm9XYV">
                   <p:NodeReference LastCategoryFullName="InterpolatorEnums.InterpolationModes2" LastDependency="InterpolatorEnums.dll">
@@ -5446,8 +5448,6 @@
                 <Link Id="Kgs6Wtar0iPMOGVMk8MkRL" Ids="M5ZlWYnRAJqMyBJCPC6e1q,OE7Tj1fWjs1NPNokORJ5kj" />
                 <Link Id="NIL0dmsN7WtOiOALKBI4xm" Ids="F7mSxn25TIUPqd6JS8fyV5,U3qE6LcWfnkO6PnHFHNYu4" />
                 <ControlPoint Id="F7mSxn25TIUPqd6JS8fyV5" Bounds="2193,681" />
-                <Pin Id="CN4YFMTbz3MNNNuMYt18Vn" Name="Colour Space" Kind="InputPin" DefaultValue="Xyz" />
-                <Link Id="VV2ZWkd6a7YMrMJGQ3VUx8" Ids="CN4YFMTbz3MNNNuMYt18Vn,F7mSxn25TIUPqd6JS8fyV5" IsHidden="true" />
               </Patch>
             </Node>
             <!--
@@ -8060,9 +8060,9 @@
                   <Pin Id="JNQLw30nAK1MjKO4GMLCus" Name="BreakPointPath" Kind="InputPin" Bounds="4489,505" />
                   <Pin Id="Nx6Obv2MfccLycumkJYPtQ" Name="BreakPointSpreadCount" Kind="InputPin" Bounds="1826,242" />
                   <Pin Id="B7H9S7cczQcLEFJWZ8LE2g" Name="BreakPointGeneric" Kind="InputPin" Bounds="4521,537" />
+                  <Pin Id="GbENQYsH8ibL04KPSLuyt3" Name="Colour Space" Kind="InputPin" DefaultValue="Xyz" />
                   <Pin Id="Os25a6fTKAJMO8t4cRaIr5" Name="Force" Kind="InputPin" Bounds="4571,554" />
                   <Pin Id="P4SRVtDjJMLPWbv8zH5X06" Name="Output" Kind="OutputPin" Bounds="-108,1597" />
-                  <Pin Id="GbENQYsH8ibL04KPSLuyt3" Name="Colour Space" Kind="InputPin" DefaultValue="Xyz" />
                 </Patch>
                 <Link Id="H1j2pHGljAnOpPQYDjCMpU" Ids="H0eduiVJLy9P2Ahrbxddpm,Mf6eAZ6LwmpL6YWun9nCr0" />
                 <Link Id="TAUoe2YX6w2Lgw3V4BZkOJ" Ids="E2mVX0qtz3xN7ghsfNhYmc,DX0SHShfxciL9uu1XL4ukI" />
@@ -9912,6 +9912,7 @@
               <Pin Id="Ipp1RWvPuM0QbqBYW0srEp" Name="BreakPointPath" Kind="InputPin" Bounds="1456,283" DefaultValue="1" Visibility="Optional" />
               <Pin Id="UKl30PCwvV9P5y8vqB7OUu" Name="BreakPointSpreadCount" Kind="InputPin" Bounds="1042,403" DefaultValue="1" Visibility="Optional" />
               <Pin Id="RUpNcbnYXVDLo6xMCJXZcd" Name="BreakPointGeneric" Kind="InputPin" Bounds="1049,299" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="CVIMKROlByRN1bzOpwOSJj" Name="Colour Space" Kind="InputPin" DefaultValue="Xyz" Visibility="Optional" />
               <Pin Id="B1evGU9xu4yLPjPwyPp1NI" Name="Force" Kind="InputPin" Bounds="1033,228" DefaultValue="False" Visibility="Optional">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Boolean" />
@@ -9922,7 +9923,6 @@
                   <Choice Kind="TypeFlag" Name="T" />
                 </p:TypeAnnotation>
               </Pin>
-              <Pin Id="CVIMKROlByRN1bzOpwOSJj" Name="Colour Space" Kind="InputPin" DefaultValue="Xyz" Visibility="Optional" />
             </Patch>
             <Link Id="ONK6kBQWsmsOz2xWNipuue" Ids="Ek0bq2U350COli4ckBfi3M,SZUh6YrM3x2MwF9717rPPR" />
             <Link Id="Ow2Ao27KtguOu0QlwsqpXs" Ids="SDehBrPraciLzvvNufsqqd,RXWzNAGZJLeLOscPDOI1Vb" />
@@ -9959,7 +9959,7 @@
             </p:NodeReference>
             <Patch Id="SDdyFwctT7dOgdxk3o29NA" IsGeneric="true">
               <Canvas Id="Fus9HbceppJO2NZoCaojfO" CanvasType="Group">
-                <Node Bounds="360,289,135,26" Id="JMiwYIPhfoyL65OSBGaOCn">
+                <Node Bounds="358,293,135,26" Id="JMiwYIPhfoyL65OSBGaOCn">
                   <p:NodeReference LastCategoryFullName="Interpolator.Track" LastDependency="VL.Interpolator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetInterpolationArgument" />
@@ -9968,7 +9968,7 @@
                   <Pin Id="KMGR2psbZAZLDwyKC1QTa2" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="Flw9AvzDGSdPJvLetsrMrC" Name="InterpolationArgument" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="490,328,25,19" Id="Nrxi4nCHWDuOGKuM0B1uIF">
+                <Node Bounds="488,332,25,19" Id="Nrxi4nCHWDuOGKuM0B1uIF">
                   <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -9987,7 +9987,7 @@
                   <Patch Id="DpFWaL10O6vOQHcYtFrhSW" ManuallySortedPins="true">
                     <Patch Id="Kkm4IxAdrnyNv5SWT8ffQk" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="GYX2bPJkIYCMomd2AwmGrR" Name="Then" ManuallySortedPins="true" />
-                    <Node Bounds="356,521,155,26" Id="JGGlxyypjzONAxHbLMOzCJ">
+                    <Node Bounds="356,521,149,26" Id="JGGlxyypjzONAxHbLMOzCJ">
                       <p:NodeReference LastCategoryFullName="Interpolator.Track" LastDependency="VL.Interpolator.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="GetNextIndexName" />
@@ -10080,7 +10080,7 @@
                           <Pin Id="L5BTLVljhYhNtr0Rd4Tpnt" Name="Index" Kind="InputPin" />
                           <Pin Id="EWu9Py8TebcQdc1W0F7ugB" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="412,803,51,26" Id="H59XYWOkUapO7ldEZgJlw9">
+                        <Node Bounds="410,803,51,26" Id="H59XYWOkUapO7ldEZgJlw9">
                           <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="StringType" Name="String" NeedsToBeDirectParent="true" />
@@ -10102,7 +10102,7 @@
                           <Pin Id="Mjj7KoLYQZCQYt68Vkj40E" Name="New Value" Kind="InputPin" />
                           <Pin Id="AXcrEe0szYELaxyUJKz0rZ" Name="Output" Kind="StateOutputPin" />
                         </Node>
-                        <Node Bounds="353,723,81,26" Id="TgVZQuC572sPefO7zxeKbM">
+                        <Node Bounds="353,723,96,26" Id="TgVZQuC572sPefO7zxeKbM">
                           <p:NodeReference LastCategoryFullName="Interpolator.Track" LastDependency="VL.Interpolator.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="GetTargetPath" />
@@ -10124,11 +10124,11 @@
                           <p:NodeReference LastCategoryFullName="Interpolator.TrackTransfer" LastDependency="VL.Interpolator.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="RecordType" Name="TrackTransfer" />
-                            <Choice Kind="OperationCallFlag" Name="GetUpperIndex" />
+                            <Choice Kind="OperationCallFlag" Name="GetUpper" />
                           </p:NodeReference>
                           <Pin Id="RCQhyFV8htHO5MQLNTSawh" Name="Input" Kind="StateInputPin" />
                           <Pin Id="QSz7JWNmiyIMDSe0aueFMw" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="CFDRaRqzeozL6aSjNYM7om" Name="UpperIndex" Kind="OutputPin" />
+                          <Pin Id="CFDRaRqzeozL6aSjNYM7om" Name="Upper" Kind="OutputPin" />
                         </Node>
                         <Node Bounds="295,820,108,26" Id="J5zVE8uUpmvMTL871SSCQ7">
                           <p:NodeReference LastCategoryFullName="Interpolator.TrackTransfer" LastDependency="VL.Interpolator.vl">
@@ -10159,12 +10159,12 @@
                     </Node>
                   </Patch>
                 </Node>
-                <Pad Id="GAuRQYbLeMNPadlZhMyLAJ" Comment="" Bounds="512,310,81,15" ShowValueBox="true" isIOBox="true" Value="NotManaged">
+                <Pad Id="GAuRQYbLeMNPadlZhMyLAJ" Comment="" Bounds="510,314,81,15" ShowValueBox="true" isIOBox="true" Value="NotManaged">
                   <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="InterpolatorEnums.dll">
                     <Choice Kind="TypeFlag" Name="TargetMode" />
                   </p:TypeAnnotation>
                 </Pad>
-                <Node Bounds="258,395,37,19" Id="KogKUdPt4vXL0yBfmt5tRc">
+                <Node Bounds="260,397,37,19" Id="KogKUdPt4vXL0yBfmt5tRc">
                   <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <FullNameCategoryReference ID="Primitive.Boolean" />
@@ -10174,10 +10174,10 @@
                   <Pin Id="VjMymZEOnrWLd77SaOTmcd" Name="Input 2" Kind="InputPin" />
                   <Pin Id="Q44meui74zFPz24HVv7B1M" Name="Output" Kind="StateOutputPin" />
                 </Node>
-                <ControlPoint Id="SZjw2JNtIu5Lj3KIjdQdov" Bounds="245,162" />
-                <ControlPoint Id="R10SsjvmzAjM4D3y7JqDDZ" Bounds="407,159" />
-                <ControlPoint Id="AQrmrMOd8M6NoPkY2W304N" Bounds="300,161" />
-                <Node Bounds="298,209,66,26" Id="PcaJ7j0ejOtMw4EYpXfEH0">
+                <ControlPoint Id="SZjw2JNtIu5Lj3KIjdQdov" Bounds="263,160" />
+                <ControlPoint Id="R10SsjvmzAjM4D3y7JqDDZ" Bounds="425,160" />
+                <ControlPoint Id="AQrmrMOd8M6NoPkY2W304N" Bounds="318,160" />
+                <Node Bounds="316,210,66,26" Id="PcaJ7j0ejOtMw4EYpXfEH0">
                   <p:NodeReference LastCategoryFullName="Interpolator.TrackTransfer" LastDependency="VL.Interpolator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetTrack" />
@@ -30941,9 +30941,9 @@
                 <Pin Id="NSbRSSeczoPMTi8f3msGcL" Name="BreakPointPath" Kind="InputPin" Bounds="4489,505" />
                 <Pin Id="EcWAsy5rgTuNq0SbQAZAAh" Name="BreakPointSpreadCount" Kind="InputPin" Bounds="1826,242" />
                 <Pin Id="JMjxYIOQksvMJyzVwHiKqH" Name="BreakPointGeneric" Kind="InputPin" Bounds="4521,537" />
+                <Pin Id="IcxqK86YbIQNFsvo5MiQRl" Name="Colour Space" Kind="InputPin" DefaultValue="Xyz" />
                 <Pin Id="AtqV1lf9FMiMxzrVcuz6DD" Name="Force" Kind="InputPin" Bounds="4571,554" />
                 <Pin Id="PCBB7ptcGdhOxTVtgwz8nA" Name="Output" Kind="OutputPin" Bounds="-108,1597" />
-                <Pin Id="IcxqK86YbIQNFsvo5MiQRl" Name="Colour Space" Kind="InputPin" DefaultValue="Xyz" />
               </Patch>
               <Link Id="DZ1sp2qL8bGLeuXnSHiRUZ" Ids="UNvX4b3CF8xPIR7TUlfbW1,NUPFyqlZ3ZPLGI6JXzAy4N" />
               <Link Id="C3J0BsXblNzNxP8e89o8lP" Ids="GQeWMPLMsyIOxqZdgwRdYi,DqopnKyko8hNHYlZQDW3Sd" />
@@ -32498,6 +32498,7 @@
               <Pin Id="SZfWBkNB1xTMFBiW0MMEft" Name="BreakPointPath" Kind="InputPin" Bounds="1456,283" DefaultValue="1" Visibility="Optional" />
               <Pin Id="PoDrSUSqJwyL17MiTDa2oB" Name="BreakPointSpreadCount" Kind="InputPin" Bounds="1042,403" DefaultValue="1" Visibility="Optional" />
               <Pin Id="B3iVI8IOwKHOgPrq4IB1SC" Name="BreakPointGeneric" Kind="InputPin" Bounds="1049,299" DefaultValue="1" Visibility="Optional" />
+              <Pin Id="TqEmHCLyzcRMOMczzViNUs" Name="Colour Space" Kind="InputPin" DefaultValue="Xyz" Visibility="Optional" />
               <Pin Id="RbQVzDwPrdyOW81ljPfvk8" Name="Force" Kind="InputPin" Bounds="1033,228" DefaultValue="False" Visibility="Optional">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Boolean" />
@@ -32508,7 +32509,6 @@
                   <Choice Kind="TypeFlag" Name="T" />
                 </p:TypeAnnotation>
               </Pin>
-              <Pin Id="TqEmHCLyzcRMOMczzViNUs" Name="Colour Space" Kind="InputPin" DefaultValue="Xyz" Visibility="Optional" />
             </Patch>
             <Link Id="BWF9ATHvT9eOV2X3TbnDs0" Ids="MXXhMVx7srONHr6bqTAW7X,Asj2d0qADghP8PnU7iYkui" />
             <Link Id="AzwOGKsu8woLmXL5z0pyM7" Ids="Asj2d0qADghP8PnU7iYkui,Nmz71TGZewxNzQ94enLFJL" />
@@ -32983,6 +32983,18 @@
             <Pin Id="Sxbu7FyJLNEOnMqm62dKym" Name="Input 2" Kind="InputPin" />
             <Link Id="U6CUy3T4DqCOcPdWyUzJzI" Ids="Sxbu7FyJLNEOnMqm62dKym,IxYbcLsqH4MMR30CCL1UxC" IsHidden="true" />
             <ControlPoint Id="PZnSVCYvsKeQD0tyjAfoVa" Bounds="633,247" />
+            <Pin Id="UVEDVT6sI34LVR4ZRorZBG" Name="Colour Space" Kind="InputPin" DefaultValue="Oklab" />
+            <Link Id="N7HQsAJqYn5Pas4gyScoWe" Ids="UVEDVT6sI34LVR4ZRorZBG,K5L3vPK66VWM7ODEnViPBV" IsHidden="true" />
+            <Link Id="SpnM1bAbStMLlwdH6S5YSF" Ids="O1weYzWq2XoPwCFP9z8NWi,IeSc0O6qu5qOEz88KKu52t" />
+            <Link Id="LwpmBsF9CAYPelINbPZ5w2" Ids="UZjUUxlkDAyLvCVttYnqJH,BXy7n6yIr8vNnCLwUvDIVC" />
+            <Pin Id="GvIKgskz3FVOU01SEZbMKL" Name="Hue Span" Kind="InputPin" Visibility="Optional" />
+            <Link Id="KpPsVZExIurMSu5pr1RQqg" Ids="GvIKgskz3FVOU01SEZbMKL,GfWi6KdVxpsNGZCyfV2FSG" IsHidden="true" />
+            <ControlPoint Id="KcrihrARfewPfdYUglepsk" Bounds="519,247" />
+            <Link Id="L4UDES0A99VPHcXDI3dFaA" Ids="KcrihrARfewPfdYUglepsk,GKCEaUk9zI6PmjxsTTeQPy" />
+            <Pin Id="C47TqfIkNW8LlbzyQdv7bX" Name="Premultiply Alpha" Kind="InputPin" DefaultValue="False" Visibility="Optional" />
+            <Link Id="FEqOFIbkmxDLqy8iF7vNkk" Ids="C47TqfIkNW8LlbzyQdv7bX,KcrihrARfewPfdYUglepsk" IsHidden="true" />
+            <ControlPoint Id="K5L3vPK66VWM7ODEnViPBV" Bounds="367,247" />
+            <Link Id="CEg7TkAAcyAOWIGLHC4o3c" Ids="K5L3vPK66VWM7ODEnViPBV,KUBgD3RqRJwP0fc4zrXzZ8" />
             <Pin Id="I4fXkztC2S4LsblZxECvjb" Name="Scalar" Kind="InputPin" Bounds="2328,2048" />
             <Link Id="QdLfRjlGBkNMJwOqvmotRT" Ids="I4fXkztC2S4LsblZxECvjb,PZnSVCYvsKeQD0tyjAfoVa" IsHidden="true" />
             <ControlPoint Id="CJ4ZJusBBSqQDVUtE1cR47" Bounds="230,371" />
@@ -33006,18 +33018,6 @@
             <Link Id="OPQnVbYodJMMJwjGw4zHq5" Ids="PZnSVCYvsKeQD0tyjAfoVa,EZ1LBGr9ACEOxPSumUXpXF" />
             <ControlPoint Id="GfWi6KdVxpsNGZCyfV2FSG" Bounds="455,247" />
             <Link Id="ThE9tIF4a39QFUyMTFKdsd" Ids="GfWi6KdVxpsNGZCyfV2FSG,JHAA9xlWuP1NaBUJFDE9Vn" />
-            <Pin Id="GvIKgskz3FVOU01SEZbMKL" Name="Hue Span" Kind="InputPin" Visibility="Optional" />
-            <Link Id="KpPsVZExIurMSu5pr1RQqg" Ids="GvIKgskz3FVOU01SEZbMKL,GfWi6KdVxpsNGZCyfV2FSG" IsHidden="true" />
-            <ControlPoint Id="KcrihrARfewPfdYUglepsk" Bounds="519,247" />
-            <Link Id="L4UDES0A99VPHcXDI3dFaA" Ids="KcrihrARfewPfdYUglepsk,GKCEaUk9zI6PmjxsTTeQPy" />
-            <Pin Id="C47TqfIkNW8LlbzyQdv7bX" Name="Premultiply Alpha" Kind="InputPin" DefaultValue="False" Visibility="Optional" />
-            <Link Id="FEqOFIbkmxDLqy8iF7vNkk" Ids="C47TqfIkNW8LlbzyQdv7bX,KcrihrARfewPfdYUglepsk" IsHidden="true" />
-            <ControlPoint Id="K5L3vPK66VWM7ODEnViPBV" Bounds="367,247" />
-            <Link Id="CEg7TkAAcyAOWIGLHC4o3c" Ids="K5L3vPK66VWM7ODEnViPBV,KUBgD3RqRJwP0fc4zrXzZ8" />
-            <Pin Id="UVEDVT6sI34LVR4ZRorZBG" Name="Colour Space" Kind="InputPin" DefaultValue="Oklab" />
-            <Link Id="N7HQsAJqYn5Pas4gyScoWe" Ids="UVEDVT6sI34LVR4ZRorZBG,K5L3vPK66VWM7ODEnViPBV" IsHidden="true" />
-            <Link Id="SpnM1bAbStMLlwdH6S5YSF" Ids="O1weYzWq2XoPwCFP9z8NWi,IeSc0O6qu5qOEz88KKu52t" />
-            <Link Id="LwpmBsF9CAYPelINbPZ5w2" Ids="UZjUUxlkDAyLvCVttYnqJH,BXy7n6yIr8vNnCLwUvDIVC" />
           </Patch>
         </Node>
         <Canvas Id="E7CEAnS0pEHO6DAdifWlJW" Name="Internal" Position="216,447">
@@ -33269,7 +33269,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.3-0012-g26a73f6763" />
+  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.3-0014-g2d6129bc7d" />
   <PlatformDependency Id="UAzsalWIwraQGyRDrUduvA" Location="./lib/netstandard2.0/InterpolatorEnums.dll" />
   <NugetDependency Id="R2TJCi0AIIwNIlwUCEOwgF" Location="Wacton.Unicolour" Version="4.3.0" />
 </Document>

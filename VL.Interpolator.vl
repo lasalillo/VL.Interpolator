@@ -24273,12 +24273,12 @@
           </p:NodeReference>
           <Patch Id="RhSmegjDAwNQTslUS9gXth">
             <Canvas Id="Kom84JQqcqWQAWiXD3rxwc" CanvasType="Group">
-              <Pad Id="I8KA51lgkb3MNYPYIldfeM" SlotId="L6NTN4CXDQ6OQFUXjeBxPQ" Bounds="337,374" />
-              <ControlPoint Id="I9ZdcJdPLaUP6CckOcW1lG" Bounds="337,257" />
-              <ControlPoint Id="Nj8JImPbi5bMtdfcotfFqi" Bounds="337,432" />
-              <Pad Id="TqcKTA0stxXPZHIlK0jstS" SlotId="L6NTN4CXDQ6OQFUXjeBxPQ" Bounds="490,374" />
-              <Pad Id="KBoHsCcwiFCLNC90hYdsdX" SlotId="L6NTN4CXDQ6OQFUXjeBxPQ" Bounds="625,374" />
-              <Pad Id="MPvoeRARKRjOeJsojSIB3t" Comment="PlayState" Bounds="541,313,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+              <Pad Id="I8KA51lgkb3MNYPYIldfeM" SlotId="L6NTN4CXDQ6OQFUXjeBxPQ" Bounds="337,360" />
+              <ControlPoint Id="I9ZdcJdPLaUP6CckOcW1lG" Bounds="337,242" />
+              <ControlPoint Id="Nj8JImPbi5bMtdfcotfFqi" Bounds="337,427" />
+              <Pad Id="TqcKTA0stxXPZHIlK0jstS" SlotId="L6NTN4CXDQ6OQFUXjeBxPQ" Bounds="490,360" />
+              <Pad Id="KBoHsCcwiFCLNC90hYdsdX" SlotId="L6NTN4CXDQ6OQFUXjeBxPQ" Bounds="625,360" />
+              <Pad Id="MPvoeRARKRjOeJsojSIB3t" Comment="PlayState" Bounds="541,290,35,35" ShowValueBox="true" isIOBox="true" Value="True">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
@@ -24286,7 +24286,7 @@
                   <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
                 </p:ValueBoxSettings>
               </Pad>
-              <Pad Id="Mun6eJLkFmTL4KqAnJSH04" Comment="PlayState" Bounds="248,311,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+              <Pad Id="Mun6eJLkFmTL4KqAnJSH04" Comment="PlayState" Bounds="248,290,35,35" ShowValueBox="true" isIOBox="true" Value="False">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
@@ -24294,10 +24294,10 @@
                   <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
                 </p:ValueBoxSettings>
               </Pad>
-              <Pad Id="KlBxLfMK04fNrXZpddlnpH" SlotId="JLAiFW6xdh8OAFfyz0xRjM" Bounds="774,365" />
-              <ControlPoint Id="NE9hg7L67ilQAFWQKU50Or" Bounds="774,432" />
-              <Pad Id="VGLExnxWGeyOkPlVOQXpID" SlotId="JLAiFW6xdh8OAFfyz0xRjM" Bounds="774,248" />
-              <Node Bounds="772,293,30,19" Id="HLkAgHk8SB8LtLGIWaFNlX">
+              <Pad Id="KlBxLfMK04fNrXZpddlnpH" SlotId="JLAiFW6xdh8OAFfyz0xRjM" Bounds="774,360" />
+              <ControlPoint Id="NE9hg7L67ilQAFWQKU50Or" Bounds="774,427" />
+              <Pad Id="VGLExnxWGeyOkPlVOQXpID" SlotId="JLAiFW6xdh8OAFfyz0xRjM" Bounds="774,242" />
+              <Node Bounds="772,281,30,19" Id="HLkAgHk8SB8LtLGIWaFNlX">
                 <p:NodeReference LastCategoryFullName="Primitive.Integer32" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <FullNameCategoryReference ID="Primitive.Integer32" />
@@ -24306,17 +24306,17 @@
                 <Pin Id="RimQ3UO4SnrMZddgK3V3b6" Name="Input" Kind="StateInputPin" />
                 <Pin Id="Ql8KNWaYlaNPXSRn07ruFr" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Pad Id="Tsk7QupoIx8NBe1oRgAdZE" SlotId="N70ipwM6oSYMd5iO5OQ6Zh" Bounds="938,365" />
-              <ControlPoint Id="CVF5YaDMCEzMOdB9kNC7SX" Bounds="938,248" />
-              <ControlPoint Id="FV5Iv9Kg98NPZoq7ewcnEG" Bounds="938,432" />
-              <ControlPoint Id="IrIaxZjQGzLPWgWwLqSVcv" Bounds="417,432" />
-              <ControlPoint Id="QwdL4ZJcl4bLzU4E74hcVC" Bounds="831,432" />
-              <ControlPoint Id="O1yfbgczMTdL9dwsWV7kVl" Bounds="1019,432" />
+              <Pad Id="Tsk7QupoIx8NBe1oRgAdZE" SlotId="N70ipwM6oSYMd5iO5OQ6Zh" Bounds="938,360" />
+              <ControlPoint Id="CVF5YaDMCEzMOdB9kNC7SX" Bounds="938,242" />
+              <ControlPoint Id="FV5Iv9Kg98NPZoq7ewcnEG" Bounds="938,427" />
+              <ControlPoint Id="IrIaxZjQGzLPWgWwLqSVcv" Bounds="417,427" />
+              <ControlPoint Id="QwdL4ZJcl4bLzU4E74hcVC" Bounds="831,427" />
+              <ControlPoint Id="O1yfbgczMTdL9dwsWV7kVl" Bounds="1019,427" />
               <Pad Id="DWfELXtnKsGPT5woMmfRBX" SlotId="JLAiFW6xdh8OAFfyz0xRjM" Bounds="783,547" />
               <Pad Id="Oc0I7R3vQF6ODJ7GxP0TrG" SlotId="N70ipwM6oSYMd5iO5OQ6Zh" Bounds="947,547" />
               <ControlPoint Id="PZeCJwrauOQOdz3HN6nzhf" Bounds="783,577" />
               <ControlPoint Id="N9PvvjDGSVKQRSWIG4xS5a" Bounds="947,577" />
-              <Pad Id="JsOlXV7ixuZP19HOxj0gQa" Comment="PlayState" Bounds="404,315,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+              <Pad Id="JsOlXV7ixuZP19HOxj0gQa" Comment="PlayState" Bounds="404,290,35,35" ShowValueBox="true" isIOBox="true" Value="False">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
@@ -24324,30 +24324,38 @@
                   <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
                 </p:ValueBoxSettings>
               </Pad>
-              <Pad Id="KOcGGDGeLW6OXKRZ8n0BjC" SlotId="E0sfjFJ7lqoMNOyhXqQmXc" Bounds="1252,365" />
-              <ControlPoint Id="MK466WOGhy7OQreb87JrFQ" Bounds="1252,247" />
-              <ControlPoint Id="IwcAQYKQWkTQcSY2ETro8X" Bounds="1252,432" />
-              <Pad Id="F7wpzh6SV43M6kEOzJ1vo3" SlotId="FSNZqkCNIk1N7aWkR68oHz" Bounds="1438,365" />
-              <ControlPoint Id="C3q2LgYuGmxLKWAPVJgNGm" Bounds="1438,247" />
-              <ControlPoint Id="R2rb6XmSY1nPVcB02X4uqS" Bounds="1438,432" />
-              <Pad Id="E4qiyghgjhmO78lFuWkmMg" SlotId="SZA7TwNAKxyM0Sd7AX5zGZ" Bounds="1600,365" />
-              <ControlPoint Id="RheWVHRyoHUP7Vxmt36UHA" Bounds="1600,247" />
-              <ControlPoint Id="RTas1aqaRhzLScyqyqkpkd" Bounds="1600,432" />
-              <Pad Id="UZ5nuqKbRGMLtFUcxHqxE0" Comment="Volume" Bounds="1502,295,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+              <Pad Id="KOcGGDGeLW6OXKRZ8n0BjC" SlotId="E0sfjFJ7lqoMNOyhXqQmXc" Bounds="1252,360" />
+              <ControlPoint Id="MK466WOGhy7OQreb87JrFQ" Bounds="1252,242" />
+              <ControlPoint Id="IwcAQYKQWkTQcSY2ETro8X" Bounds="1252,427" />
+              <Pad Id="F7wpzh6SV43M6kEOzJ1vo3" SlotId="FSNZqkCNIk1N7aWkR68oHz" Bounds="1438,360" />
+              <ControlPoint Id="C3q2LgYuGmxLKWAPVJgNGm" Bounds="1438,242" />
+              <ControlPoint Id="R2rb6XmSY1nPVcB02X4uqS" Bounds="1438,427" />
+              <Pad Id="E4qiyghgjhmO78lFuWkmMg" SlotId="SZA7TwNAKxyM0Sd7AX5zGZ" Bounds="1600,360" />
+              <ControlPoint Id="RheWVHRyoHUP7Vxmt36UHA" Bounds="1600,242" />
+              <ControlPoint Id="RTas1aqaRhzLScyqyqkpkd" Bounds="1600,427" />
+              <Pad Id="UZ5nuqKbRGMLtFUcxHqxE0" Comment="Volume" Bounds="1502,290,35,15" ShowValueBox="true" isIOBox="true" Value="1">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Float32" />
                 </p:TypeAnnotation>
               </Pad>
-              <Pad Id="ANjY7EdI7z1PDhJ4cRk9vn" SlotId="B5vcvEmWf9ZLOZBVwSqUHS" Bounds="1812,363" />
-              <ControlPoint Id="Ea6sFcRPbjEPPY1usZPzNc" Bounds="1812,244" />
-              <ControlPoint Id="LWyOhdALsmWNy2EbrCanVO" Bounds="1812,433" />
-              <Pad Id="TV5nvzl3yAGPm8HjuRAAmR" Comment="BPM" Bounds="1736,293,35,15" ShowValueBox="true" isIOBox="true" Value="60">
+              <Pad Id="ANjY7EdI7z1PDhJ4cRk9vn" SlotId="B5vcvEmWf9ZLOZBVwSqUHS" Bounds="2011,360" />
+              <ControlPoint Id="Ea6sFcRPbjEPPY1usZPzNc" Bounds="2011,242" />
+              <ControlPoint Id="LWyOhdALsmWNy2EbrCanVO" Bounds="2011,427" />
+              <Pad Id="TV5nvzl3yAGPm8HjuRAAmR" Comment="BPM" Bounds="1935,290,35,15" ShowValueBox="true" isIOBox="true" Value="60">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Float64" />
                 </p:TypeAnnotation>
               </Pad>
+              <Pad Id="VgF06E8swArOEqn4fJ9E5t" SlotId="TEiSyHYdUoJNX1iET9n8cs" Bounds="1785,360" />
+              <ControlPoint Id="BtpK5fTH3IrM3rbt1r9TJJ" Bounds="1785,242" />
+              <ControlPoint Id="SwDUfbviGD5Ob0aCSZ84Ph" Bounds="1785,427" />
+              <Pad Id="RPF0TNCrdMHOTqafSMKPoR" Comment="InputVolume" Bounds="1687,290,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </p:TypeAnnotation>
+              </Pad>
             </Canvas>
-            <Patch Id="Dr3vfdr0V2yNUwlnzMlqwL" Name="Create" ParticipatingElements="DNypFBWA5WWM27CDX1BTpU,KGJ0cLtOgLXLTK7grB2hqY,EQIkjXMGZKBOEYCHKY1wSZ" />
+            <Patch Id="Dr3vfdr0V2yNUwlnzMlqwL" Name="Create" ParticipatingElements="DNypFBWA5WWM27CDX1BTpU,KGJ0cLtOgLXLTK7grB2hqY,EQIkjXMGZKBOEYCHKY1wSZ,DLEKUcd4TBnLgKxTZJbBHt" />
             <ProcessDefinition Id="VRymI47L4ZBPfkVHrOf9de" IsHidden="true">
               <Fragment Id="UOSZNO41QA2OGVk0tMHcTn" Patch="Dr3vfdr0V2yNUwlnzMlqwL" Enabled="true" />
               <Fragment Id="QHR27Ih4Hx8P2dNREcwyck" Patch="VjntdAXuiMWQPyDDVfXmZK" />
@@ -24368,6 +24376,8 @@
               <Fragment Id="EdnRsmtTSQgLGloGPdgdVA" Patch="S5Vm6MewD1HNwrbUmhkFDv" />
               <Fragment Id="OYxL3tEEZAoQPIAeULTQ7C" Patch="OblEhp3eycZPsELOmQO5Tt" />
               <Fragment Id="EoDfsdXpTYhMIkTsTA84mL" Patch="AQj2UVHV7VZPNHsbK4jdrH" />
+              <Fragment Id="K7w9boOm2GOMi5YguA380O" Patch="R5NOr2pcq9jQNrhEktMwbk" />
+              <Fragment Id="KYrtG53s4jCORcbGrO47ai" Patch="ROguew3xlaCQAnhCzGlMb1" />
             </ProcessDefinition>
             <Slot Id="L6NTN4CXDQ6OQFUXjeBxPQ" Name="PlayState">
               <p:TypeAnnotation p:Type="TypeReference">
@@ -24498,6 +24508,22 @@
             <Patch Id="AQj2UVHV7VZPNHsbK4jdrH" Name="SetBPM">
               <Pin Id="GI7ocO5VIIOMbiz8EsBXpB" Name="BPM" Kind="InputPin" />
             </Patch>
+            <Slot Id="TEiSyHYdUoJNX1iET9n8cs" Name="InputVolume">
+              <p:TypeAnnotation p:Type="TypeReference">
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Slot>
+            <Patch Id="R5NOr2pcq9jQNrhEktMwbk" Name="SetInputVolume">
+              <Pin Id="G4F4R4yFrFpMhqd9NTAhN4" MergeId="151168" Name="InputVolume" Kind="InputPin" />
+            </Patch>
+            <Patch Id="ROguew3xlaCQAnhCzGlMb1" Name="GetInputVolume">
+              <Pin Id="DQJPCIVS3n1L1FudOo3IMb" MergeId="151202" Name="InputVolume" Kind="OutputPin" />
+            </Patch>
+            <Link Id="J0js7GvrvH6QChNrC563gQ" Ids="BtpK5fTH3IrM3rbt1r9TJJ,VgF06E8swArOEqn4fJ9E5t" />
+            <Link Id="QbDcfap5QDJMLpwnYy62Rg" Ids="VgF06E8swArOEqn4fJ9E5t,SwDUfbviGD5Ob0aCSZ84Ph" />
+            <Link Id="DLEKUcd4TBnLgKxTZJbBHt" Ids="RPF0TNCrdMHOTqafSMKPoR,VgF06E8swArOEqn4fJ9E5t" />
+            <Link Id="NXKAeriZdeUQQH7VOjx2iR" Ids="SwDUfbviGD5Ob0aCSZ84Ph,DQJPCIVS3n1L1FudOo3IMb" IsHidden="true" />
+            <Link Id="U5rsA4dPLkKNuXDHabBeLB" Ids="G4F4R4yFrFpMhqd9NTAhN4,BtpK5fTH3IrM3rbt1r9TJJ" IsHidden="true" />
           </Patch>
         </Node>
       </Canvas>

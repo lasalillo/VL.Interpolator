@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="GJNdUCxWFOuLeC0LGD4wao" LanguageVersion="2024.6.3-0028-gef26394f82" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="GJNdUCxWFOuLeC0LGD4wao" LanguageVersion="2024.6.7-0003-gda7bfe6f68" Version="0.128">
   <Patch Id="EAIIpcVCowFQTcz0KLQtUE">
     <Canvas Id="HsgcAMUqtVTNXLSvHJWTpN" DefaultCategory="Interpolator" CanvasType="FullCategory">
       <Canvas Id="QIfd52ShnGdL2SQeqFCih1" Name="Lerp" Position="198,278" CanvasType="Group">
@@ -901,11 +901,12 @@
                   </p:NodeReference>
                   <Pin Id="QXldF2luMZnOp8bzOeBKN5" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="Hh4m4Rmeea6LFUgViUytNN" Name="Set" Kind="InputPin" />
-                  <Pin Id="IW5ylqpxpTINfXvspofEVo" Name="Frames" Kind="InputPin" />
+                  <Pin Id="IW5ylqpxpTINfXvspofEVo" Name="Frames" Kind="InputPin" DefaultValue="2" />
                   <Pin Id="PbPVpE1IsJVL3EbNgX4swJ" Name="Retriggerable" Kind="InputPin" />
                   <Pin Id="Qqq27BtnAx0QBVg5nTzItD" Name="Reset" Kind="InputPin" />
                   <Pin Id="UGe7Omyv7vQNx900mwVO7q" Name="Value" Kind="OutputPin" />
                   <Pin Id="NjBddMHvT0zPjB80iWC1Rz" Name="Inverse Output" Kind="OutputPin" />
+                  <Pin Id="HYlMpJDPksxMSrRtjwBT7l" Name="Current Frame" Kind="OutputPin" />
                 </Node>
                 <ControlPoint Id="GdAvK8Z0FwhPeWtEYM0Tr2" Bounds="887,447" />
               </Canvas>
@@ -24052,16 +24053,16 @@
                 <Node Bounds="357,402,65,19" Id="K2IsfjbYjm9Okw0EB9eVOh">
                   <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <FullNameCategoryReference ID="Control" />
                     <Choice Kind="ProcessAppFlag" Name="MonoFlop (FrameBased)" />
                   </p:NodeReference>
                   <Pin Id="JNfvlAq5ZiKLyhD3ByRKFn" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="R25Oc3o2h9JNmSJQa1bnkd" Name="Set" Kind="InputPin" />
-                  <Pin Id="PW19nNGgWcqQS7eYpcqVke" Name="Frames" Kind="InputPin" />
+                  <Pin Id="PW19nNGgWcqQS7eYpcqVke" Name="Frames" Kind="InputPin" DefaultValue="2" />
                   <Pin Id="IPyMPeUtb52N5vTJkL7AJ5" Name="Retriggerable" Kind="InputPin" />
                   <Pin Id="QKdv1hrELxMPtB66N0H9ux" Name="Reset" Kind="InputPin" />
                   <Pin Id="N668RA4IYvAO6vCuq0fLYJ" Name="Value" Kind="OutputPin" />
                   <Pin Id="MjjQJT1BVLkMMFHgQEh1tT" Name="Inverse Output" Kind="OutputPin" />
+                  <Pin Id="OxqiAxN6ogCLYyWxEvW7SI" Name="Current Frame" Kind="OutputPin" />
                 </Node>
                 <ControlPoint Id="VHPVqYkI5OFMNeAFX62ame" Bounds="1049,488" />
               </Canvas>
@@ -25977,7 +25978,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.3-0028-gef26394f82" />
+  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.7-0003-gda7bfe6f68" />
   <PlatformDependency Id="UAzsalWIwraQGyRDrUduvA" Location="./lib/netstandard2.0/InterpolatorEnums.dll" />
   <NugetDependency Id="R2TJCi0AIIwNIlwUCEOwgF" Location="Wacton.Unicolour" Version="4.3.0" />
 </Document>

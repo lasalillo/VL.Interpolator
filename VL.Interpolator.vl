@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="GJNdUCxWFOuLeC0LGD4wao" LanguageVersion="2024.6.7-0185-g7d063e105d" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="GJNdUCxWFOuLeC0LGD4wao" LanguageVersion="2024.6.7-0195-gbeba45077f" Version="0.128">
   <Patch Id="EAIIpcVCowFQTcz0KLQtUE">
     <Canvas Id="HsgcAMUqtVTNXLSvHJWTpN" DefaultCategory="Interpolator" CanvasType="FullCategory">
       <Canvas Id="QIfd52ShnGdL2SQeqFCih1" Name="Lerp" Position="198,278" CanvasType="Group">
@@ -12145,7 +12145,6 @@
               <Fragment Id="UL9ceVI73kvLkdVuSNnMLa" Patch="NxHA7ZCu2IqNMyDSYVuJr7" />
               <Fragment Id="HqQNFM3WRdCNwqxypcZKGN" Patch="P12BFJgE01fMeC3DzrDtsn" />
               <Fragment Id="Cj6N76E6ztmLK6kIpGFFKM" Patch="CjiI3aLhDEfMKrCrtF0hHb" />
-              <Fragment Id="FuLGK4RU2GELKjQQSD7ohC" Patch="UA1w2YdjtaROaUrqOJVINP" />
               <Fragment Id="FiKJ4e2YJ4wMG76PMGQNdR" Patch="FP865QoKKbfLPh42ZW16Xl" />
               <Fragment Id="NHDf7OJle1PMygzBol2gBD" Patch="RiLvZxQ6l9gMj9cdtkOffU" />
               <Fragment Id="K0qjQYsHA6sO2px8d1xpxd" Patch="Pu8O5FqZgeTLHzSoPMlZ5I" />
@@ -12398,7 +12397,6 @@
             <Patch Id="CjiI3aLhDEfMKrCrtF0hHb" Name="Get2DPosition">
               <Pin Id="Abxa3TrRtIjNvlbVWrraC4" MergeId="7189" Name="Output" Kind="OutputPin" />
             </Patch>
-            <Patch Id="UA1w2YdjtaROaUrqOJVINP" Name="GetFloatInterpol" />
             <Patch Id="FP865QoKKbfLPh42ZW16Xl" Name="SetEditable">
               <Pin Id="PMW7zGzvX8lOcGsd4gygDK" Name="Editable" Kind="InputPin" />
             </Patch>
@@ -26458,8 +26456,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.7-0185-g7d063e105d" />
+  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.7-0195-gbeba45077f" />
   <PlatformDependency Id="UAzsalWIwraQGyRDrUduvA" Location="./lib/netstandard2.0/InterpolatorEnums.dll" />
   <NugetDependency Id="R2TJCi0AIIwNIlwUCEOwgF" Location="Wacton.Unicolour" Version="4.3.0" />
-  <NugetDependency Id="VsFUODFpmfNO38omXjLk8X" Location="VL.Interpolator" Version="1.2.4" />
+  <NugetDependency Id="VsFUODFpmfNO38omXjLk8X" Location="VL.Interpolator" Version="1.2.5" />
 </Document>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="TxhNEIHeowHN4BTCayr2jA" LanguageVersion="2024.6.0-0156-g47917ea4e3" Version="0.128">
-  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.0-0156-g47917ea4e3" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="TxhNEIHeowHN4BTCayr2jA" LanguageVersion="2024.6.7-0217-gb4f7c1f3e0" Version="0.128">
+  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.7-0217-gb4f7c1f3e0" />
   <Patch Id="EKfc0XEuHFEMk9lMTQ1rPH">
     <Canvas Id="F1lhPcVCSxaPSFkF3oFOYT" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -97,6 +97,8 @@
             <Pin Id="QP2Q2VppcG4QDTawh7FbHE" Name="Active" Kind="OutputPin" />
             <Pin Id="K67UGihFzaILvwpDAw2gVn" Name="Success" Kind="OutputPin" />
             <Pin Id="TSLgReNI1zPLgIGeGA83Gv" Name="Info" Kind="OutputPin" />
+            <Pin Id="UjBIrc8O7oZK99dEn8cYIq" Name="Colour Space" Kind="InputPin" IsHidden="true" />
+            <Pin Id="TLhjyFHoYifNntMlDY9XRc" Name="ShowExtras" Kind="InputPin" IsHidden="true" />
           </Node>
           <Node Bounds="390,754,39,19" Id="EVJKT4kQk2qPXI8NZXhAxd">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
@@ -139,28 +141,28 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="271,337,265,26" Id="Pdqf2q5BxNPNhDRMz7WoCP">
-            <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+            <p:NodeReference LastCategoryFullName="Interpolator.AudioClip" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Clip" />
+              <CategoryReference Kind="RecordType" Name="AudioClip" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="Create" />
             </p:NodeReference>
             <Pin Id="HMaMYgGXBO4LCU89LUK333" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="PC5sQBB0AtZOCRx5HVZ68J" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="Smagr2f2oSSL0wkh8zVi2A" Name="FileName" Kind="InputPin" />
+            <Pin Id="MDBrZirsFWJQdKITChY5E5" Name="ClipStart" Kind="InputPin" />
+            <Pin Id="NjCfXmWrbJiOLn5EgL04HT" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="LqLmGaukj87PPacChfUs0E" Name="FadeIn" Kind="InputPin" DefaultValue="0.5" />
             <Pin Id="PJ7YaWs5mpFNE4WiwNBmTF" Name="FadeOut" Kind="InputPin" DefaultValue="0.5" />
-            <Pin Id="MDBrZirsFWJQdKITChY5E5" Name="ClipStart" Kind="InputPin" />
-            <Pin Id="TpBxl2Jjb7bMMg69btEX2H" Name="Level" Kind="InputPin" />
-            <Pin Id="Vs1Id6svEYaN2OPlpEOX3q" Name="PositionOnClip" Kind="InputPin" />
-            <Pin Id="NjCfXmWrbJiOLn5EgL04HT" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="KfNCclqqft6NDj92BxiO2z" Name="Loop" Kind="InputPin" />
             <Pin Id="MuInzX85iagOoBWuvNQc1v" Name="FadeInTweenTransition" Kind="InputPin" />
             <Pin Id="EgOycsUJKPNOTggwHzZQT7" Name="FadeInTweenMode" Kind="InputPin" />
             <Pin Id="QlSppgzB6e6L4sBwfNtmFs" Name="FadeOutTweenTransition" Kind="InputPin" />
             <Pin Id="ONQuQse9sVOP3o9LeNHTle" Name="FadeOutTweenMode" Kind="InputPin" />
             <Pin Id="VNdQ9FvKM5PMuJg75lwMf3" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="Vs1Id6svEYaN2OPlpEOX3q" Name="PositionOnClip" Kind="InputPin" />
+            <Pin Id="TpBxl2Jjb7bMMg69btEX2H" Name="Level" Kind="InputPin" />
           </Node>
-          <Pad Id="MkRYz66tfEfO1D8qUbTtqR" Comment="FileName" Bounds="285,313,226,15" ShowValueBox="true" isIOBox="true" Value="C:\Program Files\vvvv\vvvv_gamma_6.0-0139-g74911af44e\packs\VL.Audio\help\demo.wav">
+          <Pad Id="MkRYz66tfEfO1D8qUbTtqR" Comment="FileName" Bounds="285,313,192,15" ShowValueBox="true" isIOBox="true" Value="C:\Program Files\vvvv\vvvv_gamma_6.0-0139-g74911af44e\packs\VL.Audio\help\demo.wav">
             <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -193,26 +195,26 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="583,337,265,26" Id="NzatPm00bsZNLtKz5wF9HI">
-            <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+            <p:NodeReference LastCategoryFullName="Interpolator.AudioClip" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Clip" />
+              <CategoryReference Kind="RecordType" Name="AudioClip" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="Create" />
             </p:NodeReference>
             <Pin Id="SJJveYEwhQdLWynyW0oa2F" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="AabrpS9k9ZXLtHBpViAI0T" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="C1oFHm1qHsGPmKYC8Al29C" Name="FileName" Kind="InputPin" />
+            <Pin Id="FOukVvX0pKOPF1FxJpbdNF" Name="ClipStart" Kind="InputPin" />
+            <Pin Id="FdYuVaGKujDLJvMhKE2wKC" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="SdDVgQGf7aqNB7OMTVkRY3" Name="FadeIn" Kind="InputPin" DefaultValue="0.5" />
             <Pin Id="FhCQHWA0juxOX9QSw9pgCz" Name="FadeOut" Kind="InputPin" DefaultValue="0.5" />
-            <Pin Id="FOukVvX0pKOPF1FxJpbdNF" Name="ClipStart" Kind="InputPin" />
-            <Pin Id="L8xq2rbEaVUMenRwmzWWag" Name="Level" Kind="InputPin" />
-            <Pin Id="EafGpSFiZChPLgSoc3p7i7" Name="PositionOnClip" Kind="InputPin" />
-            <Pin Id="FdYuVaGKujDLJvMhKE2wKC" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="KAuYspcND95OYycgi5DrBj" Name="Loop" Kind="InputPin" />
             <Pin Id="No73ie8OWR9QGCpPONV277" Name="FadeInTweenTransition" Kind="InputPin" />
             <Pin Id="QUDMVnk3rPTNZvpFkbD7mk" Name="FadeInTweenMode" Kind="InputPin" />
             <Pin Id="QJM8r4DryxLNSWAwwvnp3n" Name="FadeOutTweenTransition" Kind="InputPin" />
             <Pin Id="SCiRX2NavdCQAPtCSrcLUH" Name="FadeOutTweenMode" Kind="InputPin" />
             <Pin Id="CNaT5MlWJZuQa5wcDF1j9v" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="EafGpSFiZChPLgSoc3p7i7" Name="PositionOnClip" Kind="InputPin" />
+            <Pin Id="L8xq2rbEaVUMenRwmzWWag" Name="Level" Kind="InputPin" />
           </Node>
           <Pad Id="HLjGXI6nb0WOdO0BTqU6y9" Comment="FileName" Bounds="613,312,135,15" ShowValueBox="true" isIOBox="true" Value="C:\Program Files\vvvv\vvvv_gamma_6.0-0139-g74911af44e\packs\VL.Audio\help\vvvv.wav">
             <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
@@ -247,26 +249,26 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="894,337,265,26" Id="UiJzdcr382SObG0HMEyaKh">
-            <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+            <p:NodeReference LastCategoryFullName="Interpolator.AudioClip" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Clip" />
+              <CategoryReference Kind="RecordType" Name="AudioClip" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="Create" />
             </p:NodeReference>
             <Pin Id="UziCeYggILBLsB5RZtplex" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="B4bXJr39BiaPqJIWxAS8rQ" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="RGpAMl6jhUKM9cKpeQJJ0V" Name="FileName" Kind="InputPin" />
+            <Pin Id="RQ2hv60SiIiLJa9mBlH7Br" Name="ClipStart" Kind="InputPin" />
+            <Pin Id="K8JfiMRz8u7OoLi86QuUWk" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="VNYN5UrAhHnLKayb4Qk5xK" Name="FadeIn" Kind="InputPin" DefaultValue="0.5" />
             <Pin Id="EPKXZrcKbANNRRJAr8BZNL" Name="FadeOut" Kind="InputPin" DefaultValue="0.5" />
-            <Pin Id="RQ2hv60SiIiLJa9mBlH7Br" Name="ClipStart" Kind="InputPin" />
-            <Pin Id="IsvFnQj4TV0PR5EIq31s08" Name="Level" Kind="InputPin" />
-            <Pin Id="BQbX6of75aELfvF27hOvZ0" Name="PositionOnClip" Kind="InputPin" />
-            <Pin Id="K8JfiMRz8u7OoLi86QuUWk" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="DjUXAs1y1sFQaVP6dYuFlf" Name="Loop" Kind="InputPin" />
             <Pin Id="EZNuoKJrxStPJZPtMcUh0Q" Name="FadeInTweenTransition" Kind="InputPin" />
             <Pin Id="KW8ZjsLKN9zLg5sagcTXt3" Name="FadeInTweenMode" Kind="InputPin" />
             <Pin Id="OmrGlWypYfNLxDPJYujNBc" Name="FadeOutTweenTransition" Kind="InputPin" />
             <Pin Id="TYRwP2aa9CNOS8z8r1cx6H" Name="FadeOutTweenMode" Kind="InputPin" />
             <Pin Id="CLAGPw8aQeRMScp28oUjQy" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="BQbX6of75aELfvF27hOvZ0" Name="PositionOnClip" Kind="InputPin" />
+            <Pin Id="IsvFnQj4TV0PR5EIq31s08" Name="Level" Kind="InputPin" />
           </Node>
           <Node Bounds="270,1471,60,19" Id="RNrLxZlMz5dOLSQcWkFQZr">
             <p:NodeReference LastCategoryFullName="Audio.Sink" LastDependency="VL.Audio.vl">
@@ -316,7 +318,7 @@
               <p:stepsize p:Type="Single">0.01</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="FudJEAuNP2DMtKInw2Rfnn" Comment="Error Message" Bounds="326,1232,231,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="FudJEAuNP2DMtKInw2Rfnn" Comment="Error Message" Bounds="326,1232,267,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="DhbBms9b01jK9jYesnZHvW" Comment="FileName" Bounds="326,1209,438,15" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="390,715,54,26" Id="G5c1TD4zjYnLAjTcHRN4FL">
             <p:NodeReference LastCategoryFullName="Animation.IClock" LastDependency="VL.CoreLib.vl">
@@ -463,6 +465,7 @@
                       <ControlPoint Id="AymKOONY1fiQOc8iGH0rZV" Bounds="293,753" Alignment="Top" />
                       <ControlPoint Id="SCL2Ot2o2ajM3D0OLVVRXm" Bounds="293,835" Alignment="Bottom" />
                     </Node>
+                    <Patch Id="AucTSTrf1x6OwYB2FlOixk" Name="Dispose" />
                   </Patch>
                 </Node>
                 <ControlPoint Id="AgIGSqniFniPd4cOSGp6gX" Bounds="525,454" />
@@ -521,8 +524,9 @@
                   <Pin Id="Vt8ijltVAxjPeePtfNeABm" Name="Value" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="127,261,167,26" Id="Hy17nxXz5FuOz9Bxm3d1X4">
-                  <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+                  <p:NodeReference LastCategoryFullName="Interpolator.AudioClip" LastDependency="VL.Interpolator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="RecordType" Name="AudioClip" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="GetFileName" />
                   </p:NodeReference>
                   <Pin Id="MMn8YjySsaWMWo4i5wQrGT" Name="Input" Kind="StateInputPin" />
@@ -530,8 +534,9 @@
                   <Pin Id="OVIzCKMbNq8PpXjNLGAv18" Name="FileName" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="127,297,289,26" Id="JqXAg1r1OXOOuRCuyTppRN">
-                  <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+                  <p:NodeReference LastCategoryFullName="Interpolator.AudioClip" LastDependency="VL.Interpolator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="RecordType" Name="AudioClip" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="GetLevel" />
                   </p:NodeReference>
                   <Pin Id="NRpBk5xYHnLOHJjs3pUZjn" Name="Input" Kind="StateInputPin" />
@@ -539,8 +544,9 @@
                   <Pin Id="HsTXZqcrnwkLppbqcq4Zgi" Name="Level" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="127,333,250,26" Id="Qd5OunQROc3PbJgAj2Q5wz">
-                  <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+                  <p:NodeReference LastCategoryFullName="Interpolator.AudioClip" LastDependency="VL.Interpolator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="RecordType" Name="AudioClip" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="GetPositionOnClip" />
                   </p:NodeReference>
                   <Pin Id="PwnZirZ8vE9NsQy5WgfvAT" Name="Input" Kind="StateInputPin" />
@@ -548,8 +554,9 @@
                   <Pin Id="Tr3rycVZBZuPXwypsTl9L1" Name="PositionOnClip" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="127,369,155,26" Id="Qjz5ta2PE48PavahMXaebW">
-                  <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+                  <p:NodeReference LastCategoryFullName="Interpolator.AudioClip" LastDependency="VL.Interpolator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="RecordType" Name="AudioClip" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="GetMulti_Mono" />
                   </p:NodeReference>
                   <Pin Id="S4a2r5zA3OwNJvvlmvJyYC" Name="Input" Kind="StateInputPin" />
@@ -557,8 +564,9 @@
                   <Pin Id="ULrtyIWYdJCOosMXTvh4lZ" Name="Multi_Mono" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="127,405,189,26" Id="UUNZGEprPaKPqb7UJPg9SI">
-                  <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+                  <p:NodeReference LastCategoryFullName="Interpolator.AudioClip" LastDependency="VL.Interpolator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="RecordType" Name="AudioClip" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="GetLoop" />
                   </p:NodeReference>
                   <Pin Id="C9X1dQUMcA7PXnAmOskNMk" Name="Input" Kind="StateInputPin" />
@@ -633,11 +641,6 @@
               <Link Id="Os9b27529wtQZ3MIrFjjg9" Ids="PcwO2NLYAi0NJH93bpqKFL,S3ymFVC3tnWM4iQYmrAxyF" />
             </Patch>
           </Node>
-          <Pad Id="TQZqVX081XhLRefsNGIyDZ" Comment="Default" Bounds="315,988">
-            <p:TypeAnnotation LastCategoryFullName="Interpolator" LastDependency="VL.Interpolator.vl">
-              <Choice Kind="TypeFlag" Name="Clip" />
-            </p:TypeAnnotation>
-          </Pad>
           <Pad Id="CyZ97CVOXMjNdT0n3ENxoA" Bounds="777,1131,415,19" ShowValueBox="true" isIOBox="true" Value="Define your own Clip Player with the help of the provided parameters">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -652,7 +655,7 @@
     ************************ SolveAudioPackPath ************************
 
 -->
-          <Node Name="SolveAudioPackPath" Bounds="1313,310,338,276" Id="DbQHl91RRMyMH37Amfn11k">
+          <Node Name="SolveAudioPackPath" Bounds="1313,310,343,276" Id="DbQHl91RRMyMH37Amfn11k">
             <p:NodeReference>
               <Choice Kind="OperationDefinition" />
             </p:NodeReference>
@@ -665,7 +668,7 @@
                 <Pin Id="VKQKpKvW8ttM6dTlPK3bCx" Name="Version String" Kind="OutputPin" />
               </Node>
               <Pad Id="N9qiBCMbUAOQZihs2jn2xK" Comment="" Bounds="1391,411,229,15" ShowValueBox="true" isIOBox="true" />
-              <Pad Id="Qe8OaZdmJp4MdDpBCQ1Niv" Comment="" Bounds="1329,440,262,15" ShowValueBox="true" isIOBox="true" Value="C:\Program Files\vvvv\####\packs\VL.Audio\help\">
+              <Pad Id="Qe8OaZdmJp4MdDpBCQ1Niv" Comment="" Bounds="1329,440,296,15" ShowValueBox="true" isIOBox="true" Value="C:\Program Files\vvvv\####-win-x64\packs\VL.Audio\help\">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
@@ -804,7 +807,6 @@
         <Link Id="AuJc7lry8ZCMjKD3Dx0GmC" Ids="GcRswQpOT5PPCeZQ3faquc,UHt7hkb6EhVMVdBLu7GmFG" />
         <Link Id="IhQKbKJ8qahOJAJiwjVwar" Ids="Q8Ojae0ceE1MUkQQRluVe6,LKy1oVilU6bL2Cd7ertWs2" />
         <Link Id="IenMACN3bY7MofPFkxmOdk" Ids="DuJ56R0sjQfNb9rzOwsEyw,BpVmgEBzZgmOrJSvtD89t3" />
-        <Link Id="DKv8YdUbGBrQWqg53QLcz0" Ids="TQZqVX081XhLRefsNGIyDZ,BgykOeyOJC1LiXNn7AC3nL" />
         <Link Id="Qcr3jiTeZPFLIcnkOZIQrR" Ids="DnPvmypqqTNN6DqHOLqhVQ,MVSVRVrPoFfLc0qNUIBYvg" />
         <Link Id="IJD89fii6gzM8hR9Ve9sM0" Ids="HTBdloeJE9ZQI2pTK0MMVX,Smagr2f2oSSL0wkh8zVi2A" />
         <Link Id="RAD9tjvwwwZPX9TGbbfFLO" Ids="P3odit8UAkIQYx9ddphRnI,DBvRDCBomUKQAtq4YDlCyq" />
@@ -815,7 +817,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="FCk7DSMGPWvMttrrQdTxXI" Location="VL.Audio" Version="1.4.2-preview" />
-  <NugetDependency Id="CMc6F31oimUPdLgrALvQ1Q" Location="VL.Interpolator" Version="1.0.7" />
-  <NugetDependency Id="CKkvKyIy5C2MDEoH7QxGbP" Location="VL.HDE" Version="2024.6.0-0156-g47917ea4e3" />
+  <NugetDependency Id="FCk7DSMGPWvMttrrQdTxXI" Location="VL.Audio" Version="1.8.4" />
+  <NugetDependency Id="CMc6F31oimUPdLgrALvQ1Q" Location="VL.Interpolator" Version="1.2.7" />
+  <NugetDependency Id="CKkvKyIy5C2MDEoH7QxGbP" Location="VL.HDE" Version="2024.6.7-0217-gb4f7c1f3e0" />
 </Document>

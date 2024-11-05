@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="B2P2KgVcg5GLhD3gKoZRxw" LanguageVersion="2024.6.0-0156-g47917ea4e3" Version="0.128">
-  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.0-0156-g47917ea4e3" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="B2P2KgVcg5GLhD3gKoZRxw" LanguageVersion="2024.6.7-0217-gb4f7c1f3e0" Version="0.128">
+  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.7-0217-gb4f7c1f3e0" />
   <Patch Id="EKfc0XEuHFEMk9lMTQ1rPH">
     <Canvas Id="F1lhPcVCSxaPSFkF3oFOYT" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -97,6 +97,8 @@
             <Pin Id="QP2Q2VppcG4QDTawh7FbHE" Name="Active" Kind="OutputPin" />
             <Pin Id="K67UGihFzaILvwpDAw2gVn" Name="Success" Kind="OutputPin" />
             <Pin Id="TSLgReNI1zPLgIGeGA83Gv" Name="Info" Kind="OutputPin" />
+            <Pin Id="St0F7HmIuMkLJKZKn3F9YZ" Name="Colour Space" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Kxvbfimn0JgQavKrAKYxrf" Name="ShowExtras" Kind="InputPin" IsHidden="true" />
           </Node>
           <Node Bounds="390,784,39,19" Id="EVJKT4kQk2qPXI8NZXhAxd">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
@@ -139,26 +141,28 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="271,367,265,26" Id="Pdqf2q5BxNPNhDRMz7WoCP">
-            <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+            <p:NodeReference LastCategoryFullName="Interpolator.VideoClip" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Clip" />
+              <CategoryReference Kind="RecordType" Name="VideoClip" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="Create" />
             </p:NodeReference>
             <Pin Id="HMaMYgGXBO4LCU89LUK333" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="PC5sQBB0AtZOCRx5HVZ68J" Name="Tag" Kind="InputPin" />
             <Pin Id="Smagr2f2oSSL0wkh8zVi2A" Name="FileName" Kind="InputPin" />
+            <Pin Id="MDBrZirsFWJQdKITChY5E5" Name="ClipStart" Kind="InputPin" />
+            <Pin Id="NjCfXmWrbJiOLn5EgL04HT" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="LqLmGaukj87PPacChfUs0E" Name="FadeIn" Kind="InputPin" DefaultValue="1" />
             <Pin Id="PJ7YaWs5mpFNE4WiwNBmTF" Name="FadeOut" Kind="InputPin" DefaultValue="1" />
-            <Pin Id="MDBrZirsFWJQdKITChY5E5" Name="ClipStart" Kind="InputPin" />
-            <Pin Id="TpBxl2Jjb7bMMg69btEX2H" Name="Level" Kind="InputPin" />
-            <Pin Id="Vs1Id6svEYaN2OPlpEOX3q" Name="PositionOnClip" Kind="InputPin" />
-            <Pin Id="NjCfXmWrbJiOLn5EgL04HT" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="KfNCclqqft6NDj92BxiO2z" Name="Loop" Kind="InputPin" />
             <Pin Id="MuInzX85iagOoBWuvNQc1v" Name="FadeInTweenTransition" Kind="InputPin" />
             <Pin Id="EgOycsUJKPNOTggwHzZQT7" Name="FadeInTweenMode" Kind="InputPin" />
             <Pin Id="QlSppgzB6e6L4sBwfNtmFs" Name="FadeOutTweenTransition" Kind="InputPin" />
             <Pin Id="ONQuQse9sVOP3o9LeNHTle" Name="FadeOutTweenMode" Kind="InputPin" />
             <Pin Id="VNdQ9FvKM5PMuJg75lwMf3" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="DOiDDxgAhjxOYBAgwUrSU0" Name="ClipVolume" Kind="InputPin" />
+            <Pin Id="KrUeE8ncNpaQcVrklrTMvY" Name="Volume" Kind="InputPin" />
+            <Pin Id="Vs1Id6svEYaN2OPlpEOX3q" Name="PositionOnClip" Kind="InputPin" />
+            <Pin Id="TpBxl2Jjb7bMMg69btEX2H" Name="Level" Kind="InputPin" />
           </Node>
           <Node Bounds="583,464,50,26" Id="RUGkKaE3uDSL2sdaheoM8t">
             <p:NodeReference LastCategoryFullName="Interpolator.Clip (Generic)" LastDependency="VL.Interpolator.vl">
@@ -188,26 +192,28 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="583,367,265,26" Id="NzatPm00bsZNLtKz5wF9HI">
-            <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+            <p:NodeReference LastCategoryFullName="Interpolator.VideoClip" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Clip" />
+              <CategoryReference Kind="RecordType" Name="VideoClip" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="Create" />
             </p:NodeReference>
             <Pin Id="SJJveYEwhQdLWynyW0oa2F" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="AabrpS9k9ZXLtHBpViAI0T" Name="Tag" Kind="InputPin" />
             <Pin Id="C1oFHm1qHsGPmKYC8Al29C" Name="FileName" Kind="InputPin" />
+            <Pin Id="FOukVvX0pKOPF1FxJpbdNF" Name="ClipStart" Kind="InputPin" />
+            <Pin Id="FdYuVaGKujDLJvMhKE2wKC" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="SdDVgQGf7aqNB7OMTVkRY3" Name="FadeIn" Kind="InputPin" DefaultValue="1" />
             <Pin Id="FhCQHWA0juxOX9QSw9pgCz" Name="FadeOut" Kind="InputPin" DefaultValue="1" />
-            <Pin Id="FOukVvX0pKOPF1FxJpbdNF" Name="ClipStart" Kind="InputPin" />
-            <Pin Id="L8xq2rbEaVUMenRwmzWWag" Name="Level" Kind="InputPin" />
-            <Pin Id="EafGpSFiZChPLgSoc3p7i7" Name="PositionOnClip" Kind="InputPin" />
-            <Pin Id="FdYuVaGKujDLJvMhKE2wKC" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="KAuYspcND95OYycgi5DrBj" Name="Loop" Kind="InputPin" />
             <Pin Id="No73ie8OWR9QGCpPONV277" Name="FadeInTweenTransition" Kind="InputPin" />
             <Pin Id="QUDMVnk3rPTNZvpFkbD7mk" Name="FadeInTweenMode" Kind="InputPin" />
             <Pin Id="QJM8r4DryxLNSWAwwvnp3n" Name="FadeOutTweenTransition" Kind="InputPin" />
             <Pin Id="SCiRX2NavdCQAPtCSrcLUH" Name="FadeOutTweenMode" Kind="InputPin" />
             <Pin Id="CNaT5MlWJZuQa5wcDF1j9v" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="M4fhOhqYv89L1YjXNTQkLv" Name="ClipVolume" Kind="InputPin" />
+            <Pin Id="DefzPi6swNpQLXz5CZXToB" Name="Volume" Kind="InputPin" />
+            <Pin Id="EafGpSFiZChPLgSoc3p7i7" Name="PositionOnClip" Kind="InputPin" />
+            <Pin Id="L8xq2rbEaVUMenRwmzWWag" Name="Level" Kind="InputPin" />
           </Node>
           <Node Bounds="894,464,50,26" Id="F6q0RDJvpCwLQqffgkJvMY">
             <p:NodeReference LastCategoryFullName="Interpolator.Clip (Generic)" LastDependency="VL.Interpolator.vl">
@@ -237,26 +243,28 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="894,367,265,26" Id="UiJzdcr382SObG0HMEyaKh">
-            <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+            <p:NodeReference LastCategoryFullName="Interpolator.VideoClip" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Clip" />
+              <CategoryReference Kind="RecordType" Name="VideoClip" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="Create" />
             </p:NodeReference>
             <Pin Id="UziCeYggILBLsB5RZtplex" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="B4bXJr39BiaPqJIWxAS8rQ" Name="Tag" Kind="InputPin" />
             <Pin Id="RGpAMl6jhUKM9cKpeQJJ0V" Name="FileName" Kind="InputPin" />
+            <Pin Id="RQ2hv60SiIiLJa9mBlH7Br" Name="ClipStart" Kind="InputPin" />
+            <Pin Id="K8JfiMRz8u7OoLi86QuUWk" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="VNYN5UrAhHnLKayb4Qk5xK" Name="FadeIn" Kind="InputPin" DefaultValue="1" />
             <Pin Id="EPKXZrcKbANNRRJAr8BZNL" Name="FadeOut" Kind="InputPin" DefaultValue="1" />
-            <Pin Id="RQ2hv60SiIiLJa9mBlH7Br" Name="ClipStart" Kind="InputPin" />
-            <Pin Id="IsvFnQj4TV0PR5EIq31s08" Name="Level" Kind="InputPin" />
-            <Pin Id="BQbX6of75aELfvF27hOvZ0" Name="PositionOnClip" Kind="InputPin" />
-            <Pin Id="K8JfiMRz8u7OoLi86QuUWk" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="DjUXAs1y1sFQaVP6dYuFlf" Name="Loop" Kind="InputPin" />
             <Pin Id="EZNuoKJrxStPJZPtMcUh0Q" Name="FadeInTweenTransition" Kind="InputPin" />
             <Pin Id="KW8ZjsLKN9zLg5sagcTXt3" Name="FadeInTweenMode" Kind="InputPin" />
             <Pin Id="OmrGlWypYfNLxDPJYujNBc" Name="FadeOutTweenTransition" Kind="InputPin" />
             <Pin Id="TYRwP2aa9CNOS8z8r1cx6H" Name="FadeOutTweenMode" Kind="InputPin" />
             <Pin Id="CLAGPw8aQeRMScp28oUjQy" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="AXvq46X2QriMFd5JEZi0cD" Name="ClipVolume" Kind="InputPin" />
+            <Pin Id="OIKdNgBJYeaPMcNBvt334r" Name="Volume" Kind="InputPin" />
+            <Pin Id="BQbX6of75aELfvF27hOvZ0" Name="PositionOnClip" Kind="InputPin" />
+            <Pin Id="IsvFnQj4TV0PR5EIq31s08" Name="Level" Kind="InputPin" />
           </Node>
           <Node Bounds="270,1155,276,19" Id="KeChAgaaEYYOdVYSwOrPTp">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="Example 06_Url Video Clip.vl">
@@ -442,6 +450,7 @@
                       <Pin Id="EK95RmishlPQXtWgYJOzQw" Name="Apply" Kind="InputPin" />
                       <Pin Id="H9BQGY0xOHpMhG4VAoNdYk" Name="Output" Kind="OutputPin" />
                     </Node>
+                    <Patch Id="JJJlr8zUYCcOOgkm1Ak4W1" Name="Dispose" />
                   </Patch>
                 </Node>
                 <ControlPoint Id="AgIGSqniFniPd4cOSGp6gX" Bounds="525,454" />
@@ -501,8 +510,9 @@
                   <Pin Id="Vt8ijltVAxjPeePtfNeABm" Name="Value" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="127,297,318,26" Id="JqXAg1r1OXOOuRCuyTppRN">
-                  <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+                  <p:NodeReference LastCategoryFullName="Interpolator.VideoClip" LastDependency="VL.Interpolator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="RecordType" Name="VideoClip" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="GetLevel" />
                   </p:NodeReference>
                   <Pin Id="NRpBk5xYHnLOHJjs3pUZjn" Name="Input" Kind="StateInputPin" />
@@ -510,8 +520,9 @@
                   <Pin Id="HsTXZqcrnwkLppbqcq4Zgi" Name="Level" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="127,333,250,26" Id="Qd5OunQROc3PbJgAj2Q5wz">
-                  <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+                  <p:NodeReference LastCategoryFullName="Interpolator.VideoClip" LastDependency="VL.Interpolator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="RecordType" Name="VideoClip" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="GetPositionOnClip" />
                   </p:NodeReference>
                   <Pin Id="PwnZirZ8vE9NsQy5WgfvAT" Name="Input" Kind="StateInputPin" />
@@ -519,8 +530,9 @@
                   <Pin Id="Tr3rycVZBZuPXwypsTl9L1" Name="PositionOnClip" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="127,405,189,26" Id="UUNZGEprPaKPqb7UJPg9SI">
-                  <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+                  <p:NodeReference LastCategoryFullName="Interpolator.VideoClip" LastDependency="VL.Interpolator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="RecordType" Name="VideoClip" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="GetLoop" />
                   </p:NodeReference>
                   <Pin Id="C9X1dQUMcA7PXnAmOskNMk" Name="Input" Kind="StateInputPin" />
@@ -528,9 +540,9 @@
                   <Pin Id="DdB0R2CQz7QLAUNEl7nOq3" Name="Loop" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="127,220,166,26" Id="V8f0HM3J99qL0ckgBhH6vU">
-                  <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+                  <p:NodeReference LastCategoryFullName="Interpolator.VideoClip" LastDependency="VL.Interpolator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="4026531840" Name="Clip" NeedsToBeDirectParent="true" />
+                    <CategoryReference Kind="RecordType" Name="VideoClip" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="GetTag" />
                   </p:NodeReference>
                   <Pin Id="TxUwB2FpuhEPRBc6cLGwR3" Name="Input" Kind="StateInputPin" />
@@ -613,11 +625,6 @@
               <Link Id="JJiydZR4o2qNSM5Nb7mJ27" Ids="OeyV6maVuqrO8ppupphzZa,MOZNRUFHhSMP17EBMS81t4" />
             </Patch>
           </Node>
-          <Pad Id="TQZqVX081XhLRefsNGIyDZ" Comment="Default" Bounds="315,1018">
-            <p:TypeAnnotation LastCategoryFullName="Interpolator" LastDependency="VL.Interpolator.vl">
-              <Choice Kind="TypeFlag" Name="Clip" />
-            </p:TypeAnnotation>
-          </Pad>
           <Pad Id="CyZ97CVOXMjNdT0n3ENxoA" Bounds="795,1163,415,19" ShowValueBox="true" isIOBox="true" Value="Define your own Clip Player with the help of the provided parameters">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -633,7 +640,7 @@
               <Choice Kind="ProcessAppFlag" Name="TextureWindow" />
             </p:NodeReference>
             <Pin Id="Vzud7UUk5jQNKPiGOFn8ys" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="DaqKiNjVnNcMQ0gSKaBxAB" Name="Bounds" Kind="InputPin" DefaultValue="1364, 102, 793.3333, 360" IsHidden="true" />
+            <Pin Id="DaqKiNjVnNcMQ0gSKaBxAB" Name="Bounds" Kind="InputPin" DefaultValue="1364, 102, 793, 360" IsHidden="true" />
             <Pin Id="RszhTEoJpjwOj4f5BjGCQR" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="Bj8Qmli3WG0ODcv63KXNhv" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
             <Pin Id="IWUNmKK2PJsLnlgNalEStQ" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
@@ -678,26 +685,28 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="643,765,265,26" Id="NYoHZoDF0jzPlfrjGMWdJT">
-            <p:NodeReference LastCategoryFullName="Interpolator.Clip" LastDependency="VL.Interpolator.vl">
+            <p:NodeReference LastCategoryFullName="Interpolator.VideoClip" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Clip" />
+              <CategoryReference Kind="RecordType" Name="VideoClip" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="Create" />
             </p:NodeReference>
             <Pin Id="RhmJfOXLE8eMlrnK4umJsc" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="RNdr2IXjlu1MUf8qVdIZht" Name="Tag" Kind="InputPin" />
             <Pin Id="Bj9Nqddavp5OducBal4OB7" Name="FileName" Kind="InputPin" />
+            <Pin Id="DeLjud5aZTnLf21Cr0hA8t" Name="ClipStart" Kind="InputPin" />
+            <Pin Id="TlOxmxstn7mPrJLHNwJRsP" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="T0ZfnUpmdXbQOdwyR0tUlB" Name="FadeIn" Kind="InputPin" />
             <Pin Id="EeJtsURohYdOK8P8Tzy8BV" Name="FadeOut" Kind="InputPin" />
-            <Pin Id="DeLjud5aZTnLf21Cr0hA8t" Name="ClipStart" Kind="InputPin" />
-            <Pin Id="HKGwQBW8h3WOdFK5o2UYTA" Name="Level" Kind="InputPin" />
-            <Pin Id="ABZcwpiyOfbPfojDlnWcjk" Name="PositionOnClip" Kind="InputPin" />
-            <Pin Id="TlOxmxstn7mPrJLHNwJRsP" Name="Multi_Mono" Kind="InputPin" />
             <Pin Id="IC5uwOvCprVLBwnC0jlT2A" Name="Loop" Kind="InputPin" />
             <Pin Id="LaMy3miuOidLUsOrqm6iua" Name="FadeInTweenTransition" Kind="InputPin" />
             <Pin Id="S91wnWlUhZELZn6tMfF60w" Name="FadeInTweenMode" Kind="InputPin" />
             <Pin Id="Cp35szT7lyfOggRSeL2rCu" Name="FadeOutTweenTransition" Kind="InputPin" />
             <Pin Id="RPlUa31bU5WPo1yfpYvhV5" Name="FadeOutTweenMode" Kind="InputPin" />
             <Pin Id="Op9OWdraLNuQWob3shyEsr" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="QiKA9Hs3pFCLEo3pzqMwZ3" Name="ClipVolume" Kind="InputPin" />
+            <Pin Id="R2FXGe5773XOhfeOvjoJkN" Name="Volume" Kind="InputPin" />
+            <Pin Id="ABZcwpiyOfbPfojDlnWcjk" Name="PositionOnClip" Kind="InputPin" />
+            <Pin Id="HKGwQBW8h3WOdFK5o2UYTA" Name="Level" Kind="InputPin" />
           </Node>
           <Pad Id="CqPdaoZI8hNLOSwnBTiR07" Comment="Tag" SlotId="TXhxumii95vOxiSpLsmRsY" Bounds="645,716" />
         </Canvas>
@@ -741,7 +750,6 @@
         <Link Id="AuJc7lry8ZCMjKD3Dx0GmC" Ids="GcRswQpOT5PPCeZQ3faquc,UHt7hkb6EhVMVdBLu7GmFG" />
         <Link Id="IhQKbKJ8qahOJAJiwjVwar" Ids="Q8Ojae0ceE1MUkQQRluVe6,LKy1oVilU6bL2Cd7ertWs2" />
         <Link Id="IenMACN3bY7MofPFkxmOdk" Ids="DuJ56R0sjQfNb9rzOwsEyw,BpVmgEBzZgmOrJSvtD89t3" />
-        <Link Id="DKv8YdUbGBrQWqg53QLcz0" Ids="TQZqVX081XhLRefsNGIyDZ,BgykOeyOJC1LiXNn7AC3nL" />
         <Link Id="LhyXxT9cFDiNENNEl96rJO" Ids="K63kpizstXyMgu7rsWxtwy,ESuBzgt3enMQJgan4GZv2Z" />
         <Link Id="H5KaajUL5q1O3TfEKhvd6o" Ids="CxKJTsM2zTLNKeHlzT2mFI,PC5sQBB0AtZOCRx5HVZ68J" />
         <Link Id="L5lwnIxdF7CN33meLdju4T" Ids="VNdQ9FvKM5PMuJg75lwMf3,ReRj8czFJQ2NdPhMVozoIZ" />
@@ -754,9 +762,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="FCk7DSMGPWvMttrrQdTxXI" Location="VL.Audio" Version="1.4.2-preview" />
-  <NugetDependency Id="MGWjEkDCs7sNDQFmWu5p1g" Location="VL.Interpolator" Version="1.0.7" />
-  <NugetDependency Id="QL0rHyteLFMPzKjtEgRuLF" Location="VL.Video" Version="2024.6.0-0156-g47917ea4e3" />
-  <NugetDependency Id="HbulQguXnEGNHNCnEHvdKj" Location="VL.Stride" Version="2024.6.0-0156-g47917ea4e3" />
-  <NugetDependency Id="CfupJmkYCoMNzeudyTEOR3" Location="VL.Stride.TextureFX" Version="2024.6.0-0156-g47917ea4e3" />
+  <NugetDependency Id="FCk7DSMGPWvMttrrQdTxXI" Location="VL.Audio" Version="1.8.4" />
+  <NugetDependency Id="MGWjEkDCs7sNDQFmWu5p1g" Location="VL.Interpolator" Version="1.2.7" />
+  <NugetDependency Id="QL0rHyteLFMPzKjtEgRuLF" Location="VL.Video" Version="2024.6.7-0217-gb4f7c1f3e0" />
+  <NugetDependency Id="HbulQguXnEGNHNCnEHvdKj" Location="VL.Stride" Version="2024.6.7-0217-gb4f7c1f3e0" />
+  <NugetDependency Id="CfupJmkYCoMNzeudyTEOR3" Location="VL.Stride.TextureFX" Version="2024.6.7-0217-gb4f7c1f3e0" />
 </Document>

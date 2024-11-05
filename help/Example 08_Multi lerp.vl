@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="KyzREb5fnUhOPxsW6xUBWz" LanguageVersion="2024.6.0-0156-g47917ea4e3" Version="0.128">
-  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.0-0156-g47917ea4e3" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="OvOFKPcBZY9QaYjYthQIMJ" LanguageVersion="2024.6.7-0217-gb4f7c1f3e0" Version="0.128">
+  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.7-0217-gb4f7c1f3e0" />
   <Patch Id="EKfc0XEuHFEMk9lMTQ1rPH">
     <Canvas Id="F1lhPcVCSxaPSFkF3oFOYT" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="RKbrxvOJnZlMy2drbzIvFh">
         <Canvas Id="CIxe6Hz6w74QCPdqTq0xrY" CanvasType="Group">
-          <Node Bounds="197,1264,642,19" Id="ASs8fk42yzVO5qt9NMCNg3">
+          <Node Bounds="197,1339,725,19" Id="ASs8fk42yzVO5qt9NMCNg3">
             <p:NodeReference LastCategoryFullName="Interpolator" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MultiLerp" />
@@ -37,6 +37,9 @@
             <Pin Id="NpAvXlYj0SXPr1y2RUCF6K" Name="QuaternionInterpol" Kind="InputPin" />
             <Pin Id="FMvvX4v8Y8LMBlNDfPlzRc" Name="BooleanInterpol" Kind="InputPin" />
             <Pin Id="P9jYJ1oUF8pLkpJkCGwvmZ" Name="SpreadCountInterpol" Kind="InputPin" />
+            <Pin Id="Q8kCM0d7sM3LM6o62JfRNU" Name="Int2Interpol" Kind="InputPin" />
+            <Pin Id="OIDMGJg7vEKP4h1W6yTF9Q" Name="Int3Interpol" Kind="InputPin" />
+            <Pin Id="To1DHzjUE43Mnq2odemUdR" Name="Int4Interpol" Kind="InputPin" />
             <Pin Id="IblvCBgQjWMMbgTQ5xNOFr" Name="BreakPointFloat" Kind="InputPin" />
             <Pin Id="A8pIzWR8QP0PwCDOMPvrMJ" Name="BreakPointInteger" Kind="InputPin" />
             <Pin Id="JSoyLYbodK8LdKonAOsTKH" Name="BreakPointString" Kind="InputPin" />
@@ -48,8 +51,14 @@
             <Pin Id="RItGewq16goOQORGZsDhI5" Name="BreakPointQuaternion" Kind="InputPin" />
             <Pin Id="BbQdp7EzBZzPkzH79C2Icf" Name="BreakPointBoolean" Kind="InputPin" />
             <Pin Id="H3X4ch9WsbQPM678NHXhPr" Name="BreakPointPath" Kind="InputPin" />
+            <Pin Id="JFk8CkBXxRUMA7W884eG7e" Name="BreakPointInt2" Kind="InputPin" />
+            <Pin Id="UkCWze7kp6AMu1aIFZBFkc" Name="BreakPointInt3" Kind="InputPin" />
+            <Pin Id="HPXBCyMDx2JLBWqIUOo1A5" Name="BreakPointInt4" Kind="InputPin" />
             <Pin Id="N74XWRyOZeKNp0WQzDXw1S" Name="BreakPointSpreadCount" Kind="InputPin" />
             <Pin Id="TGsvf8atPdTPBt897BXIBQ" Name="BreakPointGeneric" Kind="InputPin" />
+            <Pin Id="M1UZ0eEFhtKO9VYPmJpkjY" Name="Colour Space" Kind="InputPin" />
+            <Pin Id="Mchvl47IHpGPcvBv9vwDn1" Name="Transition" Kind="InputPin" IsHidden="true" />
+            <Pin Id="PqkgghGqhDWL7N0XI93YUX" Name="Mode" Kind="InputPin" IsHidden="true" />
             <Pin Id="R0DthJEvbrMNjDsmP730Qt" Name="Force" Kind="InputPin" DefaultValue="False" />
             <Pin Id="ShX2RbHCUwWMRgBLlO5Has" Name="Output" Kind="OutputPin" />
           </Node>
@@ -277,7 +286,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="197,1332,48,19" Id="RwtNB76SrAvMxbG9jNIjWb">
+          <Node Bounds="197,1407,48,19" Id="RwtNB76SrAvMxbG9jNIjWb">
             <p:NodeReference LastCategoryFullName="Primitive.Object" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="CastAs" />
@@ -287,7 +296,7 @@
             <Pin Id="HwPwQZPbao3O2w1G515t3f" Name="Result" Kind="OutputPin" />
             <Pin Id="SVH5fU6KGt1PYBRhJrie8I" Name="Success" Kind="OutputPin" />
           </Node>
-          <Node Bounds="197,1401,125,26" Id="B16zJVFQPIqQXNHWh5Zgg1">
+          <Node Bounds="197,1476,125,26" Id="B16zJVFQPIqQXNHWh5Zgg1">
             <p:NodeReference LastCategoryFullName="Interpolator.MyType" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="4026531840" Name="MyType" />
@@ -303,13 +312,13 @@
             <Pin Id="JAqy2bIcOeHPuiWXjL0whB" Name="C" Kind="OutputPin" />
             <Pin Id="VnvecjTpAgAMj3fhbXElf4" Name="MySubType" Kind="OutputPin" />
           </Node>
-          <Pad Id="IXIU4W7ngATN9YmKfWA6G1" Comment="ListIndex" Bounds="199,1487,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="CpvHXUTihkzN5vi8wVnNWA" Comment="ListIndex_Next" Bounds="219,1505,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="DMm5K5zMgAQLnTtgEqzHKX" Comment="ListIndex_LerpPosition" Bounds="239,1523,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="Ndnk55gLBaqPWQvypAtC83" Comment="A" Bounds="259,1541,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="Ob1NIZuWzIBMLCD3BQaJRz" Comment="B" Bounds="279,1559,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="H5vZlT1VAqMQb1NJYTECJe" Comment="C" Bounds="299,1577,35,15" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="458,1470,165,26" Id="QQWonyKT4YUOjdb6I0k9yO">
+          <Pad Id="IXIU4W7ngATN9YmKfWA6G1" Comment="ListIndex" Bounds="199,1562,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="CpvHXUTihkzN5vi8wVnNWA" Comment="ListIndex_Next" Bounds="219,1580,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="DMm5K5zMgAQLnTtgEqzHKX" Comment="ListIndex_LerpPosition" Bounds="239,1598,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Ndnk55gLBaqPWQvypAtC83" Comment="A" Bounds="259,1616,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Ob1NIZuWzIBMLCD3BQaJRz" Comment="B" Bounds="279,1634,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="H5vZlT1VAqMQb1NJYTECJe" Comment="C" Bounds="299,1652,35,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="458,1545,165,26" Id="QQWonyKT4YUOjdb6I0k9yO">
             <p:NodeReference LastCategoryFullName="Interpolator.MySubType" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="4026531840" Name="MySubType" />
@@ -327,20 +336,20 @@
             <Pin Id="LriEEZ48oZSMAazj3tpXp5" Name="Vector3" Kind="OutputPin" />
             <Pin Id="RDMV65d7NuWNZa0q90aFh4" Name="SpreadVector2" Kind="OutputPin" />
           </Node>
-          <Pad Id="AsaVdQMNkjlMmsCxeuYEfK" Comment="Float" Bounds="460,1593,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="RECbqxtgIzhLmkcE21jupd" Comment="Integer" Bounds="480,1636,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="J0lwXPncD9FNc7lXzW47t7" Comment="Boolean" Bounds="501,1679,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="E5LbKoK39BtONroJldxNFw" Comment="RGBA" Bounds="520,1541,136,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="KfSb41YjievLWilvthQi5C" Comment="String" Bounds="540,1566,105,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="RSsPl1cvxIxPNcWExyivCv" Comment="Path" Bounds="560,1586,301,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="NLHU9rviMNyMWyvSzFvxcR" Comment="Matrix" Bounds="579,1616,183,61" ShowValueBox="true" isIOBox="true">
+          <Pad Id="AsaVdQMNkjlMmsCxeuYEfK" Comment="Float" Bounds="460,1668,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="RECbqxtgIzhLmkcE21jupd" Comment="Integer" Bounds="480,1711,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="J0lwXPncD9FNc7lXzW47t7" Comment="Boolean" Bounds="501,1754,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="E5LbKoK39BtONroJldxNFw" Comment="RGBA" Bounds="520,1616,136,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="KfSb41YjievLWilvthQi5C" Comment="String" Bounds="540,1641,105,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="RSsPl1cvxIxPNcWExyivCv" Comment="Path" Bounds="560,1661,301,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="NLHU9rviMNyMWyvSzFvxcR" Comment="Matrix" Bounds="579,1691,183,61" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:precision p:Type="Int32">4</p:precision>
               <p:stepsize p:Type="Single">0.01</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="LEHwdL8iM75LD2e1uiOVxY" Comment="Vector3" Bounds="601,1701,35,43" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="OUpuG2Y6xAXLuuauO8YnZP" Comment="SpreadVector2" Bounds="622,1760,57,80" ShowValueBox="true" isIOBox="true">
+          <Pad Id="LEHwdL8iM75LD2e1uiOVxY" Comment="Vector3" Bounds="601,1776,35,43" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="OUpuG2Y6xAXLuuauO8YnZP" Comment="SpreadVector2" Bounds="622,1835,57,80" ShowValueBox="true" isIOBox="true">
             <p:Value>
               <Item>0, 0</Item>
               <Item>0, 2</Item>
@@ -348,67 +357,67 @@
               <Item>0, 4</Item>
             </p:Value>
           </Pad>
-          <Pad Id="LNdgpAYgLR7LzOQFzOJMKs" Comment="BreakPointFloat" Bounds="849,905,35,15" ShowValueBox="true" isIOBox="true" Value="0.1">
+          <Pad Id="LNdgpAYgLR7LzOQFzOJMKs" Comment="BreakPointFloat" Bounds="875,903,35,15" ShowValueBox="true" isIOBox="true" Value="0.1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Bt5GlWwOtGJLdW2M5SudVM" Comment="BreakPointInteger" Bounds="849,927,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
+          <Pad Id="Bt5GlWwOtGJLdW2M5SudVM" Comment="BreakPointInteger" Bounds="875,925,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="RerpdVCVlAXMsUns0zj9AM" Comment="BreakPointString" Bounds="849,949,35,15" ShowValueBox="true" isIOBox="true" Value="0.3">
+          <Pad Id="RerpdVCVlAXMsUns0zj9AM" Comment="BreakPointString" Bounds="875,947,35,15" ShowValueBox="true" isIOBox="true" Value="0.3">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="JV2Bm9HWLIHPRJd3jD79yT" Comment="BreakPointVector2" Bounds="849,971,35,15" ShowValueBox="true" isIOBox="true" Value="0.4">
+          <Pad Id="JV2Bm9HWLIHPRJd3jD79yT" Comment="BreakPointVector2" Bounds="875,969,35,15" ShowValueBox="true" isIOBox="true" Value="0.4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="CkAGvxgZAm5NkYYOU2oR5N" Comment="BreakPointVector3" Bounds="849,993,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="CkAGvxgZAm5NkYYOU2oR5N" Comment="BreakPointVector3" Bounds="875,991,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="SBF8ht3FybPN9vxhwZ35t0" Comment="BreakPointVector4" Bounds="849,1015,35,15" ShowValueBox="true" isIOBox="true" Value="0.6">
+          <Pad Id="SBF8ht3FybPN9vxhwZ35t0" Comment="BreakPointVector4" Bounds="875,1013,35,15" ShowValueBox="true" isIOBox="true" Value="0.6">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Fqk2D8Txj5ANhzDnuZ0wXU" Comment="BreakPointRGBA" Bounds="849,1037,35,15" ShowValueBox="true" isIOBox="true" Value="0.7">
+          <Pad Id="Fqk2D8Txj5ANhzDnuZ0wXU" Comment="BreakPointRGBA" Bounds="875,1035,35,15" ShowValueBox="true" isIOBox="true" Value="0.7">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="OUlh3GCaSVTLqydsCLANsF" Comment="BreakPointMatrix" Bounds="849,1059,35,15" ShowValueBox="true" isIOBox="true" Value="0.8">
+          <Pad Id="OUlh3GCaSVTLqydsCLANsF" Comment="BreakPointMatrix" Bounds="875,1057,35,15" ShowValueBox="true" isIOBox="true" Value="0.8">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="IEimuVYlmSYPAc2TadBPNw" Comment="BreakPointQuaternion" Bounds="849,1081,35,15" ShowValueBox="true" isIOBox="true" Value="0.9">
+          <Pad Id="IEimuVYlmSYPAc2TadBPNw" Comment="BreakPointQuaternion" Bounds="875,1079,35,15" ShowValueBox="true" isIOBox="true" Value="0.9">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="C9CJWErzwH2OKbwcRS8gNt" Comment="BreakPointBoolean" Bounds="849,1103,35,15" ShowValueBox="true" isIOBox="true" Value="0.1">
+          <Pad Id="C9CJWErzwH2OKbwcRS8gNt" Comment="BreakPointBoolean" Bounds="875,1101,35,15" ShowValueBox="true" isIOBox="true" Value="0.1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="VxWRKwuUP02O7lLaUBb7Lk" Comment="BreakPointPath" Bounds="849,1147,35,15" ShowValueBox="true" isIOBox="true" Value="0.3">
+          <Pad Id="VxWRKwuUP02O7lLaUBb7Lk" Comment="BreakPointPath" Bounds="875,1123,35,15" ShowValueBox="true" isIOBox="true" Value="0.3">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="GiYBfjX8zhSLEhbJqfbgHG" Comment="BreakPointSpreadCount" Bounds="849,1125,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
+          <Pad Id="GiYBfjX8zhSLEhbJqfbgHG" Comment="BreakPointSpreadCount" Bounds="875,1211,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="GhQbJAEpECAMIRMtkxQjTP" Comment="BreakPointGeneric" Bounds="849,1168,54,25" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="GhQbJAEpECAMIRMtkxQjTP" Comment="BreakPointGeneric" Bounds="882,1244,54,25" ShowValueBox="true" isIOBox="true" Value="0.5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -485,7 +494,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="MUmnYJMwlAZLsofNcfZKOQ" Bounds="849,1197,521,38" ShowValueBox="true" isIOBox="true" Value="This value is only considered if the Type is not Valid, is Not Interpolable (via Attributes) or InterpolEnable is OFF">
+          <Pad Id="MUmnYJMwlAZLsofNcfZKOQ" Bounds="881,1283,521,38" ShowValueBox="true" isIOBox="true" Value="This value is only considered if the Type is not Valid, is Not Interpolable (via Attributes) or InterpolEnable is OFF">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -493,6 +502,41 @@
               <p:fontsize p:Type="Int32">9</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="LnWRDwKWlfJMPACuPUz6u8" Comment="Colour Space" Bounds="899,1323,69,15" ShowValueBox="true" isIOBox="true" Value="Xyz">
+            <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="VL.Interpolator.vl">
+              <Choice Kind="TypeFlag" Name="ColourSpace" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="GxbPZiYMViYMdIURc1nmms" Comment="BreakPointInt2" Bounds="875,1145,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="DyPNkduoulVOHiiuZbqkAV" Comment="BreakPointInt3" Bounds="875,1167,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="SEYxEiycz90NFG1n86iIi8" Comment="BreakPointInt4" Bounds="875,1189,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="JY7OVOaN5bnOHXTOCibE4t" Comment="Int2Interpol" Bounds="638,1147,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+            <p:TypeAnnotation LastCategoryFullName="Interpolator.Enums" LastDependency="VL.Interpolator.vl">
+              <Choice Kind="TypeFlag" Name="InterpolationModes" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="BeeYZ0skHDSMQIBDNJqe8c" Comment="Int3Interpol" Bounds="638,1169,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+            <p:TypeAnnotation LastCategoryFullName="Interpolator.Enums" LastDependency="VL.Interpolator.vl">
+              <Choice Kind="TypeFlag" Name="InterpolationModes" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="AeNaQNl0mXPN88nK4VdsGO" Comment="Int4Interpol" Bounds="638,1191,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+            <p:TypeAnnotation LastCategoryFullName="Interpolator.Enums" LastDependency="VL.Interpolator.vl">
+              <Choice Kind="TypeFlag" Name="InterpolationModes" />
+            </p:TypeAnnotation>
           </Pad>
         </Canvas>
         <Patch Id="UXUAiKaHZd2PmLqflexIT5" Name="Create" />
@@ -568,12 +612,19 @@
         <Link Id="EPkOXUzQCV5M140lpmnVZ9" Ids="S0VTEclzmMRQXIAEokidPI,LqCjd9RsNqeNoCLRWXtGmF" />
         <Link Id="Ao6OnqN0HSkLb18vX1nbz0" Ids="Ru7ZJJSyNQCQXtL5FltdS9,L44BnJHcro2M9HNI4f2Ks5" />
         <Link Id="LoVwu0S9hrgOmnoU8wl1px" Ids="CCt94hOpc5OOuXDeUi93kO,GuOuuVJIa4fQZnPSObzbuE" />
+        <Link Id="TH19DkEtMWkNgr9rfgV3q6" Ids="LnWRDwKWlfJMPACuPUz6u8,M1UZ0eEFhtKO9VYPmJpkjY" />
+        <Link Id="UybGDKmxTsDPC8q9gqpRgs" Ids="GxbPZiYMViYMdIURc1nmms,JFk8CkBXxRUMA7W884eG7e" />
+        <Link Id="LbE4kgTDGAbN0I8dCH8xmH" Ids="DyPNkduoulVOHiiuZbqkAV,UkCWze7kp6AMu1aIFZBFkc" />
+        <Link Id="Q8RC4tqJDWvO0MYcJ26SAt" Ids="SEYxEiycz90NFG1n86iIi8,HPXBCyMDx2JLBWqIUOo1A5" />
+        <Link Id="Fct7SJ4Ui1kOHuZPRjNRc3" Ids="JY7OVOaN5bnOHXTOCibE4t,Q8kCM0d7sM3LM6o62JfRNU" />
+        <Link Id="NdZur587l6ZLYfhTeWdQwr" Ids="BeeYZ0skHDSMQIBDNJqe8c,OIDMGJg7vEKP4h1W6yTF9Q" />
+        <Link Id="U922atoJWcNOFuhN3FoHY1" Ids="AeNaQNl0mXPN88nK4VdsGO,To1DHzjUE43Mnq2odemUdR" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="FCk7DSMGPWvMttrrQdTxXI" Location="VL.Audio" Version="1.4.2-preview" />
-  <NugetDependency Id="QL0rHyteLFMPzKjtEgRuLF" Location="VL.Video" Version="2024.6.0-0156-g47917ea4e3" />
-  <NugetDependency Id="HbulQguXnEGNHNCnEHvdKj" Location="VL.Stride" Version="2024.6.0-0156-g47917ea4e3" />
-  <NugetDependency Id="CfupJmkYCoMNzeudyTEOR3" Location="VL.Stride.TextureFX" Version="2024.6.0-0156-g47917ea4e3" />
-  <NugetDependency Id="QgxYkJt1F6cN5QRAQTJ1yP" Location="VL.Interpolator" Version="1.0.8" />
+  <NugetDependency Id="FCk7DSMGPWvMttrrQdTxXI" Location="VL.Audio" Version="1.8.4" />
+  <NugetDependency Id="QL0rHyteLFMPzKjtEgRuLF" Location="VL.Video" Version="2024.6.7-0217-gb4f7c1f3e0" />
+  <NugetDependency Id="HbulQguXnEGNHNCnEHvdKj" Location="VL.Stride" Version="2024.6.7-0217-gb4f7c1f3e0" />
+  <NugetDependency Id="CfupJmkYCoMNzeudyTEOR3" Location="VL.Stride.TextureFX" Version="2024.6.7-0217-gb4f7c1f3e0" />
+  <NugetDependency Id="QgxYkJt1F6cN5QRAQTJ1yP" Location="VL.Interpolator" Version="1.2.7" />
 </Document>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="GJNdUCxWFOuLeC0LGD4wao" LanguageVersion="2024.6.7-0220-ge2c006c41f" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="GJNdUCxWFOuLeC0LGD4wao" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
   <Patch Id="EAIIpcVCowFQTcz0KLQtUE">
     <Canvas Id="HsgcAMUqtVTNXLSvHJWTpN" DefaultCategory="Interpolator" CanvasType="FullCategory">
       <Canvas Id="QIfd52ShnGdL2SQeqFCih1" Name="Lerp" Position="198,278" CanvasType="Group">
@@ -28173,15 +28173,6 @@
                         </Node>
                       </Patch>
                     </Node>
-                    <Node Bounds="221,512,27,19" Id="BOij6qMuTH7L522UerhprQ">
-                      <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
-                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <Choice Kind="OperationCallFlag" Name="!=" />
-                      </p:NodeReference>
-                      <Pin Id="ORtneIyoTdONaRgEXw8urj" Name="Input" Kind="InputPin" />
-                      <Pin Id="OejmclHEhIfPYJDSwo8nx0" Name="Input 2" Kind="InputPin" />
-                      <Pin Id="KUUvl6ALLcpL9H1Eb7nc6k" Name="Result" Kind="OutputPin" />
-                    </Node>
                     <Node Bounds="201,549,113,19" Id="Aen5iz7aGXlPQkXRCZA1Ql">
                       <p:NodeReference LastCategoryFullName="Interpolator.BlendModes" LastDependency="VL.Interpolator.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -28191,7 +28182,7 @@
                       <Pin Id="GEItlL7Z2REOeR3mhjRa5n" Name="Input" Kind="InputPin" />
                       <Pin Id="AuCTEvdL9qXOFeIQIZjOgJ" Name="Success" Kind="OutputPin" />
                     </Node>
-                    <Node Bounds="201,596,45,19" Id="DhUbltRh8hsLfBfTNMvTNz">
+                    <Node Bounds="201,596,37,19" Id="DhUbltRh8hsLfBfTNMvTNz">
                       <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastDependency="VL.CoreLib.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="AND" />
@@ -28199,7 +28190,6 @@
                       <Pin Id="TA2tbRUzrX8P9Fi3zVw7no" Name="Input" Kind="StateInputPin" />
                       <Pin Id="CAIJjFQpVrzLilcQ7saTqX" Name="Input 2" Kind="InputPin" />
                       <Pin Id="G7bmssTcqkRONAq5lojYgx" Name="Output" Kind="StateOutputPin" />
-                      <Pin Id="GfE9zkR2LUrMbStcccE5M3" Name="Input 3" Kind="InputPin" />
                     </Node>
                   </Patch>
                 </Node>
@@ -28222,8 +28212,6 @@
               <Link Id="OJ3ljs2UbN4MR620IzpYUf" Ids="LqM82wZM3f0PaZ2yCs3wC1,NOoLybD97zcPhTEFucmGpv" IsHidden="true" />
               <Link Id="UeRSIqxyTsaOG6j9ORdIyr" Ids="GF34REH1px8LOvpgx4BFuB,NXuZPvXPoy4L7lWpLVCXSt" IsHidden="true" />
               <Link Id="TcIf06MTXvfMhsZ937wJyT" Ids="Bnl5Tlh9bprPhrD10BjWfk,CAZtlDR8ciFPCeD8wIrHkl" IsHidden="true" />
-              <Link Id="OrQG3Gic9dTMhzkNGh1g2d" Ids="NXuZPvXPoy4L7lWpLVCXSt,OejmclHEhIfPYJDSwo8nx0" />
-              <Link Id="L4pwOsABbcXQanwrKAvwSI" Ids="SW4XBwz9ENHOaVtj1Vk2yS,GfE9zkR2LUrMbStcccE5M3" />
               <Link Id="MTyiacqSANKQc9mgH6NQJn" Ids="A3vrqQdnDsCMW44OAFX8dR,SW4XBwz9ENHOaVtj1Vk2yS" IsHidden="true" />
               <Link Id="UnstNMyRJ2wQARhw9nEs6r" Ids="NXuZPvXPoy4L7lWpLVCXSt,RFmKXLzRSYqOWwqMC3jmbz" />
               <Link Id="LS2asXPCs8NOwbKKDUh9Jm" Ids="GHAYhaqTgkDLXrSH8ukttw,T9guR27bCDqNC00lW74v5A" IsHidden="true" />
@@ -28247,7 +28235,6 @@
               <Link Id="C4zKU65L23gL14bf6QssNY" Ids="LhdPeR1Cej3MHJEebTFMNN,S6rolmAIExaPpjs0pQA56N" IsFeedback="true" />
               <Link Id="J8bkwzeB3g4OVARpukK46I" Ids="DL4PckhL3C4QMd0BsPHZo0,S6rolmAIExaPpjs0pQA56N" />
               <Link Id="Nz9qudCJR7DNdlmC0vjiHe" Ids="G7bmssTcqkRONAq5lojYgx,AE6iiGGO1sWPWk4WMrI8y3" />
-              <Link Id="JMrwEGSo8qLONSZxqo9KEi" Ids="KUUvl6ALLcpL9H1Eb7nc6k,CAIJjFQpVrzLilcQ7saTqX" />
               <Link Id="Ci63QX7EtFzOq9bpCjwDgd" Ids="AuCTEvdL9qXOFeIQIZjOgJ,TA2tbRUzrX8P9Fi3zVw7no" />
               <Link Id="EZ2eR26Qd6hOqryflFZSW3" Ids="T9guR27bCDqNC00lW74v5A,AqHfMBUAF4GMqNHy7UaIuV" />
               <Link Id="Pb6UwZ2zRSANQnYPTeB37n" Ids="IS4Gopsak1MMDVIbZWmzKk,RWLbmjWpNN5QA6FQjtvr71" />
@@ -28257,7 +28244,6 @@
               <Link Id="CRtLtbdC5mXLCmT9k6sqUW" Ids="S6rolmAIExaPpjs0pQA56N,PjFKWcQAEZwLIrL4H6ek7U" />
               <Link Id="Jtp6x90QydSOSEQdu4asqg" Ids="PjFKWcQAEZwLIrL4H6ek7U,Bnl5Tlh9bprPhrD10BjWfk" />
               <Link Id="BVQD3Ff9KWjPnVaXVfJZmT" Ids="NOoLybD97zcPhTEFucmGpv,JaRHDD8OEEPMq1hrgnNxAi" />
-              <Link Id="FTa7DxBNrcFPKmeHG69Wkk" Ids="JaRHDD8OEEPMq1hrgnNxAi,ORtneIyoTdONaRgEXw8urj" />
               <Link Id="I5WebdKwfGRNaFWxoyu0oN" Ids="JaRHDD8OEEPMq1hrgnNxAi,GEItlL7Z2REOeR3mhjRa5n" />
               <Link Id="Ld5a5Gf6LCDMNyAKujdPxS" Ids="NqfH1XzZBQdLpB6j9Mclfv,REqtBR9L0JtLeG30huxp1x" />
               <Link Id="NU0ODhneoWtOChfZ98RlWx" Ids="VLbxL43bgpBOTcduKcRlFB,NqfH1XzZBQdLpB6j9Mclfv" IsHidden="true" />
@@ -28345,6 +28331,7 @@
               <Link Id="QKlMUe5HnEYOQZX93yYeNz" Ids="UFi8hvs6Gs4QBTAmtRgZ9s,GWcG34VcOxDPQaYspNiV5i" />
               <Link Id="VJGiVTrhihyMevGlHoR7QG" Ids="RPj7CoVPMqaNzUO9RazLFr,UFi8hvs6Gs4QBTAmtRgZ9s" IsHidden="true" />
               <Link Id="JsamOuE1ZvmN1437kbNRtA" Ids="JaRHDD8OEEPMq1hrgnNxAi,GjCQLrCVTZbOSFjbyfKaf9" />
+              <Link Id="PcH39nPPGkYLO4KsHNA3la" Ids="SW4XBwz9ENHOaVtj1Vk2yS,CAIJjFQpVrzLilcQ7saTqX" />
             </Patch>
           </Node>
           <!--
@@ -34277,7 +34264,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.7-0220-ge2c006c41f" />
+  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
   <PlatformDependency Id="UAzsalWIwraQGyRDrUduvA" Location="./lib/netstandard2.0/InterpolatorEnums.dll" />
   <NugetDependency Id="R2TJCi0AIIwNIlwUCEOwgF" Location="Wacton.Unicolour" Version="4.3.0" />
 </Document>

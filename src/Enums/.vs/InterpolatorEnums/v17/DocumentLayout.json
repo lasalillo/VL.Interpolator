@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Projects\\VL.Interpolator\\src\\Enums\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA9B2A4A-6CCD-4419-B90E-A2BACC6EDBC8}|InterpolatorEnums.csproj|d:\\projects\\vl.interpolator\\src\\enums\\interpolatorenums.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BA9B2A4A-6CCD-4419-B90E-A2BACC6EDBC8}|InterpolatorEnums.csproj|solutionrelative:interpolatorenums.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BA9B2A4A-6CCD-4419-B90E-A2BACC6EDBC8}|InterpolatorEnums.csproj|d:\\projects\\vl.interpolator\\src\\enums\\interpolatorenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA9B2A4A-6CCD-4419-B90E-A2BACC6EDBC8}|InterpolatorEnums.csproj|solutionrelative:interpolatorenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA9B2A4A-6CCD-4419-B90E-A2BACC6EDBC8}|InterpolatorEnums.csproj|d:\\projects\\vl.interpolator\\src\\enums\\interpolatorenums.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BA9B2A4A-6CCD-4419-B90E-A2BACC6EDBC8}|InterpolatorEnums.csproj|solutionrelative:interpolatorenums.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,23 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InterpolatorEnums.cs",
               "DocumentMoniker": "D:\\Projects\\VL.Interpolator\\src\\Enums\\InterpolatorEnums.cs",
               "RelativeDocumentMoniker": "InterpolatorEnums.cs",
               "ToolTip": "D:\\Projects\\VL.Interpolator\\src\\Enums\\InterpolatorEnums.cs",
               "RelativeToolTip": "InterpolatorEnums.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T15:08:30.804Z"
+              "WhenOpened": "2024-03-14T15:08:30.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InterpolatorEnums.csproj",
               "DocumentMoniker": "D:\\Projects\\VL.Interpolator\\src\\Enums\\InterpolatorEnums.csproj",
               "RelativeDocumentMoniker": "InterpolatorEnums.csproj",

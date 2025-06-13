@@ -1,18 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Ep5Dig9xCEtaMNgVuiM8bizxBuSXa+m8mtv7/uhoklXFo5U9M6/5KlGr1c8ZcXxpKOtTnrNvv3mRHqDsKl/osA==",
+  "dgSpecHash": "E5THXaM1Ws0=",
   "success": true,
   "projectFilePath": "D:\\Projects\\VL.Interpolator\\src\\Enums\\InterpolatorEnums.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arist\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\arist\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "logs": []
 }

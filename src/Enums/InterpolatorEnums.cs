@@ -1,7 +1,7 @@
 ﻿namespace InterpolatorEnums
 {
-    public enum InterpolationModes { Interpolate, Switch, Minimum, Maximum };
-    public enum InterpolationModes2 { Interpolate, Switch };
+    public enum InterpolationModes { Bezier, Tween, Switch, Minimum, Maximum };
+    public enum InterpolationModes2 { Bezier, Tween, Switch };
     public enum SwitchModes { Switch, Minimum, Maximum };
     public enum BlendModes { Direct, Add, Multiply, Minimum, Maximum };
     public enum BooleanModes { Direct, OR, AND, NOR, NAND, XOR, XNOR };

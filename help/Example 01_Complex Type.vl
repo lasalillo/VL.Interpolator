@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="AcrispEMvX7M9Gt7qqFpZa" LanguageVersion="2024.6.0-0139-g74911af44e" Version="0.128">
-  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.0-0139-g74911af44e" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="AcrispEMvX7M9Gt7qqFpZa" LanguageVersion="2025.7.0-0364-g0f1ea863a8" Version="0.128">
+  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2025.7.0-0364-g0f1ea863a8" />
   <Patch Id="EKfc0XEuHFEMk9lMTQ1rPH">
     <Canvas Id="F1lhPcVCSxaPSFkF3oFOYT" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -31,6 +31,8 @@
             <Pin Id="MlEPwIXLsUhNMYocqIQAoQ" Name="TweenMode" Kind="InputPin" />
             <Pin Id="FrIKpd4gQUSMXmoingySsS" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="GxjmuXaZSKUMq4ixk9U1WG" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="CRlDzsfZ4nKPAn3VoB9pBo" Name="BezierHandle1" Kind="InputPin" IsHidden="true" />
+            <Pin Id="SrfqEsTW4FzNq9ZPyfCH4x" Name="BezierHandle2" Kind="InputPin" IsHidden="true" />
           </Node>
           <Node Bounds="309,950,1187,19" Id="KoQwxfdzldZOHXUEmkd8qu">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
@@ -80,6 +82,9 @@
             <Pin Id="C5cyuIjkKfINcBi9QxM81c" Name="Active" Kind="OutputPin" />
             <Pin Id="FAGwF9oW2INO4surPUK9i0" Name="Success" Kind="OutputPin" />
             <Pin Id="HuKseuc1XAVLBhQ0co7Ttb" Name="Info" Kind="OutputPin" />
+            <Pin Id="AcEpksZFQ8QNtSUL7osVG5" Name="Colour Space" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QNDPPaioSx9QXxDCyvlML0" Name="Tween-Bezier NotManagedInterpolation" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Ual755TfJ64MOE6IHIj9XL" Name="ShowExtras" Kind="InputPin" IsHidden="true" />
           </Node>
           <Pad Id="LQ8z4rOzneHOp5iAWjNRLX" Comment="Duration" Bounds="352,791,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -287,6 +292,8 @@
             <Pin Id="CTPJdSc1ZiKOVmuGfodyTm" Name="TweenMode" Kind="InputPin" />
             <Pin Id="ScUddU2AVNmM1GygZVHQb9" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="PEHJOinjnXDLFRER7FhK91" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="H4TzMPfQD2XMPkmvLlK0kc" Name="BezierHandle1" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Mj6xDcxPYjdNUEhLrdzZzk" Name="BezierHandle2" Kind="InputPin" IsHidden="true" />
           </Node>
           <Pad Id="J5Hxqpxx2xnOH6Hx4NdfLl" Comment="Position" Bounds="923,770,35,15" ShowValueBox="true" isIOBox="true" Value="4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -425,6 +432,8 @@
             <Pin Id="S3v8wxNuVbiMk3epS27O52" Name="TweenMode" Kind="InputPin" IsHidden="true" />
             <Pin Id="NCXdBE63kW5MHqfAqz18EI" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="VwDcwuggHD0OOhpdAfCHL6" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="BGvdWV86TbdNFEDEhFiRRT" Name="BezierHandle1" Kind="InputPin" IsHidden="true" />
+            <Pin Id="JSiJb3wAZnYOPl01b5N8JB" Name="BezierHandle2" Kind="InputPin" IsHidden="true" />
           </Node>
           <Pad Id="GplYRGjwgfdN6N7V9pNgyK" Comment="Position" Bounds="1514,770,35,15" ShowValueBox="true" isIOBox="true" Value="8">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -706,6 +715,9 @@
             <Pin Id="O7xmrZYbKwyPjNz4ghiAWd" Name="Active" Kind="OutputPin" />
             <Pin Id="HfDvPjNleZzOPEMTTVLh99" Name="Success" Kind="OutputPin" />
             <Pin Id="Foc25zIhzRJPnD4DEH81DQ" Name="Info" Kind="OutputPin" />
+            <Pin Id="HrjXbxDBueHLHlgG2MV2XD" Name="Colour Space" Kind="InputPin" IsHidden="true" />
+            <Pin Id="ApPASPyF3LxMFlohxCggxc" Name="Tween-Bezier NotManagedInterpolation" Kind="InputPin" IsHidden="true" />
+            <Pin Id="DcQSX9LYKhQPxxYn6W3ki7" Name="ShowExtras" Kind="InputPin" IsHidden="true" />
           </Node>
           <Node Bounds="1478,1615,48,19" Id="TeS62SYoDwVQADQKC4Jt1J">
             <p:NodeReference LastCategoryFullName="Primitive.Object" LastDependency="VL.CoreLib.vl">
@@ -1092,7 +1104,6 @@
         <Link Id="OxQ6hOPJWsYNWNfDzlKW31" Ids="GxNE7yXKUSBOhZmlu8OSDM,V5mXThQzP3rM96iAJwgRLI" />
         <Link Id="JB2PUKNVB5HQGqTd3Q67fF" Ids="VbZbUz1Gyd9P9eVP4DEVMj,RjHfMPWro91PgOq6Mw8Fhv" />
         <Link Id="UZH0XvKVO2oMl2gO1nWddA" Ids="SEaScRwLMCXMHYPqjeR8jH,I73Ies3pjfNLhrNsfb8KUK" />
-        <Link Id="CqJAr7R7iRRNTHwJZH061G" Ids="VwDcwuggHD0OOhpdAfCHL6,RwlhPfEnQKvMCBMZiP3EJq" />
         <Link Id="P0pbZ89IsscMOhzzSxlpvM" Ids="USm1uteekWOLsT51y4oBbj,IdemQ95CLFEOvabjsSJW5k" />
         <Link Id="RjoKWFmUXaBMIBgtXj6SPK" Ids="E9dGfqzouEoNkiTJtinx9X,ExrLGLcHojJLtvKyPAvGO9" />
         <Link Id="UthiSI2Kh2aP3E9mMsFuie" Ids="Jw0cn1265TdQVAPHJu0xv4,TIYSgYwduKFLcZOf6tGql7" />
@@ -1161,8 +1172,9 @@
         <Link Id="HD6HyxkQRF1Ng6Y6jrA4Dk" Ids="GnSVeHLg0fnN6Qo8HKmMHv,KluBDzj5EkzOoahTKtRL5U" />
         <Link Id="OJpJzjglbdZOBIhNCfcLe6" Ids="FEdFjeoH00ZMe3zOfI2oCc,OVt25JCB3VfOEjV6OjZnm3" />
         <Link Id="GE0KRoQtAOSO1AW5mUxofZ" Ids="MmpZLdjcy4BLj5uBwPyoAH,U30ZnmpOACyNlofdZeTQBy" />
+        <Link Id="VXfAAHoE1cnQa1WzyRjrJm" Ids="VwDcwuggHD0OOhpdAfCHL6,RwlhPfEnQKvMCBMZiP3EJq" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="RMOR6ZKxcP3OH56wGZbPSn" Location="VL.Interpolator" Version="1.0.4" />
+  <NugetDependency Id="RMOR6ZKxcP3OH56wGZbPSn" Location="VL.Interpolator" Version="1.2.10" />
 </Document>

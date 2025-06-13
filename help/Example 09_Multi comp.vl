@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="NOLH92psRssPE2FmbeMuOD" LanguageVersion="2024.6.7-0217-gb4f7c1f3e0" Version="0.128">
-  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.7-0217-gb4f7c1f3e0" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="NOLH92psRssPE2FmbeMuOD" LanguageVersion="2025.7.0-0364-g0f1ea863a8" Version="0.128">
+  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2025.7.0-0364-g0f1ea863a8" />
   <Patch Id="EKfc0XEuHFEMk9lMTQ1rPH">
     <Canvas Id="F1lhPcVCSxaPSFkF3oFOYT" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="RKbrxvOJnZlMy2drbzIvFh">
         <Canvas Id="CIxe6Hz6w74QCPdqTq0xrY" CanvasType="Group">
-          <Node Bounds="197,1279,965,19" Id="ASs8fk42yzVO5qt9NMCNg3">
+          <Node Bounds="197,1279,1033,19" Id="ASs8fk42yzVO5qt9NMCNg3">
             <p:NodeReference LastCategoryFullName="Interpolator" LastDependency="VL.Interpolator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MultiComp" />
@@ -68,8 +68,11 @@
             <Pin Id="N74XWRyOZeKNp0WQzDXw1S" Name="BreakPointSpreadCount" Kind="InputPin" />
             <Pin Id="TGsvf8atPdTPBt897BXIBQ" Name="BreakPointGeneric" Kind="InputPin" />
             <Pin Id="Ol4UUjzKiVtOeUolrVmrxB" Name="Colour Space" Kind="InputPin" />
-            <Pin Id="CONM3857XQbLc6t4wg6ACJ" Name="Transition" Kind="InputPin" IsHidden="true" />
-            <Pin Id="LZuEHEvQbuEPVcHIX1Udgu" Name="Mode" Kind="InputPin" IsHidden="true" />
+            <Pin Id="CONM3857XQbLc6t4wg6ACJ" Name="Transition" Kind="InputPin" />
+            <Pin Id="LZuEHEvQbuEPVcHIX1Udgu" Name="Mode" Kind="InputPin" />
+            <Pin Id="AbjrNlpcvf9Nim03NB8L4q" Name="Handle 1" Kind="InputPin" />
+            <Pin Id="BhSBPq0sv0SLTBOKfn9GIQ" Name="Handle 2" Kind="InputPin" />
+            <Pin Id="KXLNlyWB4XBM83lrGfwybs" Name="Tween-Bezier NotManagedInterpolation" Kind="InputPin" IsHidden="true" />
             <Pin Id="R0DthJEvbrMNjDsmP730Qt" Name="Force" Kind="InputPin" DefaultValue="False" />
             <Pin Id="ShX2RbHCUwWMRgBLlO5Has" Name="Output" Kind="OutputPin" />
           </Node>
@@ -165,57 +168,57 @@
             <Pin Id="JuYaIECbWRDNtzIgNUeGkW" Name="SpreadVector2" Kind="InputPin" />
             <Pin Id="BHmtj0UAG6mOtng2BpD6TP" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="RVUeDWfJOafLAPhK6GeL24" Comment="FloatInterpol" Bounds="802,905,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+          <Pad Id="RVUeDWfJOafLAPhK6GeL24" Comment="FloatInterpol" Bounds="786,905,73,15" ShowValueBox="true" isIOBox="true" Value="Tween">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="InterpolationModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Sagetn9wfEpOpFQh8os8qP" Comment="IntegerInterpol" Bounds="802,927,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+          <Pad Id="Sagetn9wfEpOpFQh8os8qP" Comment="IntegerInterpol" Bounds="786,927,73,15" ShowValueBox="true" isIOBox="true" Value="Tween">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="InterpolationModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="HM7zTPbRodXPbJcRJRTbAr" Comment="StringInterpol" Bounds="802,949,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+          <Pad Id="HM7zTPbRodXPbJcRJRTbAr" Comment="StringInterpol" Bounds="786,949,73,15" ShowValueBox="true" isIOBox="true" Value="Tween">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="InterpolationModes2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="QybUAwWVjtWPLrDmx7Du2X" Comment="Vector2Interpol" Bounds="802,971,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+          <Pad Id="QybUAwWVjtWPLrDmx7Du2X" Comment="Vector2Interpol" Bounds="786,971,73,15" ShowValueBox="true" isIOBox="true" Value="Tween">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="InterpolationModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="EDz7jd8NjoQNolOlUnC4Lm" Comment="Vector3Interpol" Bounds="802,993,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+          <Pad Id="EDz7jd8NjoQNolOlUnC4Lm" Comment="Vector3Interpol" Bounds="786,993,73,15" ShowValueBox="true" isIOBox="true" Value="Tween">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="InterpolationModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="NwzZkj25ntIONbdOkuKd8g" Comment="Vector4Interpol" Bounds="802,1015,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+          <Pad Id="NwzZkj25ntIONbdOkuKd8g" Comment="Vector4Interpol" Bounds="786,1015,73,15" ShowValueBox="true" isIOBox="true" Value="Tween">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="InterpolationModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="KaKbcaYHxEFLXvNhuvmPka" Comment="RGBAInterpol" Bounds="802,1037,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+          <Pad Id="KaKbcaYHxEFLXvNhuvmPka" Comment="RGBAInterpol" Bounds="786,1037,73,15" ShowValueBox="true" isIOBox="true" Value="Tween">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="InterpolationModes2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="DsYszum3fdjNKaRQsYrPbk" Comment="MatrixInterpol" Bounds="802,1059,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+          <Pad Id="DsYszum3fdjNKaRQsYrPbk" Comment="MatrixInterpol" Bounds="786,1059,73,15" ShowValueBox="true" isIOBox="true" Value="Tween">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="InterpolationModes2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Qsf6rnOeJFgOa9BkB6Js1D" Comment="QuaternionInterpol" Bounds="802,1081,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+          <Pad Id="Qsf6rnOeJFgOa9BkB6Js1D" Comment="QuaternionInterpol" Bounds="786,1081,73,15" ShowValueBox="true" isIOBox="true" Value="Tween">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="InterpolationModes2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="RZt4GLT1lUuQI1iRKWxs5H" Comment="BooleanInterpol" Bounds="802,1103,74,15" ShowValueBox="true" isIOBox="true" Value="Switch">
+          <Pad Id="RZt4GLT1lUuQI1iRKWxs5H" Comment="BooleanInterpol" Bounds="786,1103,74,15" ShowValueBox="true" isIOBox="true" Value="Switch">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="SwitchModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="PLQrje9DPgZN8aQXphEnR3" Comment="SpreadCountInterpol" Bounds="802,1125,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+          <Pad Id="PLQrje9DPgZN8aQXphEnR3" Comment="SpreadCountInterpol" Bounds="786,1125,73,15" ShowValueBox="true" isIOBox="true" Value="Tween">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="InterpolationModes" />
             </p:TypeAnnotation>
@@ -448,7 +451,7 @@
             <Pin Id="KQiqIN9urxDPqA0uKpTxEk" Name="Output Maximum" Kind="InputPin" DefaultValue="1" />
             <Pin Id="UvV19fLNi4EQAmTlI4iIbI" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="Bg7AfsVwwrLND6h32iB6M3" Comment="InterpolEnable" Bounds="802,863,38,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="Bg7AfsVwwrLND6h32iB6M3" Comment="InterpolEnable" Bounds="786,863,38,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -505,7 +508,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="MUmnYJMwlAZLsofNcfZKOQ" Bounds="1105,1212,521,38" ShowValueBox="true" isIOBox="true" Value="This value is only considered if the Type is not Valid, is Not Interpolable (via Attributes) or InterpolEnable is OFF">
+          <Pad Id="MUmnYJMwlAZLsofNcfZKOQ" Bounds="1110,1203,521,38" ShowValueBox="true" isIOBox="true" Value="This value is only considered if the Type is not Valid, is Not Interpolable (via Attributes) or InterpolEnable is OFF">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -519,7 +522,7 @@
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="PQh709rUlHXLbc7Jo7vNlC" Comment="BlendEnable" Bounds="481,937,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="PQh709rUlHXLbc7Jo7vNlC" Comment="BlendEnable" Bounds="463,937,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -527,37 +530,37 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="RSO2crt8WebQd38vuH8Upm" Comment="FloatBlendMode" Bounds="481,982,68,15" ShowValueBox="true" isIOBox="true" Value="Add">
+          <Pad Id="RSO2crt8WebQd38vuH8Upm" Comment="FloatBlendMode" Bounds="463,982,68,15" ShowValueBox="true" isIOBox="true" Value="Add">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="BlendModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="NNirXhQYDkiMLD0VyORQ9Q" Comment="IntegerBlendMode" Bounds="481,1007,68,15" ShowValueBox="true" isIOBox="true" Value="Add">
+          <Pad Id="NNirXhQYDkiMLD0VyORQ9Q" Comment="IntegerBlendMode" Bounds="463,1007,68,15" ShowValueBox="true" isIOBox="true" Value="Add">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="BlendModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="OJBp9SFMnuXO6fsZm0Vfr1" Comment="Vector2BlendMode" Bounds="481,1032,68,15" ShowValueBox="true" isIOBox="true" Value="Add">
+          <Pad Id="OJBp9SFMnuXO6fsZm0Vfr1" Comment="Vector2BlendMode" Bounds="463,1032,68,15" ShowValueBox="true" isIOBox="true" Value="Add">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="BlendModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="S9k9LurMtDOOySAJojXc6B" Comment="Vector3BlendMode" Bounds="481,1057,68,15" ShowValueBox="true" isIOBox="true" Value="Add">
+          <Pad Id="S9k9LurMtDOOySAJojXc6B" Comment="Vector3BlendMode" Bounds="463,1057,68,15" ShowValueBox="true" isIOBox="true" Value="Add">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="BlendModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="U88UKdsZrb0L4hMLGzgBAe" Comment="Vector4BlendMode" Bounds="481,1082,68,15" ShowValueBox="true" isIOBox="true" Value="Add">
+          <Pad Id="U88UKdsZrb0L4hMLGzgBAe" Comment="Vector4BlendMode" Bounds="463,1082,68,15" ShowValueBox="true" isIOBox="true" Value="Add">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="BlendModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="DW7qQHiniC9MdtBMeSxIoS" Comment="RGBABlendMode" Bounds="481,1107,68,15" ShowValueBox="true" isIOBox="true" Value="Add">
+          <Pad Id="DW7qQHiniC9MdtBMeSxIoS" Comment="RGBABlendMode" Bounds="463,1107,68,15" ShowValueBox="true" isIOBox="true" Value="Add">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="BlendModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="S50AgU4Itw7LSI5s5F73hU" Comment="BooleanModes" Bounds="481,1132,51,15" ShowValueBox="true" isIOBox="true" Value="OR">
+          <Pad Id="S50AgU4Itw7LSI5s5F73hU" Comment="BooleanModes" Bounds="463,1132,51,15" ShowValueBox="true" isIOBox="true" Value="OR">
             <p:TypeAnnotation LastCategoryFullName="InterpolatorEnums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="BooleanModes" />
             </p:TypeAnnotation>
@@ -585,32 +588,32 @@
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="M9w3Lo6tWB6MNeD4SWRZFD" Comment="Int2BlendModes" Bounds="481,1157,68,15" ShowValueBox="true" isIOBox="true" Value="Direct">
+          <Pad Id="M9w3Lo6tWB6MNeD4SWRZFD" Comment="Int2BlendModes" Bounds="463,1157,68,15" ShowValueBox="true" isIOBox="true" Value="Direct">
             <p:TypeAnnotation LastCategoryFullName="Interpolator.Enums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="BlendModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="IlCTqQYTj9LLDJCWQrpITB" Comment="Int3BlendModes" Bounds="481,1182,68,15" ShowValueBox="true" isIOBox="true" Value="Direct">
+          <Pad Id="IlCTqQYTj9LLDJCWQrpITB" Comment="Int3BlendModes" Bounds="463,1182,68,15" ShowValueBox="true" isIOBox="true" Value="Direct">
             <p:TypeAnnotation LastCategoryFullName="Interpolator.Enums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="BlendModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="MmQBsOjj0XJNxJb1mfaALL" Comment="Int4BlendModes" Bounds="481,1207,68,15" ShowValueBox="true" isIOBox="true" Value="Direct">
+          <Pad Id="MmQBsOjj0XJNxJb1mfaALL" Comment="Int4BlendModes" Bounds="463,1207,68,15" ShowValueBox="true" isIOBox="true" Value="Direct">
             <p:TypeAnnotation LastCategoryFullName="Interpolator.Enums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="BlendModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="ICD9wrd6dwNPGThRQYRdQU" Comment="Int2Interpol" Bounds="802,1147,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+          <Pad Id="ICD9wrd6dwNPGThRQYRdQU" Comment="Int2Interpol" Bounds="786,1147,73,15" ShowValueBox="true" isIOBox="true" Value="Tween">
             <p:TypeAnnotation LastCategoryFullName="Interpolator.Enums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="InterpolationModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="AXUFnbiZNP3OBgI9dujQCD" Comment="Int3Interpol" Bounds="802,1169,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+          <Pad Id="AXUFnbiZNP3OBgI9dujQCD" Comment="Int3Interpol" Bounds="786,1169,73,15" ShowValueBox="true" isIOBox="true" Value="Tween">
             <p:TypeAnnotation LastCategoryFullName="Interpolator.Enums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="InterpolationModes" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="FuQZceyjvLhNmRxMAerIiv" Comment="Int4Interpol" Bounds="802,1191,73,15" ShowValueBox="true" isIOBox="true" Value="Interpolate">
+          <Pad Id="FuQZceyjvLhNmRxMAerIiv" Comment="Int4Interpol" Bounds="786,1191,73,15" ShowValueBox="true" isIOBox="true" Value="Tween">
             <p:TypeAnnotation LastCategoryFullName="Interpolator.Enums" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="InterpolationModes" />
             </p:TypeAnnotation>
@@ -630,11 +633,33 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="RmWqvkXY0CSNpD9BIHoI33" Comment="Colour Space" Bounds="1138,1261,69,15" ShowValueBox="true" isIOBox="true" Value="Xyz">
+          <Pad Id="RmWqvkXY0CSNpD9BIHoI33" Comment="Colour Space" Bounds="1126,1260,69,15" ShowValueBox="true" isIOBox="true" Value="Xyz">
             <p:TypeAnnotation LastCategoryFullName="Wacton.Unicolour" LastDependency="VL.Interpolator.vl">
               <Choice Kind="TypeFlag" Name="ColourSpace" />
             </p:TypeAnnotation>
           </Pad>
+          <Pad Id="CIeMP0lp5AWLYdh36LadD0" Comment="Transition" Bounds="1408,880,59,15" ShowValueBox="true" isIOBox="true" Value="Linear">
+            <p:TypeAnnotation LastCategoryFullName="Interpolator.Enums" LastDependency="VL.Interpolator.vl">
+              <Choice Kind="TypeFlag" Name="TweenerTransition2" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Dv41YpUPzmnL031BIeMVhO" Comment="Mode" Bounds="1408,913,49,15" ShowValueBox="true" isIOBox="true" Value="In">
+            <p:TypeAnnotation LastCategoryFullName="Math.Tweener" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="TweenerMode" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="GiLxH8S6pvxPJYF7Z7gcWk" Comment="Handle 1" Bounds="1409,1030,35,28" ShowValueBox="true" isIOBox="true" Value="0, 0">
+            <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Vector2" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="VgnJoRMYWrqO3mfM7Kao1n" Comment="Handle 2" Bounds="1409,1076,35,28" ShowValueBox="true" isIOBox="true" Value="1, 1">
+            <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Vector2" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Overlay Id="PRlqf6zjddzLBReHSQXNEo" Name="Bezier" Bounds="1385,982,142,134" />
+          <Overlay Id="Hf1CnKOVHWfOTnBbhwsVBq" Name="Tween" Bounds="1384,822,171,118" />
         </Canvas>
         <Patch Id="UXUAiKaHZd2PmLqflexIT5" Name="Create" />
         <Patch Id="NHoP0UbBJOeLeM8AOeQFJY" Name="Update" />
@@ -732,12 +757,16 @@
         <Link Id="M867qJOjxYHNLIMmLcuuFE" Ids="JQzcO08s8D3MY75dZ3QLIf,Fe2WCaqWrrFP4xBeyVYXld" />
         <Link Id="Rq1iip5iVhWLW6RjLlEjRD" Ids="IVOdCsi1CqYMBxTENLmMzg,Jmkb1f0a0VQPsZQ08GwCOC" />
         <Link Id="K5iLbbasu7kN5zy0sShFW0" Ids="RmWqvkXY0CSNpD9BIHoI33,Ol4UUjzKiVtOeUolrVmrxB" />
+        <Link Id="Ib91dpJZNbfQAnAOWWwU5q" Ids="CIeMP0lp5AWLYdh36LadD0,CONM3857XQbLc6t4wg6ACJ" />
+        <Link Id="Rju8g064cauMjPmYjezQEU" Ids="Dv41YpUPzmnL031BIeMVhO,LZuEHEvQbuEPVcHIX1Udgu" />
+        <Link Id="L2BLSVxsByRMEx23ZuTj5L" Ids="GiLxH8S6pvxPJYF7Z7gcWk,AbjrNlpcvf9Nim03NB8L4q" />
+        <Link Id="VVlRW64ByV5MNKYnGKdLGZ" Ids="VgnJoRMYWrqO3mfM7Kao1n,BhSBPq0sv0SLTBOKfn9GIQ" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="FCk7DSMGPWvMttrrQdTxXI" Location="VL.Audio" Version="1.8.4" />
-  <NugetDependency Id="QL0rHyteLFMPzKjtEgRuLF" Location="VL.Video" Version="2024.6.7-0217-gb4f7c1f3e0" />
-  <NugetDependency Id="HbulQguXnEGNHNCnEHvdKj" Location="VL.Stride" Version="2024.6.7-0217-gb4f7c1f3e0" />
-  <NugetDependency Id="CfupJmkYCoMNzeudyTEOR3" Location="VL.Stride.TextureFX" Version="2024.6.7-0217-gb4f7c1f3e0" />
-  <NugetDependency Id="IzFIZZvEWc8QYMPDiO47HR" Location="VL.Interpolator" Version="1.2.7" />
+  <NugetDependency Id="FCk7DSMGPWvMttrrQdTxXI" Location="VL.Audio" Version="1.9.13" />
+  <NugetDependency Id="QL0rHyteLFMPzKjtEgRuLF" Location="VL.Video" Version="2025.7.0-0364-g0f1ea863a8" />
+  <NugetDependency Id="HbulQguXnEGNHNCnEHvdKj" Location="VL.Stride" Version="2025.7.0-0364-g0f1ea863a8" />
+  <NugetDependency Id="CfupJmkYCoMNzeudyTEOR3" Location="VL.Stride.TextureFX" Version="2025.7.0-0364-g0f1ea863a8" />
+  <NugetDependency Id="IzFIZZvEWc8QYMPDiO47HR" Location="VL.Interpolator" Version="1.2.10" />
 </Document>

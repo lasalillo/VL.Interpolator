@@ -1,0 +1,12 @@
+D:\Projects\VL.Interpolator.Addons\VL\VL.Interpolator\InverseBezier\csharp\BezierHelpers\bin\Debug\net8.0\BezierHelpers.deps.json
+D:\Projects\VL.Interpolator.Addons\VL\VL.Interpolator\InverseBezier\csharp\BezierHelpers\obj\Debug\net8.0\BezierHelpers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VL.Interpolator.Addons\VL\VL.Interpolator\InverseBezier\csharp\BezierHelpers\obj\Debug\net8.0\BezierHelpers.AssemblyInfoInputs.cache
+D:\Projects\VL.Interpolator.Addons\VL\VL.Interpolator\InverseBezier\csharp\BezierHelpers\obj\Debug\net8.0\BezierHelpers.AssemblyInfo.cs
+D:\Projects\VL.Interpolator.Addons\VL\VL.Interpolator\csharp\BezierHelpers\bin\Debug\net8.0\BezierHelpers.deps.json
+D:\Projects\VL.Interpolator.Addons\VL\VL.Interpolator\csharp\BezierHelpers\obj\Debug\net8.0\BezierHelpers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VL.Interpolator.Addons\VL\VL.Interpolator\csharp\BezierHelpers\obj\Debug\net8.0\BezierHelpers.AssemblyInfoInputs.cache
+D:\Projects\VL.Interpolator.Addons\VL\VL.Interpolator\csharp\BezierHelpers\obj\Debug\net8.0\BezierHelpers.AssemblyInfo.cs
+D:\Projects\VL.Interpolator.Addons\VL\VL.Interpolator\BezierInterpolation\csharp\BezierHelpers\bin\Debug\net8.0\BezierHelpers.deps.json
+D:\Projects\VL.Interpolator.Addons\VL\VL.Interpolator\BezierInterpolation\csharp\BezierHelpers\obj\Debug\net8.0\BezierHelpers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VL.Interpolator.Addons\VL\VL.Interpolator\BezierInterpolation\csharp\BezierHelpers\obj\Debug\net8.0\BezierHelpers.AssemblyInfoInputs.cache
+D:\Projects\VL.Interpolator.Addons\VL\VL.Interpolator\BezierInterpolation\csharp\BezierHelpers\obj\Debug\net8.0\BezierHelpers.AssemblyInfo.cs

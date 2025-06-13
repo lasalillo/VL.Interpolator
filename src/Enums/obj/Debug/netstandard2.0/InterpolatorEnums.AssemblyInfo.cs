@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterpolatorEnums")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1d173ae931a80b737471d8cca18e38f6a73bec8")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterpolatorEnums")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterpolatorEnums")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

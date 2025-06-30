@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="GJNdUCxWFOuLeC0LGD4wao" LanguageVersion="2025.7.0-0369-g117540fa59" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="GJNdUCxWFOuLeC0LGD4wao" LanguageVersion="2025.7.0-0384-g212a8f1596" Version="0.128">
   <Patch Id="EAIIpcVCowFQTcz0KLQtUE">
     <Canvas Id="HsgcAMUqtVTNXLSvHJWTpN" DefaultCategory="Interpolator" CanvasType="FullCategory">
       <Canvas Id="QIfd52ShnGdL2SQeqFCih1" Name="Lerp" Position="198,278" CanvasType="Group">
@@ -30901,7 +30901,11 @@
                     <Choice Kind="TypeFlag" Name="Object" />
                   </p:TypeAnnotation>
                 </Pin>
-                <Pin Id="GF34REH1px8LOvpgx4BFuB" Name="Input 2" Kind="InputPin" Bounds="452,432" />
+                <Pin Id="GF34REH1px8LOvpgx4BFuB" Name="Input 2" Kind="InputPin" Bounds="452,432">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="TypeFlag" Name="Object" />
+                  </p:TypeAnnotation>
+                </Pin>
                 <Pin Id="A3vrqQdnDsCMW44OAFX8dR" Name="BlendEnable" Kind="InputPin" Bounds="487,231" DefaultValue="True" />
                 <Pin Id="VLbxL43bgpBOTcduKcRlFB" Name="FloatBlendMode" Kind="InputPin" DefaultValue="Add" />
                 <Pin Id="F0DNNhGg13kLxurycctow7" Name="IntegerBlendMode" Kind="InputPin" DefaultValue="Add" />
@@ -32514,8 +32518,16 @@
               <Link Id="RGw5q4ALfp2McQXgjuiq88" Ids="KOyRsnjFolFOnbtv1Jhp1i,OXUaS0c3vzjL17lpi2Nhmf,Cri8oY6iLW6NCOCDUQ2tBm" />
               <Patch Id="L4tHvmCrteMN3w2VWjch3z" Name="Create" />
               <Patch Id="GDL1Xa33TuZOxYWd5tnAjP" Name="Update">
-                <Pin Id="DbrUlO4kroMPAoMszfkGM9" Name="Input" Kind="InputPin" />
-                <Pin Id="PUdHYE5O7ZvOS9bt0DUQhE" Name="Input 2" Kind="InputPin" />
+                <Pin Id="DbrUlO4kroMPAoMszfkGM9" Name="Input" Kind="InputPin">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="TypeFlag" Name="Object" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="PUdHYE5O7ZvOS9bt0DUQhE" Name="Input 2" Kind="InputPin">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="TypeFlag" Name="Object" />
+                  </p:TypeAnnotation>
+                </Pin>
                 <Pin Id="SKwIfWuvFwyOrIKdfhGhPr" Name="Output" Kind="OutputPin" Bounds="356,431" />
                 <Pin Id="NzKyKWYXby6P2eBuU0LtbX" Name="BlendEnable" Kind="InputPin" Bounds="503,227" DefaultValue="True" />
                 <Pin Id="ETgdJswRG3rNBQ1C9DdOOT" Name="FloatBlendMode" Kind="InputPin" DefaultValue="Add" />
@@ -36856,7 +36868,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2025.7.0-0369-g117540fa59" />
+  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2025.7.0-0384-g212a8f1596" />
   <NugetDependency Id="R2TJCi0AIIwNIlwUCEOwgF" Location="Wacton.Unicolour" Version="4.3.0" />
   <PlatformDependency Id="PcW31WBdlz5L1qtsKxA16n" Location="./lib/netstandard2.0/InterpolatorEnums.dll" />
   <PlatformDependency Id="TDap71B1TUVP92sDl1viX7" Location="./lib/net8.0/BezierHelpers.dll" />

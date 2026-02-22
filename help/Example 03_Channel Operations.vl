@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="VysmsfH5l5aLQ8x5nhh8Pn" LanguageVersion="2024.6.0-0139-g74911af44e" Version="0.128">
-  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2024.6.0-0139-g74911af44e" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="VysmsfH5l5aLQ8x5nhh8Pn" LanguageVersion="2025.7.1-0169-g2e3c630a8f" Version="0.128">
+  <NugetDependency Id="QhOHhaWTm7hNQT63zZ2JcL" Location="VL.CoreLib" Version="2025.7.1-0169-g2e3c630a8f" />
   <Patch Id="EKfc0XEuHFEMk9lMTQ1rPH">
     <Canvas Id="F1lhPcVCSxaPSFkF3oFOYT" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -31,6 +31,8 @@
             <Pin Id="MlEPwIXLsUhNMYocqIQAoQ" Name="TweenMode" Kind="InputPin" />
             <Pin Id="FrIKpd4gQUSMXmoingySsS" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="GxjmuXaZSKUMq4ixk9U1WG" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="Q5pU0zwPsOHOzhAVomkDiy" Name="BezierHandle1" Kind="InputPin" IsHidden="true" />
+            <Pin Id="IUV98klSUdtNOZ4IGUKSTT" Name="BezierHandle2" Kind="InputPin" IsHidden="true" />
           </Node>
           <Node Bounds="309,1215,828,19" Id="KoQwxfdzldZOHXUEmkd8qu">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
@@ -69,6 +71,8 @@
             <Pin Id="C5cyuIjkKfINcBi9QxM81c" Name="Active" Kind="OutputPin" />
             <Pin Id="FAGwF9oW2INO4surPUK9i0" Name="Success" Kind="OutputPin" />
             <Pin Id="HuKseuc1XAVLBhQ0co7Ttb" Name="Info" Kind="OutputPin" />
+            <Pin Id="HO7w6EBjao4QTCFocv8k4B" Name="Colour Space" Kind="InputPin" IsHidden="true" />
+            <Pin Id="RLsnqjh4vr4OAwFrkTgAfB" Name="ShowExtras" Kind="InputPin" IsHidden="true" />
           </Node>
           <Pad Id="LQ8z4rOzneHOp5iAWjNRLX" Comment="Duration" Bounds="352,1056,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -149,6 +153,8 @@
             <Pin Id="CTPJdSc1ZiKOVmuGfodyTm" Name="TweenMode" Kind="InputPin" />
             <Pin Id="ScUddU2AVNmM1GygZVHQb9" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="PEHJOinjnXDLFRER7FhK91" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="Ofs9aDZGBFKO8B8hQxovb9" Name="BezierHandle1" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Cku0bWrWj4pPRD9ot4TvW8" Name="BezierHandle2" Kind="InputPin" IsHidden="true" />
           </Node>
           <Pad Id="J5Hxqpxx2xnOH6Hx4NdfLl" Comment="Position" Bounds="743,1035,35,15" ShowValueBox="true" isIOBox="true" Value="4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -176,6 +182,8 @@
             <Pin Id="S3v8wxNuVbiMk3epS27O52" Name="TweenMode" Kind="InputPin" IsHidden="true" />
             <Pin Id="NCXdBE63kW5MHqfAqz18EI" Name="Tag" Kind="InputPin" IsHidden="true" />
             <Pin Id="VwDcwuggHD0OOhpdAfCHL6" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="VsPKh6YPbstOGSTJFmcVHf" Name="BezierHandle1" Kind="InputPin" IsHidden="true" />
+            <Pin Id="TRQL0OdNWHVP1TaDppWL1N" Name="BezierHandle2" Kind="InputPin" IsHidden="true" />
           </Node>
           <Pad Id="GplYRGjwgfdN6N7V9pNgyK" Comment="Position" Bounds="1155,1035,35,15" ShowValueBox="true" isIOBox="true" Value="8">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -214,12 +222,12 @@
           <Overlay Id="PqSVOz5eO9IMZLuu6ObMqA" Name="Single Property" Bounds="200,929,1165,441">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
-          <Pad Id="TeywMkOxSltOIfJdlv8h6K" Comment="TweenMode" Bounds="822,1121,54,15" ShowValueBox="true" isIOBox="true" Value="InOut">
+          <Pad Id="TeywMkOxSltOIfJdlv8h6K" Comment="TweenMode" Bounds="822,1121,56,15" ShowValueBox="true" isIOBox="true" Value="InOut">
             <p:TypeAnnotation LastCategoryFullName="Math.Tweener" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="TweenerMode" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="OmhjYWFNo1oO4CcQTv1Zf4" Comment="TweenMode" Bounds="411,1121,54,15" ShowValueBox="true" isIOBox="true" Value="Out">
+          <Pad Id="OmhjYWFNo1oO4CcQTv1Zf4" Comment="TweenMode" Bounds="411,1121,56,15" ShowValueBox="true" isIOBox="true" Value="Out">
             <p:TypeAnnotation LastCategoryFullName="Math.Tweener" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="TweenerMode" />
             </p:TypeAnnotation>
@@ -273,14 +281,14 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Pee1rpd49AgNsQ3l6tymfV" Comment="TweenTransition" Bounds="391,1099,64,15" ShowValueBox="true" isIOBox="true" Value="Expo">
-            <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="VL.Interpolator.vl">
-              <Choice Kind="TypeFlag" Name="TweenerTransition2" />
+          <Pad Id="Pee1rpd49AgNsQ3l6tymfV" Comment="TweenTransition" Bounds="391,1099,66,15" ShowValueBox="true" isIOBox="true" Value="Expo">
+            <p:TypeAnnotation LastCategoryFullName="Math.Tweener" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="TweenerTransition" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="GnSVeHLg0fnN6Qo8HKmMHv" Comment="TweenTransition" Bounds="802,1099,64,15" ShowValueBox="true" isIOBox="true" Value="Circular">
-            <p:TypeAnnotation LastCategoryFullName="Enums" LastDependency="VL.Interpolator.vl">
-              <Choice Kind="TypeFlag" Name="TweenerTransition2" />
+          <Pad Id="GnSVeHLg0fnN6Qo8HKmMHv" Comment="TweenTransition" Bounds="802,1099,66,15" ShowValueBox="true" isIOBox="true" Value="Circular">
+            <p:TypeAnnotation LastCategoryFullName="Math.Tweener" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="TweenerTransition" />
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="430,1447,74,19" Id="A5xC2shfbf9OCiJoJECRyM">
@@ -710,5 +718,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="RMOR6ZKxcP3OH56wGZbPSn" Location="VL.Interpolator" Version="1.0.4" />
+  <NugetDependency Id="RMOR6ZKxcP3OH56wGZbPSn" Location="VL.Interpolator" Version="1.3.7" />
 </Document>

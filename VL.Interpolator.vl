@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="GJNdUCxWFOuLeC0LGD4wao" LanguageVersion="2025.7.1-0169-g2e3c630a8f" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="GJNdUCxWFOuLeC0LGD4wao" LanguageVersion="2025.7.3-0001-gd8cb8804af" Version="0.128">
   <Patch Id="EAIIpcVCowFQTcz0KLQtUE">
     <Canvas Id="HsgcAMUqtVTNXLSvHJWTpN" DefaultCategory="Interpolator" CanvasType="FullCategory">
       <Canvas Id="QIfd52ShnGdL2SQeqFCih1" Name="Lerp" Position="198,278" CanvasType="Group">
@@ -13297,8 +13297,8 @@
                       <Pin Id="LLlnWDR26zJOxebiSjdTWb" Name="Input" Kind="InputPin" />
                       <Pin Id="Rqcb2l7au25NEnwtsRGKOb" Name="Input 2" Kind="InputPin" />
                       <Pin Id="PKwJJwu5tsOQXcBwbJdqhi" Name="Colour Space" Kind="InputPin" />
-                      <Pin Id="MEDlCr5w40cLqG7qWDpqmU" Name="Hue Span" Kind="InputPin" IsHidden="true" />
-                      <Pin Id="QdVlexgCbxoNweDsjmLAtO" Name="Premultiply Alpha" Kind="InputPin" IsHidden="true" />
+                      <Pin Id="PSPKZE1WLTjNNyMMTD8spz" Name="Hue Span" Kind="InputPin" IsHidden="true" />
+                      <Pin Id="HAAww75FLMvLpMy8x9TgtP" Name="Premultiply Alpha" Kind="InputPin" IsHidden="true" />
                       <Pin Id="QXkUH0WuxiWLV2HPL5IAii" Name="Scalar" Kind="InputPin" />
                       <Pin Id="OQbFwyneDrQMgVmlYIeDvm" Name="Output" Kind="OutputPin" />
                     </Node>
@@ -36683,7 +36683,7 @@
     ************************ Lerp (Unicolour) ************************
 
 -->
-        <Node Name="Lerp (Unicolour)" Bounds="216,229,467,159" Id="KIYItdGdQ1aQCT1D9FGxLn">
+        <Node Name="Lerp (Unicolour)" Bounds="216,223,467,165" Id="KIYItdGdQ1aQCT1D9FGxLn">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
             <Choice Kind="OperationDefinition" Name="Operation" />
           </p:NodeReference>
@@ -36696,7 +36696,7 @@
               </p:NodeReference>
               <Pin Id="H52pNlHxBFAPrjIhlxI0gZ" Name="RGBA" Kind="InputPin" />
               <Pin Id="UZjUUxlkDAyLvCVttYnqJH" Name="Unicolour" Kind="OutputPin" />
-              <Pin Id="CoTg1NsS7bAPu089ph5pX2" Name="Colour Space" Kind="InputPin" IsHidden="true" />
+              <Pin Id="FoGprHb9J5vPYg5REh76SL" Name="Colour Space" Kind="InputPin" IsHidden="true" />
             </Node>
             <Node Bounds="228,337,53,19" Id="NSwilgxG7ZrLBKUuaDglmH">
               <p:NodeReference LastCategoryFullName="Interpolator.ColorSpaces" LastDependency="VL.Interpolator.vl">
@@ -36713,28 +36713,28 @@
               </p:NodeReference>
               <Pin Id="RaiuFCX7aiGQWzkhM6lZdi" Name="RGBA" Kind="InputPin" />
               <Pin Id="O1weYzWq2XoPwCFP9z8NWi" Name="Unicolour" Kind="OutputPin" />
-              <Pin Id="PF6puZIZH0CP9hisLp10VK" Name="Colour Space" Kind="InputPin" IsHidden="true" />
+              <Pin Id="QS2haI0wj1tMZlB1MMt4gK" Name="Colour Space" Kind="InputPin" IsHidden="true" />
             </Node>
-            <ControlPoint Id="URj9I1KhbJ1MlpZAqZvomg" Bounds="230,247" />
+            <ControlPoint Id="URj9I1KhbJ1MlpZAqZvomg" Bounds="230,241" />
             <Link Id="RM6NxzwN2B6NBfUPGYr8ap" Ids="URj9I1KhbJ1MlpZAqZvomg,RaiuFCX7aiGQWzkhM6lZdi" />
             <Pin Id="ClkwJv9CprfOFon0ER6rfJ" Name="Input" Kind="InputPin" Bounds="2195,2048" />
             <Link Id="OE9NwIen3iDO3taeifiwrP" Ids="ClkwJv9CprfOFon0ER6rfJ,URj9I1KhbJ1MlpZAqZvomg" IsHidden="true" />
-            <ControlPoint Id="IxYbcLsqH4MMR30CCL1UxC" Bounds="302,247" />
+            <ControlPoint Id="IxYbcLsqH4MMR30CCL1UxC" Bounds="302,241" />
             <Link Id="DRFb68WmkQmNjKxekhVE4L" Ids="IxYbcLsqH4MMR30CCL1UxC,H52pNlHxBFAPrjIhlxI0gZ" />
             <Pin Id="Sxbu7FyJLNEOnMqm62dKym" Name="Input 2" Kind="InputPin" />
             <Link Id="U6CUy3T4DqCOcPdWyUzJzI" Ids="Sxbu7FyJLNEOnMqm62dKym,IxYbcLsqH4MMR30CCL1UxC" IsHidden="true" />
-            <ControlPoint Id="PZnSVCYvsKeQD0tyjAfoVa" Bounds="633,247" />
+            <ControlPoint Id="PZnSVCYvsKeQD0tyjAfoVa" Bounds="633,241" />
             <Pin Id="UVEDVT6sI34LVR4ZRorZBG" Name="Colour Space" Kind="InputPin" DefaultValue="Oklab" />
             <Link Id="N7HQsAJqYn5Pas4gyScoWe" Ids="UVEDVT6sI34LVR4ZRorZBG,K5L3vPK66VWM7ODEnViPBV" IsHidden="true" />
             <Link Id="SpnM1bAbStMLlwdH6S5YSF" Ids="O1weYzWq2XoPwCFP9z8NWi,IeSc0O6qu5qOEz88KKu52t" />
             <Link Id="LwpmBsF9CAYPelINbPZ5w2" Ids="UZjUUxlkDAyLvCVttYnqJH,BXy7n6yIr8vNnCLwUvDIVC" />
-            <Pin Id="GvIKgskz3FVOU01SEZbMKL" Name="Hue Span" Kind="InputPin" Visibility="Optional" />
+            <Pin Id="GvIKgskz3FVOU01SEZbMKL" Name="Hue Span" Kind="InputPin" DefaultValue="Shorter" Visibility="Optional" />
             <Link Id="KpPsVZExIurMSu5pr1RQqg" Ids="GvIKgskz3FVOU01SEZbMKL,GfWi6KdVxpsNGZCyfV2FSG" IsHidden="true" />
-            <ControlPoint Id="KcrihrARfewPfdYUglepsk" Bounds="519,247" />
+            <ControlPoint Id="KcrihrARfewPfdYUglepsk" Bounds="519,241" />
             <Link Id="L4UDES0A99VPHcXDI3dFaA" Ids="KcrihrARfewPfdYUglepsk,GKCEaUk9zI6PmjxsTTeQPy" />
             <Pin Id="C47TqfIkNW8LlbzyQdv7bX" Name="Premultiply Alpha" Kind="InputPin" DefaultValue="False" Visibility="Optional" />
             <Link Id="FEqOFIbkmxDLqy8iF7vNkk" Ids="C47TqfIkNW8LlbzyQdv7bX,KcrihrARfewPfdYUglepsk" IsHidden="true" />
-            <ControlPoint Id="K5L3vPK66VWM7ODEnViPBV" Bounds="367,247" />
+            <ControlPoint Id="K5L3vPK66VWM7ODEnViPBV" Bounds="374,241" />
             <Link Id="CEg7TkAAcyAOWIGLHC4o3c" Ids="K5L3vPK66VWM7ODEnViPBV,KUBgD3RqRJwP0fc4zrXzZ8" />
             <Pin Id="I4fXkztC2S4LsblZxECvjb" Name="Scalar" Kind="InputPin" Bounds="2328,2048" />
             <Link Id="QdLfRjlGBkNMJwOqvmotRT" Ids="I4fXkztC2S4LsblZxECvjb,PZnSVCYvsKeQD0tyjAfoVa" IsHidden="true" />
@@ -36757,7 +36757,7 @@
             </Node>
             <Link Id="QBQARIZiQRlP2eFvNIVYru" Ids="Jl619OQbxWJN36h80xWMv5,BTUPZKRYd1wOkcbQRxQBJT" />
             <Link Id="OPQnVbYodJMMJwjGw4zHq5" Ids="PZnSVCYvsKeQD0tyjAfoVa,EZ1LBGr9ACEOxPSumUXpXF" />
-            <ControlPoint Id="GfWi6KdVxpsNGZCyfV2FSG" Bounds="455,247" />
+            <ControlPoint Id="GfWi6KdVxpsNGZCyfV2FSG" Bounds="455,241" />
             <Link Id="ThE9tIF4a39QFUyMTFKdsd" Ids="GfWi6KdVxpsNGZCyfV2FSG,JHAA9xlWuP1NaBUJFDE9Vn" />
           </Patch>
         </Node>
@@ -36767,13 +36767,13 @@
     ************************ ToRGBA ************************
 
 -->
-          <Node Name="ToRGBA" Bounds="208,286,149,385" Id="TDa4bnk8UwQLCMAVoibquH">
+          <Node Name="ToRGBA" Bounds="208,286,157,382" Id="TDa4bnk8UwQLCMAVoibquH">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="OperationDefinition" Name="Operation" />
             </p:NodeReference>
             <Patch Id="DRTyLQuU0ScQItTsR3AUiK">
               <ControlPoint Id="JKq33uLUHXRQY65d0K5Edl" Bounds="222,304" />
-              <Node Bounds="283,399,51,26" Id="SNnwZW8s0vyL2DCzX2h9hX">
+              <Node Bounds="302,353,51,26" Id="SNnwZW8s0vyL2DCzX2h9hX">
                 <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Unicolour" LastDependency="Wacton.Unicolour.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="AssemblyCategory" Name="Unicolour" />
@@ -36783,7 +36783,7 @@
                 <Pin Id="RyOdIPBF61BPCOIxsREQkk" Name="Output" Kind="OutputPin" IsHidden="true" />
                 <Pin Id="NCg9Sl4JRisQMAJanjupAY" Name="Alpha" Kind="OutputPin" />
               </Node>
-              <Node Bounds="223,613,65,19" Id="VOimST0YVR0NdAJeT4VIIc">
+              <Node Bounds="220,610,74,19" Id="VOimST0YVR0NdAJeT4VIIc">
                 <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="RGBA (Join)" />
@@ -36794,7 +36794,7 @@
                 <Pin Id="FjNrCvXKU0hNgDUM0gRl0r" Name="Alpha" Kind="InputPin" />
                 <Pin Id="Sdlj2eG9r1SNs5EsPh5fxN" Name="Result" Kind="OutputPin" />
               </Node>
-              <Node Bounds="223,508,62,19" Id="UGRBAxJ4aPKPqHtFBX0a1t">
+              <Node Bounds="220,500,62,19" Id="UGRBAxJ4aPKPqHtFBX0a1t">
                 <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="ToFloat32" />
@@ -36802,7 +36802,7 @@
                 <Pin Id="ReFK8Y4bgI1NLzZFnov9Jw" Name="Input" Kind="InputPin" />
                 <Pin Id="GVdbXUXKZ1rN6TYsAW9m0i" Name="Result" Kind="OutputPin" />
               </Node>
-              <Node Bounds="243,534,62,19" Id="BRXh3vCW8CPOF4wRn17sno">
+              <Node Bounds="243,526,62,19" Id="BRXh3vCW8CPOF4wRn17sno">
                 <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="ToFloat32" />
@@ -36810,7 +36810,7 @@
                 <Pin Id="S9ulS1Pw5CXNVKYvYEmTCB" Name="Input" Kind="InputPin" />
                 <Pin Id="KBDPvhaZ17tOgXBtou4m92" Name="Result" Kind="OutputPin" />
               </Node>
-              <Node Bounds="263,560,62,19" Id="QQzvDMLqPL8NnrCK3Wlryg">
+              <Node Bounds="266,552,62,19" Id="QQzvDMLqPL8NnrCK3Wlryg">
                 <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="ToFloat32" />
@@ -36818,7 +36818,7 @@
                 <Pin Id="HXXUKFA79qjOWk97BlWgxU" Name="Input" Kind="InputPin" />
                 <Pin Id="LQ9nOdhec7ONPYR4bYBaL0" Name="Result" Kind="OutputPin" />
               </Node>
-              <Node Bounds="283,586,62,19" Id="Hsgw5kl9eXdNMaktsKFgHD">
+              <Node Bounds="289,578,62,19" Id="Hsgw5kl9eXdNMaktsKFgHD">
                 <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="ToFloat32" />
@@ -36826,7 +36826,7 @@
                 <Pin Id="M72RZupJkiuMAVE0U1rxDj" Name="Input" Kind="InputPin" />
                 <Pin Id="SKA0Be0FWiUNM9HiBwaQhg" Name="Result" Kind="OutputPin" />
               </Node>
-              <ControlPoint Id="CgZORcEo5K3N5jLCIrQ9mm" Bounds="225,654,149,0" />
+              <ControlPoint Id="CgZORcEo5K3N5jLCIrQ9mm" Bounds="222,651,149,0" />
               <Node Bounds="220,323,61,19" Id="NgzZxz3xvV1O4lmjiwodgK">
                 <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -36847,37 +36847,7 @@
               <Link Id="JWhPlss2UnxMlSQ6KAG9R8" Ids="Sdlj2eG9r1SNs5EsPh5fxN,CgZORcEo5K3N5jLCIrQ9mm" />
               <Link Id="HscKdHx0dxrPCkKCtlczpB" Ids="ReloEo5lwEqMeCZrspqzS7,BB53hgGV5MIMJyqTWVDLZ0" />
               <Link Id="PElDQWDO3DxMdntWUzmCCj" Ids="JKq33uLUHXRQY65d0K5Edl,OTUeeWJV3kROL3aQ04PoA3" />
-              <Node Bounds="220,398,52,26" Id="NKmtopT2WtmOb2nXX8dPgN">
-                <p:NodeReference LastCategoryFullName="Wacton.Unicolour.RgbLinear" LastDependency="Wacton.Unicolour.dll">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="AssemblyCategory" Name="RgbLinear" />
-                  <Choice Kind="OperationCallFlag" Name="R" />
-                </p:NodeReference>
-                <Pin Id="ALGXwbIRC2XOeHErpM94qn" Name="Input" Kind="StateInputPin" />
-                <Pin Id="VsY6QmjKhjtNTr2F8Ub96w" Name="Output" Kind="StateOutputPin" />
-                <Pin Id="B1lR3nKn0TQMCVilbCVNjr" Name="R" Kind="OutputPin" />
-              </Node>
-              <Node Bounds="220,434,52,26" Id="PotOi0OslNHOFgOulYZhkE">
-                <p:NodeReference LastCategoryFullName="Wacton.Unicolour.RgbLinear" LastDependency="Wacton.Unicolour.dll">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="AssemblyCategory" Name="RgbLinear" NeedsToBeDirectParent="true" />
-                  <Choice Kind="OperationCallFlag" Name="G" />
-                </p:NodeReference>
-                <Pin Id="FXaC4EHPVSiNQWQNUlnTC9" Name="Input" Kind="StateInputPin" />
-                <Pin Id="MyVRRiAY3oBLoMzDuXVtSS" Name="Output" Kind="StateOutputPin" />
-                <Pin Id="LxjxUu7C7lFMyFug5dPHNA" Name="G" Kind="OutputPin" />
-              </Node>
-              <Node Bounds="220,471,52,26" Id="Mf08cY87GqhMUIwZ52mrFo">
-                <p:NodeReference LastCategoryFullName="Wacton.Unicolour.RgbLinear" LastDependency="Wacton.Unicolour.dll">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="AssemblyCategory" Name="RgbLinear" NeedsToBeDirectParent="true" />
-                  <Choice Kind="OperationCallFlag" Name="B" />
-                </p:NodeReference>
-                <Pin Id="Sz95s4HTGoiLDVSBtt9Vd4" Name="Input" Kind="StateInputPin" />
-                <Pin Id="P9zcAkETkfVLZCnc0U04zB" Name="Output" Kind="StateOutputPin" />
-                <Pin Id="L9H8FZYX8rJLARqB4vL6EA" Name="B" Kind="OutputPin" />
-              </Node>
-              <Node Bounds="220,355,62,26" Id="SePJKIg4djcPnMKCYeW5j0">
+              <Node Bounds="220,353,62,26" Id="SePJKIg4djcPnMKCYeW5j0">
                 <p:NodeReference LastCategoryFullName="Interpolator.ColorSpaces.Unicolour" LastDependency="VL.Interpolator.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="RgbLinear" />
@@ -36887,10 +36857,7 @@
                 <Pin Id="G1jvOItMWe4NJcKilMtGLr" Name="Rgb Linear" Kind="OutputPin" />
               </Node>
               <Link Id="ICQA0KXYb3WPi7euhyAwmT" Ids="ReloEo5lwEqMeCZrspqzS7,Bvr9aRhIqD0MeYhWW1VLbH" />
-              <Link Id="Qn8Ka7dTkmnObprXMkFAdc" Ids="G1jvOItMWe4NJcKilMtGLr,ALGXwbIRC2XOeHErpM94qn" />
-              <Link Id="T2lm86sM9ZfNbaxnNv9Hmr" Ids="VsY6QmjKhjtNTr2F8Ub96w,FXaC4EHPVSiNQWQNUlnTC9" />
-              <Link Id="VlRHKEJgH2AOrFEvRJ8EUT" Ids="MyVRRiAY3oBLoMzDuXVtSS,Sz95s4HTGoiLDVSBtt9Vd4" />
-              <Node Bounds="283,435,37,26" Id="JfUXgWNEqp9OJn9VRadXM4">
+              <Node Bounds="302,389,37,26" Id="JfUXgWNEqp9OJn9VRadXM4">
                 <p:NodeReference LastCategoryFullName="Wacton.Unicolour.Alpha" LastDependency="Wacton.Unicolour.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="AssemblyCategory" Name="Alpha" NeedsToBeDirectParent="true" />
@@ -36902,9 +36869,42 @@
               </Node>
               <Link Id="CoUlGkJDABNLuQKTHuYP3I" Ids="NCg9Sl4JRisQMAJanjupAY,AaI3bxkpYTxLJby2ygqTeZ" />
               <Link Id="M2HLVrDQGIwOWZjD4adzKh" Ids="DvdtoxHx8MjOgDEyuPTFXU,M72RZupJkiuMAVE0U1rxDj" />
-              <Link Id="E9nW0H6NdGOQRZ8gv3J3Yl" Ids="B1lR3nKn0TQMCVilbCVNjr,ReFK8Y4bgI1NLzZFnov9Jw" />
-              <Link Id="TTTaRet4n2JPXIi6SjTndx" Ids="LxjxUu7C7lFMyFug5dPHNA,S9ulS1Pw5CXNVKYvYEmTCB" />
-              <Link Id="PT2sZaiNuYOMf7tKdrgIOK" Ids="L9H8FZYX8rJLARqB4vL6EA,HXXUKFA79qjOWk97BlWgxU" />
+              <Node Bounds="220,389,77,26" Id="I3lJtXTsmlHOvJE8QAT5h4">
+                <p:NodeReference LastCategoryFullName="Wacton.Unicolour.RgbLinear" LastDependency="Wacton.Unicolour.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="RgbLinear" />
+                  <Choice Kind="OperationCallFlag" Name="ConstrainedR" />
+                </p:NodeReference>
+                <Pin Id="DsqampBVrDgLKA9i2Wiomv" Name="Input" Kind="StateInputPin" />
+                <Pin Id="FFtnMLVxr8tOeDJOUcCm2c" Name="Output" Kind="OutputPin" IsHidden="true" />
+                <Pin Id="V1QFtlp79fAMMBUz2GQ1Ec" Name="Constrained R" Kind="OutputPin" />
+              </Node>
+              <Link Id="NkxbDbHekBcMqf45aZs8Kn" Ids="G1jvOItMWe4NJcKilMtGLr,DsqampBVrDgLKA9i2Wiomv" />
+              <Node Bounds="243,420,78,26" Id="GFo1BTbQMjMQDHQDyTXzfg">
+                <p:NodeReference LastCategoryFullName="Wacton.Unicolour.RgbLinear" LastDependency="Wacton.Unicolour.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="RgbLinear" NeedsToBeDirectParent="true" />
+                  <Choice Kind="OperationCallFlag" Name="ConstrainedG" />
+                </p:NodeReference>
+                <Pin Id="FPCN94XBe8jPbFq4gFj8vN" Name="Input" Kind="StateInputPin" />
+                <Pin Id="PkHPRsPifHALsXgHMXeYO1" Name="Output" Kind="OutputPin" IsHidden="true" />
+                <Pin Id="HKAwHJX9DEZNasdcu0LPou" Name="Constrained G" Kind="OutputPin" />
+              </Node>
+              <Link Id="TCWOhCu9JZkQdiZve5bVnd" Ids="G1jvOItMWe4NJcKilMtGLr,FPCN94XBe8jPbFq4gFj8vN" />
+              <Node Bounds="266,450,78,26" Id="CKLTAypDG7zP2kbRPsXn2l">
+                <p:NodeReference LastCategoryFullName="Wacton.Unicolour.RgbLinear" LastDependency="Wacton.Unicolour.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="RgbLinear" NeedsToBeDirectParent="true" />
+                  <Choice Kind="OperationCallFlag" Name="ConstrainedB" />
+                </p:NodeReference>
+                <Pin Id="PvuqNiZaIF4NDD5HUUPxuv" Name="Input" Kind="StateInputPin" />
+                <Pin Id="RhOil7fD2LTMmqPIY797VU" Name="Output" Kind="OutputPin" IsHidden="true" />
+                <Pin Id="SywZMtBKxs0NQT9363LEzu" Name="Constrained B" Kind="OutputPin" />
+              </Node>
+              <Link Id="SYUDCqIEm4AOmz5EBtbps5" Ids="G1jvOItMWe4NJcKilMtGLr,PvuqNiZaIF4NDD5HUUPxuv" />
+              <Link Id="NpCqJ6n4bJALKNStzBLlw4" Ids="V1QFtlp79fAMMBUz2GQ1Ec,ReFK8Y4bgI1NLzZFnov9Jw" />
+              <Link Id="EVWicDLuZQeMxqFhAjvA67" Ids="HKAwHJX9DEZNasdcu0LPou,S9ulS1Pw5CXNVKYvYEmTCB" />
+              <Link Id="GCqWREWRbucNf5o5IhE2h2" Ids="SywZMtBKxs0NQT9363LEzu,HXXUKFA79qjOWk97BlWgxU" />
             </Patch>
           </Node>
           <!--
@@ -36912,12 +36912,12 @@
     ************************ FromRGBA ************************
 
 -->
-          <Node Name="FromRGBA" Bounds="419,283,164,146" Id="QlLy82os653LbUjyvxwAKS">
+          <Node Name="FromRGBA" Bounds="508,287,164,146" Id="QlLy82os653LbUjyvxwAKS">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="OperationDefinition" Name="Operation" />
             </p:NodeReference>
             <Patch Id="F3IogQQdZ5BLgTuQdELDxF">
-              <Node Bounds="451,326,65,19" Id="KUWFR7LG2fRLZl20qGLlfF">
+              <Node Bounds="540,330,65,19" Id="KUWFR7LG2fRLZl20qGLlfF">
                 <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="RGBA (Split)" />
@@ -36928,8 +36928,8 @@
                 <Pin Id="D2ZZtJ0oplKOonCcOGaVFX" Name="Blue" Kind="OutputPin" />
                 <Pin Id="FOaX47dSYzsL7Lq4oYl5HI" Name="Alpha" Kind="OutputPin" />
               </Node>
-              <ControlPoint Id="MrFHVjYEu9PPEK1LwZ3bhJ" Bounds="453,301" />
-              <ControlPoint Id="DdSvjp2ArU8Nid3DBXfwrn" Bounds="433,412" />
+              <ControlPoint Id="MrFHVjYEu9PPEK1LwZ3bhJ" Bounds="542,305" />
+              <ControlPoint Id="DdSvjp2ArU8Nid3DBXfwrn" Bounds="522,416" />
               <Pin Id="CNxHVw3Grv1MQ62umNyEsN" Name="RGBA" Kind="InputPin">
                 <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="RGBA" />
@@ -36939,10 +36939,10 @@
               <Link Id="TpKVAbeHnUPQaII38zsf75" Ids="CNxHVw3Grv1MQ62umNyEsN,MrFHVjYEu9PPEK1LwZ3bhJ" IsHidden="true" />
               <Link Id="SqdKIoeJCwNNfXbvP7W1cJ" Ids="DdSvjp2ArU8Nid3DBXfwrn,MCkrqrVHoYkNKycjrvbuup" IsHidden="true" />
               <Link Id="RD8zDQSStgEPwlNhF0KDf4" Ids="MrFHVjYEu9PPEK1LwZ3bhJ,GeIu7YeRnOoPZUBH1O9BVC" />
-              <Node Bounds="431,364,85,26" Id="K2DN5kDroOrNxWn5xqQ8yx">
+              <Node Bounds="520,368,85,26" Id="K2DN5kDroOrNxWn5xqQ8yx">
                 <p:NodeReference LastCategoryFullName="Interpolator.ColorSpaces.Unicolour" LastDependency="VL.Interpolator.vl" OverloadStrategy="AllPinsThatAreNotCommon">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <FullNameCategoryReference ID="Interpolator.ColorSpaces.Unicolour" />
+                  <CategoryReference Kind="RecordType" Name="Unicolour" NeedsToBeDirectParent="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
                   <PinReference Kind="InputPin" Name="Colour Space" />
                   <PinReference Kind="InputPin" Name="First" />
@@ -36962,7 +36962,7 @@
               <Link Id="Er6YvJoGW1uM1HOfAOEOJv" Ids="RI8NAlVnLhfNNqcAQdsdOY,CHtLHlZMC7rQWKxZrEbejM" />
               <Link Id="CwTqGD7YKU0N3C62Q0xIn3" Ids="AxqUPmjium3PlMzhHpf03f,HJJ0RCzXqyLMaNDzgEozYF" />
               <Link Id="FJWOKsjhnStLp6k56p7h02" Ids="Ok1w46n3wdRMTgjjeUuwvU,DdSvjp2ArU8Nid3DBXfwrn" />
-              <ControlPoint Id="NEktHW9qbLwPlwHD5HMVQa" Bounds="500,301" />
+              <ControlPoint Id="NEktHW9qbLwPlwHD5HMVQa" Bounds="589,305" />
               <Link Id="Ol8HnJkyBOPND4jIiZx5Yw" Ids="NEktHW9qbLwPlwHD5HMVQa,Nom9cMFzCzvOJ4Cr8gt0BR" />
               <Pin Id="ByEzaOmS0STN6ZxOnAAVcA" Name="Colour Space" Kind="InputPin" DefaultValue="RgbLinear" Visibility="Optional" />
               <Link Id="UjAq8ZHmNk7QQXIkwMWQlU" Ids="ByEzaOmS0STN6ZxOnAAVcA,NEktHW9qbLwPlwHD5HMVQa" IsHidden="true" />
@@ -37010,7 +37010,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2025.7.1-0169-g2e3c630a8f" />
+  <NugetDependency Id="HRIe174co6UQV0nXkOsL4S" Location="VL.CoreLib" Version="2025.7.3-0001-gd8cb8804af" />
   <NugetDependency Id="R2TJCi0AIIwNIlwUCEOwgF" Location="Wacton.Unicolour" Version="4.3.0" />
   <PlatformDependency Id="PcW31WBdlz5L1qtsKxA16n" Location="./lib/netstandard2.0/InterpolatorEnums.dll" />
   <PlatformDependency Id="TDap71B1TUVP92sDl1viX7" Location="./lib/net8.0/BezierHelpers.dll" />
